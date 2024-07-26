@@ -1,0 +1,22 @@
+[
+    {
+        "src": "http://honeywell.com/content/dam/honeywellbt/en/images/content-images/global/hon-globe-15px.png",
+        "role": "functional",
+        "alt": "stop",
+        "attrs": {
+            "src": "/content/dam/honeywellbt/en/images/content-images/global/hon-globe-15px.png",
+            "alt": "icon"
+        }
+    },
+    {
+        "src": "http://honeywell.com/content/dam/honeywellbt/en/images/logos/HON%20logo_200x37%202.png",
+        "role": "informative",
+        "alt": "Honeywell",
+        "attrs": {
+            "src": "/content/dam/honeywellbt/en/images/logos/HON%20logo_200x37%202.png",
+            "width": "175",
+            "height": "175",
+            "alt": "Honeywell"
+        }
+    }
+]
