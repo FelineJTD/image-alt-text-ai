@@ -1,0 +1,80 @@
+query Offer($id: ID!) {
+  page: pageByLocale(id: $id) {
+    data {
+      id
+      attributes {
+        slug
+        layout
+        blocks {
+          __typename
+          ...on ComponentPageOffers {
+            title
+            description
+            list {
+              offer {
+                data {
+                  id
+                  attributes {
+                    slug
+                    title_en
+                    title_zh
+                    title_ja
+                    title_ko
+                    description_en
+                    description_zh
+                    description_ja
+                    description_ko
+                    inclusions_en
+                    inclusions_zh
+                    inclusions_ja
+                    inclusions_ko
+                    terms_and_conditions_en
+                    terms_and_conditions_zh
+                    terms_and_conditions_ja
+                    terms_and_conditions_ko
+                    web_tags_en
+                    minimum_stay
+                    min_lead_day
+                    package_code
+                    book_period {
+                      name
+                      start_date
+                      end_date
+                    }
+                    stay_period {
+                      name
+                      start_date
+                      end_date
+                    }
+                    blackout_dates {
+                      name
+                      start_date
+                      end_date
+                    }
+                    desktop {
+                      data {
+                        id
+                        attributes {
+                          cdnURL
+                        }
+                      }
+                    }
+                    mobile {
+                      data {
+                        id
+                        attributes {
+                          cdnURL
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+  
