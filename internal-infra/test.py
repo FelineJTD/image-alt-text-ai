@@ -52,9 +52,6 @@ if __name__ == "__main__":
                     "ai_predicted_alt_text": "",
                 })
 
-                # pprint(final_state["ai_predicted_role"])
-                # pprint("Correct role: ", sub_images[0]["role"])
-
                 if final_state["ai_predicted_role"] == sub_images[0]["role"]:
                     correct_roles += 1
                 else:

@@ -1,7 +1,6 @@
 import json
 from pprint import pprint
 
-from langchain_fireworks import ChatFireworks
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser, JsonOutputParser
 
@@ -18,7 +17,7 @@ from prompts import role_identifier_prompt
 memory = SqliteSaver.from_conn_string(":memory:")
 
 def determine_image_role(state: State):
-    role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.6)
+    role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
     role_identifier_prompt_template = PromptTemplate.from_template(role_identifier_prompt)
     role_identifier_output_parser = StrOutputParser()
 
@@ -31,8 +30,6 @@ def determine_image_role(state: State):
         The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
         The previous text before the image appears: {state.input_previous_text}\n\n 
         The next text after the image appears: {state.input_next_text}\n\n 
-        The context in which the image appears is:
-        {state.input_context}
         """
     )
 
