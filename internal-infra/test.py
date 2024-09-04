@@ -20,50 +20,49 @@ def generate_alt_text(data):
 if __name__ == "__main__":
     json_dir = "../scraper/output"
 
+    correct_roles = 0
+    incorrect_roles = 0
+
     # Loop through each JSON file in the directory
-    filename = os.listdir(json_dir)[0]
-    if filename.endswith(".json"):
-        # Read the JSON file
-        with open(os.path.join(json_dir, filename), "r") as file:
-            data = json.load(file)
-        
-        # Extract the image link and textual context from the JSON data
-        whole_text = data["text"]
-        sub_images = data["images"]
+    for filename in os.listdir(json_dir):
+        if filename.endswith(".json"):
+            try:
+                # Read the JSON file
+                with open(os.path.join(json_dir, filename), "r") as file:
+                    data = json.load(file)
+                
+                # Extract the image link and textual context from the JSON data
+                whole_text = data["text"]
+                sub_images = data["images"]
 
-        # for image in sub_images[0]:
-        pprint(generate_alt_text({
-            "input_image_src": sub_images[0]["src"],
-            "input_image_filename": sub_images[0]["file_name"],
-            "input_context": whole_text,
-            "input_image_attrs": sub_images[0]["attrs"],
-            "input_a_button_parent": sub_images[0]["a_button_parent"],
-            "input_previous_text": sub_images[0]["previous_text"],
-            "input_next_text": sub_images[0]["next_text"],
+                # for image in sub_images[0]:
+                final_state = generate_alt_text({
+                    "input_image_src": sub_images[0]["src"],
+                    "input_image_filename": sub_images[0]["file_name"],
+                    "input_context": whole_text,
+                    "input_image_attrs": sub_images[0]["attrs"],
+                    "input_a_button_parent": sub_images[0]["a_button_parent"],
+                    "input_previous_text": sub_images[0]["previous_text"],
+                    "input_next_text": sub_images[0]["next_text"],
 
-            "correct_role": sub_images[0]["role"],
-            "correct_alt_text": sub_images[0]["alt"],
+                    "correct_role": sub_images[0]["role"],
+                    "correct_alt_text": sub_images[0]["alt"],
 
-            "ai_predicted_role": "",
-            "ai_predicted_alt_text": "",
-        }))
+                    "ai_predicted_role": "",
+                    "ai_predicted_alt_text": "",
+                })
 
-    # Generate alt text
+                # pprint(final_state["ai_predicted_role"])
+                # pprint("Correct role: ", sub_images[0]["role"])
 
-    # pprint(generate_alt_text(data[0]))
-    # pprint(data)
-    # Generate alt text
-    # for d in data:
-    #     pprint(generate_alt_text(d))
-    # pprint(generate_alt_text({
-    #     "image_src": str,
-    #     "image_filename": str,
-    #     "alt_text": str,
-    #     "role": str,
-    #     "context": str,
-    #     "image_attrs": dict,
-    #     "a_button_parent": str,
-    #     "previous_text": str,
-    #     "next_text": str
-    # }))
-    #
+                if final_state["ai_predicted_role"] == sub_images[0]["role"]:
+                    correct_roles += 1
+                else:
+                    incorrect_roles += 1
+            except Exception as e:
+                print(str(e))
+
+    pprint(f"Correct roles: {correct_roles}")
+    pprint(f"Incorrect roles: {incorrect_roles}")
+
+    pprint(f"Accuracy: {correct_roles / (correct_roles + incorrect_roles)}")

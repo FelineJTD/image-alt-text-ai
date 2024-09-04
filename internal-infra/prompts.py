@@ -15,8 +15,13 @@ You are part of a team tasked with generating role-aware and context-aware image
 
 As each role needs to be handled differently when generating alt texts, your output will be used to help another team member write the most suitable alt text that is role-aware and contex-aware for the image to help create more accessible websites.
 
+{message}
 
-This is the image you need to identify the role of:
+Return only the role of the image from the list above. Return the role as a single word without any enclosing bracket, e.g., informative, decorative, functional, text, or complex. THIS IS IMPORTANT! RETURN ONLY THE ROLE OF THE IMAGE.
+"""
+
+image_description_prompt = """
+Describe the image in a few words to help identify its role. This description should be concise and capture the essence of the image. You can mention any text present in the image, the context in which the image appears, or any other relevant details that can help determine the role of the image.
 
 {message}
 """
