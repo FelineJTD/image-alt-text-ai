@@ -121,27 +121,16 @@ memory = SqliteSaver.from_conn_string(":memory:")
 #     return {"messages": [result]}
 
 def determine_image_role(state: State):
-    # greetings = get_last_message(state.messages)
+    role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.6)
+    role_identifier_prompt_template = PromptTemplate.from_template(role_identifier_prompt)
+    role_identifier_output_parser = StrOutputParser()
 
-    chatbot_greetings_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.6)
-    chatbot_greetings_prompt = PromptTemplate.from_template(role_identifier_prompt)
-    output_parser = StrOutputParser()
+    role_identifier_chain = role_identifier_prompt_template | role_identifier_llm | role_identifier_output_parser
+    predicted_role = role_identifier_chain.invoke(state)
 
-    chatbot_greetings_chain = chatbot_greetings_prompt | chatbot_greetings_llm | output_parser
-    chatbot_greetings = chatbot_greetings_chain.invoke(state.context)
+    pprint(f"predicted_role: {predicted_role}")
 
-    # state_to_return = {
-    #     **state.dict(),
-    # }
-
-    # del state_to_return["messages"]
-
-    # result_raw = [
-	# 	{"type": "text", "text": {"body": chatbot_greetings}, "role" : "Assistant"}
-    # ]
-
-    # result = json.dumps(result_raw)
-    return {"role": "Hello, World!", "reason": chatbot_greetings, "context": chatbot_greetings}
+    return {"ai_predicted_role": predicted_role}
 
 # def parse_intent(state: State):
 #     llm = ChatOpenAI(model='gpt-4o',temperature=0)

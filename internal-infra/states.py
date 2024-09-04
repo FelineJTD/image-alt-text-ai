@@ -33,13 +33,17 @@ from pydantic import BaseModel
 #         return self.value
 
 class State(BaseModel):
-    image_src: str
-    image_filename: str
-    alt_text: str
-    role: str
-    context: str
-    image_attrs: dict
-    a_button_parent: str
-    previous_text: str
-    next_text: str
+    input_image_src: str
+    input_image_filename: str
+    input_context: str
+    input_image_attrs: dict
+    input_a_button_parent: str
+    input_previous_text: str
+    input_next_text: str
+
+    correct_role: str
+    correct_alt_text: str
+
+    ai_predicted_role: str
+    ai_predicted_alt_text: str
             
