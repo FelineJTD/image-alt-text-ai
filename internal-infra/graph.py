@@ -51,10 +51,6 @@ def ocr_image(state: State):
 def nre_image(state: State):
     pass
 
-# BLANK ALT TEXT
-def blank_alt_text(state: State):
-    return {"ai_predicted_alt_text": ""}
-
 # GENERATE ALT TEXT
 def generate_alt_text(state: State):
     # Alt text generation based on guidelines from WCAG: https://www.w3.org/WAI/tutorials/images/
@@ -90,9 +86,8 @@ workflow = StateGraph(State)
 
 # Add the nodes to the graph
 workflow.add_node("determine_image_role", determine_image_role)
-workflow.add_node("ocr_image", ocr_image)
-workflow.add_node("nre_image", nre_image)
-workflow.add_node("blank_alt_text", blank_alt_text)
+# workflow.add_node("ocr_image", ocr_image)
+# workflow.add_node("nre_image", nre_image)
 workflow.add_node("generate_alt_text", generate_alt_text)
 
 # Add the edges to the graph
