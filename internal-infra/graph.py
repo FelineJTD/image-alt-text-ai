@@ -10,15 +10,30 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
+from PIL import Image
+import pytesseract
+
 from states import State
 
-from prompts import role_identifier_prompt, alt_text_prompts
+from prompts import role_identifier_prompt, alt_text_prompts, context_extractor_prompt
 
 memory = SqliteSaver.from_conn_string(":memory:")
 
 # GET IMAGE CONTEXT
 def get_image_context(state: State):
-    pass
+    # Summarize the whole document text into usable context/intent
+    whole_text = state.input_context
+
+    context_extractor_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.2)
+    context_extractor_prompt_template = PromptTemplate.from_template(context_extractor_prompt)
+    context_extractor_output_parser = StrOutputParser()
+
+    role_identifier_chain = context_extractor_prompt_template | context_extractor_llm | context_extractor_output_parser
+    summarized_context = role_identifier_chain.invoke(whole_text)
+
+    pprint(f"predicted_role: {summarized_context}")
+
+    return {"ai_summarized_context": summarized_context}
 
 # DETERMINE IMAGE WCAG ROLE
 def determine_image_role(state: State):
@@ -45,7 +60,23 @@ def determine_image_role(state: State):
 
 # OCR
 def ocr_image(state: State):
-    pass
+    """
+    Perform OCR on the image specified in the state and update the state with the extracted text.
+    
+    Args:
+        state (State): The state object containing the image path and other relevant information.
+    """
+    # Load the image from the path specified in the state
+    image_path = state.input_image_src
+    image = Image.open(image_path)
+    
+    # Perform OCR on the image
+    extracted_text = pytesseract.image_to_string(image)
+    
+    # Update the state with the extracted text
+    state.extracted_text = extracted_text
+
+    return state
 
 # NRE
 def nre_image(state: State):
@@ -73,6 +104,7 @@ def generate_alt_text(state: State):
         The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
         The previous text before the image appears: {state.input_previous_text}\n\n 
         The next text after the image appears: {state.input_next_text}\n\n 
+        The summarized context of the website: {state.ai_summarized_context}\n\n
         """
     )
 
@@ -86,15 +118,17 @@ workflow = StateGraph(State)
 
 # Add the nodes to the graph
 workflow.add_node("determine_image_role", determine_image_role)
+workflow.add_node("get_image_context", get_image_context)
 # workflow.add_node("ocr_image", ocr_image)
 # workflow.add_node("nre_image", nre_image)
 workflow.add_node("generate_alt_text", generate_alt_text)
 
 # Add the edges to the graph
+workflow.add_edge("get_image_context", "determine_image_role")
 workflow.add_edge("determine_image_role", "generate_alt_text")
 
 # Set the entry point
-workflow.set_entry_point("determine_image_role")
+workflow.set_entry_point("get_image_context")
 
 # Finally, we compile it!
 # This compiles it into a LangChain Runnable,

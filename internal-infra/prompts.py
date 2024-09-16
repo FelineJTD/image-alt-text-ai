@@ -1,3 +1,11 @@
+context_extractor_prompt = """
+You are part of a team tasked with generating role-aware and context-aware image alt texts for images on websites. Your role is to summarize the context of the website in which the image appears to help generate the most suitable alt text for the image. Extract all relevant information from the website, such as the names of relevant organizations, the purpose of the website, the type of content, and any other relevant details that can help determine the context of the image. Do not make up any information; only use the information provided in the website.
+
+Text:
+{message}
+
+"""
+
 role_identifier_prompt = """
 You are part of a team tasked with generating role-aware and context-aware image alt texts for images on websites. Your role is to identify the role of the given image in the website according to the definitions provided by the WCAG Web Accessibility Initiative (WAI) outlined below.
 

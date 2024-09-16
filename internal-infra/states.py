@@ -45,5 +45,8 @@ class State(BaseModel):
     correct_alt_text: str
 
     ai_predicted_role: str
+    ai_summarized_context: str
+    ai_extracted_text: str
+    ai_extracted_entities: dict
     ai_predicted_alt_text: str
             

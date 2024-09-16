@@ -24,7 +24,7 @@ if __name__ == "__main__":
     incorrect_roles = 0
 
     # Loop through each JSON file in the directory
-    for filename in os.listdir(json_dir):
+    for filename in os.listdir(json_dir)[0:5]:
         if filename.endswith(".json"):
             try:
                 # Read the JSON file
@@ -49,6 +49,9 @@ if __name__ == "__main__":
                     "correct_alt_text": sub_images[0]["alt"],
 
                     "ai_predicted_role": "",
+                    "ai_summarized_context": "",
+                    "ai_extracted_text": "",
+                    "ai_extracted_entities": {},
                     "ai_predicted_alt_text": "",
                 })
 
