@@ -1121,3 +1121,44 @@ Error at image 5 of website 102: cannot identify image file <_io.BytesIO object 
 Image URL: https://bat.bing.com/action/0?ti=25059947&Ver=2&mid=54ec6eff-6e92-46b5-a68a-fce847e04202&sid=08e32de05b0511ef8ff3df7db531b919&vid=08e353305b0511ef85d7d3a14a69505d&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=1920&sh=1080&sc=24&nwd=1&tl=Pimp%20Your%20Prosecco%20%7C%20Shimmers%20%7C%20Gin%20Gift%20Sets%20%F0%9F%8D%BE%20%E2%80%93%20Popaball&p=https%3A%2F%2Fpopaball.co.uk%2F&r=&lt=3889&evt=pageLoad&sv=1&cdb=AQAQ&rn=976748
 Error at image 6 of website 102: cannot identify image file <_io.BytesIO object at 0x7f6aedec7560>
 Image URL: http://popaball.co.uk/cdn/shop/t/48/assets/account.svg?v=171445336031107318941574779733
+Error at image 3 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA5MDAgMTIwMCc+PC9zdmc+
+Error at image 6 of website 1: Key errorImage URL: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+Error at image 22 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2024/01/luda-creative-sunshine-coast-case-study-3.jpg
+Error at image 30 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAwIDAnPjwvc3ZnPg==
+Error at image 50 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2024/01/luda-creative-sunshine-coast-case-study-3.jpg
+Error at image 61 of website 1: Key errorImage URL: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+Error at image 76 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2ODkgMTAyNCc+PC9zdmc+
+Error at image 78 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2023/12/aboda-luda-logo.png
+Error at image 2 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAwIDAnPjwvc3ZnPg==
+Error at image 6 of website 1: Key errorImage URL: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+Error at image 10 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAwIDAnPjwvc3ZnPg==
+Error at image 13 of website 1: Key errorImage URL: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+Error at image 20 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAwIDAnPjwvc3ZnPg==
+Error at image 41 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2023/12/campbyme-luda-logo.png
+Error at image 52 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAwIDAnPjwvc3ZnPg==
+Error at image 73 of website 1: Key errorImage URL: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+Error at image 3 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAwIDAnPjwvc3ZnPg==
+Error at image 4 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAwIDAnPjwvc3ZnPg==
+Error at image 10 of website 1: Key errorImage URL: https://s.w.org/images/core/emoji/15.0.3/svg/1f48e.svg
+Error at image 48 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2ODkgMTAyNCc+PC9zdmc+
+Error at image 51 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/sb-instagram-feed-images/436591288_1179972263129116_5820573088727472693_nlow.jpg
+Error at image 57 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2023/12/your-property-investor-luda-logo.png
+Error at image 74 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA3NDIgMzIxJz48L3N2Zz4=
+Error at image 78 of website 1: Key errorImage URL: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+Error at image 8 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2024/05/noosa-biosphere-logo-grey.png
+Error at image 17 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2023/12/nas-projects-luda-logo.png
+Error at image 30 of website 1: Key errorImage URL: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+Error at image 33 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAwIDAnPjwvc3ZnPg==
+Error at image 35 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2024/01/freedom-broadband-case-study-mockup.jpg
+Error at image 37 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAwIDAnPjwvc3ZnPg==
+Error at image 50 of website 1: Key errorImage URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmYAAAQAAQAAAABjKqhaAAAAAnRSTlMAAHaTzTgAAABkSURBVHja7cExAQAAAMKg9U9tDQ+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4NDgPAAFMBBJSAAAAAElFTkSuQmCC
+Error at image 57 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2023/12/luda-creative-logo-blue.png
+Error at image 4 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2024/01/luda-creative-sunshine-coast-case-study-2.jpg
+Error at image 21 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/2023/12/my-online-adviser-luda-logo.png
+Error at image 23 of website 1: Key errorImage URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmYAAAQAAQAAAABjKqhaAAAAAnRSTlMAAHaTzTgAAABkSURBVHja7cExAQAAAMKg9U9tDQ+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4NDgPAAFMBBJSAAAAAElFTkSuQmCC
+Error at image 24 of website 1: Key errorImage URL: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmYAAAQAAQAAAABjKqhaAAAAAnRSTlMAAHaTzTgAAABkSURBVHja7cExAQAAAMKg9U9tDQ+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4NDgPAAFMBBJSAAAAAElFTkSuQmCC
+Error at image 63 of website 1: Key errorImage URL: https://ludacreative.com.au/wp-content/uploads/sb-instagram-feed-images/455694898_940261628098741_5808736335930136258_nlow.webp
+Error at image 70 of website 1: Key errorImage URL: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+Error at image 71 of website 1: Key errorImage URL: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+Error at image 84 of website 1: Key errorImage URL: data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA5MDAgMTIwMCc+PC9zdmc+
+Error at website 2: Object of type Tag is not JSON serializable
