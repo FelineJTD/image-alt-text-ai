@@ -3,7 +3,9 @@ output_file = './output/output.json'
 progress_file = './progress_aut.txt'
 error_log_file = './error_aut.log'
 text_elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
-number_of_websites = 2
+is_chrome_headless = True
+number_of_websites = 100
+website_per_batch = 10
 
 
 # LOADING WEBSITES
@@ -36,14 +38,21 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 # Initialize the index of the website
-i_website = 0
+i_website = 1
+# Load the progress
+try:
+    with open(progress_file, "r") as f:
+        i_website = int(f.readline())
+except FileNotFoundError:
+    pass
 
-for i in range(i_website, len(websites)):
+for i in range(i_website, min(i_website + website_per_batch, len(websites))):
     website_info = {}
     try:
         # Set up Chrome options to run in headless mode
         chrome_options = Options()
-        # chrome_options.add_argument("--headless")
+        if is_chrome_headless:
+            chrome_options.add_argument("--headless")
 
         # Initialize the WebDriver with the headless options
         driver = webdriver.Chrome(service=Service(), options=chrome_options)
@@ -188,6 +197,10 @@ for i in range(i_website, len(websites)):
             json.dump(images_info, f, indent=4)
 
         i_website += 1
+
+        # Write the progress to a file
+        with open(progress_file, "w") as f:
+            f.write(f"{i_website}")
 
     except Exception as e:
         print(f"An error occurred: {e}")
