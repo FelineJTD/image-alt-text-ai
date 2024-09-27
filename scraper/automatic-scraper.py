@@ -1,12 +1,14 @@
 input_file = './website_url_data/builtwith-top1m-20240621-random.csv'
 output_file = './output/output.json'
 progress_file = './progress_aut.txt'
+error_log_file = './error_aut.log'
+text_elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 number_of_websites = 2
 
 
 # LOADING WEBSITES
 
-# Open ./website_url_data/builtwith-top1m-20240621.csv and read all the URLs
+# Open the CSV file and read the URLs
 import pandas as pd
 df = pd.read_csv(input_file)
 websites = df['url'].tolist()[0:number_of_websites]
@@ -27,7 +29,6 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from IPython.display import clear_output
-import os
 from selenium import webdriver
 from urllib.parse import urljoin
 from selenium import webdriver
@@ -42,10 +43,7 @@ for i in range(i_website, len(websites)):
     try:
         # Set up Chrome options to run in headless mode
         chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        # chrome_options.add_argument("--disable-gpu")  # Optional: Disable GPU acceleration
-        # chrome_options.add_argument("--no-sandbox")   # Optional: Required for some environments
-        # chrome_options.add_argument("--disable-dev-shm-usage")  # Optional: Overcome limited resource problems
+        # chrome_options.add_argument("--headless")
 
         # Initialize the WebDriver with the headless options
         driver = webdriver.Chrome(service=Service(), options=chrome_options)
@@ -55,36 +53,16 @@ for i in range(i_website, len(websites)):
 
         # Get the page source after interactions
         page = driver.page_source
-        # Open the URL in a new tab for reference while labelling
-        # driver = webdriver.Chrome()
-        # driver.get(websites[i])# Get the page source after interactions
-        # page = driver.page_source
-        # Skip website?
-        # skip = input("Skip website? (input anything to skip): ")
-        # if skip == 'q':
-        #     # Save the progress
-        #     with open("progress.txt", "w") as f:
-        #         f.write(str(i_website))
-        #     driver.quit()
-        #     break
-        # if skip:
-        #     i_website += 1
-        #     continue
 
         # Initialize the list to store the image data
         images_info = []
-        # Get the HTML content of the page
-        # page = requests.get(websites[i])
 
         # Parse the HTML content
-        soup = BeautifulSoup(page, "html.parser")# Extract data using Beautiful Soup methods
+        soup = BeautifulSoup(page, "html.parser") # Extract data using Beautiful Soup methods
 
         # Get all text in the page
         text = soup.get_text()
         website_info['text'] = text
-
-        # Create a folder in ./images/ with the name of the website
-        # os.makedirs(f"./images/{websites[i].split('//')[1].replace('/', '-')}", exist_ok=True)
 
         # Find all 'img' tags
         images = soup.find_all("img")
@@ -103,7 +81,6 @@ for i in range(i_website, len(websites)):
 
                 # The 'src' attribute of the image
                 image_url = image["src"]
-                print("Image URL: ", image_url)
                 # Relative path handling
                 if not image_url.startswith(('http://', 'https://')):
                     image_url = urljoin(websites[i], image_url)
@@ -132,48 +109,45 @@ for i in range(i_website, len(websites)):
                         # If the current tag is None (top of the tree), break the loop
                         if current_tag is None:
                             break
-                print("Parent <a> or <button> found: ", a_button_parent_found)
-                print("Parent tag: ", a_button_parent)
 
                 # NEAREST TEXT FROM IMAGE FOR TEXT CONTEXT
                 previous_texts = []
                 curr_element = image
+                previous_texts_cutoff_by_image_index = -1
+
                 # Gather 5 previous texts
-                for _ in range(5):
-                    previous_text = curr_element.find_previous(["a", "p", "h1", "h2", "h3", "h4", "h5", "h6"])
+                prev_i = 0
+                while len(previous_texts) < 5:
+                    to_search = text_elements + ['img']
+                    previous_text = curr_element.find_previous(to_search)
                     if previous_text:
-                        previous_texts.append(str(previous_text))
+                        if previous_text.name == "img" and previous_texts_cutoff_by_image_index == -1:
+                            previous_texts_cutoff_by_image_index = prev_i
+                        elif previous_text.text:
+                            previous_texts.append(f'{previous_text.name}: {previous_text.text}')
                         curr_element = previous_text
                     else:
                         break
-                print("Previous texts: ", previous_texts)
+                    prev_i += 1
 
                 next_texts = []
                 curr_element = image
+                next_texts_cutoff_by_image_index = -1
+
                 # Gather 5 next texts
-                for _ in range(5):
-                    next_text = curr_element.find_next(["p", "h1", "h2", "h3", "h4", "h5", "h6"])
+                next_i = 0
+                while len(next_texts) < 5:
+                    to_search = text_elements + ['img']
+                    next_text = curr_element.find_next(to_search)
                     if next_text:
-                        next_texts.append(str(next_text))
+                        if next_text.name == "img" and next_texts_cutoff_by_image_index == -1:
+                            next_texts_cutoff_by_image_index = next_i
+                        elif next_text.text:
+                            next_texts.append(f'{next_text.name}: {next_text.text}')
                         curr_element = next_text
                     else:
                         break
-
-                # The image file name
-                # file_name = f"{websites[i].split('//')[1].replace('/', '-')}-image_{i_image}.jpg"
-
-                # LABELLING (ROLE AND ALT TEXT)
-                # Label the image manually
-                # data = label_image(image_url, image_alt, file_name)
-                # if data == 'q':
-                #     # Save the progress
-                #     with open("progress.txt", "w") as f:
-                #         f.write(str(i_website))
-                #         f.write("\n")
-                #         f.write(str(i_image))
-                #     break
-                # if data is None:
-                #     continue
+                    next_i += 1
 
                 # Write the data (image and labels) to a file
                 images_info.append({
@@ -182,33 +156,33 @@ for i in range(i_website, len(websites)):
                     "attrs": image_attrs,
                     "a_button_parent": str(a_button_parent),
                     "previous_texts": previous_texts,
+                    "previous_texts_cutoff_by_image_index": previous_texts_cutoff_by_image_index,
                     "next_texts": next_texts,
+                    "next_texts_cutoff_by_image_index": next_texts_cutoff_by_image_index
                 })
-                print("Data saved")
                 
             except KeyError:
                 # Put to log file
-                with open("error.log", "a") as f:
+                with open(error_log_file, "a") as f:
                     f.write(f"Error at image {i_image} of website {i_website}: Key error")
                     if image_url:
                         f.write(f"Image URL: {image_url}\n")
             except requests.exceptions.MissingSchema:
                 # Put to log file
-                with open("error.log", "a") as f:
+                with open(error_log_file, "a") as f:
                     f.write(f"Error at image {i_image} of website {i_website}: Missing schema\n")
                     if image_url:
                         f.write(f"Image URL: {image_url}\n")
             except Exception as e:
                 print(f"An error occurred: {e}")
                 # Put to log file
-                with open("error.log", "a") as f:
+                with open(error_log_file, "a") as f:
                     f.write(f"Error at image {i_image} of website {i_website}: {e}\n")
                     if image_url:
                         f.write(f"Image URL: {image_url}\n")
 
             i_image += 1
 
-        website_info['images'] = images_info
         # Step 4: Write the list to a file in JSON format
         with open(output_file, "a") as f:
             json.dump(images_info, f, indent=4)
@@ -219,5 +193,5 @@ for i in range(i_website, len(websites)):
         print(f"An error occurred: {e}")
         i_website += 1
         # Put to log file
-        with open("error.log", "a") as f:
+        with open(error_log_file, "a") as f:
             f.write(f"Error at website {i_website}: {e}\n")
