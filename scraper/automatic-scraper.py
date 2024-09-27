@@ -4,8 +4,8 @@ progress_file = './progress_aut.txt'
 error_log_file = './error_aut.log'
 text_elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 is_chrome_headless = True
-number_of_websites = 100
-website_per_batch = 10
+number_of_websites = 500
+website_per_batch = 500
 
 
 # LOADING WEBSITES
