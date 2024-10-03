@@ -30619,4 +30619,44 @@
         ],
         "next_texts_cutoff_by_image_index": 1
     }
+][
+    {
+        "src": "https://d1rozh26tys225.cloudfront.net/loader.svg",
+        "file_name": "averoadvisors.com-image_1.jpg",
+        "alt": "CDN icon",
+        "attrs": {
+            "style": "width: 100%; position: relative; right: -20px;",
+            "src": "https://d1rozh26tys225.cloudfront.net/loader.svg",
+            "alt": "CDN icon"
+        },
+        "a_button_parent": "None",
+        "previous_texts": [
+            "p: Checking the site connection security",
+            "h1: averoadvisors.com"
+        ],
+        "previous_texts_cutoff_by_image_index": 2,
+        "next_texts": [
+            "p: This page requires cookies to be enabled"
+        ],
+        "next_texts_cutoff_by_image_index": -1
+    },
+    {
+        "src": "https://d1rozh26tys225.cloudfront.net/robot-suspicion.svg",
+        "file_name": "averoadvisors.com-image_2.jpg",
+        "alt": "Robot",
+        "attrs": {
+            "style": "width: 240px;",
+            "src": "https://d1rozh26tys225.cloudfront.net/robot-suspicion.svg",
+            "alt": "Robot"
+        },
+        "a_button_parent": "None",
+        "previous_texts": [],
+        "previous_texts_cutoff_by_image_index": -1,
+        "next_texts": [
+            "h1: averoadvisors.com",
+            "p: Checking the site connection security",
+            "p: This page requires cookies to be enabled"
+        ],
+        "next_texts_cutoff_by_image_index": 2
+    }
 ]

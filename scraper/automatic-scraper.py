@@ -1,11 +1,22 @@
 input_file = './website_url_data/builtwith-top1m-20240621-random.csv'
-output_file = './output-aut/output.json'
-progress_file = './progress_aut_2.txt'
-error_log_file = './error_aut.log'
+output_file = './output-aut/output-en.json'
+image_output_folder = './output-aut/images'
+progress_file = './progress_aut_en.txt'
+error_log_file = './error_aut_en.log'
 text_elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 is_chrome_headless = True
-number_of_websites = 50
+number_of_websites = 100
 website_per_batch = 50
+
+# Initialize the index of the website
+i_website = 1
+
+# Load the progress
+try:
+    with open(progress_file, "r") as f:
+        i_website = int(f.readline())
+except FileNotFoundError:
+    pass
 
 
 # LOADING WEBSITES
@@ -20,7 +31,7 @@ websites = ['http://' + url for url in websites]
 
 # Print the first 5 URLs
 print("Website URLs loaded:")
-for i in range(min(5, len(websites))):
+for i in range(i_website, min(i_website + 5, len(websites))):
     print(websites[i], end=', ')
 print('...\n')
 
@@ -42,15 +53,7 @@ from io import BytesIO
 import requests
 import matplotlib.pyplot as plt
 from PIL import Image
-
-# Initialize the index of the website
-i_website = 1
-# Load the progress
-try:
-    with open(progress_file, "r") as f:
-        i_website = int(f.readline())
-except FileNotFoundError:
-    pass
+from langdetect import detect
 
 for i in range(i_website, min(i_website + website_per_batch, len(websites))):
     website_info = {}
@@ -78,6 +81,21 @@ for i in range(i_website, min(i_website + website_per_batch, len(websites))):
         # Get all text in the page
         text = soup.get_text()
         website_info['text'] = text
+
+        # Get the language of the document
+        lang = soup.html.get("lang")
+
+        # If the 'lang' attribute is not found in the 'html' tag, try to find it in the 'meta' tag
+        if not lang:
+            lang = soup.find("meta", {"http-equiv": "Content-Language"})
+        
+        # If the 'lang' attribute is not found in the 'meta' tag, try to detect it using the 'langdetect' library
+        if not lang:
+            lang = detect(soup.get_text())
+
+        # If the language is not English, skip the website
+        if "en" not in lang:
+            raise Exception(f"Language is not English: {lang}")
 
         # Get the document's title
         title = soup.title.string
@@ -120,18 +138,9 @@ for i in range(i_website, min(i_website + website_per_batch, len(websites))):
 
                 # Download the image
                 image_res = requests.get(image_url)
-                # Display the image
-                # image = Image.open(BytesIO(image_res.content))
-                # plt.imshow(image)
-                # plt.title(f'Current alt: {image_alt}')
-                # plt.axis("off")
-                # # Set bg color to gray
-                # ax = plt.gca()
-                # ax.set_facecolor('gray')
-                # plt.show()
 
                 # Save the image to a file
-                with open(f"./output-aut/images/{file_name}", 'wb') as f:
+                with open(f"{image_output_folder}/{file_name}", 'wb') as f:
                     f.write(image_res.content)
 
                 # Find out if image has <a> parent or <button> parent, potentially indicating a functional image
@@ -196,6 +205,8 @@ for i in range(i_website, min(i_website + website_per_batch, len(websites))):
                 images_info.append({
                     "src": image_url,
                     "file_name": file_name,
+                    "doc_title": title,
+                    "doc_description": description,
                     "alt": image_alt,
                     "attrs": image_attrs,
                     "a_button_parent": str(a_button_parent),
