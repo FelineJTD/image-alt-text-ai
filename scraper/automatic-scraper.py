@@ -1,11 +1,11 @@
 input_file = './website_url_data/builtwith-top1m-20240621-random.csv'
-output_file = './output/output.json'
-progress_file = './progress_aut.txt'
+output_file = './output-aut/output.json'
+progress_file = './progress_aut_2.txt'
 error_log_file = './error_aut.log'
 text_elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 is_chrome_headless = True
-number_of_websites = 500
-website_per_batch = 500
+number_of_websites = 50
+website_per_batch = 50
 
 
 # LOADING WEBSITES
@@ -36,6 +36,12 @@ from urllib.parse import urljoin
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+import requests
+from urllib.parse import urljoin
+from io import BytesIO
+import requests
+import matplotlib.pyplot as plt
+from PIL import Image
 
 # Initialize the index of the website
 i_website = 1
@@ -73,11 +79,20 @@ for i in range(i_website, min(i_website + website_per_batch, len(websites))):
         text = soup.get_text()
         website_info['text'] = text
 
+        # Get the document's title
+        title = soup.title.string
+        website_info['title'] = title
+
+        # Get the document's description
+        description = soup.find("meta", {"name": "description"})
+        if description:
+            description = description["content"]
+        website_info['description'] = description
+
         # Find all 'img' tags
         images = soup.find_all("img")
         # Remove duplicates
         images = set(images)
-
 
         i_image = 1
         for image in images:
@@ -99,6 +114,25 @@ for i in range(i_website, min(i_website + website_per_batch, len(websites))):
 
                 # OTHER IMAGE ATTRIBUTES
                 image_attrs = image.attrs
+
+                # The image file name
+                file_name = f"{websites[i].split('//')[1].replace('/', '-')}-image_{i_image}.jpg"
+
+                # Download the image
+                image_res = requests.get(image_url)
+                # Display the image
+                # image = Image.open(BytesIO(image_res.content))
+                # plt.imshow(image)
+                # plt.title(f'Current alt: {image_alt}')
+                # plt.axis("off")
+                # # Set bg color to gray
+                # ax = plt.gca()
+                # ax.set_facecolor('gray')
+                # plt.show()
+
+                # Save the image to a file
+                with open(f"./output-aut/images/{file_name}", 'wb') as f:
+                    f.write(image_res.content)
 
                 # Find out if image has <a> parent or <button> parent, potentially indicating a functional image
                 a_button_parent_found = False
@@ -161,6 +195,7 @@ for i in range(i_website, min(i_website + website_per_batch, len(websites))):
                 # Write the data (image and labels) to a file
                 images_info.append({
                     "src": image_url,
+                    "file_name": file_name,
                     "alt": image_alt,
                     "attrs": image_attrs,
                     "a_button_parent": str(a_button_parent),

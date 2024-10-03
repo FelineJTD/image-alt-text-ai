@@ -7,6 +7,7 @@ from langchain_core.output_parsers import StrOutputParser, JsonOutputParser
 from langgraph.checkpoint.sqlite import SqliteSaver
 from langgraph.graph import END, StateGraph
 from langchain_openai import ChatOpenAI
+from langchain_fireworks import Fireworks
 from dotenv import load_dotenv
 load_dotenv()
 

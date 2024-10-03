@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="ic_Sitemap_Twitter" transform="translate(0 -0.109)">
+    <g id="Ellipse_161" data-name="Ellipse 161" transform="translate(0 0.109)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="20" cy="20" r="20" stroke="none"/>
+      <circle cx="20" cy="20" r="19.5" fill="none"/>
+    </g>
+    <path id="logo" d="M11.647,8.469,18.932,0H17.206L10.88,7.353,5.827,0H0L7.64,11.119,0,20H1.726l6.68-7.765L13.743,20H19.57L11.646,8.469ZM9.282,11.217,8.508,10.11,2.349,1.3H5L9.971,8.41l.774,1.107,6.461,9.242H14.555L9.282,11.218Z" transform="translate(10.215 10.11)" fill="#fff"/>
+  </g>
+</svg>
