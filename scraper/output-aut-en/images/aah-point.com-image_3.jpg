@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Welcome to AAH Point</title>
+</head>
+<script type="text/javascript" language="JavaScript">
+	<!-- location.replace('/jsp/Navigation.jsp'); -->
+	<!-- location.replace('http://www.aah.co.uk');-->
+	<!-- location.replace('/jsp/RedirectToAAH.jsp'); -->
+	 	 location.replace('/jsp/POINTRedirectToAAH.jsp'); 
+</script>
+</html>

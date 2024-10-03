@@ -1,11 +1,11 @@
 input_file = './website_url_data/builtwith-top1m-20240621-random.csv'
-output_file = './output-aut/output-en.json'
-image_output_folder = './output-aut/images'
-progress_file = './progress_aut_en.txt'
-error_log_file = './error_aut_en.log'
+output_file = './output-aut-en/output-en.json'
+image_output_folder = './output-aut-en/images'
+progress_file = './output-aut-en/progress.txt'
+error_log_file = './output-aut-en/error.log'
 text_elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 is_chrome_headless = True
-number_of_websites = 100
+number_of_websites = 200
 website_per_batch = 50
 
 # Initialize the index of the website
