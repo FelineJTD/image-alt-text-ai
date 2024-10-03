@@ -5,7 +5,7 @@ progress_file = './output-aut-en/progress.txt'
 error_log_file = './output-aut-en/error.log'
 text_elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 is_chrome_headless = True
-number_of_websites = 200
+number_of_websites = 500
 website_per_batch = 50
 
 # Initialize the index of the website
