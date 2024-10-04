@@ -1,0 +1,2 @@
+prev_text_evals = [{'is_relevant': 160, 'num_data': 832}, {'is_relevant': 123, 'num_data': 832}, {'is_relevant': 156, 'num_data': 806}, {'is_relevant': 124, 'num_data': 803}, {'is_relevant': 110, 'num_data': 803}]
+next_text_evals = [{'is_relevant': 186, 'num_data': 599}, {'is_relevant': 136, 'num_data': 584}, {'is_relevant': 117, 'num_data': 564}, {'is_relevant': 126, 'num_data': 544}, {'is_relevant': 102, 'num_data': 502}]

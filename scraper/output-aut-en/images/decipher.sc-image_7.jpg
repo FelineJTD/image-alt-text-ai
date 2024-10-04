@@ -1,0 +1,203 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+	<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>404 | Decipher</title>
+<link rel="canonical" href="https://duo.com">
+<link rel="shortcut icon" type="image/x-icon" href="/assets/img/decipher/favicons/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/assets/img/decipher/favicons/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/decipher/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/decipher/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/decipher/favicons/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/decipher/favicons/site.webmanifest">
+<link rel="mask-icon" href="/assets/img/decipher/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-config" content="/assets/img/decipher/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<link rel="alternate" type="application/rss+xml" href="/decipher/feed" title="The Decipher RSS Feed">
+<meta name="robots" content="index,follow,archive">
+
+<meta property="fb:app_id" content="2090208394329663">
+<meta property="og:site_name" content="Decipher">
+<meta property="og:type" content="website">
+<meta property="og:url" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@deciphersec">
+<meta name="twitter:creator" content="@deciphersec">
+<meta name="description" content="Security without fear. The web doesn&#8217;t have to be dark. Decipher’s goal is to bring order to this unpredictable and often confusing landscape by providing fresh perspectives from trusted voices.">
+<meta property="og:description" content="Security without fear. The web doesn&#8217;t have to be dark. Decipher’s goal is to bring order to this unpredictable and often confusing landscape by providing fresh perspectives from trusted voices.">
+<meta name="twitter:description" content="Security without fear. The web doesn&#8217;t have to be dark. Decipher’s goal is to bring order to this unpredictable and often confusing landscape by providing fresh perspectives from trusted voices.">
+
+<meta name="twitter:image" content="https://duo.com/assets/img/seo-images/meta-decipher-default.jpg">
+<meta property="og:image" content="https://duo.com/assets/img/seo-images/meta-decipher-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+<meta name="bitly-verification" content="040b99f315c6">
+<meta name="google-site-verification" content="Svd8AHByyLSc2WLjqDZWIj1D2TNu8-U3fblDCieHxdU">
+<meta name="twitter:widgets:csp" content="on">
+<meta name="msvalidate.01" content="27FB624DBD3F07315A4BF69F5D649C68">
+
+
+<link rel="stylesheet" href="/css/production-2021.css?v=1697141978">
+
+	</head>
+	<body id="top">
+		<div class="decipher decipher--index">
+
+      <header class="d-header d-t-dark t-dark--black">
+        <div class="d-site-header js-d-site-header t-dark--black">
+  <div class="d-nav-menu">
+    <a href="#d-nav-drawer" class="d-nav-menu__btn js-d-nav-menu__btn js-d-nav--drawer-trigger">
+      <svg class="d-nav-menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M.3 102.6C.3 88.4 11.7 77 25.8 77h460.4c14.1 0 25.5 11.4 25.5 25.6 0 14.1-11.4 25.6-25.5 25.6H25.8C11.7 128.1.3 116.8.3 102.6zM.3 256c0-14.1 11.4-25.6 25.5-25.6h460.4c14.1 0 25.5 11.4 25.5 25.6 0 14.1-11.4 25.6-25.5 25.6H25.8C11.7 281.6.3 270.2.3 256zm0 153.4c0-14.1 11.4-25.6 25.5-25.6h460.4c14.1 0 25.5 11.4 25.5 25.6 0 14.1-11.4 25.6-25.5 25.6H25.8C11.7 435 .3 423.6.3 409.4z"/></svg>
+    </a>
+    <div id="d-nav-drawer" class="d-nav-panel js-d-nav-panel">
+      <div class="d-nav-panel__header">
+        <a class="d-nav-panel__btn js-d-nav-panel__btn">
+          <svg class="icon-x-mark-1"><use xlink:href="#icon-x-mark-1"></use></svg>
+        </a>
+      </div>
+      <ul class="d-nav-panel__list">
+        <li class="d-nav-panel__item"><a href="/decipher/all-articles">All Articles</a></li>
+        <li class="d-nav-panel__item"><a href="/decipher/who-we-are">Who We Are</a></li>
+        <li class="d-nav-panel__item">
+          <ul class="d-social-icons-list social-icons-list social-icons-list--decipher social-icons-list--decipher-nav">
+            <li class="social-icon"><a href="https://twitter.com/deciphersec"><svg class="icon-x"><use xlink:href="#icon-x"></use></svg></a></li>
+            <li class="social-icon"><a href="https://www.facebook.com/decipherbyduo"><svg class="icon-facebook-1"><use xlink:href="#icon-facebook-1"></use></svg></a></li>
+            <li class="social-icon"><a href="https://www.youtube.com/channel/UCszm81zKIPoF4ljkBJwmB2g/"><svg class="icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a></li>
+            <li class="social-icon"><a href="/decipher/feed"><svg class="icon-rss-square"><use xlink:href="#icon-rss-square"></use></svg></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+    <a href="/decipher" class="d-logo-link">
+    <div data-anim-type="d-logo-light" id="d-logo-animated" class="d-logo js-d-logo d-logo--animated d-logo--light"></div>
+    <img class="d-logo d-logo--static  js-d-logo d-logo--light" src="/assets/img/decipher/logos/d-logo--light.svg" alt="Decipher Logo">
+  </a>
+  <a href="/decipher/" class="d-btn btn-magnify js-btn-magnify opacity--0" href="/decipher/search">
+    <svg class="icon-magnify-thick"><use xlink:href="#icon-magnify-thick"></use></svg>
+  </a>
+  <a class="d-btn btn-close js-btn-close opacity--0">
+    <svg class="icon-x-mark-1"><use xlink:href="#icon-x-mark-1"></use></svg>
+  </a>
+    <span class="d-tagline">Security news that informs and inspires</span>
+</div>
+
+<div class="d-search js-d-search d-search--visible position-r t-dark--black">
+  <div class="d-search__header">
+        <h2 class="d-search__title js-d-search__title d-text--white">
+            PAGE NOT FOUND<br>ERROR 404
+          </h2>
+            <div class="d-search__header-img">
+      <img src="/img/asset/aW1nL2RlY2lwaGVyLzQwNC5qcGc=?s=12378a2282d82a8f9f860cc85a068fe2">
+    </div>
+      </div>
+  <div class="d-search__body">
+    <form class="d-search__form" action="/decipher/search" method="GET" onsubmit="submitForm(); return false; ">
+      <input id="input_search" class="d-search__input" type="text" placeholder="Search..." value="">
+      <label class="screen-reader-text" for="input_search">Search</label>
+      <button class="btn-magnify js-btn-magnify"><svg class="icon-magnify-thick"><use xlink:href="#icon-magnify-thick"></use></svg></button>
+    </form>
+  </div>
+</div>
+
+<div class="d-search__overlay js-d-search__overlay opacity--0"></div>
+
+<script>
+function submitForm(){
+  getUrl = window.location;
+  var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+  var newSearchParam = document.getElementById('input_search').value;
+  window.location = baseUrl + "/search?q=" + newSearchParam;
+}
+</script>
+
+
+      </header>
+      <div class="d-404">
+        <div class="d-404__content">
+          <h2>We're sorry — the page you're looking for cannot be found.</h2>
+        </div>
+
+        <div class="d-404__content d-text--white">
+          <h3>Let's decipher the problem:</h3>
+          <ul>
+            <li>
+              Click your back button and try again.
+            </li>
+            <li>
+              Visit the Decipher <a href="/decipher" class="d-link">home page.</a>
+            </li>
+            <li>
+              Make sure your URL is correct.
+            </li>
+            <li>
+              Try a new search.
+            </li>
+            <li>
+              Want more help? <a href="/decipher/who-we-are" class="d-link">Contact us.</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+		</div>
+    <footer class="decipher d-footer  t-dark--black d-content content">
+        <div class="d-footer__content l-flex--gtmed d-t-dark">
+      <ul class="social-icons-list--decipher">
+        <li class="social-icon"><a href="https://twitter.com/deciphersec"><svg class="icon-x"><use xlink:href="#icon-x"></use></svg></a></li>
+        <li class="social-icon"><a href="https://www.facebook.com/decipherbyduo"><svg class="icon-facebook-1"><use xlink:href="#icon-facebook-1"></use></svg></a></li>
+        <li class="social-icon"><a href="https://www.youtube.com/channel/UCszm81zKIPoF4ljkBJwmB2g/"><svg class="icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a></li>
+        <li class="social-icon"><a href="/decipher/feed"><svg class="icon-rss-square"><use xlink:href="#icon-rss-square"></use></svg></a></li>
+      </ul>
+      <div class="d-footer__links">
+        <a class="d-footer__link font-size--lg" href="/decipher/all-articles">All Articles</a>
+        <a class="d-footer__link font-size--lg" href="/decipher/who-we-are">Who We Are</a>
+      </div>
+    </div>
+    <a href="/decipher" class="d-logo-link"><img class="d-logo d-logo--light" src="/assets/img/decipher/logos/d-logo--footer.svg" alt="Decipher Logo"></a>
+    <span class="d-footer__copyright d-text--white">Copyright 2023 <a class="d-link--white" href="/">Duo Security</a></span>
+    <div class="d-footer__meta">
+      <a class="d-link--white" href="/decipher/terms-and-conditions">Terms &amp; Conditions</a>
+      <a class="d-link--white" href="/legal/cisco-online-privacy-statement">Privacy Notice</a>
+    </div>
+  <svg class="d-shape d-shape--footer-left" width="166" height="515" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 515"><g fill="none" fill-rule="evenodd"><path stroke="#FFF" stroke-width="2" fill="#89CDB4" d="M165 448.842L55.579 513-51 448.842v-19.96L57 369l108 59.881z"/><g stroke="#FFF" stroke-width="2"><path d="M55 490.672l108-62.451-108 62.451zM-53 431.06l108 59.612v22.71"/></g><path stroke="#FFF" stroke-width="2" fill="#000" d="M134 410.023L53.454 457-25 412.11V252.933L54.5 207l79.5 43.843z"/><path stroke="#FFF" stroke-width="2" d="M55 208v158.945L-24 413M134 411l-79-44"/><path stroke="#FFF" stroke-width="2" d="M97 343.023L16.454 390-62 345.11V185.933L17.5 140 97 183.843z"/><path stroke="#FFF" stroke-width="2" d="M18 141v158.945L-61 346M97 344l-79-44"/><path stroke="#FFF" stroke-width="2" d="M-18 187.451L56.467 144 129 187.451v41.997L55.5 270-18 229.448zM57 188l-73 42 73-42z"/><path fill="#EF5147" d="M21 292.448V250.45L-51.53 207-126 250.451v41.997L-52.5 333z"/><path stroke="#FFF" stroke-width="2" d="M130 228l-73-40.322V144"/><path stroke="#FFF" stroke-width="2" fill="#89CDB4" d="M7 31.875L58.163 2 108 30.547v101.238L57.5 161 7 133.113z"/><path stroke="#FFF" stroke-width="2" d="M58 160V59.208L108 30M8 31l50 28M20 104.759L-17.993 127-55 105.75V64.743L-17.499 43 20 63.755zM20 105l-37-21"/></g></svg>
+  <svg class="d-shape d-shape--footer-right" width="274" height="389" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 274 389"><defs><path d="M297 21L197 79l100-58z" id="a"/></defs><g fill="none" fill-rule="evenodd"><g stroke="#FFF" stroke-width="2"><path fill="#000" d="M196.689 46.633l100.967-59.279L396 46.634v18.441l-99.656 55.327-99.655-55.327z"/><path fill="#89CDB4" d="M1.311 46.633L36.715 24.24l30.16 19.76V62.44L35.403 83.518 1.311 65.075z"/></g><path stroke="#FFF" stroke-width="2" d="M101 82.966L202.316 24 301 80.345v76L201 214l-100-55.034z"/><g transform="translate(1 -13)"><use stroke="#FFF" stroke-width="2" fill="#EF5147" xlink:href="#a"/><use stroke="#979797" xlink:href="#a"/></g><path stroke="#FFF" stroke-width="2" d="M201 213v-76.196L301 79M101 82l100 55M35 24v20.8L66 63M1 66l34-21"/><path stroke="#FFF" stroke-width="2" fill="#25B896" d="M32 214.257L132.81 155 231 214.257v18.436L131.5 288 32 232.693z"/><path d="M133 176L33 234l100-58zM233 231l-100-55.034V155" stroke="#FFF" stroke-width="2"/><path stroke="#FFF" stroke-width="2" fill="#E5E6E8" d="M167 98.667L202.64 79 233 98.667v18.355L201.32 138 167 117.022z"/><path stroke="#FFF" stroke-width="2" d="M201 79v20.8l31 18.2M167 118l34-18M215 187.749L264.14 159 312 186.473v97.416L263.5 312 215 285.167z"/><path stroke="#FFF" stroke-width="2" d="M264 311v-96.917L313 186M215 188l49 27"/><path fill="#88CDB4" d="M198.916 367.827v18.183l-31.74-18.809v-16.698zM233.167 349.149V367.2l-32.639 18.834v-18.234z"/><path d="M198.916 386.01v-18.183l-31.74-17.322V367.2l31.74 18.81zm.82-19.566l31.978-18.287-31.53-17.217-32.771 17.87 32.322 17.634zm33.431.756v-18.052l-32.639 18.655v18.232l32.64-18.835zm1.639-19.2v20.113l-35.07 20.244-34.173-20.244v-18.495h-.026l.026-.052V348l34.621-18.887.37.212L234.806 348z" fill="#000"/><path fill="#88CDB4" d="M231.714 348.158l-31.978 18.287-32.322-17.635 32.771-17.872z"/></g></svg>
+  <div class="js-go-to-top-wrap go-to-top-wrap go-to-top--decipher"><a class="js-go-to-top-btn go-to-top-btn" href="#top"><svg class="icon-chevron-thick-up"><use xlink:href="#icon-chevron-thick-up"></use></svg><span class="go-to-top__copy">Top</span></a></div>
+</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+<script src="/js/build/production-2021.min.js?v=1697141978"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://www.cisco.com/c/dam/cdc/t/ctm.js"></script>
+<script type="text/javascript">try{_satellite.pageBottom();}catch(e){};</script>
+
+
+
+
+
+	</body>
+</html>
+

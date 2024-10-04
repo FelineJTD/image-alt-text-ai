@@ -1,0 +1,2 @@
+[{'is_relevant': 6.07763671875, 'num_data': 10}, {'is_relevant': 5.935546875, 'num_data': 10}, {'is_relevant': 5.93603515625, 'num_data': 10}, {'is_relevant': 5.9365234375, 'num_data': 10}, {'is_relevant': 6.06591796875, 'num_data': 10}]
+[{'is_relevant': 4.6259765625, 'num_data': 8}, {'is_relevant': 4.62158203125, 'num_data': 8}, {'is_relevant': 4.515625, 'num_data': 8}, {'is_relevant': 4.472412109375, 'num_data': 8}, {'is_relevant': 4.020751953125, 'num_data': 7}]
