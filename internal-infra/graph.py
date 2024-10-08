@@ -78,8 +78,8 @@ def ocr_image(state: State):
 
     return state
 
-# NRE
-def nre_image(state: State):
+# NER
+def ner_image(state: State):
     pass
 
 # GENERATE ALT TEXT
@@ -119,8 +119,8 @@ workflow = StateGraph(State)
 # Add the nodes to the graph
 workflow.add_node("determine_image_role", determine_image_role)
 workflow.add_node("get_image_context", get_image_context)
-# workflow.add_node("ocr_image", ocr_image)
-# workflow.add_node("nre_image", nre_image)
+workflow.add_node("ocr_image", ocr_image)
+# workflow.add_node("ner_image", ner_image)
 workflow.add_node("generate_alt_text", generate_alt_text)
 
 # Add the edges to the graph
