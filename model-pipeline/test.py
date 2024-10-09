@@ -1,19 +1,23 @@
 import json
 import uuid
 from pprint import pprint
+
+import requests
 from graph import run_graph
 from load_data import load_data
 import os
-# from rag_graph import update_vectorstore
+
+backend_url = "http://localhost:5000"
 
 def generate_alt_text(data):
-    try:
-        # Generate random thread ID
-        data['thread_id'] = str(uuid.uuid4())
-        result = run_graph(data, data.get('thread_id'))
-        return result
-    except Exception as e:
-        return str(e)
+    # Fetch backend URL
+    url = f"{backend_url}/"
+
+    # Send a POST request to the backend
+    response = requests.post(url, json=data)
+
+    # Return the response
+    return response.json()
 
 
 # Main
@@ -24,7 +28,7 @@ if __name__ == "__main__":
     incorrect_roles = 0
 
     # Loop through each JSON file in the directory
-    for filename in os.listdir(json_dir)[0:5]:
+    for filename in os.listdir(json_dir)[0:1]:
         if filename.endswith(".json"):
             try:
                 # Read the JSON file

@@ -66,17 +66,18 @@ def ocr_image(state: State):
     Args:
         state (State): The state object containing the image path and other relevant information.
     """
-    # Load the image from the path specified in the state
-    image_path = state.input_image_src
-    image = Image.open(image_path)
+    # # Load the image from the path specified in the state
+    # image_path = state.input_image_src
+    # image = Image.open(image_path)
     
-    # Perform OCR on the image
-    extracted_text = pytesseract.image_to_string(image)
+    # # Perform OCR on the image
+    # extracted_text = pytesseract.image_to_string(image)
     
-    # Update the state with the extracted text
-    state.extracted_text = extracted_text
+    # # Update the state with the extracted text
+    # state.extracted_text = extracted_text
 
-    return state
+    # return state
+    pass
 
 # NER
 def ner_image(state: State):
