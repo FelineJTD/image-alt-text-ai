@@ -1,20 +1,12 @@
 import json
-import uuid
-from pprint import pprint
-
 import requests
-from graph import run_graph
-from load_data import load_data
 import os
 
-backend_url = "http://localhost:5000"
+backend_url = "http://localhost:5000/"
 
 def generate_alt_text(data):
-    # Fetch backend URL
-    url = f"{backend_url}/"
-
     # Send a POST request to the backend
-    response = requests.post(url, json=data)
+    response = requests.post(backend_url, json=data)
 
     # Return the response
     return response.json()
@@ -66,7 +58,7 @@ if __name__ == "__main__":
             except Exception as e:
                 print(str(e))
 
-    pprint(f"Correct roles: {correct_roles}")
-    pprint(f"Incorrect roles: {incorrect_roles}")
+    print(f"Correct roles: {correct_roles}")
+    print(f"Incorrect roles: {incorrect_roles}")
 
-    pprint(f"Accuracy: {correct_roles / (correct_roles + incorrect_roles)}")
+    print(f"Accuracy: {correct_roles / (correct_roles + incorrect_roles)}")
