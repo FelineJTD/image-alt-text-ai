@@ -12,7 +12,7 @@ document.addEventListener("DOMSubtreeModified", function () {
   for (var i = 0; i < images.length; i++) {
     console.log(images[i].alt);
     // If alt text is empty, set it to "Image"
-    if (images[i].alt === "This contains an image of: ") {
+    if (images[i].alt === "") {
       images[i].alt = "Image";
     }
   }
