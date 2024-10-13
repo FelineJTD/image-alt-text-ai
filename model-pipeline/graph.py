@@ -1,3 +1,4 @@
+# from llava import llava_chatbot
 import json
 from pprint import pprint
 
@@ -35,6 +36,15 @@ def get_image_context(state: State):
 
     return {"ai_summarized_context": summarized_context}
 
+def get_image_context_llava(state: State):
+    ans = llava_chatbot.start_new_chat(
+        prompt=context_extractor_prompt.format(
+            message=state.input_context
+        )
+    )
+
+    return {"ai_summarized_context": ans}
+
 # DETERMINE IMAGE WCAG ROLE
 def determine_image_role(state: State):
     role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
@@ -45,18 +55,29 @@ def determine_image_role(state: State):
     predicted_role = role_identifier_chain.invoke(
        f"""
         This is the image you need to identify the role of: {state.input_image_src}\n\n 
-        The image's file name: {state.input_image_filename}\n\n 
         The image's attributes: {state.input_image_attrs}\n\n 
         The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
-        The previous text before the image appears: {state.input_previous_text}\n\n 
         The next text after the image appears: {state.input_next_text}\n\n 
         """
     )
 
     pprint(f"predicted_role: {predicted_role}")
-    pprint(f"correct_role: {state.correct_role}")
 
     return {"ai_predicted_role": predicted_role}
+
+def determine_image_role_llava(state: State):
+    ans = llava_chatbot.continue_chat(
+        prompt=role_identifier_prompt.format(
+            message=f"""
+                    This is the image you need to identify the role of: {state.input_image_src}\n\n 
+                    The image's attributes: {state.input_image_attrs}\n\n 
+                    The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
+                    The next text after the image appears: {state.input_next_text}\n\n 
+                    """
+        )
+    )
+
+    return {"ai_predicted_role": ans}
 
 # OCR
 def ocr_image(state: State):
@@ -100,10 +121,8 @@ def generate_alt_text(state: State):
     predicted_alt_text = alt_text_generator_chain.invoke(
        f"""
         Image: {state.input_image_src}\n\n 
-        The image's file name: {state.input_image_filename}\n\n 
         The image's attributes: {state.input_image_attrs}\n\n 
         The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
-        The previous text before the image appears: {state.input_previous_text}\n\n 
         The next text after the image appears: {state.input_next_text}\n\n 
         The summarized context of the website: {state.ai_summarized_context}\n\n
         """
@@ -113,6 +132,21 @@ def generate_alt_text(state: State):
     pprint(f"correct_alt_text: {state.correct_alt_text}")
 
     return {"ai_predicted_alt_text": predicted_alt_text}
+
+def generate_alt_text_llava(state: State):
+    ans = llava_chatbot.continue_chat(
+        prompt=alt_text_prompts[state.ai_predicted_role].format(
+            message=f"""
+                    Image: {state.input_image_src}\n\n 
+                    The image's attributes: {state.input_image_attrs}\n\n 
+                    The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
+                    The next text after the image appears: {state.input_next_text}\n\n 
+                    The summarized context of the website: {state.ai_summarized_context}\n\n
+                    """
+        )
+    )
+
+    return {"ai_predicted_alt_text": ans}
 
 # Define a new graph
 workflow = StateGraph(State)
