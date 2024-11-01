@@ -1,0 +1,4 @@
+progress = 99
+max_similarity = 0.94189453125
+min_similarity = 0.333251953125
+evals = [{'is_relevant': 11, 'num_data': 70}, {'is_relevant': 12, 'num_data': 69}, {'is_relevant': 14, 'num_data': 66}, {'is_relevant': 12, 'num_data': 64}, {'is_relevant': 13, 'num_data': 61}, {'is_relevant': 15, 'num_data': 61}, {'is_relevant': 9, 'num_data': 60}, {'is_relevant': 9, 'num_data': 54}, {'is_relevant': 4, 'num_data': 53}, {'is_relevant': 7, 'num_data': 51}, {'is_relevant': 16, 'num_data': 50}, {'is_relevant': 16, 'num_data': 43}]
