@@ -4,13 +4,14 @@ import re
 import matplotlib.pyplot as plt
 from clipscore import get_clip_score
 import time
+import os
 
 
 # CONFIG
 json_path = "../scraper/output-aut-en/output-en.json"
 image_dir = "../scraper/output-aut-en/images/"
 result_dir = "./clip_results"
-number_of_images = 500
+number_of_images = 10
 threshold = 0.65
 random_seed = 42
 
@@ -47,15 +48,21 @@ random.shuffle(data)
 init = {"relevance_avg": 0, "is_relevant": 0, "num_data": 0}
 
 progress = 0
-max_similarity = 0
-min_similarity = 1
+max_similarity = {"prev-text": 0, "next-text": 0, "doc-title": 0, "doc-description": 0}
+min_similarity = {"prev-text": 1, "next-text": 1, "doc-title": 1, "doc-description": 1}
 evals = [init.copy() for _ in range(12)]
 evals_final = [0] * 12
 all_similarities = []
 
+# Create result_dir if it does not exist
+try:
+    os.makedirs(result_dir)
+except Exception as e:
+    print(str(e))
+
 # Read the progress from the file
 try:
-    with open("results_temp_threshold.txt", "r") as f:
+    with open(f"{result_dir}/results.txt", "r") as f:
         lines = f.readlines()
         for line in lines:
             if "progress" in line:
@@ -100,10 +107,26 @@ for i_image in range(progress, min(number_of_images, len(data))):
         # Save the results
         for i, class_caption in enumerate(class_captions):
             if (class_caption[i] != ""):
-                if per[i] > max_similarity:
-                    max_similarity = per[i]
-                if per[i] < min_similarity:
-                    min_similarity = per[i]
+                if i < 5:
+                    if per[i] > max_similarity["prev-text"]:
+                        max_similarity["prev-text"] = per[i]
+                    if per[i] < min_similarity["prev-text"]:
+                        min_similarity["prev-text"] = per[i]
+                elif i < 10:
+                    if per[i] > max_similarity["next-text"]:
+                        max_similarity["next-text"] = per[i]
+                    if per[i] < min_similarity["next-text"]:
+                        min_similarity["next-text"] = per[i]
+                elif i == 10:
+                    if per[i] > max_similarity["doc-title"]:
+                        max_similarity["doc-title"] = per[i]
+                    if per[i] < min_similarity["doc-title"]:
+                        min_similarity["doc-title"] = per[i]
+                elif i == 11:
+                    if per[i] > max_similarity["doc-description"]:
+                        max_similarity["doc-description"] = per[i]
+                    if per[i] < min_similarity["doc-description"]:
+                        min_similarity["doc-description"] = per[i]
 
                 if per[i] > threshold:
                     evals[i]["is_relevant"] += 1
@@ -113,7 +136,7 @@ for i_image in range(progress, min(number_of_images, len(data))):
                 all_similarities.append(per[i])
 
         # write the results to a file
-        with open(f"results_temp_threshold.txt", "w") as f:
+        with open(f"{result_dir}/results.txt", "w") as f:
             f.write(f"progress = {i_image}\n")
             f.write(f"max_similarity = {max_similarity}\n")
             f.write(f"min_similarity = {min_similarity}\n")
@@ -121,7 +144,7 @@ for i_image in range(progress, min(number_of_images, len(data))):
             f.write(f"all_similarities = {all_similarities}\n")
 
     except Exception as e:
-        print(f"Image {i_image} failed:")
+        print(f"Image {i_image} failed: {str(e)}")
 
 # Calculate the average
 for i in range(12):
@@ -142,15 +165,24 @@ print("Average time per image: ", time_taken / number_of_images)
 # Plot all_similarities
 plt.hist(all_similarities, bins=50)
 plt.title("Similarity distribution")
+# Save the plot
+plt.savefig(f"{result_dir}/similarities.png")
+# Show the plot
 plt.show()
 
 # Plot the evaluation results
 plt.figure(figsize=(12, 6))
-plt.bar([f"prev-text-{i+1}" for i in range(12)], evals_final, label="Percentage of relevant texts")
+plt.bar([f"prev-text-{i+1}" for i in range(5)], evals_final[0:5], label="Percentage of relevant texts")
+plt.bar([f"next-text-{i+1}" for i in range(5)], evals_final[5:10], label="Percentage of relevant texts")
+plt.bar(["doc-title"], evals_final[10:11], label="Percentage of relevant texts")
+plt.bar(["doc-description"], evals_final[11:12], label="Percentage of relevant texts")
 plt.legend(loc="upper right")
 
 # Tilt the x-axis labels
 plt.xticks(rotation=45)
+# Save the plot
+plt.savefig(f"{result_dir}/evaluation.png")
+# Show the plot
 plt.show()
 
 # Print the max and min similarity
