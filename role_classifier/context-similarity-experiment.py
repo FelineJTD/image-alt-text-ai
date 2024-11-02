@@ -11,7 +11,7 @@ import os
 json_path = "../scraper/output-aut-en/output-en.json"
 image_dir = "../scraper/output-aut-en/images/"
 result_dir = "./clip_results"
-number_of_images = 500
+number_of_images = 1000
 threshold = 0.65
 random_seed = 42
 
