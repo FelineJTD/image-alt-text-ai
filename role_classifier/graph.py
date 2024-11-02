@@ -48,7 +48,8 @@ for i in range(12):
     evals_percentage[i] = (evals[i]["relevance_avg"] / evals[i]["num_data"]) * 100
     evals_threshold[i] = (evals[i]["is_relevant"] / evals[i]["num_data"]) * 100
 
-
+print("Loaded evals_percentage: ", evals_percentage)
+print("Loaded evals_threshold: ", evals_threshold)
 
 
 # PLOT THE RESULTS
