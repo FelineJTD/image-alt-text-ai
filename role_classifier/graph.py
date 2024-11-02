@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 # CONFIG
 json_path = "../scraper/output-aut-en/output-en.json"
 image_dir = "../scraper/output-aut-en/images/"
-result_dir = "./clip_results"
+result_dir = "./clip_results_fixed"
 number_of_images = 500
 threshold = 0.65
 random_seed = 42

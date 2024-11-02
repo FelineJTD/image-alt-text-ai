@@ -11,7 +11,7 @@ import os
 json_path = "../scraper/output-aut-en/output-en.json"
 image_dir = "../scraper/output-aut-en/images/"
 result_dir = "./clip_results_fixed"
-number_of_images = 50
+number_of_images = 1000
 threshold = 0.65
 random_seed = 42
 
@@ -116,7 +116,6 @@ for i_image in range(progress, min(number_of_images, len(data))):
 
         # Save the results
         for i, class_caption in enumerate(class_captions):
-            print(f"Image {i_image}, class_caption {i}: {class_caption}")
             if (class_caption != ""):
                 if i < 5:
                     if per[i] > max_similarity["prev-text"]:
@@ -145,10 +144,6 @@ for i_image in range(progress, min(number_of_images, len(data))):
                 evals[i]["num_data"] += 1
 
                 all_similarities.append(per[i])
-            else:
-                print("EMPTY CLASS CAPTION ----------------------------------------------")
-                with open(f"{result_dir}/empty_caption.txt", "w") as f:
-                    f.write(f"Image {i_image}, class_caption {i}: {class_caption}")
 
         # write the results to a file
         with open(f"{result_dir}/results.txt", "w") as f:
