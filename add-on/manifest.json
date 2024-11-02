@@ -5,7 +5,7 @@
   "name": "Image Alt Text Generator",
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["https://journal.feliciasutandijo.my.id/*"],
       "js": ["main.js"]
     }
   ],

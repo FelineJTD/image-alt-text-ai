@@ -31,6 +31,16 @@ fetch(backendURL, {
   .then((response) => response.json())
   .then((data) => {
     console.log("Success:", data);
+    // Get new images
+    const images = document.getElementsByTagName("img");
+    console.log(images);
+    for (var i = 0; i < images.length; i++) {
+      console.log(images[i].alt);
+      console.log(data[i]);
+      // If alt text is empty, set it to "Image"
+      images[i].alt = data[i];
+      console.log(images[i].alt);
+    }
   })
   .catch((error) => {
     console.error("Error:", error);

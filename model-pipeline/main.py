@@ -43,36 +43,40 @@ def answer_question():
         # Update the images
         # TODO: Implement this
 
-    # The 'src' attribute of the image
-    image_url = website_info['images'][0]["src"]
-    # Relative path handling
-    if not image_url.startswith(('http://', 'https://')):
-        image_url = urljoin(data.get('url'), image_url)
+    results = []
 
-    sub_images = website_info['images']
+    for img in website_info['images']:
 
-    state = {
-        "input_image_src": sub_images[0]["src"],
-        "input_context": website_info['description'],
-        "input_image_attrs": sub_images[0]["attrs"],
-        "input_a_button_parent": sub_images[0]["a_button_parent"],
-        "input_next_text": sub_images[0]["next_text"],
+        # The 'src' attribute of the image
+        image_url = img["src"]
+        # Relative path handling
+        if not image_url.startswith(('http://', 'https://')):
+            image_url = urljoin(data.get('url'), image_url)
 
-        "correct_alt_text": sub_images[0]["alt"],
+        state = {
+            "input_image_src": image_url,
+            "input_context": website_info['description'],
+            "input_image_attrs": img["attrs"],
+            "input_a_button_parent": img["a_button_parent"],
+            "input_next_text": img["next_text"],
 
-        "ai_predicted_role": "",
-        "ai_summarized_context": "",
-        "ai_extracted_text": "",
-        "ai_extracted_entities": {},
-        "ai_predicted_alt_text": "",
-    }
-    
-    # Generate alt texts for each images
-    try:
-        # Generate random thread ID
-        data['thread_id'] = str(uuid.uuid4())
-        result = run_graph(state, data.get('thread_id'))
-        print(result['ai_predicted_alt_text'])
-        return jsonify(result), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+            "correct_alt_text": img["alt"],
+
+            "ai_predicted_role": "",
+            "ai_summarized_context": "",
+            "ai_extracted_text": "",
+            "ai_extracted_entities": {},
+            "ai_predicted_alt_text": "",
+        }
+        
+        # Generate alt texts for each images
+        try:
+            # Generate random thread ID
+            data['thread_id'] = str(uuid.uuid4())
+            result = run_graph(state, data.get('thread_id'))
+            print(result['ai_predicted_alt_text'])
+            results.append(result['ai_predicted_alt_text'])
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
+        
+    return jsonify(results), 200
