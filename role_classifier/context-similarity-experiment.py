@@ -11,7 +11,7 @@ import os
 json_path = "../scraper/output-aut-en/output-en.json"
 image_dir = "../scraper/output-aut-en/images/"
 result_dir = "./clip_results"
-number_of_images = 10
+number_of_images = 500
 threshold = 0.65
 random_seed = 42
 
@@ -68,13 +68,17 @@ try:
             if "progress" in line:
                 progress = int(line.split("=")[1].strip())
             if "max_similarity" in line:
-                max_similarity = float(line.split("=")[1].strip())
+                max_similarity = eval(line.split("=")[1].strip())
             if "min_similarity" in line:
-                min_similarity = float(line.split("=")[1].strip())
+                min_similarity = eval(line.split("=")[1].strip())
             if "evals" in line:
                 evals = eval(line.split("=")[1].strip())
             if "all_similarities" in line:
                 all_similarities = eval(line.split("=")[1].strip())
+        print("Loaded progress: ", progress)
+        print("Loaded max_similarity: ", max_similarity)
+        print("Loaded min_similarity: ", min_similarity)
+        print("Loaded evals: ", evals)
 except Exception as e:
     print(str(e))
 
@@ -100,7 +104,13 @@ for i_image in range(progress, min(number_of_images, len(data))):
         # Assign back to image["previous_texts"]
         image["next_texts"] = next_texts
 
-        class_captions = image["previous_texts"] + image["next_texts"] + [image["doc_title"]] + [image["doc_description"]]
+        # Ensure the list is 1 in length
+        doc_title = [image["doc_title"]]
+        doc_description = [image["doc_description"]]
+        image["doc_title"] = doc_title
+        image["doc_description"] = doc_description
+
+        class_captions = image["previous_texts"] + image["next_texts"] + image["doc_title"] + image["doc_description"]
 
         score, per, candidates = get_clip_score(image_path, class_captions)
 
