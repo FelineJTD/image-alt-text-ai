@@ -1,6 +1,7 @@
 # from llava import llava_chatbot
 import json
 from pprint import pprint
+from llava_chatbot import llava_chatbot
 
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser, JsonOutputParser
@@ -152,11 +153,11 @@ def generate_alt_text_llava(state: State):
 workflow = StateGraph(State)
 
 # Add the nodes to the graph
-workflow.add_node("determine_image_role", determine_image_role)
-workflow.add_node("get_image_context", get_image_context)
+workflow.add_node("determine_image_role", determine_image_role_llava)
+workflow.add_node("get_image_context", get_image_context_llava)
 workflow.add_node("ocr_image", ocr_image)
 workflow.add_node("ner_image", ner_image)
-workflow.add_node("generate_alt_text", generate_alt_text)
+workflow.add_node("generate_alt_text", generate_alt_text_llava)
 
 # Add the edges to the graph
 workflow.add_edge("get_image_context", "ocr_image")
