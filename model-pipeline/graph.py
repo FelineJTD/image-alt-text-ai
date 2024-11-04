@@ -1,19 +1,19 @@
 # from llava import llava_chatbot
-import json
+# import json
 from pprint import pprint
-from llava_chatbot import llava_chatbot
+# from llava_chatbot import llava_chatbot
 
 from langchain.prompts import PromptTemplate
-from langchain_core.output_parsers import StrOutputParser, JsonOutputParser
+from langchain_core.output_parsers import StrOutputParser
 
 from langgraph.checkpoint.sqlite import SqliteSaver
-from langgraph.graph import END, StateGraph
+from langgraph.graph import StateGraph
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
-from PIL import Image
-import pytesseract
+# from PIL import Image
+# import pytesseract
 
 from states import State
 
@@ -24,6 +24,7 @@ memory = SqliteSaver.from_conn_string(":memory:")
 # GET IMAGE CONTEXT
 def get_image_context(state: State):
     # Summarize the whole document text into usable context/intent
+    print("Summarizing the context of the website with GPT-4o Mini...")
     whole_text = state.input_context
 
     context_extractor_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.2)
@@ -38,6 +39,8 @@ def get_image_context(state: State):
     return {"ai_summarized_context": summarized_context}
 
 def get_image_context_llava(state: State):
+    print("Getting image context with LLaVA...")
+    print(f"state.input_context: {state.input_context}")
     ans = llava_chatbot.start_new_chat(
         prompt=context_extractor_prompt.format(
             message=state.input_context
@@ -48,6 +51,7 @@ def get_image_context_llava(state: State):
 
 # DETERMINE IMAGE WCAG ROLE
 def determine_image_role(state: State):
+    print("Determining image role with GPT-4o Mini...")
     role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
     role_identifier_prompt_template = PromptTemplate.from_template(role_identifier_prompt)
     role_identifier_output_parser = StrOutputParser()
@@ -67,10 +71,10 @@ def determine_image_role(state: State):
     return {"ai_predicted_role": predicted_role}
 
 def determine_image_role_llava(state: State):
-    ans = llava_chatbot.continue_chat(
+    ans = llava_chatbot.start_new_chat(
+        img_path=state.input_image_src,
         prompt=role_identifier_prompt.format(
             message=f"""
-                    This is the image you need to identify the role of: {state.input_image_src}\n\n 
                     The image's attributes: {state.input_image_attrs}\n\n 
                     The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
                     The next text after the image appears: {state.input_next_text}\n\n 
@@ -115,7 +119,7 @@ def generate_alt_text(state: State):
     
     # For other roles, generate alt text based on the role
     alt_text_generator_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
-    alt_text_generator_prompt_template = PromptTemplate.from_template(alt_text_prompts[state.ai_predicted_role])
+    alt_text_generator_prompt_template = PromptTemplate.from_template(alt_text_prompts[state.ai_predicted_role.lower()])
     alt_text_generator_output_parser = StrOutputParser()
 
     alt_text_generator_chain = alt_text_generator_prompt_template | alt_text_generator_llm | alt_text_generator_output_parser
@@ -153,11 +157,11 @@ def generate_alt_text_llava(state: State):
 workflow = StateGraph(State)
 
 # Add the nodes to the graph
-workflow.add_node("determine_image_role", determine_image_role_llava)
-workflow.add_node("get_image_context", get_image_context_llava)
+workflow.add_node("get_image_context", get_image_context)
+workflow.add_node("determine_image_role", determine_image_role)
 workflow.add_node("ocr_image", ocr_image)
 workflow.add_node("ner_image", ner_image)
-workflow.add_node("generate_alt_text", generate_alt_text_llava)
+workflow.add_node("generate_alt_text", generate_alt_text)
 
 # Add the edges to the graph
 workflow.add_edge("get_image_context", "ocr_image")

@@ -1,15 +1,22 @@
 import json
 import requests
 import os
+# from main import generate_alt_text
+# import uuid
+# from graph import run_graph
 
 backend_url = "http://localhost:5000/"
 
-def generate_alt_text(data):
+def generate_alt_text_call(data):
     # Send a POST request to the backend
     response = requests.post(backend_url, json=data)
+    print(response.json())
+    # thread_id = str(uuid.uuid4())
+    # result = run_graph(data, thread_id)
+    # print(result['ai_predicted_alt_text'])
 
     # Return the response
-    return response.json()
+    return response
 
 
 # Main
@@ -32,7 +39,7 @@ if __name__ == "__main__":
                 sub_images = data["images"]
 
                 # for image in sub_images[0]:
-                final_state = generate_alt_text({
+                final_state = generate_alt_text_call({
                     "input_image_src": sub_images[0]["src"],
                     "input_image_filename": sub_images[0]["file_name"],
                     "input_context": whole_text,
@@ -51,10 +58,15 @@ if __name__ == "__main__":
                     "ai_predicted_alt_text": "",
                 })
 
-                if final_state["ai_predicted_role"] == sub_images[0]["role"]:
+                if (final_state["ai_predicted_role"]).lower() == sub_images[0]["role"]:
                     correct_roles += 1
                 else:
                     incorrect_roles += 1
+
+                # Save the final state to a JSON file
+                with open(f"./output/{filename}", "w") as file:
+                    json.dump(final_state, file, indent=4)
+
             except Exception as e:
                 print(str(e))
 

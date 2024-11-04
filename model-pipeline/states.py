@@ -7,6 +7,7 @@ class State(BaseModel):
     input_a_button_parent: str
     input_next_text: str
 
+    correct_role: str
     correct_alt_text: str
 
     ai_predicted_role: str
@@ -14,4 +15,3 @@ class State(BaseModel):
     ai_extracted_text: str
     ai_extracted_entities: dict
     ai_predicted_alt_text: str
-            

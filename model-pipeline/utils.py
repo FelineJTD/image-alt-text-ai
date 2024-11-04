@@ -2,9 +2,6 @@ from bs4 import BeautifulSoup
 
 text_elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 
-def parse_image(image):
-    pass
-
 # Parse a string of html with beautifulsoup and return all needed information
 def parse_document(doc: str):
     website_info = {}

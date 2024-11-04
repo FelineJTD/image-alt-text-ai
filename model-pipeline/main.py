@@ -12,7 +12,7 @@ CORS(app)
 website_info = {}
 
 @app.route('/', methods=['GET', 'POST'])
-def answer_question():
+def generate_alt_text():
     # TODO: Investigate best practices for global variables in Flask
     global website_info
 
@@ -23,28 +23,21 @@ def answer_question():
     if not request.is_json:
         return jsonify({"error": "Request must be JSON"}), 400
 
-    # Data has 2 fields: doc and imgs
+    # Get the JSON data
     data = request.get_json()
 
-    if website_info == {} and not data.get('doc'):
-        return jsonify({"error": "Field doc required"}), 400
-
-    if not data.get('url') or (not data.get('doc') and not data.get('imgs')):
-        return jsonify({"error": "Fields url and doc or img required"}), 400
+    # If the website information is not provided, return an error
+    if (website_info == {} and not data.get('doc')) or not data.get('url'):
+        return jsonify({"error": "Field doc and url required"}), 400
     
-    # If doc is not empty, it means that the whole document is updated
-    if data.get('doc'):
-        print("Updating the whole document")
-        # Update the document
-        website_info = parse_document(data.get('doc'))
-        print(website_info)
-    else:
-        print("Updating the images")
-        # Update the images
-        # TODO: Implement this
+    # Parse the document and get the website information
+    website_info = parse_document(data.get('doc'))
+    print(website_info)
 
+    # Initialize the results list
     results = []
 
+    # Loop through each image
     for img in website_info['images']:
 
         # The 'src' attribute of the image
@@ -60,6 +53,7 @@ def answer_question():
             "input_a_button_parent": img["a_button_parent"],
             "input_next_text": img["next_text"],
 
+            "correct_role": "",
             "correct_alt_text": img["alt"],
 
             "ai_predicted_role": "",
