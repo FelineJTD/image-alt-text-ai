@@ -55,18 +55,6 @@ def determine_image_role(state: State):
     print("Determining image role with GPT-4o Mini...")
     try:
         role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
-        # role_identifier_prompt_template = PromptTemplate.from_template(role_identifier_prompt)
-        # role_identifier_output_parser = StrOutputParser()
-
-        # role_identifier_chain = role_identifier_prompt_template | role_identifier_llm | role_identifier_output_parser
-        # predicted_role = role_identifier_chain.invoke(
-        #    f"""
-        #     This is the image you need to identify the role of: {state.input_image_src}\n\n 
-        #     The image's attributes: {state.input_image_attrs}\n\n 
-        #     The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
-        #     The next text after the image appears: {state.input_next_text}\n\n 
-        #     """
-        # )
         predicted_role = role_identifier_llm.invoke(
             [
                 (
@@ -104,6 +92,7 @@ def determine_image_role_llava(state: State):
         img_path=state.input_image_src,
         prompt=role_identifier_prompt.format(
             message=f"""
+                    The image's source (file name): {state.input_image_src}\n\n
                     The image's attributes: {state.input_image_attrs}\n\n 
                     The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
                     The next text after the image appears: {state.input_next_text}\n\n 
@@ -117,7 +106,6 @@ def determine_image_role_llava(state: State):
 def ocr_image(state: State):
     """
     Perform OCR on the image specified in the state and update the state with the extracted text.
-    
     Args:
         state (State): The state object containing the image path and other relevant information.
     """
@@ -141,31 +129,81 @@ def ner_image(state: State):
 # GENERATE ALT TEXT
 def generate_alt_text(state: State):
     # Alt text generation based on guidelines from WCAG: https://www.w3.org/WAI/tutorials/images/
+    print("Generating alt text with GPT-4o Mini...")
+    try:
+        ai_predicted_role = state.ai_predicted_role.lower()
 
-    # If the predicted role is decorative, return an empty alt text
-    if state.ai_predicted_role == "decorative":
-        return {"ai_predicted_alt_text": ""}
+        # If the predicted role is decorative, return an empty alt text
+        if ai_predicted_role == "decorative":
+            return {"ai_predicted_alt_text": ""}
+        
+        # If the predicted role is not in the alt text prompts, default to informative
+        if ai_predicted_role not in alt_text_prompts:
+            ai_predicted_role = "informative"
+        
+        # For other roles, generate alt text based on the role
+        role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
+        predicted_alt_text = role_identifier_llm.invoke(
+            [
+                (
+                    "system",
+                    alt_text_prompts[ai_predicted_role]
+                ),
+                (
+                    "human",
+                    [
+                        {
+                            "type": "image_url", "image_url": {"url": state.input_image_src}
+                        },
+                        {
+                            "type": "text", "text": f"""
+                            The image's source (file name): {state.input_image_src}\n\n
+                            The image's attributes: {state.input_image_attrs}\n\n
+                            The image's <a> or <button> parent: {state.input_a_button_parent}\n\n
+                            The next text after the image appears: {state.input_next_text}\n\n
+                            """
+                        }
+                    ]
+                )
+            ]
+        )
+
+        pprint(f"predicted_alt_text: {predicted_alt_text.content}")
+        pprint(f"cached_tokens: {predicted_alt_text.usage_metadata.input_token_details.cache_read}")
+
+        return {"ai_predicted_alt_text": predicted_alt_text.content}
+    except Exception as e:
+        print(e)
+
+    return {"ai_predicted_role": ""}
+
+# def generate_alt_text(state: State):
+#     # Alt text generation based on guidelines from WCAG: https://www.w3.org/WAI/tutorials/images/
+
+#     # If the predicted role is decorative, return an empty alt text
+#     if state.ai_predicted_role == "decorative":
+#         return {"ai_predicted_alt_text": ""}
     
-    # For other roles, generate alt text based on the role
-    alt_text_generator_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
-    alt_text_generator_prompt_template = PromptTemplate.from_template(alt_text_prompts[state.ai_predicted_role.lower()])
-    alt_text_generator_output_parser = StrOutputParser()
+#     # For other roles, generate alt text based on the role
+#     alt_text_generator_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
+#     alt_text_generator_prompt_template = PromptTemplate.from_template(alt_text_prompts[state.ai_predicted_role.lower()])
+#     alt_text_generator_output_parser = StrOutputParser()
 
-    alt_text_generator_chain = alt_text_generator_prompt_template | alt_text_generator_llm | alt_text_generator_output_parser
-    predicted_alt_text = alt_text_generator_chain.invoke(
-       f"""
-        Image: {state.input_image_src}\n\n 
-        The image's attributes: {state.input_image_attrs}\n\n 
-        The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
-        The next text after the image appears: {state.input_next_text}\n\n 
-        The summarized context of the website: {state.ai_summarized_context}\n\n
-        """
-    )
+#     alt_text_generator_chain = alt_text_generator_prompt_template | alt_text_generator_llm | alt_text_generator_output_parser
+#     predicted_alt_text = alt_text_generator_chain.invoke(
+#        f"""
+#         Image: {state.input_image_src}\n\n 
+#         The image's attributes: {state.input_image_attrs}\n\n 
+#         The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
+#         The next text after the image appears: {state.input_next_text}\n\n 
+#         The summarized context of the website: {state.ai_summarized_context}\n\n
+#         """
+#     )
 
-    pprint(f"predicted_alt_text: {predicted_alt_text}")
-    pprint(f"correct_alt_text: {state.correct_alt_text}")
+#     pprint(f"predicted_alt_text: {predicted_alt_text}")
+#     pprint(f"correct_alt_text: {state.correct_alt_text}")
 
-    return {"ai_predicted_alt_text": predicted_alt_text}
+#     return {"ai_predicted_alt_text": predicted_alt_text}
 
 def generate_alt_text_llava(state: State):
     ans = llava_chatbot.continue_chat(
