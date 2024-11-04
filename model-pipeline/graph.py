@@ -21,54 +21,83 @@ from prompts import role_identifier_prompt, alt_text_prompts, context_extractor_
 
 memory = SqliteSaver.from_conn_string(":memory:")
 
+
 # GET IMAGE CONTEXT
-def get_image_context(state: State):
-    # Summarize the whole document text into usable context/intent
-    print("Summarizing the context of the website with GPT-4o Mini...")
-    whole_text = state.input_context
+# def get_image_context(state: State):
+#     # Summarize the whole document text into usable context/intent
+#     print("Summarizing the context of the website with GPT-4o Mini...")
+#     whole_text = state.input_context
 
-    context_extractor_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.2)
-    context_extractor_prompt_template = PromptTemplate.from_template(context_extractor_prompt)
-    context_extractor_output_parser = StrOutputParser()
+#     context_extractor_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.2)
+#     context_extractor_prompt_template = PromptTemplate.from_template(context_extractor_prompt)
+#     context_extractor_output_parser = StrOutputParser()
 
-    role_identifier_chain = context_extractor_prompt_template | context_extractor_llm | context_extractor_output_parser
-    summarized_context = role_identifier_chain.invoke(whole_text)
+#     role_identifier_chain = context_extractor_prompt_template | context_extractor_llm | context_extractor_output_parser
+#     summarized_context = role_identifier_chain.invoke(whole_text)
 
-    pprint(f"predicted_role: {summarized_context}")
+#     pprint(f"predicted_role: {summarized_context}")
 
-    return {"ai_summarized_context": summarized_context}
+#     return {"ai_summarized_context": summarized_context}
 
-def get_image_context_llava(state: State):
-    print("Getting image context with LLaVA...")
-    print(f"state.input_context: {state.input_context}")
-    ans = llava_chatbot.start_new_chat(
-        prompt=context_extractor_prompt.format(
-            message=state.input_context
-        )
-    )
+# def get_image_context_llava(state: State):
+#     print("Getting image context with LLaVA...")
+#     print(f"state.input_context: {state.input_context}")
+#     ans = llava_chatbot.start_new_chat(
+#         prompt=context_extractor_prompt.format(
+#             message=state.input_context
+#         )
+#     )
 
-    return {"ai_summarized_context": ans}
+#     return {"ai_summarized_context": ans}
 
 # DETERMINE IMAGE WCAG ROLE
 def determine_image_role(state: State):
     print("Determining image role with GPT-4o Mini...")
-    role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
-    role_identifier_prompt_template = PromptTemplate.from_template(role_identifier_prompt)
-    role_identifier_output_parser = StrOutputParser()
+    try:
+        role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
+        # role_identifier_prompt_template = PromptTemplate.from_template(role_identifier_prompt)
+        # role_identifier_output_parser = StrOutputParser()
 
-    role_identifier_chain = role_identifier_prompt_template | role_identifier_llm | role_identifier_output_parser
-    predicted_role = role_identifier_chain.invoke(
-       f"""
-        This is the image you need to identify the role of: {state.input_image_src}\n\n 
-        The image's attributes: {state.input_image_attrs}\n\n 
-        The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
-        The next text after the image appears: {state.input_next_text}\n\n 
-        """
-    )
+        # role_identifier_chain = role_identifier_prompt_template | role_identifier_llm | role_identifier_output_parser
+        # predicted_role = role_identifier_chain.invoke(
+        #    f"""
+        #     This is the image you need to identify the role of: {state.input_image_src}\n\n 
+        #     The image's attributes: {state.input_image_attrs}\n\n 
+        #     The image's <a> or <button> parent: {state.input_a_button_parent}\n\n 
+        #     The next text after the image appears: {state.input_next_text}\n\n 
+        #     """
+        # )
+        predicted_role = role_identifier_llm.invoke(
+            [
+                (
+                    "system",
+                    role_identifier_prompt
+                ),
+                (
+                    "human",
+                    [
+                        {
+                            "type": "image_url", "image_url": {"url": state.input_image_src}
+                        },
+                        {
+                            "type": "text", "text": f"""
+                            The image's attributes: {state.input_image_attrs}\n\n
+                            The image's <a> or <button> parent: {state.input_a_button_parent}\n\n
+                            The next text after the image appears: {state.input_next_text}\n\n
+                            """
+                        }
+                    ]
+                )
+            ]
+        )
 
-    pprint(f"predicted_role: {predicted_role}")
+        pprint(f"predicted_role: {predicted_role}")
 
-    return {"ai_predicted_role": predicted_role}
+        return {"ai_predicted_role": predicted_role.content}
+    except Exception as e:
+        print(e)
+
+    return {"ai_predicted_role": ""}
 
 def determine_image_role_llava(state: State):
     ans = llava_chatbot.start_new_chat(
@@ -157,20 +186,20 @@ def generate_alt_text_llava(state: State):
 workflow = StateGraph(State)
 
 # Add the nodes to the graph
-workflow.add_node("get_image_context", get_image_context)
+# workflow.add_node("get_image_context", get_image_context)
 workflow.add_node("determine_image_role", determine_image_role)
 workflow.add_node("ocr_image", ocr_image)
 workflow.add_node("ner_image", ner_image)
 workflow.add_node("generate_alt_text", generate_alt_text)
 
 # Add the edges to the graph
-workflow.add_edge("get_image_context", "ocr_image")
+# workflow.add_edge("get_image_context", "ocr_image")
 workflow.add_edge("ocr_image", "ner_image")
 workflow.add_edge("ner_image", "determine_image_role")
 workflow.add_edge("determine_image_role", "generate_alt_text")
 
 # Set the entry point
-workflow.set_entry_point("get_image_context")
+workflow.set_entry_point("ocr_image")
 
 # Finally, we compile it!
 # This compiles it into a LangChain Runnable,
