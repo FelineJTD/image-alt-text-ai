@@ -85,11 +85,11 @@ const parseDocument = (doc) => {
 const generateAltTexts = () => {
   console.log("Generating alt texts...");
   const url = window.location.href;
-  console.log(url);
+  console.log("url: ", url);
 
   // Get whole document
   const doc = document.documentElement.outerHTML;
-  parseDocument(doc);
+  const parsedDoc = parseDocument(doc);
 
   // Get images
   const images = document.getElementsByTagName("img");
@@ -101,18 +101,19 @@ const generateAltTexts = () => {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ url: url, doc: doc }),
+    body: JSON.stringify({ url: url, data: parsedDoc }),
   })
     .then((response) => response.json())
     .then((data) => {
+      if (data.error) {
+        throw new Error(data.error);
+      }
       console.log("Success:", data);
 
       // Insert alt text
       for (var i = 0; i < images.length; i++) {
-        console.log(images[i].alt);
         console.log(data[i]);
-        images[i].alt = data[i];
-        console.log(images[i].alt);
+        if (data[i] != "undefined") images[i].alt = data[i];
       }
     })
     .catch((error) => {

@@ -1,4 +1,5 @@
 import uuid
+import json
 from flask import Flask, request, jsonify
 from graph import run_graph
 from flask_cors import CORS
@@ -27,11 +28,11 @@ def generate_alt_text():
     data = request.get_json()
 
     # If the website information is not provided, return an error
-    if (website_info == {} and not data.get('doc')) or not data.get('url'):
-        return jsonify({"error": "Field doc and url required"}), 400
+    if (website_info == {} and not data.get('data')) or not data.get('url'):
+        return jsonify({"error": "Field data and url required"}), 400
     
     # Parse the document and get the website information
-    website_info = parse_document(data.get('doc'))
+    website_info = data.get('data')
     print(website_info)
 
     # Initialize the results list

@@ -79,7 +79,7 @@ def determine_image_role(state: State):
             ]
         )
 
-        pprint(f"predicted_role: {predicted_role}")
+        pprint(f"predicted_role: {predicted_role.content}")
 
         return {"ai_predicted_role": predicted_role.content}
     except Exception as e:
@@ -169,7 +169,6 @@ def generate_alt_text(state: State):
         )
 
         pprint(f"predicted_alt_text: {predicted_alt_text.content}")
-        pprint(f"cached_tokens: {predicted_alt_text.usage_metadata.input_token_details.cache_read}")
 
         return {"ai_predicted_alt_text": predicted_alt_text.content}
     except Exception as e:
