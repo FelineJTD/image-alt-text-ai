@@ -1,20 +1,30 @@
 {
   "manifest_version": 3,
-  "permissions": ["activeTab", "scripting"],
+  "name": "AI Alt Text Generator",
+  "description": "Fill in the blanks of alt text and understand the web better.",
   "version": "1.0",
-  "name": "Image Alt Text Generator",
+
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
+
+  "permissions": ["activeTab", "scripting"],
+
   "content_scripts": [
     {
-      "matches": ["https://journal.feliciasutandijo.my.id/*"],
+      "matches": ["http://*/*", "https://*/*"],
       "js": ["main.js"]
     }
   ],
+
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+    "default_popup": "popup.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "alt-text-gen@feliciasutandijo.my.id"
     }
   }
 }

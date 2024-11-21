@@ -34,7 +34,7 @@ if __name__ == "__main__":
     random.shuffle(filenames)
 
     # Loop through each JSON file in the directory
-    for filename in os.listdir(json_dir)[0:50]:
+    for filename in os.listdir(json_dir)[1:10]:
         if filename.endswith(".json"):
             try:
                 # Read the JSON file
@@ -45,35 +45,39 @@ if __name__ == "__main__":
                 whole_text = data["text"]
                 sub_images = data["images"]
 
-                # for image in sub_images[0]:
-                final_state = generate_alt_text_call({
-                    "input_image_src": sub_images[0]["src"],
-                    "input_image_filename": sub_images[0]["file_name"],
-                    "input_context": whole_text,
-                    "input_image_attrs": sub_images[0]["attrs"],
-                    "input_a_button_parent": sub_images[0]["a_button_parent"],
-                    "input_previous_text": sub_images[0]["previous_text"],
-                    "input_next_text": sub_images[0]["next_text"],
+                results = []
 
-                    "correct_role": sub_images[0]["role"],
-                    "correct_alt_text": sub_images[0]["alt"],
+                for image in sub_images:
+                    final_state = generate_alt_text_call({
+                        "input_image_src": image["src"],
+                        "input_image_filename": image["file_name"],
+                        "input_context": whole_text,
+                        "input_image_attrs": image["attrs"],
+                        "input_a_button_parent": image["a_button_parent"],
+                        "input_previous_text": image["previous_text"],
+                        "input_next_text": image["next_text"],
 
-                    "ai_predicted_role": "",
-                    "ai_summarized_context": "",
-                    "ai_extracted_text": "",
-                    "ai_extracted_entities": {},
-                    "ai_predicted_alt_text": "",
-                })
+                        "correct_role": image["role"],
+                        "correct_alt_text": image["alt"],
 
-                if (final_state["ai_predicted_role"]).lower() != "":
-                    if (final_state["ai_predicted_role"]).lower() == sub_images[0]["role"]:
-                        correct_roles += 1
-                    else:
-                        incorrect_roles += 1
+                        "ai_predicted_role": "",
+                        "ai_summarized_context": "",
+                        "ai_extracted_text": "",
+                        "ai_extracted_entities": {},
+                        "ai_predicted_alt_text": "",
+                    })
+
+                    if (final_state["ai_predicted_role"]).lower() != "":
+                        if (final_state["ai_predicted_role"]).lower() == image["role"]:
+                            correct_roles += 1
+                        else:
+                            incorrect_roles += 1
+
+                    results.append(final_state)
 
                 # Save the final state to a JSON file
-                with open(f"./output-images/{filename}", "w") as file:
-                    json.dump(final_state, file, indent=4)
+                with open(f"./output-all/{filename}", "w") as file:
+                    json.dump(results, file, indent=4)
 
             except Exception as e:
                 print(str(e))

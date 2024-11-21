@@ -12,8 +12,9 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
-# from PIL import Image
-# import pytesseract
+from PIL import Image
+import pytesseract
+import requests
 
 from states import State
 
@@ -111,13 +112,16 @@ def ocr_image(state: State):
     """
     # # Load the image from the path specified in the state
     # image_path = state.input_image_src
-    # image = Image.open(image_path)
-    
+
+    # # Download the image from the URL
+    # image = Image.open(requests.get(image_path, stream=True).raw)
+
     # # Perform OCR on the image
     # extracted_text = pytesseract.image_to_string(image)
+    # pprint(f"Extracted text: {extracted_text}")
     
     # # Update the state with the extracted text
-    # state.extracted_text = extracted_text
+    # state.ai_extracted_text = extracted_text
 
     # return state
     pass

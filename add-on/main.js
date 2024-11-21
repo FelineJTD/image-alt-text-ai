@@ -4,7 +4,9 @@
 console.log("Alt text add-on working");
 
 // Backend URL
-const backendURL = "http://localhost:5000";
+const BACKEND_URL = "http://localhost:5000";
+
+const MAX_IMAGES = 30;
 
 // Parse Document
 const parseDocument = (doc) => {
@@ -28,7 +30,7 @@ const parseDocument = (doc) => {
 
   const imagesInfo = [];
 
-  images.forEach((image, i_image) => {
+  images.slice(0, MAX_IMAGES).forEach((image, i_image) => {
     try {
       // GET RELEVANT DATA OF THE IMAGE
 
@@ -96,7 +98,7 @@ const generateAltTexts = () => {
   console.log(images);
 
   // Send data to backend
-  fetch(backendURL, {
+  fetch(BACKEND_URL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
