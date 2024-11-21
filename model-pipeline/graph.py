@@ -229,18 +229,19 @@ workflow = StateGraph(State)
 # Add the nodes to the graph
 # workflow.add_node("get_image_context", get_image_context)
 workflow.add_node("determine_image_role", determine_image_role)
-workflow.add_node("ocr_image", ocr_image)
-workflow.add_node("ner_image", ner_image)
-workflow.add_node("generate_alt_text", generate_alt_text)
+# workflow.add_node("ocr_image", ocr_image)
+# workflow.add_node("ner_image", ner_image)
+# workflow.add_node("generate_alt_text", generate_alt_text)
 
 # Add the edges to the graph
 # workflow.add_edge("get_image_context", "ocr_image")
-workflow.add_edge("ocr_image", "ner_image")
-workflow.add_edge("ner_image", "determine_image_role")
-workflow.add_edge("determine_image_role", "generate_alt_text")
+# workflow.add_edge("ocr_image", "ner_image")
+# workflow.add_edge("ner_image", "determine_image_role")
+# workflow.add_edge("determine_image_role", "generate_alt_text")
 
 # Set the entry point
-workflow.set_entry_point("ocr_image")
+# workflow.set_entry_point("ocr_image")
+workflow.set_entry_point("determine_image_role")
 
 # Finally, we compile it!
 # This compiles it into a LangChain Runnable,

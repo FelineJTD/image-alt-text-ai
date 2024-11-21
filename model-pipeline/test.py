@@ -34,7 +34,7 @@ if __name__ == "__main__":
     random.shuffle(filenames)
 
     # Loop through each JSON file in the directory
-    for filename in os.listdir(json_dir)[1:10]:
+    for filename in os.listdir(json_dir)[0:1]:
         if filename.endswith(".json"):
             try:
                 # Read the JSON file
@@ -76,7 +76,7 @@ if __name__ == "__main__":
                     results.append(final_state)
 
                 # Save the final state to a JSON file
-                with open(f"./output-all/{filename}", "w") as file:
+                with open(f"./output-role-identifier/{filename}", "w") as file:
                     json.dump(results, file, indent=4)
 
             except Exception as e:
