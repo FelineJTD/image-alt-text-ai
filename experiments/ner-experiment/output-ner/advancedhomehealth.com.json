@@ -1,0 +1,75 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "TODAY",
+            "2020"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "Pittsburgh",
+            "PA",
+            "Pittsburgh",
+            "PA"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "Western Pennsylvania"
+        ],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Advanced Home Health",
+            "Advanced",
+            "Home Health Private Care",
+            "Advanced Home Health and Palliative Care LLCbottom"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Jill",
+            "Vicki F.All",
+            "Vittoria D."
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [
+            "100 Ryan Court, Suite 22 Pittsburgh, PA 15205"
+        ],
+        "GPE": [
+            "Pittsburgh",
+            "Pennsylvania"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Advanced Home Health and Palliative Care LLC",
+            "Advanced Home Health"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Richard A.",
+            "David (PT)",
+            "Jill (Nurse)",
+            "Vicki F.",
+            "Vittoria D."
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

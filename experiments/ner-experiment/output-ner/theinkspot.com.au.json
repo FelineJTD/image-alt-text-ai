@@ -1,0 +1,59 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "the Sunshine Coast",
+            "Maroochydore"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Sunshine Coast",
+            "Freight     "
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "Unit 4, 123 Sugar Road, Maroochydore"
+        ],
+        "GPE": [
+            "Sunshine Coast"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Sunshine Coast Printers",
+            "The Inkspot Printers"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

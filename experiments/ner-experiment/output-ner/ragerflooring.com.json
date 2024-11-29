@@ -1,0 +1,153 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "one",
+            "more than 800",
+            "at least 0",
+            "no more than 256",
+            "at least 0",
+            "no more than 256"
+        ],
+        "DATE": [
+            "1958",
+            "60 Day",
+            "60 Day",
+            "1989",
+            "years",
+            "60 Day",
+            "Mon-Fri",
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "Myrtle Ave"
+        ],
+        "GPE": [
+            "Monrovia",
+            "CA",
+            "AveMonrovia",
+            "CA"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "Southern California"
+        ],
+        "MONEY": [],
+        "NORP": [
+            "American"
+        ],
+        "ORDINAL": [],
+        "ORG": [
+            "IJ Rager Floor Covering",
+            "Ij Rager Floor Covering",
+            "Alexander Smith",
+            "Hardwood Hardwood Brands",
+            "Hardwood Hardwood Care",
+            "Alexander Smith",
+            "American Showcase",
+            "Mohawk      ",
+            "Alexander Smith",
+            "Mohawk      Shaw       ",
+            "American Showcase",
+            "Alexander Smith",
+            "COREtec\u00ae      ",
+            "Hardwood     ",
+            "IJ Rager",
+            "IJ Rager",
+            "Rager",
+            "Carpet            Shop Hardwood",
+            "Hardwood            ",
+            "Browse Laminate            Shop",
+            "Tile & Stone            ",
+            "Alexander Smith",
+            "American Showcase",
+            "Legendary Beauty",
+            "Mohawk",
+            "Shaw",
+            "Armstrong",
+            "Congoleum",
+            "Legacy",
+            "Bruce",
+            "Teragren",
+            "Natural Cork",
+            "Mullican",
+            "Abbey"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "Infinity"
+        ],
+        "QUANTITY": [],
+        "TIME": [
+            "8:30 - 5:00  Sat &"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "1958",
+            "1989",
+            "800",
+            "0",
+            "256",
+            "0",
+            "256",
+            "0",
+            "256"
+        ],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [
+            "IJ Rager Floor Covering",
+            "918 S Myrtle Ave Monrovia CA",
+            "Showroom"
+        ],
+        "GPE": [
+            "Southern California",
+            "CA"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Abbey Carpet & Floor",
+            "Alexander Smith",
+            "American Showcase",
+            "Legendary Beauty",
+            "Infinity",
+            "Mohawk",
+            "Shaw",
+            "Armstrong",
+            "Congoleum",
+            "Legacy",
+            "Bruce",
+            "Teragren",
+            "Natural Cork",
+            "Mullican"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "Carpet",
+            "Hardwood",
+            "Laminate",
+            "Tile",
+            "Stone",
+            "Ceramic",
+            "Porcelain",
+            "Granite",
+            "Slate",
+            "Vinyl"
+        ],
+        "QUANTITY": [],
+        "TIME": [
+            "8:30 - 5:00"
+        ],
+        "WORK_OF_ART": []
+    }
+}

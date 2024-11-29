@@ -1,0 +1,62 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "three"
+        ],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "European"
+        ],
+        "ORDINAL": [],
+        "ORG": [
+            "Crucial PointMenuAbout",
+            "FFIEC",
+            "LinkedIn",
+            "OODA LLC",
+            "LoopOODA",
+            "OODA LLCSearch"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Bob GourleyAnnouncementsCorporate"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [
+            "Health Insurance Portability and Accountability Act (HIPAA)"
+        ],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Crucial Point LLC",
+            "OODA LLC"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Bob Gourley"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

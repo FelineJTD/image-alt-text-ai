@@ -1,0 +1,165 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "just one",
+            "One",
+            "4",
+            "1",
+            "one",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "DATE": [
+            "Daily",
+            "15 Years",
+            "the Year",
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "Friedrich-Ebert-Stra\u00dfe"
+        ],
+        "GPE": [
+            "Germany",
+            "Frankfurt",
+            "Marburg",
+            "Germany",
+            "Frankfurt",
+            "Germany",
+            "Marburg",
+            "Germany",
+            "Frankfurt",
+            "Kitzingen"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "German",
+            "German",
+            "German",
+            "German"
+        ],
+        "ORDINAL": [
+            "1st"
+        ],
+        "ORG": [
+            "Ecommerce                         Wholesale                         Food                         ",
+            "Project Management                         ",
+            "weclapp",
+            "weclapp",
+            "weclapp",
+            "Amazon",
+            "eBay",
+            "kaufland.de+",
+            "ECommerce                        Wholesale                        Food                        ",
+            "Production                        Medicine & Pharma                            ",
+            "weclapp",
+            "IcoSense",
+            "Germanyweclapp",
+            "weclapp",
+            "weclapp",
+            "weclappAbout",
+            "TopicsCloud",
+            "weclapp"
+        ],
+        "PERCENT": [
+            "99.5%",
+            "Up to 80%",
+            "80%",
+            "Up to 20%",
+            "20%",
+            "Up to 50%",
+            "50%"
+        ],
+        "PERSON": [
+            "Manfred AusserbichlerManaging",
+            "Elmar BranschManaging",
+            "Minkenberg Medien",
+            "Thomas AssmannManaging",
+            "Zennio"
+        ],
+        "PRODUCT": [
+            "weclapp",
+            "weclapp",
+            "weclapp",
+            "weclapp",
+            "weclapp",
+            "weclapp",
+            "weclapp",
+            "weclapp",
+            "weclapp",
+            "weclapp",
+            "weclapp",
+            "weclapp"
+        ],
+        "QUANTITY": [],
+        "TIME": [
+            "840 hours"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [
+            "data center",
+            "data center in Frankfurt"
+        ],
+        "GPE": [
+            "Germany"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "Marburg",
+            "Kitzingen"
+        ],
+        "MONEY": [],
+        "NORP": [
+            "German"
+        ],
+        "ORDINAL": [
+            "1st"
+        ],
+        "ORG": [
+            "weclapp",
+            "IcoSense",
+            "Minkenberg Medien",
+            "Zennio"
+        ],
+        "PERCENT": [
+            "99.5%",
+            "80%",
+            "20%",
+            "50%",
+            "840 h",
+            "4 times"
+        ],
+        "PERSON": [
+            "Manfred Ausserbichler",
+            "Elmar Bransch",
+            "Thomas Assmann"
+        ],
+        "PRODUCT": [
+            "Cloud ERP",
+            "Cloud CRM",
+            "CRM-Software",
+            "Project Management Software",
+            "Accounting Software",
+            "Merchandise Management System",
+            "Warehouse Management System",
+            "Contract Management",
+            "Helpdesk",
+            "Mobile Warehouse App"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

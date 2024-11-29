@@ -1,0 +1,120 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "2",
+            "2",
+            "thousands",
+            "two",
+            "5",
+            "one",
+            "5"
+        ],
+        "DATE": [
+            "35 years",
+            "June",
+            "National Safety Month",
+            "today",
+            "the day",
+            "today",
+            "World Health Day",
+            "today",
+            "today",
+            "National Random Acts of Kindness Day",
+            "Mon - Fri:",
+            "Sat"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [
+            "the First Aid at Work Regulations"
+        ],
+        "LOC": [
+            "the South East"
+        ],
+        "MONEY": [
+            "0.00",
+            "0.00"
+        ],
+        "NORP": [],
+        "ORDINAL": [
+            "First",
+            "First",
+            "first",
+            "first",
+            "first",
+            "first",
+            "first"
+        ],
+        "ORG": [
+            "Ofsted",
+            "FAIB",
+            "The First Aid Industry Body Approval and Monitoring Systems",
+            "FAIB",
+            "FAIB",
+            "FAIB",
+            "Google",
+            "Acute First Aid"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Ruth Croucher"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [
+            "9:00-18:00",
+            "9:00-12:30"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "35",
+            "2",
+            "5"
+        ],
+        "DATE": [
+            "June",
+            "National Safety Month",
+            "World Health Day",
+            "National Random Acts of Kindness Day"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "South East"
+        ],
+        "LANGUAGE": [],
+        "LAW": [
+            "First Aid at Work Regulations",
+            "Ofsted approval"
+        ],
+        "LOC": [],
+        "MONEY": [
+            "\u00a30.00"
+        ],
+        "NORP": [],
+        "ORDINAL": [
+            "first"
+        ],
+        "ORG": [
+            "Acute First Aid",
+            "FAIB"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Ruth Croucher"
+        ],
+        "PRODUCT": [
+            "CPR & AED E-LEARNING COURSE"
+        ],
+        "QUANTITY": [],
+        "TIME": [
+            "9:00-18:00",
+            "9:00-12:30"
+        ],
+        "WORK_OF_ART": []
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "Hundreds"
+        ],
+        "DATE": [
+            "38 YEARS IN BUSINESS",
+            "1985",
+            "my wedding day",
+            "Over 37 Years",
+            "the last 38 years",
+            "weekly"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "Canton",
+            "MA",
+            "New England's"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Chryssie\u2019s Bridal - Boston",
+            "Chryssie\u2019s",
+            "Chryssie's",
+            "Chryssie's",
+            "CHRYSSIE\u2019S BRIDAL",
+            "Our Canton Bridal Boutique",
+            "Knot",
+            "Chryssie\u2019s Bridal",
+            "BRIDAL GOWNSAT CHRYSSIE\u2019S",
+            "FacebookInstagramTiktokPinterest"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Joanna",
+            "Anjali S"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "38",
+            "38"
+        ],
+        "DATE": [
+            "1985",
+            "last 38 years"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "Bridal Shop in Canton, MA"
+        ],
+        "GPE": [
+            "Boston",
+            "MA"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Chryssie\u2019s Bridal",
+            "New England's Premier Bridal Boutique",
+            "The Knot"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Chryssie",
+            "Joanna",
+            "Anjali S"
+        ],
+        "PRODUCT": [
+            "Bridal Gown",
+            "Bridesmaid Gowns"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

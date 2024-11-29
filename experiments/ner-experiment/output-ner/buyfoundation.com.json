@@ -1,0 +1,165 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "(303)",
+            "(303)-442-1114",
+            "2023",
+            "(720) 541-5388",
+            "(720)",
+            "(720) 310-8768",
+            "(720) 773-5235",
+            "(983)",
+            "(303)",
+            "(303) 421-0100",
+            "(720)",
+            "(983)",
+            "(303) 421-0100"
+        ],
+        "DATE": [
+            "today",
+            "this year"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "Colorado",
+            "Wheat Ridge",
+            "CO",
+            "Denver",
+            "Lakewood",
+            "Colorado",
+            "BOULDER",
+            "CASTLE ROCK",
+            "North Directions",
+            "Wheat Ridge",
+            "CO",
+            "Westminster",
+            "Wheat Ridge",
+            "Colorado",
+            "North Wheat Ridge",
+            "CO",
+            "castlerock",
+            "CO",
+            "Boulder",
+            "CO",
+            "CO",
+            "North Wheat Ridge",
+            "CO",
+            "Westminster",
+            "CO",
+            "North Wheat Ridge",
+            "CO",
+            "CO"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "up to $250"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Foundation Auto",
+            "Cadillac",
+            "Chevrolet",
+            "Hyundai",
+            "Kia",
+            "Kia Tire Center",
+            "GM Tire Center",
+            "Chevrolet",
+            "Cadillac",
+            "Kia",
+            "Hyundai",
+            "Hyundai",
+            "Chevrolet       ",
+            "Castle Rock Chevrolet",
+            "GMC",
+            "Foundation Chevrolet",
+            "GMC       ",
+            "Castle Rock Chevrolet",
+            "Hyundai       ",
+            "Foundation Hyundai of Boulder",
+            "Kia       ",
+            "Hertz Car Sales",
+            "Foundation Auto Colorado",
+            "Foundation Auto Colorado",
+            "Foundation Auto Colorado",
+            "CarMax",
+            "Chevrolet",
+            "Cadillac",
+            "Hyundai",
+            "Kia",
+            "Foundation Auto Colorado",
+            "Castle Rock",
+            "Chevrolet",
+            "Hyundai of Boulder",
+            "Chevrolet",
+            "Hyundai",
+            "Kia"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [
+            "Monday9AM - 8PMTuesday9AM - 8PMWednesday9AM"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "303",
+            "442",
+            "720",
+            "250"
+        ],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [
+            "Foundation Auto Colorado Dealership",
+            "Foundation Hyundai of Boulder",
+            "Castle Rock Chevrolet GMC"
+        ],
+        "GPE": [
+            "Colorado",
+            "Wheat Ridge",
+            "Denver",
+            "Lakewood",
+            "Boulder",
+            "Westminster",
+            "Castle Rock"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "I-70 Frontage Road North"
+        ],
+        "MONEY": [
+            "$250"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Foundation Auto Colorado",
+            "Foundation Hyundai",
+            "Foundation Kia",
+            "Foundation Chevrolet",
+            "Foundation Cadillac"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "New Vehicles",
+            "New Truck Inventory",
+            "New SUV Inventory",
+            "Certified Inventory",
+            "Electric Vehicle Inventory"
+        ],
+        "QUANTITY": [],
+        "TIME": [
+            "9AM"
+        ],
+        "WORK_OF_ART": []
+    }
+}

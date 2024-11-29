@@ -1,0 +1,128 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "2-3 days",
+            "1-2 days",
+            "1-2 working days",
+            "Christmas",
+            "Christmas",
+            "6 monthsStill",
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "35",
+            "0.00",
+            "0.00",
+            "10.49",
+            "17.99",
+            "10.49",
+            "35",
+            "-\u00a33.49,\u00a02-3 days",
+            "4.50"
+        ],
+        "NORP": [
+            "European"
+        ],
+        "ORDINAL": [
+            "2nd"
+        ],
+        "ORG": [
+            "Popaball",
+            "Royal Mail",
+            "Royal Mail",
+            "Royal Mail",
+            "DHL",
+            "Popaball"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "Chrismas"
+        ],
+        "QUANTITY": [
+            "3kg"
+        ],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "35",
+            "0.00",
+            "10.49",
+            "17.99",
+            "10.49",
+            "3",
+            "3",
+            "1",
+            "2"
+        ],
+        "DATE": [
+            "Christmas",
+            "6 months"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "European"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "\u00a335",
+            "\u00a310.49",
+            "\u00a317.99",
+            "\u00a33.49",
+            "\u00a34.49",
+            "\u00a34.50"
+        ],
+        "NORP": [],
+        "ORDINAL": [
+            "1",
+            "2"
+        ],
+        "ORG": [
+            "Popaball"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "Prosecco",
+            "Gin Gift Sets",
+            "Glitter Gin Liqueur Gift Set",
+            "Drink Shimmers",
+            "Flavoured",
+            "Flavourless",
+            "Single Bubbles",
+            "Trio Bubbles",
+            "Shimmer Bubbles",
+            "Rhubarb & Orange",
+            "Cassis",
+            "Peach Melba",
+            "Pink Pegasus",
+            "Crystal Gold",
+            "Love Potion",
+            "Pink Gin and Tonic Gin Gift Set",
+            "Bubbles with Vodka and Mixer Gift Set",
+            "Drink Shimmer with Bubbles and G&T Gift Set"
+        ],
+        "QUANTITY": [
+            "3kg"
+        ],
+        "TIME": [
+            "2-3 days",
+            "1-2 days",
+            "2-3 days",
+            "1-2 working days"
+        ],
+        "WORK_OF_ART": []
+    }
+}

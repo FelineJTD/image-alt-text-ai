@@ -1,0 +1,62 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "the whole year 'round",
+            "winter",
+            "Easter"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "Belgian",
+            "Belgian"
+        ],
+        "ORDINAL": [
+            "third"
+        ],
+        "ORG": [],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "donufestoBerry"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "La Lorraine Bakery Group"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "donuts",
+            "strawberry filling & white chocolate",
+            "strawberry filling & chocolate top",
+            "crystal sugar"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

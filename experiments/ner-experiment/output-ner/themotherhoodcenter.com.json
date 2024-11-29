@@ -1,0 +1,128 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "one",
+            "1",
+            "5",
+            "1",
+            "1",
+            "5",
+            "1",
+            "1",
+            "5",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "one"
+        ],
+        "DATE": [
+            "Day",
+            "Day",
+            "Day",
+            "Day",
+            "today",
+            "up to one year",
+            "2024",
+            "today",
+            "today"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "New York City",
+            "U.S.",
+            "New York City",
+            "U.S.",
+            "New York City",
+            "U.S.",
+            "New York",
+            "NY"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "The Motherhood Center",
+            "The Motherhood Center",
+            "The Motherhood Center",
+            "Nature",
+            "Nature",
+            "The Motherhood Center",
+            "the Perinatal Day Program",
+            "The Motherhood Center",
+            "Our Day Program",
+            "the Day Program",
+            "Day Program",
+            "The Motherhood Center",
+            "The Motherhood Center",
+            "The Motherhood Center",
+            "The Motherhood Center",
+            "The Motherhood Center",
+            "The Motherhood Center",
+            "The Motherhood Center",
+            "the Day Program",
+            "The Motherhood Center"
+        ],
+        "PERCENT": [
+            "50%",
+            "20%",
+            "20%",
+            "Up to 80%"
+        ],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "1",
+            "5",
+            "50",
+            "20"
+        ],
+        "DATE": [
+            "2024",
+            "one year postpartum"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "The Motherhood Center",
+            "205 Lexington Ave 10th Floor"
+        ],
+        "GPE": [
+            "New York City",
+            "U.S."
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "LGBTQIA+",
+            "mothers",
+            "birthing people",
+            "women"
+        ],
+        "ORDINAL": [],
+        "ORG": [
+            "Nature"
+        ],
+        "PERCENT": [
+            "20%"
+        ],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

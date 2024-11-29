@@ -1,0 +1,152 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "one",
+            "110",
+            "110",
+            "36",
+            "16"
+        ],
+        "DATE": [
+            "August\u00a08",
+            "Today",
+            "AUGUST",
+            "August\u00a08",
+            "August",
+            "6\u00a0months",
+            "Aug08",
+            "August",
+            "2024",
+            "Aug21",
+            "August",
+            "21\u00a0&",
+            "22,\u00a02024",
+            "Aug26",
+            "August\u00a026",
+            "Tuesday, July 30, 2024",
+            "Monday, July 29, 2024",
+            "Thursday, July 25, 2024",
+            "Wednesday, June 26, 2024",
+            "Tuesday, June 25, 2024"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "River Falls CampusIf"
+        ],
+        "GPE": [
+            "Eau Claire",
+            "Eau",
+            "Claire",
+            "WI"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [
+            "third",
+            "first"
+        ],
+        "ORG": [
+            "Chippewa Valley Technical College",
+            "Chippewa Valley Technical College",
+            "CVTC",
+            "Chippewa Valley Technical College",
+            "Chippewa Valley Technical College",
+            "CVTCPay",
+            "CVTC.edu",
+            "Chippewa Valley Technical College",
+            "Chippewa Valley Technical College",
+            "CVTC.edu",
+            "CVTC",
+            "CVTCPay",
+            "CVTC",
+            "Business Education Center",
+            "CVTC",
+            "CVTC",
+            "SalaryCVTC",
+            "OfferingsCVTC",
+            "CVTC",
+            "CVTC",
+            "CVTC",
+            "CVTC",
+            "AHEC Scholars",
+            "ACEN",
+            "CVTC",
+            "EC",
+            "CVTC",
+            "White House",
+            "CVTC",
+            "CVTC",
+            "Chippewa Valley Technical College",
+            "CVTC",
+            "Chippewa Valley Technical"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [
+            "3\u00a0-\u00a07",
+            "3 \u2013 7 p.m."
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "110",
+            "36",
+            "16",
+            "54",
+            "95"
+        ],
+        "DATE": [
+            "August 8",
+            "August 26",
+            "August 21 & 22, 2024",
+            "Tuesday, July 30, 2024",
+            "Monday, July 29, 2024",
+            "Thursday, July 25, 2024",
+            "Wednesday, June 26, 2024",
+            "Tuesday, June 25, 2024"
+        ],
+        "EVENT": [
+            "Fast Pass",
+            "Instructor In-Service",
+            "Fall Classes Begin"
+        ],
+        "FAC": [
+            "Chippewa Valley Technical College",
+            "Business Education Center",
+            "River Falls Campus"
+        ],
+        "GPE": [
+            "Eau Claire, WI"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "$54K",
+            "$54,110"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "CVTC",
+            "ACEN"
+        ],
+        "PERCENT": [
+            "95%"
+        ],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [
+            "3 PM",
+            "7 PM"
+        ],
+        "WORK_OF_ART": []
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "one",
+            "five"
+        ],
+        "DATE": [
+            "1 yearType",
+            "1 dayType",
+            "180 daysType",
+            "1 dayType",
+            "2 yearsType",
+            "2 yearsType",
+            "1 dayType",
+            "1 dayType",
+            "1 dayType",
+            "180 daysType",
+            "180 daysType",
+            "1 yearType",
+            "3 monthsType",
+            "two years running",
+            "the next 12 months",
+            "May 2018",
+            "October 7th 2022"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "US"
+        ],
+        "LANGUAGE": [],
+        "LAW": [
+            "the Cookie Declaration",
+            "GDPR",
+            "GDPR Compliance Experts",
+            "General Data Protection Regulation",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR Audit",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "GDPR",
+            "Schrems II",
+            "Schrems 2",
+            "Schrems 2",
+            "Schrems 2 ruling",
+            "GDPR",
+            "GDPR",
+            "the European Union-US Data Privacy Framework"
+        ],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [
+            "first",
+            "third",
+            "first",
+            "third",
+            "third",
+            "third"
+        ],
+        "ORG": [
+            "Cloudflare",
+            "WordPress",
+            "Google Analytics",
+            "Google Analytics",
+            "Hubspot",
+            "LinkedIn",
+            "GDPR",
+            "GDPR",
+            "Tacita",
+            "Tacita",
+            "Tacita",
+            "Tacita",
+            "Tacita",
+            "ChairmanPhocas SoftwareTacita",
+            "Phocas Software",
+            "Tacita",
+            "Sysco",
+            "Tacita",
+            "CEOPushFarTacita",
+            "Tacita",
+            "PushFar",
+            "Tacita",
+            "CEOPrison Advice",
+            "Tacita",
+            "ManagerAPI3Tacita",
+            "Tacita",
+            "the European Union",
+            "EU",
+            "EU",
+            "Tacita Limited"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Paul Magee",
+            "Ed Johnson",
+            "Andy Keen-Downs",
+            "Mark Fitzgibbon",
+            "Biden"
+        ],
+        "PRODUCT": [
+            "CMP",
+            "Pixel",
+            "Tacita",
+            "Privacy Shield 2.0",
+            "the Privacy Shield 2.0"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": [
+            "The Importance of Assessing Organizations\u2019 GDPR",
+            "GDPR"
+        ]
+    },
+    "gpt": {
+        "CARDINAL": [
+            "10",
+            "1",
+            "1",
+            "1",
+            "8",
+            "1",
+            "2",
+            "3",
+            "1",
+            "5",
+            "2",
+            "2",
+            "1",
+            "1",
+            "180",
+            "2",
+            "1",
+            "1",
+            "1",
+            "12"
+        ],
+        "DATE": [
+            "7/27/24",
+            "May 2018",
+            "October 7th 2022"
+        ],
+        "EVENT": [
+            "Schrems II"
+        ],
+        "FAC": [],
+        "GPE": [
+            "European Union",
+            "US"
+        ],
+        "LANGUAGE": [],
+        "LAW": [
+            "General Data Protection Regulation"
+        ],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "European Union"
+        ],
+        "ORDINAL": [
+            "first",
+            "second"
+        ],
+        "ORG": [
+            "Tacita",
+            "Phocas Software",
+            "Sysco Corporation",
+            "PushFar",
+            "Prison Advice and Care Trust",
+            "API3"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Paul Magee",
+            "Ellis Bryant",
+            "Ed Johnson",
+            "Andy Keen-Downs",
+            "Mark Fitzgibbon"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "ONE",
+            "4.9",
+            "5",
+            "47",
+            "ONE",
+            "4.9",
+            "5",
+            "47"
+        ],
+        "DATE": [
+            "today",
+            "today",
+            "Years since",
+            "the past 28 years",
+            "28 Years",
+            "1996",
+            "today",
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "US",
+            "Texas"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Home Solutions",
+            "New Equipment",
+            "New Equipment  7000 Series Uni-Claim\u2122 1000 Series Uni-Plate\u2122 3000 Series Uni-Queue\u2122 9000 Series",
+            "Home Solutions  ",
+            "Unified Supply",
+            "Unified Supply",
+            "Unified Supply",
+            "Unified Supply",
+            "Unified Supply",
+            "Unified Supply",
+            "JSM Airport Services",
+            "Unified Supply",
+            "Unified Supply",
+            "Unified Supply",
+            "JSM Airport Services",
+            "Unified Supply",
+            "Unified Supply",
+            "Unified Supply",
+            "JSM Airport Services",
+            "Unified Supply",
+            "Unified Supply",
+            "Webtec"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Mike Conner",
+            "Kenneth Landrus     GEG",
+            "Jacob Schobel",
+            "Mike Conner",
+            "Kenneth Landrus     GEG",
+            "Jacob Schobel",
+            "Mike Conner",
+            "Kenneth Landrus     GEG"
+        ],
+        "PRODUCT": [
+            "U1 Flat Plate",
+            "U1 Flat Plate"
+        ],
+        "QUANTITY": [],
+        "TIME": [
+            "24 hours"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "7000",
+            "1000",
+            "3000",
+            "9000",
+            "4.9",
+            "5",
+            "47",
+            "4.7",
+            "28",
+            "1996"
+        ],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [
+            "Baggage Carousel",
+            "Unified Supply",
+            "Airport"
+        ],
+        "GPE": [
+            "Texas"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Unified Supply",
+            "JSM Airport Services"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Mike Conner",
+            "Kenneth Landrus",
+            "Jacob Schobel"
+        ],
+        "PRODUCT": [
+            "Uni-Claim\u2122",
+            "Uni-Plate\u2122",
+            "Uni-Queue\u2122",
+            "Uni-Belt\u2122",
+            "U1 Flat Plate"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

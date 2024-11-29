@@ -1,0 +1,157 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "one",
+            "two",
+            "15",
+            "15",
+            "10",
+            "10"
+        ],
+        "DATE": [
+            "0 + Yrs",
+            "months",
+            "2024",
+            "Monthly",
+            "Monthly"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "UK",
+            "UK",
+            "Stoke-on-Trent"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "\u00a3  400",
+            "\u00a3  800",
+            "200",
+            "\u00a3  400"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Ram Digital Marketing Company",
+            "HomeRam ServicesWebsite MarketingRam",
+            "SEORam PPCRam Casino",
+            "Gambling SEORam",
+            "SEORam PPCRam Casino",
+            "Gambling SEORam",
+            "Ram Digital Marketing AgencyWelcome",
+            "Ram",
+            "RAM SEO",
+            "Ram",
+            "RAM Content",
+            "Ram Content",
+            "RAM Web",
+            "RAM Web",
+            "Ram Digital",
+            "Robert",
+            "Ram Digital",
+            "Ram",
+            "Ram Digital",
+            "Automotive    Finance",
+            "Nail Salon",
+            "Crewe     ",
+            "Facebook",
+            "Youtube",
+            "Ram Digital Ltd.",
+            "Google Analytics",
+            "Google Search Console",
+            "Google Search Console"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "MenuHomeRam",
+            "Simon Massey",
+            "Rob",
+            "Jim (TampaJim)",
+            "Rob Passmore",
+            "- Cliff Fontenot",
+            "Nigel Harper",
+            "- Jit Teo",
+            "Chester     ",
+            "seo",
+            "seo",
+            "seo"
+        ],
+        "PRODUCT": [
+            "RAM PPC",
+            "Ram PPC",
+            "Ram Outreach"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "DATE": [
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "UK"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "Crewe",
+            "Chester",
+            "Stafford",
+            "Stoke-on-Trent",
+            "Warrington"
+        ],
+        "MONEY": [
+            "\u00a3 400",
+            "\u00a3 800",
+            "\u00a3 200",
+            "\u00a3 400"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Ram Digital Marketing Company",
+            "Ram Digital Marketing Agency",
+            "Ram Digital Ltd."
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Simon Massey",
+            "Jim (TampaJim)",
+            "Rob Passmore",
+            "Cliff Fontenot",
+            "Nigel Harper",
+            "Jit Teo"
+        ],
+        "PRODUCT": [
+            "SEO",
+            "PPC",
+            "Website Design",
+            "Content",
+            "Medium SEO Package",
+            "Medium Website Design & Development",
+            "Basic SEO Package",
+            "Small Website Design & Development"
+        ],
+        "QUANTITY": [
+            "15",
+            "15",
+            "10"
+        ],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

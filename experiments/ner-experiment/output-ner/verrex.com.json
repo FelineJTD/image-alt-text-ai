@@ -1,0 +1,94 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "six"
+        ],
+        "DATE": [
+            "Home75th",
+            "1947",
+            "2021"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "United States",
+            "New York",
+            "Boston",
+            "Houston",
+            "Los Angeles",
+            "London",
+            "Hong Kong",
+            "Shanghai"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Verrex",
+            "AnniversaryServicesAV Systems",
+            "PressVerrex",
+            "VERREX GLOBAL AV SERVICESAV",
+            "Verrex",
+            "Verrex",
+            "Verrex",
+            "Engineering",
+            "Verrex",
+            "Verrex",
+            "Verrex",
+            "Verrex",
+            "Verrex LLC"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "AV Systems Integration"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "75th",
+            "1947"
+        ],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [
+            "New York",
+            "Boston",
+            "Houston",
+            "Los Angeles",
+            "London",
+            "Hong Kong",
+            "Shanghai"
+        ],
+        "GPE": [
+            "United States"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Verrex"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "AV Systems Design",
+            "AV Systems Integration",
+            "AV Managed Services",
+            "Hybrid Workplace",
+            "AV and UC solutions"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

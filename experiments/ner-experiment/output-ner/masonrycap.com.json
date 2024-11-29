@@ -1,0 +1,80 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "404"
+        ],
+        "DATE": [
+            "Q4 2023",
+            "Q3 2023",
+            "January 2023"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "Charlottesville",
+            "VA"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Masonry Capital",
+            "Masonry Capital",
+            "Masonry Capital Management, LLC",
+            "Masonry All Cap",
+            "Masonry All Cap",
+            "Masonry Capital",
+            "Masonry Capital",
+            "Masonry Capital Management, LLC",
+            "LinkedIn"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Warren Buffett",
+            "Hedgeweek"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [
+            "Q4 2023",
+            "Q3 2023",
+            "January 2023",
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "404 People Place"
+        ],
+        "GPE": [
+            "Charlottesville",
+            "VA"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Masonry Capital Management, LLC",
+            "Masonry Capital"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Warren Buffett"
+        ],
+        "PRODUCT": [
+            "Masonry All Cap Select"
+        ],
+        "QUANTITY": [],
+        "TIME": []
+    }
+}

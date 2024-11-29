@@ -1,0 +1,106 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "one",
+            "2",
+            "More than\u00a0",
+            "15"
+        ],
+        "DATE": [
+            "nearly two decades",
+            "nearly two decades",
+            "nearly two decades",
+            "nearly two decades",
+            "2022"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "0.00",
+            "0.00"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "maei-beauty",
+            "Shop                  About                  ",
+            "Maei MD",
+            "Columbia University",
+            "Maei MD",
+            "Maei MD",
+            "Columbia University",
+            "Maei MD",
+            "Columbia University",
+            "Serum 6 Shop",
+            "Columbia University"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Rebecca Marcus",
+            "Rebecca Marcus",
+            "Marcus",
+            "Marcus",
+            "Rebecca Marcus",
+            "Rebecca Marcus",
+            "Rebecca Marcus",
+            "Marcus",
+            "Marcus",
+            "Rebecca Marcus",
+            "Rebecca Marcus",
+            "Marcus",
+            "Marcus",
+            "Rebecca Marcus",
+            "Rebecca Marcus",
+            "Marcus",
+            "Marcus"
+        ],
+        "PRODUCT": [
+            "Maei MD",
+            "Serum 6",
+            "Maei MD",
+            "Maei MD",
+            "Maei MD"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "6",
+            "15"
+        ],
+        "DATE": [
+            "2022"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "$0.00 USD"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Maei MD",
+            "Columbia University",
+            "MAEI BEAUTY"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Dr. Rebecca Marcus"
+        ],
+        "PRODUCT": [
+            "Serum 6"
+        ],
+        "QUANTITY": [],
+        "TIME": []
+    }
+}

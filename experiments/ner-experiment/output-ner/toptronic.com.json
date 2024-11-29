@@ -1,0 +1,75 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "August",
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "U.S.",
+            "Zealand"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "DollarSwedish"
+        ],
+        "ORDINAL": [],
+        "ORG": [
+            "Toptronic Ltd",
+            "Toptronic Ltd",
+            "Toptronic LtdPowered",
+            "osCommerce"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "T235HT175HPTEL28",
+            "ELCBTEL1TLB",
+            "PolarityT1820TEL11",
+            "TesterT202T1825T1832T824"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "$0.00"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Toptronic Ltd",
+            "osCommerce"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "TAL1825",
+            "T235HT175HPTEL28",
+            "TEL1TLB",
+            "T1820",
+            "T202",
+            "T1832",
+            "T824"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

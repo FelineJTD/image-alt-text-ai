@@ -266,6 +266,9 @@ labels = [{
     "description": "Companies, agencies, institutions, etc."
 }]
 
+# Sort the labels alphabetically
+labels = sorted(labels, key=lambda x: x['label'])
+
 def gpt_ner(text):
     MODEL="gpt-4o-mini"
     client = OpenAI()

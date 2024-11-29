@@ -1,0 +1,102 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "200",
+            "One",
+            "Two",
+            "one",
+            "two",
+            "1"
+        ],
+        "DATE": [
+            "55+",
+            "age 55+",
+            "age 55",
+            "Monday",
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "Tyler",
+            "Tyler",
+            "the East Haven High School",
+            "Tyler",
+            "Tyler",
+            "Tyler"
+        ],
+        "GPE": [
+            "East Haven",
+            "CT",
+            "East Haven",
+            "CT",
+            "East Haven's",
+            "East Haven\u2019s",
+            "East Haven\u2019s",
+            "East Haven",
+            "CT"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "the National Register of Historic Places",
+            "the East Haven High School",
+            "the National Register of Historic Places",
+            "East Haven High School",
+            "MALocal Housing AuthorityLocal",
+            "Tyler"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [
+            "8:00AM to 5:00PMTuesday",
+            "8:00AM to 5:00PMWednesday",
+            "8:00AM to 5:00PMThursday",
+            "8:00AM to 5:00PMFriday",
+            "8:00AM to 5:00PMSaturday: ClosedSunday: Closed"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "55",
+            "1",
+            "2"
+        ],
+        "DATE": [
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "The Tyler",
+            "East Haven High School",
+            "National Register of Historic Places"
+        ],
+        "GPE": [
+            "East Haven, CT"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "The Tyler (A 55+ Community)"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [
+            "8:00AM",
+            "5:00PM"
+        ],
+        "WORK_OF_ART": []
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "1"
+        ],
+        "DATE": [
+            "Wednesday",
+            "ImmediatelyAug 14, 2024Load"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "$20 Million"
+        ],
+        "NORP": [
+            "American"
+        ],
+        "ORDINAL": [
+            "third"
+        ],
+        "ORG": [
+            "2024SportsVikings",
+            "iHeartRadio",
+            "Premiere Networks, Inc."
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Matthew Judon",
+            "Jordan Addison",
+            "Musk",
+            "Jesse"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": [
+            "The Jesse Kelly Show",
+            "The Jesse Kelly ShowContactNewsletterHour",
+            "The Jesse Kelly Show",
+            "The Jesse Kelly Show!You",
+            "The Jesse Kelly Show"
+        ]
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [
+            "Aug 14, 2024",
+            "Aug 15, 2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "US"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "$20 Million"
+        ],
+        "NORP": [
+            "American"
+        ],
+        "ORDINAL": [],
+        "ORG": [
+            "The Jesse Kelly Show",
+            "Premiere Networks, Inc."
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Matthew Judon",
+            "Jordan Addison",
+            "Jesse"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

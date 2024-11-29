@@ -1,0 +1,73 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Donaldson Aerospace IBFBoost",
+            "Donaldson Aerospace Inlet Barrier Filters",
+            "Search\u00a0      ",
+            "Andrea SystemsExperience",
+            "Andrea Systems",
+            "Search\u00a0      ",
+            "Spare PartsSearch",
+            "Search\u00a0            ",
+            "Aeronautic Investments, Inc.",
+            "American Express",
+            "Apple Pay",
+            "Diners Club",
+            "Discover",
+            "Google Pay",
+            "PayPal  ",
+            "Venmo",
+            "Visa",
+            "Aircraft Parts Nation"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "Meta Pay"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Donaldson Aerospace",
+            "Andrea Systems",
+            "Aeronautic Investments, Inc."
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "Aircraft Parts"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

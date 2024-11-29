@@ -1,0 +1,160 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "TODAY",
+            "TODAY",
+            "1999",
+            "6 months",
+            "1 month to 10 years",
+            "a few days",
+            "today",
+            "Jun 7, 2023",
+            "Mar 19, 2020",
+            "1 to 3 weeks",
+            "2 days",
+            "May 5, 2020",
+            "the 4th\u00a0May 2020",
+            "2019",
+            "month6 months12"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "07254107"
+        ],
+        "GPE": [
+            "Hull",
+            "East Yorkshire",
+            "UK",
+            "UK",
+            "UK",
+            "UK",
+            "UK",
+            "UK",
+            "Barrow-Upon-Humber",
+            "North Lincolnshire"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "500",
+            "\u00a315,000 to \u00a315 Million",
+            "\u00a33,000 to 500,000"
+        ],
+        "NORP": [],
+        "ORDINAL": [
+            "Second",
+            "Second",
+            "3rd",
+            "3rd",
+            "3rd",
+            "3rd"
+        ],
+        "ORG": [
+            "Elite Corporate Solutions",
+            "ECS",
+            "Independent Commercial Finance",
+            "INDEPENDENT ADVICE  ",
+            "ECS",
+            "ECS GROUP",
+            "ECS Group",
+            "ECS",
+            "CBILS",
+            "the UK Government",
+            "Hull Office",
+            "Lincoln Office",
+            "ECS Group",
+            "ECS Management Services Limited",
+            "Highgrove",
+            "ECS Management Services Limited",
+            "the Financial Conduct Authority",
+            "ECS Management Services Limited",
+            "Google Search"
+        ],
+        "PERCENT": [
+            "as low as 3%",
+            "100%"
+        ],
+        "PERSON": [
+            "Andy Craggs",
+            "Hannah Orridge",
+            "Hannah Orridge"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [
+            "24 hours"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "01482",
+            "6",
+            "500",
+            "500,000",
+            "3",
+            "24",
+            "1",
+            "3",
+            "2",
+            "100"
+        ],
+        "DATE": [
+            "1999",
+            "Jun 7, 2023",
+            "Mar 19, 2020",
+            "May 5, 2020",
+            "4th May 2020"
+        ],
+        "EVENT": [
+            "Bounce Back Loan Scheme",
+            "BBLS"
+        ],
+        "FAC": [
+            "Highgrove",
+            "32 Franklin Way",
+            "Barrow-Upon-Humber",
+            "North Lincolnshire"
+        ],
+        "GPE": [
+            "UK"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "\u00a315,000",
+            "\u00a315 Million",
+            "\u00a33,000",
+            "\u00a33,000 to 500,000"
+        ],
+        "NORP": [],
+        "ORDINAL": [
+            "first"
+        ],
+        "ORG": [
+            "ECS Group",
+            "ECS Management Services Limited",
+            "Elite Corporate Solutions"
+        ],
+        "PERCENT": [
+            "100%",
+            "3%"
+        ],
+        "PERSON": [
+            "Andy Craggs",
+            "Hannah Orridge"
+        ],
+        "PRODUCT": [
+            "Personal Guarantee Insurance",
+            "Buy To Let Mortgage",
+            "Commercial Mortgage",
+            "Secured Bridging Loans"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

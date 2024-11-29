@@ -1,0 +1,115 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "just one"
+        ],
+        "DATE": [
+            "1925",
+            "95 years",
+            "Today",
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "America",
+            "America",
+            "America"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [
+            "First",
+            "First",
+            "first"
+        ],
+        "ORG": [
+            "NAHAD Resources",
+            "NAHAD Resources",
+            "Hanna Rubber Company",
+            "Sheet Rubber      ",
+            "Hanna Rubber",
+            "Hanna Rubber Company",
+            "Hanna Rubber Company"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "ASTM F104",
+            "ASTM D1056Understanding",
+            "ASTM D2000",
+            "ASTM F104",
+            "ASTM D1056",
+            "AS5316",
+            "ASTM F104",
+            "ASTM D1056Understanding",
+            "ASTM D2000",
+            "ASTM F104",
+            "ASTM D1056"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "95"
+        ],
+        "DATE": [
+            "1925",
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "America"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [
+            "first"
+        ],
+        "ORG": [
+            "Hanna Rubber Company",
+            "Singer Industrial Platform Business"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "Rubber & Plastic Products",
+            "Sheet Rubber",
+            "Industrial Hose",
+            "Sponge Rubber",
+            "Extrusions",
+            "Gaskets",
+            "Adhesives",
+            "Tubing",
+            "Compression Packing",
+            "Construction and Building Products",
+            "Conveyor Belting",
+            "EMI-RFI-Conductive/Non-Conductive",
+            "Gasket Material",
+            "Hydraulics",
+            "Industrial Couplings",
+            "Fittings & Adapters",
+            "Industrial Wool Felt",
+            "Matting",
+            "Molded Rubber Parts",
+            "O-Rings",
+            "Plastics",
+            "Power Transmission Belts",
+            "Premade Industrial Hoses",
+            "Sanitary Fittings",
+            "Traffic Counter Tubing"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "3",
+            "4",
+            "one",
+            "one",
+            "three",
+            "4",
+            "8.5.7"
+        ],
+        "DATE": [
+            "1 yearType",
+            "1 dayType",
+            "1 yearType",
+            "180 daysType",
+            "1 dayType",
+            "1 yearType",
+            "1 yearType",
+            "400 daysType",
+            "1 yearType",
+            "1 yearType",
+            "2 yearsType",
+            "2 yearsType",
+            "400 daysType",
+            "6 monthsType",
+            "3 monthsType",
+            "3 monthsType",
+            "7 daysType",
+            "1 yearType",
+            "1 yearType",
+            "1 dayType",
+            "1 dayType",
+            "14 daysType",
+            "180 daysType",
+            "400 daysType",
+            "1971",
+            "decades",
+            "2023"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "Houston"
+        ],
+        "LANGUAGE": [],
+        "LAW": [
+            "the Cookie Declaration",
+            "NSF/ANSI49"
+        ],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [
+            "third",
+            "third"
+        ],
+        "ORG": [
+            "Cloudflare",
+            "Wistia",
+            "Google Analytics",
+            "Google Analytics",
+            "Google",
+            "Google",
+            "Microsoft",
+            "Microsoft",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "YouTube",
+            "NuAire",
+            "Environmental Laboratory",
+            "NuAire",
+            "NuAire",
+            "NuAire",
+            "NuAire",
+            "NuAire",
+            "NuAire",
+            "NuAire Products NuAire",
+            "NuAire",
+            "NuAire",
+            "NuAire",
+            "NuAire",
+            "International Federation of Biosafety Associations",
+            "IFBA",
+            "The International Federation of Biosafety Associations",
+            "NuAire Lab Equipment",
+            "NuAire",
+            "Mitchell Cancer Institute",
+            "ResearcherMD Anderson",
+            "UTMB",
+            "Brochure LabGard NU-581 Class II",
+            "WHO",
+            "NuAire",
+            "NuAire",
+            "Facebook Twitter",
+            "LinkedIn",
+            "YouTube",
+            "NuAire, Inc."
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Katie BowdenCDC",
+            "Ken BlochUniversity",
+            "Dannelys Perez-BelloUniversity"
+        ],
+        "PRODUCT": [
+            "NuAire",
+            "Pixel",
+            "Pixel",
+            "COVID-19 / SARS-COV-2 NuAire",
+            "SARS-COV-2",
+            "NuWind Multi-Application Bench Top",
+            "NU-540-300E Class II Biosafety Cabinet",
+            "NU-540-400",
+            "NU-540-400",
+            "NU-540-500",
+            "NU-540-500",
+            "the NU-581 Biosafety Cabinet's",
+            "NuAire Biosafety Cabinet",
+            "AllerGard NU-620 Animal Transfer Station",
+            "AllerGard NU-620 Animal Transfer Station",
+            "LabGard NU-500 series",
+            "AeroMax",
+            "FlowGard"
+        ],
+        "QUANTITY": [
+            "-40\u00b0C to -86\u00b0",
+            "4-foot",
+            "1.2m",
+            "5-foot"
+        ],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [
+            "1971",
+            "8/13/24"
+        ],
+        "EVENT": [
+            "COVID-19"
+        ],
+        "FAC": [
+            "Biosafety Cabinets",
+            "Laboratory Equipment",
+            "Laminar Airflow Workstations",
+            "Containment Ventilated Enclosures",
+            "Restricted Access Barrier Systems",
+            "CO2 Incubators",
+            "Ultralow Freezers",
+            "Animal Transfer Stations",
+            "Animal Refuse Workstations",
+            "Custom Lab Automation Enclosures"
+        ],
+        "GPE": [
+            "United States"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "biomedical/microbiological"
+        ],
+        "ORDINAL": [],
+        "ORG": [
+            "NuAire",
+            "International Federation of Biosafety Associations",
+            "CDC",
+            "University of South Alabama Mitchell Cancer Institute",
+            "MD Anderson",
+            "University of Texas Medical Branch"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Katie Bowden",
+            "Ken Bloch",
+            "Dannelys Perez-Bello"
+        ],
+        "PRODUCT": [
+            "NuWind Multi-Application Bench Top Refrigerated Centrifuge",
+            "Biosafety Cabinets"
+        ],
+        "QUANTITY": [],
+        "TIME": []
+    }
+}

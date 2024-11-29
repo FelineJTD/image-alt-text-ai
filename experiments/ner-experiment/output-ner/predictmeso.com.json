@@ -1,0 +1,159 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "5",
+            "1",
+            "2",
+            "43,000",
+            "One",
+            "4"
+        ],
+        "DATE": [
+            "decades",
+            "6 years",
+            "many decades",
+            "many decades",
+            "a year",
+            "30-50 years",
+            "2 years",
+            "2021"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "UK",
+            "UK",
+            "Brazil",
+            "Russia",
+            "India",
+            "China",
+            "UK",
+            "Brazil",
+            "Russia",
+            "India",
+            "UK",
+            "Spain",
+            "Italy",
+            "Belgium",
+            "US",
+            "Canada",
+            "Brazil",
+            "Barcelona",
+            "Barcelona"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "Europe",
+            "Europe"
+        ],
+        "MONEY": [
+            "5million"
+        ],
+        "NORP": [
+            "BRIC",
+            "BRIC"
+        ],
+        "ORDINAL": [],
+        "ORG": [
+            "Cancer Research UK",
+            "CRUK",
+            "Fondazione AIRC",
+            "AIRC",
+            "Fundaci\u00f3n Cient\u00edfica de la Asociacion Espa\u00f1ola Contra el C\u00e1ncer",
+            "FC AECC",
+            "The PREDICT-Meso Network",
+            "the PREDICT-Meso Network",
+            "Network",
+            "Network",
+            "Network",
+            "Network",
+            "University of Glasgow",
+            "the Josep Carreras Research Institute",
+            "IJC",
+            "the Vall d\u2019Hebron Institute Oncology",
+            "VHIO",
+            "the CRUK Beatson Institute",
+            "Nettl Of Glasgow"
+        ],
+        "PERCENT": [
+            "12%"
+        ],
+        "PERSON": [],
+        "PRODUCT": [
+            "BoxA     L  WP5- Risk and Response  WP5.1"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": [
+            "the Accelerator Awards",
+            "The Accelerator Awards",
+            "The Accelerator Award"
+        ]
+    },
+    "gpt": {
+        "CARDINAL": [
+            "5",
+            "6",
+            "30",
+            "50",
+            "12",
+            "100"
+        ],
+        "DATE": [
+            "decades",
+            "many decades",
+            "2 years"
+        ],
+        "EVENT": [
+            "Meso-ORIGINS"
+        ],
+        "FAC": [
+            "Accelerator Award Portfolio",
+            "PREDICT-Meso specific Research Tissue Bank",
+            "University of Glasgow",
+            "Josep Carreras Research Institute",
+            "Vall d\u2019Hebron Institute Oncology",
+            "CRUK Beatson Institute"
+        ],
+        "GPE": [
+            "UK",
+            "Brazil",
+            "Russia",
+            "India",
+            "China",
+            "Spain",
+            "Italy",
+            "Belgium",
+            "US",
+            "Canada"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "\u00a35million"
+        ],
+        "NORP": [
+            "International Network",
+            "mesothelioma researchers"
+        ],
+        "ORDINAL": [
+            "first"
+        ],
+        "ORG": [
+            "PREDICT-Meso",
+            "Cancer Research UK",
+            "Fondazione AIRC",
+            "Fundaci\u00f3n Cient\u00edfica de la Asociacion Espa\u00f1ola Contra el C\u00e1ncer"
+        ],
+        "PERCENT": [
+            "43%"
+        ],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

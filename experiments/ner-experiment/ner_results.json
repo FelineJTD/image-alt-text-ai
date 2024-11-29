@@ -1,92 +1,92 @@
 {
     "CARDINAL": {
-        "common": 11,
-        "diff_spacy": 44,
-        "diff_gpt": 12
+        "common": 32,
+        "diff_spacy": 141,
+        "diff_gpt": 149
     },
     "DATE": {
-        "common": 10,
-        "diff_spacy": 64,
-        "diff_gpt": 0
+        "common": 73,
+        "diff_spacy": 214,
+        "diff_gpt": 18
     },
     "EVENT": {
-        "common": 1,
-        "diff_spacy": 0,
-        "diff_gpt": 9
+        "common": 6,
+        "diff_spacy": 4,
+        "diff_gpt": 17
     },
     "FAC": {
-        "common": 1,
-        "diff_spacy": 2,
-        "diff_gpt": 5
-    },
-    "GPE": {
-        "common": 21,
-        "diff_spacy": 306,
-        "diff_gpt": 2
-    },
-    "LANGUAGE": {
-        "common": 8,
-        "diff_spacy": 3,
-        "diff_gpt": 8
-    },
-    "LAW": {
-        "common": 0,
-        "diff_spacy": 4,
-        "diff_gpt": 1
-    },
-    "LOC": {
-        "common": 1,
-        "diff_spacy": 1,
-        "diff_gpt": 3
-    },
-    "MONEY": {
-        "common": 3,
-        "diff_spacy": 50,
-        "diff_gpt": 41
-    },
-    "NORP": {
-        "common": 0,
-        "diff_spacy": 20,
-        "diff_gpt": 0
-    },
-    "ORDINAL": {
-        "common": 3,
-        "diff_spacy": 5,
-        "diff_gpt": 1
-    },
-    "ORG": {
-        "common": 16,
-        "diff_spacy": 153,
-        "diff_gpt": 5
-    },
-    "PERCENT": {
         "common": 4,
         "diff_spacy": 7,
-        "diff_gpt": 7
+        "diff_gpt": 76
     },
-    "PERSON": {
-        "common": 9,
-        "diff_spacy": 29,
-        "diff_gpt": 12
+    "GPE": {
+        "common": 70,
+        "diff_spacy": 459,
+        "diff_gpt": 26
     },
-    "PRODUCT": {
-        "common": 9,
-        "diff_spacy": 39,
-        "diff_gpt": 77
+    "LANGUAGE": {
+        "common": 15,
+        "diff_spacy": 3,
+        "diff_gpt": 10
     },
-    "QUANTITY": {
+    "LAW": {
+        "common": 3,
+        "diff_spacy": 12,
+        "diff_gpt": 4
+    },
+    "LOC": {
         "common": 0,
         "diff_spacy": 7,
-        "diff_gpt": 7
+        "diff_gpt": 13
+    },
+    "MONEY": {
+        "common": 16,
+        "diff_spacy": 79,
+        "diff_gpt": 83
+    },
+    "NORP": {
+        "common": 6,
+        "diff_spacy": 22,
+        "diff_gpt": 8
+    },
+    "ORDINAL": {
+        "common": 5,
+        "diff_spacy": 18,
+        "diff_gpt": 15
+    },
+    "ORG": {
+        "common": 99,
+        "diff_spacy": 394,
+        "diff_gpt": 56
+    },
+    "PERCENT": {
+        "common": 15,
+        "diff_spacy": 15,
+        "diff_gpt": 6
+    },
+    "PERSON": {
+        "common": 74,
+        "diff_spacy": 66,
+        "diff_gpt": 36
+    },
+    "PRODUCT": {
+        "common": 11,
+        "diff_spacy": 95,
+        "diff_gpt": 221
+    },
+    "QUANTITY": {
+        "common": 5,
+        "diff_spacy": 11,
+        "diff_gpt": 5
     },
     "TIME": {
-        "common": 0,
-        "diff_spacy": 14,
-        "diff_gpt": 7
+        "common": 2,
+        "diff_spacy": 36,
+        "diff_gpt": 15
     },
     "WORK_OF_ART": {
-        "common": 2,
-        "diff_spacy": 11,
-        "diff_gpt": 16
+        "common": 0,
+        "diff_spacy": 22,
+        "diff_gpt": 1
     }
 }

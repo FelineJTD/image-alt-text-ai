@@ -1,0 +1,114 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "089",
+            "7",
+            "7",
+            "10",
+            "10",
+            "thousands"
+        ],
+        "DATE": [
+            "May 30, 2023",
+            "May 30, 2023",
+            "Jul 08, 2022",
+            "Jul 01, 2022",
+            "Dec 31, 2021",
+            "Dec 24, 2021",
+            "Dec 17, 2021",
+            "Dec 17, 2021",
+            "Weekend",
+            "every day",
+            "nearly 30 years",
+            "2024",
+            "1 day"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "US",
+            "America"
+        ],
+        "LANGUAGE": [],
+        "LAW": [
+            "HIPAA Laws"
+        ],
+        "LOC": [],
+        "MONEY": [
+            "Only $",
+            "97",
+            "Under $1000"
+        ],
+        "NORP": [],
+        "ORDINAL": [
+            "First"
+        ],
+        "ORG": [
+            "BNB",
+            "Business",
+            "BNB-Boss",
+            "Smartbnb",
+            "Airbnb",
+            "BNB-Boss LLC",
+            "Kajabi"
+        ],
+        "PERCENT": [
+            "50%"
+        ],
+        "PERSON": [
+            "Michelle"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [
+            "May 30, 2023",
+            "May 30, 2023",
+            "Jul 08, 2022",
+            "Jul 01, 2022",
+            "Dec 31, 2021",
+            "Dec 24, 2021",
+            "Dec 17, 2021",
+            "Dec 17, 2021"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "US"
+        ],
+        "LANGUAGE": [],
+        "LAW": [
+            "HIPAA Laws"
+        ],
+        "LOC": [],
+        "MONEY": [
+            "$97",
+            "$1000"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "BNB-Boss",
+            "Airbnb"
+        ],
+        "PERCENT": [
+            "50%"
+        ],
+        "PERSON": [
+            "Michelle"
+        ],
+        "PRODUCT": [
+            "CoVID Cleaning Supplies",
+            "Best Cleaning Checklist to Fight CoVID"
+        ],
+        "QUANTITY": [
+            "30 years"
+        ],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

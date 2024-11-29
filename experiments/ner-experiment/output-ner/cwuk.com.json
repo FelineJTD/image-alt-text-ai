@@ -1,0 +1,94 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "over a decade",
+            "many years ahead",
+            "04th February 2021",
+            "01st May 2020",
+            "01st May 2020",
+            "today"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "OlavHalliburton",
+            "Norway"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [
+            "second"
+        ],
+        "ORG": [
+            "Hardfacing Workshop",
+            "Uswatch",
+            "Taylor Oilfield Manufacturing, Inc.",
+            "Cutting and Wear",
+            "Taylor Oilfield Manufacturing, Inc",
+            "Knowledge    ",
+            "Knowledge    ",
+            "Cutting & Wear Resistant Developments Limited"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "LEARN MOREWATCH",
+            "Ryan D TaylorPurchasing",
+            "Passion    Driven"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "1",
+            "1",
+            "1"
+        ],
+        "DATE": [
+            "04th February 2021",
+            "01st May 2020",
+            "01st May 2020"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "Norway"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [
+            "first",
+            "second"
+        ],
+        "ORG": [
+            "Taylor Oilfield Manufacturing, Inc.",
+            "Cutting & Wear Resistant Developments Limited"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Ryan D Taylor",
+            "Olav"
+        ],
+        "PRODUCT": [
+            "Hardfacing Workshop Supplies",
+            "Fishing & Milling Inserts",
+            "Equipment",
+            "Consumables",
+            "Wear Protection Inserts",
+            "Composite Rod",
+            "Hardfacing System"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "2 - 3"
+        ],
+        "DATE": [
+            "half day",
+            "day",
+            "Full day",
+            "Today"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "Boston",
+            "DetailsCranston",
+            "RI"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "550",
+            "650",
+            "550",
+            "1600"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "SFD",
+            "SFD Store"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "the Light Painting Package"
+        ],
+        "QUANTITY": [],
+        "TIME": [
+            "night",
+            "dusk",
+            "the early morning",
+            "Up to 8 hrs"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "2",
+            "3",
+            "8"
+        ],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [
+            "Cranston, RI"
+        ],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "race track"
+        ],
+        "MONEY": [
+            "$550",
+            "$1200",
+            "$650",
+            "$550",
+            "$1600"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "The Sell Your Ride Package",
+            "The Ultimate Package",
+            "The Light Painting Package",
+            "The Natural Light Package",
+            "Racetrack Photographic Coverage"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "July 24-26, 2024",
+            "2025",
+            "Oct 24 - 03 Oct 24",
+            "13 Oct 24 - 15 Oct 24",
+            "2024",
+            "13 - 15 October",
+            "24 May 25 - 27 May 25",
+            "biennial",
+            "2023",
+            "year",
+            "July 2024Stay",
+            "2012-2024",
+            "08 Aug 2024"
+        ],
+        "EVENT": [
+            "the CAUDIT Communities ConferenceThe",
+            "CAUDIT Communities Conference"
+        ],
+        "FAC": [],
+        "GPE": [
+            "Melbourne",
+            "Adelaide",
+            "South Australia2024",
+            "Adelaide",
+            "South Austral",
+            "PerthTHETA"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "Australasia"
+        ],
+        "MONEY": [],
+        "NORP": [
+            "First Nations"
+        ],
+        "ORDINAL": [
+            "Third"
+        ],
+        "ORG": [
+            "CAUDIT",
+            "La Trobe University",
+            "CAUDIT",
+            "CAUDIT",
+            "Hotel Realm",
+            "CanberraAHECS",
+            "CAUDIT",
+            "ChangeTHETA",
+            "ProgramCAUDIT",
+            "CAUDIT",
+            "InstituteCAUDIT",
+            "CoursesInsightsCAUDIT",
+            "CommunityCybersecurityAHECS",
+            "CommunityAHECS",
+            "CAUDIT2023",
+            "CAUDIT",
+            "ReportCAUDIT",
+            "CAUDIT",
+            "BitS",
+            "CAUDITSubscribe",
+            "CAUDIT",
+            "MeetingsTHETA",
+            "PresentationsCybersecurityAHECSAHECS",
+            "InstituteCAUDIT",
+            "CoachingInsightsCAUDIT",
+            "byTektonic Labs"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Anders Norremo"
+        ],
+        "PRODUCT": [
+            "TuakiriLogin"
+        ],
+        "QUANTITY": [],
+        "TIME": [
+            "15:30:31"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [
+            "July 24-26, 2024",
+            "01 Oct 24 - 03 Oct 24",
+            "13 - 15 October",
+            "24 May 25 - 27 May 25",
+            "2023",
+            "July 2024"
+        ],
+        "EVENT": [
+            "CAUDIT Communities Conference",
+            "AHECS 2024 Cybersecurity Summit",
+            "2024 Spring Members' Meeting",
+            "THETA 2025: Winds of Change"
+        ],
+        "FAC": [
+            "La Trobe University",
+            "Hotel Realm",
+            "Adelaide",
+            "Perth"
+        ],
+        "GPE": [
+            "Melbourne",
+            "South Australia"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "First Nations"
+        ],
+        "ORDINAL": [
+            "first",
+            "2024"
+        ],
+        "ORG": [
+            "CAUDIT",
+            "Google Threat Intelligence",
+            "BitS"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Anders Norremo"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": []
+    }
+}

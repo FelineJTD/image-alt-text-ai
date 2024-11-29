@@ -1,0 +1,152 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "3",
+            "4",
+            "4",
+            "6",
+            "3",
+            "2",
+            "#1",
+            "1",
+            "2",
+            "10",
+            "8",
+            "30669",
+            "(931) 431-6800",
+            "(800) 821-5891"
+        ],
+        "DATE": [
+            "12-Month",
+            "many years",
+            "This Summer",
+            "2023"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "Clarksville",
+            "TN"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "at least",
+            "250,000"
+        ],
+        "NORP": [],
+        "ORDINAL": [
+            "first"
+        ],
+        "ORG": [
+            "Fortera Credit Union",
+            "Homeowner Advantage Personal Loan",
+            "meLOC",
+            "meLOC",
+            "VA",
+            "World Card",
+            "Fortera",
+            "Homeowner Advantage Loan",
+            "Fortera",
+            "Homeowner Advantage Loan",
+            "World Card",
+            "Fortera",
+            "Homeowner Advantage Loan",
+            "Fortera",
+            "Fortera",
+            "Fortera",
+            "Fortera",
+            "Fortera",
+            "Fortera",
+            "Fortera",
+            "Fortera",
+            "Fortera                                               /                                          ",
+            "Community Fortera Foundation",
+            "Fortera Credit Union",
+            "NCUA"
+        ],
+        "PERCENT": [
+            "as low as                                   4.82                  %",
+            "4.55                  ",
+            "as low as                                   3.89                  %",
+            "as high as                                   1.44                  %",
+            "as low as                                   1.06                  %"
+        ],
+        "PERSON": [
+            "Annette",
+            "Robert",
+            "Yvonne",
+            "Glenn",
+            "Alexander",
+            "George",
+            "Elena",
+            "Deborah",
+            "William",
+            "Lenora"
+        ],
+        "PRODUCT": [
+            "World Credit Card"
+        ],
+        "QUANTITY": [],
+        "TIME": [
+            "my work hours"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [
+            "Fortera Credit Union",
+            "Clarksville"
+        ],
+        "GPE": [
+            "TN"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [
+            "4.82 %",
+            "4.55 %",
+            "3.89 %",
+            "1.44 %",
+            "1.06 %"
+        ],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Fortera Credit Union",
+            "Fortera Foundation",
+            "CO-OP Shared Branching"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Annette",
+            "Robert",
+            "Yvonne",
+            "Glenn",
+            "Alexander",
+            "George",
+            "Elena",
+            "Deborah",
+            "William",
+            "Lenora"
+        ],
+        "PRODUCT": [
+            "World Card",
+            "Credit Card",
+            "meLOC",
+            "Conventional & VA Loans",
+            "Construction Loans",
+            "Land Loans",
+            "Auto Loans",
+            "Homeowner Advantage Loan"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "2006",
+            "2006",
+            "2024"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "U.S.",
+            "California"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "North America"
+        ],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "IZEA IZEA Flex BrandGraph",
+            "IZEA",
+            "Toyota",
+            "Acer",
+            "IZEA",
+            "Art Influencing Tech",
+            "IZEA",
+            "IZEA",
+            "IZEA",
+            "IZEA",
+            "IZEA",
+            "IZEA IZEA Flex",
+            "IZEA Worldwide, Inc."
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "TikTok Expired"
+        ],
+        "PRODUCT": [
+            "IZEA Flex   ",
+            "Predator Gaming",
+            "Predator Gaming",
+            "TECNO CAMON 19 Pro Mondrian",
+            "iPhone",
+            "TikTok",
+            "TikTok"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": [
+            "Calling All Creators"
+        ]
+    },
+    "gpt": {
+        "CARDINAL": [
+            "2006",
+            "2006"
+        ],
+        "DATE": [],
+        "EVENT": [
+            "Esports events"
+        ],
+        "FAC": [],
+        "GPE": [
+            "North America",
+            "U.S."
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [
+            "first"
+        ],
+        "ORG": [
+            "IZEA",
+            "Toyota",
+            "Acer",
+            "Tecno",
+            "IZEA Worldwide, Inc."
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "TECNO CAMON 19 Pro Mondrian"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "249",
+            "214",
+            "293"
+        ],
+        "DATE": [
+            "2021",
+            "2022",
+            "2022",
+            "2022",
+            "2022",
+            "September 13, 2022",
+            "2022",
+            "September 13, 2022",
+            "2022",
+            "year",
+            "September 13th, 2022",
+            "2022",
+            "2022",
+            "2022"
+        ],
+        "EVENT": [
+            "The Women in Law Leadership Breakfast"
+        ],
+        "FAC": [],
+        "GPE": [
+            "Toronto",
+            "Toronto",
+            "Canada"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Vantage Venues",
+            "Vantage Venues",
+            "SecretaryLaurentian Bank",
+            "Co-Global Lead Legal Disputes & Investigations",
+            "Global Knowledge Management & Strategic EnablementTD",
+            "PartnerNorton Rose Fulbright",
+            "Society of Ontario",
+            "Key Media Pty Ltd.",
+            "KM Business Information Canada Ltd."
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Bindu Cudjoe",
+            "Diana Iannetta",
+            "Linda Fuerst",
+            "Jacqueline Horvat",
+            "Dane Taylor",
+            "David Kuzak",
+            "Rosalie Jaliel"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [
+            "8:00 - 10:00 AM ET",
+            "1hour and 10 mins",
+            "8:00 - 10:00 AM ET",
+            "1hour and 10 mins",
+            "a morning"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "1",
+            "10"
+        ],
+        "DATE": [
+            "September 13, 2022",
+            "2022",
+            "September 13th, 2022"
+        ],
+        "EVENT": [
+            "Women in Law Leadership Forum 2021",
+            "Women in Law Leadership Breakfast"
+        ],
+        "FAC": [
+            "Vantage Venues Toronto"
+        ],
+        "GPE": [
+            "Canada"
+        ],
+        "LANGUAGE": [],
+        "LAW": [
+            "Law Society of Ontario"
+        ],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Laurentian Bank",
+            "TD Bank",
+            "Norton Rose Fulbright Canada",
+            "Key Media Pty Ltd.",
+            "KM Business Information Canada Ltd."
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Bindu Cudjoe",
+            "Diana Iannetta",
+            "Linda Fuerst",
+            "Jacqueline Horvat",
+            "Dane Taylor",
+            "David Kuzak",
+            "Rosalie Jaliel"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [
+            "8:00 AM ET",
+            "10:00 AM ET"
+        ],
+        "WORK_OF_ART": []
+    }
+}

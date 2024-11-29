@@ -1,0 +1,154 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "two"
+        ],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "Cleveland",
+            "Cleveland",
+            "Cleveland"
+        ],
+        "LANGUAGE": [
+            "English",
+            "French"
+        ],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "Chinese",
+            "German",
+            "Italian",
+            "Japanese",
+            "Korean",
+            "Spanish",
+            "Spanish"
+        ],
+        "ORDINAL": [],
+        "ORG": [
+            "Tarca Systems",
+            "Cleveland Tramrail\u00ae systems",
+            "OSHA",
+            "Shop Crane",
+            "Gorbel",
+            "Gorbel",
+            "OSHA",
+            "Gorbel",
+            "GORBEL INC.",
+            "Gorbel",
+            "YouTube"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "Q2 Lifting DevicesG",
+            "-Force iQ2 Lifting DevicesG",
+            "PIVOT PRO",
+            "-Force Q2",
+            "-Force iQ2",
+            "-Force Pendant",
+            "Jib Crane",
+            "Ergonomic Lifting No",
+            "GS Series Electric Chain Hoists",
+            "Gorbel",
+            "Cleveland Tramrail\u00ae",
+            "G-Force\u00ae",
+            "Easy Arm\u00ae",
+            "Ranger Mobile Anchor",
+            "Road Ranger Mobile Anchor",
+            "Destuff-it",
+            "Destuff-it",
+            "Shop Crane",
+            "Work Station",
+            "Jib Crane",
+            "Cleveland Tramrail\u00ae Patented Track",
+            "G-Force\u00ae",
+            "Easy Arm\u00ae",
+            "Gorbel Electric Chain Hoists",
+            "Cleveland Tramrail\u00ae",
+            "Tether Track\u2122 Overhead Fall Protection",
+            "Ranger Mobile Anchor",
+            "Road Ranger Mobile Anchor",
+            "Destuff-it",
+            "Destuff-it",
+            "Shop Crane",
+            "Shop Crane",
+            "Shop Crane"
+        ],
+        "QUANTITY": [
+            "50 lbs",
+            "40 ton",
+            "1/8 ton",
+            "5 ton",
+            "four feet",
+            "just a few pounds",
+            "50 lbs",
+            "40 ton",
+            "1/8 ton",
+            "5 ton",
+            "four feet",
+            "just a few pounds"
+        ],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "50",
+            "40",
+            "1/8",
+            "5",
+            "4"
+        ],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [
+            "Cleveland Tramrail",
+            "Shop Crane"
+        ],
+        "GPE": [],
+        "LANGUAGE": [
+            "Chinese",
+            "English",
+            "French",
+            "German",
+            "Italian",
+            "Japanese",
+            "Korean",
+            "Spanish (ES)",
+            "Spanish (MX)"
+        ],
+        "LAW": [
+            "OSHA"
+        ],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Gorbel",
+            "Gorbel Inc."
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "G-Force Servo Powered Intelligent Assist Device",
+            "G-Force Q2 Lifting Devices",
+            "G-Force iQ2 Lifting Devices",
+            "GS Series Electric Chain Hoist",
+            "Tether Track\u2122 Overhead Fall Protection",
+            "Destuff-it\u2122"
+        ],
+        "QUANTITY": [
+            "50 lbs",
+            "40 ton",
+            "1/8 ton",
+            "5 ton"
+        ],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

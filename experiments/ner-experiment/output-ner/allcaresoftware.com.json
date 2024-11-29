@@ -1,0 +1,121 @@
+{
+    "spacy": {
+        "CARDINAL": [],
+        "DATE": [
+            "month",
+            "month",
+            "30-day",
+            "today",
+            "2022"
+        ],
+        "EVENT": [
+            "MHCA Expo 2023"
+        ],
+        "FAC": [
+            "Breezy Point Resort"
+        ],
+        "GPE": [
+            "MN",
+            "Ramsey MN"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Home Products",
+            "RevCare Partners",
+            "MHCP",
+            "MHCA",
+            "MN Home Care Association",
+            "Home Products",
+            "RevCare Partners",
+            "RevCare Partners",
+            "MHCP",
+            "MHCA",
+            "MN Home Care Association",
+            "Allcare Software",
+            "Personal Care",
+            "245D  ",
+            "245D",
+            "Financial Management Services",
+            "Home Care",
+            "Financial Management Services",
+            "Electronic Visit Verification",
+            "Electronic Visit Verification",
+            "Housing stabilization",
+            "Home Care",
+            "Housing stabilization",
+            "AllCare Software",
+            "AllCare",
+            "DHS",
+            "Allcare Software",
+            "All Care Software"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Scott Millette",
+            "Lisa Luger",
+            "Aaron Luger",
+            "Adam Luger",
+            "Scott Millette",
+            "Aaron Luger"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "612",
+            "567",
+            "7275",
+            "245",
+            "30"
+        ],
+        "DATE": [
+            "2022",
+            "2023"
+        ],
+        "EVENT": [
+            "MHCA Expo 2023"
+        ],
+        "FAC": [
+            "Breezy Point Resort",
+            "14750 Waco St NW"
+        ],
+        "GPE": [
+            "MN"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "Ramsey"
+        ],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Allcare Software",
+            "RevCare Partners",
+            "MHCA (MN Home Care Association)"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Scott Millette",
+            "Lisa Luger",
+            "Aaron Luger",
+            "Adam Luger"
+        ],
+        "PRODUCT": [
+            "Electronic Visit Verification",
+            "Financial Management Services",
+            "Home health care software"
+        ],
+        "QUANTITY": [],
+        "TIME": []
+    }
+}

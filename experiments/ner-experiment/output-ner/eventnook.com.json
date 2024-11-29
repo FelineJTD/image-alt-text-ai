@@ -1,0 +1,80 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "1,000",
+            "3,000",
+            "30",
+            "14,000"
+        ],
+        "DATE": [],
+        "EVENT": [
+            "Global Technology Conference",
+            "the Global                                             Technology Conference",
+            "Singapore Yacht Show"
+        ],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Visa",
+            "Master",
+            "EventNook Pte Ltd."
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "EventNook",
+            "iPad",
+            "EventNook",
+            "EventNook Mobile Kiosk",
+            "EventNook"
+        ],
+        "QUANTITY": [],
+        "TIME": [
+            "minutes"
+        ],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "1,000+",
+            "3,000",
+            "30",
+            "14,000"
+        ],
+        "DATE": [
+            "2023"
+        ],
+        "EVENT": [
+            "Global Technology Conference",
+            "Singapore Yacht Show"
+        ],
+        "FAC": [],
+        "GPE": [
+            "Singapore"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "EventNook",
+            "EventNook Pte Ltd"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "Smart Mobile Check-in Kiosk",
+            "Instant Badge Printing"
+        ],
+        "QUANTITY": [],
+        "TIME": []
+    }
+}

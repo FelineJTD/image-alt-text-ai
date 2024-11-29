@@ -1,0 +1,107 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "360",
+            "360"
+        ],
+        "DATE": [
+            "the last three decades",
+            "30-year",
+            "30+ years",
+            "every day",
+            "today",
+            "today",
+            "2024"
+        ],
+        "EVENT": [
+            "Summit 360"
+        ],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [
+            "GDPR Cookie Consent"
+        ],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "ITAD",
+            "ITADData Center",
+            "ITADData Center",
+            "Dell Technologies",
+            "Dell Technologies Gold Partner",
+            "Dell",
+            "Cisco",
+            "Dell",
+            "HPE",
+            "Networking",
+            "Servers",
+            "Storage",
+            "Summit 360",
+            "Summit 360",
+            "the Dell Technologies Gold Partnership",
+            "Summit 360",
+            "Home Products Services",
+            "OrangeBall Creative",
+            "FacebookXLinkedInYouTube",
+            "GDPR"
+        ],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [
+            "360",
+            "Summit 360",
+            "Summit 360\u2019s"
+        ],
+        "QUANTITY": [
+            "360-degree"
+        ],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "30",
+            "30+"
+        ],
+        "DATE": [
+            "2024-01-22"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Dell Technologies",
+            "Summit 360"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Steven"
+        ],
+        "PRODUCT": [
+            "ITAD Services",
+            "IT Hardware",
+            "Networking",
+            "Cisco",
+            "HPE/Aruba",
+            "Wireless",
+            "Security",
+            "Optics",
+            "IP Phones",
+            "Servers",
+            "Dell",
+            "Storage"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

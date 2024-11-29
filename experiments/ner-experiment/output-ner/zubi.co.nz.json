@@ -1,0 +1,115 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "1",
+            "3",
+            "one",
+            "65",
+            "1000",
+            "65"
+        ],
+        "DATE": [
+            "12 months",
+            "annual",
+            "annual"
+        ],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [
+            "New Zealand",
+            "Australia",
+            "New Zealand",
+            "Auckland",
+            "NZ",
+            "New Zealand",
+            "Australia"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "Australian",
+            "Halal"
+        ],
+        "ORDINAL": [],
+        "ORG": [
+            "Zubi",
+            "Callum Davies",
+            "Dad's Pies                                     ",
+            "Casual",
+            "Zubi",
+            "Zubi Ltd."
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Amy Jones",
+            "Sam Watherston",
+            "Sheila                                     Cake"
+        ],
+        "PRODUCT": [
+            "Zubi",
+            "Zubi",
+            "Zubi",
+            "Zubi",
+            "Zubi",
+            "Casual",
+            "Zubi",
+            "Hell                                     ",
+            "Zubi",
+            "Zubi",
+            "Word",
+            "Zubi",
+            "Zubi",
+            "Zubi",
+            "Zubi",
+            "Zubi"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "65",
+            "1000+"
+        ],
+        "DATE": [
+            "2018"
+        ],
+        "EVENT": [],
+        "FAC": [
+            "PO Box 56-316"
+        ],
+        "GPE": [
+            "New Zealand",
+            "Australia"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [
+            "Auckland"
+        ],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [
+            "Zubi",
+            "Zubi Ltd",
+            "FSANZ"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Callum Davies",
+            "Amy Jones",
+            "Sam Watherston",
+            "Sheila"
+        ],
+        "PRODUCT": [
+            "Zubi"
+        ],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

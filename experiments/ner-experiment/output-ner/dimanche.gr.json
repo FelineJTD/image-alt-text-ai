@@ -1,0 +1,59 @@
+{
+  "spacy": {
+    "CARDINAL": [],
+    "DATE": ["2022"],
+    "EVENT": [],
+    "FAC": [],
+    "GPE": [],
+    "LANGUAGE": [],
+    "LAW": [],
+    "LOC": [],
+    "MONEY": [],
+    "NORP": [],
+    "ORDINAL": [],
+    "ORG": [
+      "Hillside",
+      "Ikaria Hotels",
+      "Colorful Apartment",
+      "Hillside",
+      "Ikaria Hotels",
+      "Slider Navigation"
+    ],
+    "PERCENT": [],
+    "PERSON": [],
+    "PRODUCT": [],
+    "QUANTITY": [],
+    "TIME": [],
+    "WORK_OF_ART": []
+  },
+  "gpt": {
+    "CARDINAL": [],
+    "DATE": ["2022"],
+    "EVENT": [],
+    "FAC": [
+      "Villa",
+      "Hillside",
+      "Ikaria Hotels",
+      "Kerame",
+      "Colorful Apartment",
+      "Acropolis"
+    ],
+    "GPE": [
+      "\u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+      "\u0391\u03b8\u03ae\u03bd\u03b1"
+    ],
+    "LANGUAGE": [],
+    "LAW": [],
+    "LOC": ["\u03a0\u03b5\u03c1\u03b9\u03c3\u03c4\u03ad\u03c1\u03b9"],
+    "MONEY": [],
+    "NORP": [],
+    "ORDINAL": [],
+    "ORG": ["Dimanche.gr", "Bee-360.gr"],
+    "PERCENT": [],
+    "PERSON": [],
+    "PRODUCT": [],
+    "QUANTITY": [],
+    "TIME": [],
+    "WORK_OF_ART": []
+  }
+}

@@ -75,7 +75,7 @@ result = {
 start_time = time.time()
 
 # Loop through each JSON file in the directory
-for filename in os.listdir(json_dir)[0:10]:
+for filename in os.listdir(json_dir)[0:100]:
     if filename.endswith(".json"):
         try:
             # Read the JSON file
