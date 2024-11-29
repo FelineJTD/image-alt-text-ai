@@ -1,0 +1,92 @@
+{
+    "CARDINAL": {
+        "common": 1,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "DATE": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "EVENT": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "FAC": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "GPE": {
+        "common": 2,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "LANGUAGE": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "LAW": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "LOC": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "MONEY": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "NORP": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 1
+    },
+    "ORDINAL": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 1
+    },
+    "ORG": {
+        "common": 2,
+        "diff_spacy": 0,
+        "diff_gpt": 1
+    },
+    "PERCENT": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "PERSON": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 1
+    },
+    "PRODUCT": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "QUANTITY": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "TIME": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    },
+    "WORK_OF_ART": {
+        "common": 0,
+        "diff_spacy": 0,
+        "diff_gpt": 0
+    }
+}

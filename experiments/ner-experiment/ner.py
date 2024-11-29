@@ -1,5 +1,7 @@
 # A comparison between several methods for Named Entity Recognition (NER) in Python.
 
+import json
+
 sentence = "Apple is looking at buying U.K. startup for $1 billion"
 
 # Method 1: Using NLTK
@@ -13,9 +15,57 @@ nltk.download('maxent_ne_chunker_tab')
 nltk.download('averaged_perceptron_tagger_eng')
 nltk.download('words')
 
-nltk_entities = ne_chunk(pos_tag(word_tokenize(sentence)))
-print("--- NLTK ---")
-print(nltk_entities)
+def nltk_ner(text):
+    tokenized = ne_chunk(pos_tag(word_tokenize(text)))
+    # Format tokenized to JSON
+    # {
+    #     "CARDINAL": [],
+    #     "DATE": [],
+    #     "EVENT": [],
+    #     "FAC": [],
+    #     "GPE": [],
+    #     "LANGUAGE": [],
+    #     "LAW": [],
+    #     "LOC": [],
+    #     "MONEY": [],
+    #     "NORP": [],
+    #     "ORDINAL": [],
+    #     "ORG": [],
+    #     "PERCENT": [],
+    #     "PERSON": [],
+    #     "PRODUCT": [],
+    #     "QUANTITY": [],
+    #     "TIME": [],
+    #     "WORK_OF_ART": []
+    # }
+    entities = {
+        "CARDINAL": [],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+    for entity in tokenized:
+        if hasattr(entity, 'label'):
+            entities[entity.label()].append(entity[0][0])
+    return entities
+
+
+# print("--- NLTK ---")
+# print(nltk_ner(sentence))
 
 
 # Method 2: Using spaCy small model (less accurate)
@@ -36,51 +86,79 @@ print(nltk_entities)
 # NORP - Nationalities or religious or political groups
 # PERCENT - Percentage, including "%"
 # WORK_OF_ART - Titles of books, songs, etc.
-import spacy
-from collections import Counter
+# import spacy
+# from collections import Counter
 
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
 
-doc = nlp(sentence)
+# doc = nlp(sentence)
 
-print("--- SPACY ---")
-spacy_small_entities = doc.ents
-print([(X.text, X.label_) for X in doc.ents])
-print(Counter([X.label_ for X in doc.ents]))
+# print("--- SPACY ---")
+# spacy_small_entities = doc.ents
+# print([(X.text, X.label_) for X in doc.ents])
+# print(Counter([X.label_ for X in doc.ents]))
 
 
 # Method 3: Using spaCy large model (more accurate)
 import spacy
-from collections import Counter
+# from collections import Counter
 
 nlp = spacy.load("en_core_web_trf")
 
-doc = nlp(sentence)
+def spacy_ner(text):
+    doc = nlp(text)
+    # Format
+    entities = {
+        "CARDINAL": [],
+        "DATE": [],
+        "EVENT": [],
+        "FAC": [],
+        "GPE": [],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [],
+        "ORDINAL": [],
+        "ORG": [],
+        "PERCENT": [],
+        "PERSON": [],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+    for entity in doc.ents:
+        entities[entity.label_].append(entity.text)
+    return entities
 
-print("--- SPACY ---")
-spacy_transformer_entities = doc.ents
-print([(X.text, X.label_) for X in doc.ents])
-print(Counter([X.label_ for X in doc.ents]))
+# doc = nlp(sentence)
+
+# print("--- SPACY ---")
+# spacy_transformer_entities = doc.ents
+# print([(X.text, X.label_) for X in doc.ents])
+# print(Counter([X.label_ for X in doc.ents]))
 
 
-# Method 4: Using Flair
-from flair.data import Sentence
-from flair.models import SequenceTagger
+# # Method 4: Using Flair
+# from flair.data import Sentence
+# from flair.models import SequenceTagger
 
-tagger = SequenceTagger.load('ner')
+# tagger = SequenceTagger.load('ner')
 
-sentence = Sentence(sentence)
+# sentence = Sentence(sentence)
 
-tagger.predict(sentence)
+# tagger.predict(sentence)
 
-print("--- FLAIR ---")
-flair_entities = sentence.get_spans('ner')
-print(flair_entities)
+# print("--- FLAIR ---")
+# flair_entities = sentence.get_spans('ner')
+# print(flair_entities)
 
 
 # Method 5: Using GPT-4o
-import openai
-import json
+from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
 
 def generate_prompt(labels, text):
     prompt = """
@@ -105,13 +183,53 @@ def generate_prompt(labels, text):
         prompt += f'"{label}": [],\n'
 
     prompt += "}\n\n"
-    prompt +="\n\nTEXT:"
-    # prompt += text
+    prompt +="\n\nTEXT: "
+    prompt += text
 
-    print(prompt)
     return prompt
 
-labels = ['SKILLS', 'NAME', 'CERTIFICATE', 'HOBBIES', 'COMPANY', 'UNIVERSITY']
+# DATE - absolute or relative dates or periods
+# PERSON - People, including fictional
+# GPE - Countries, cities, states
+# LOC - Non-GPE locations, mountain ranges, bodies of water
+# MONEY - Monetary values, including unit
+# TIME - Times smaller than a day
+# PRODUCT - Objects, vehicles, foods, etc. (not services)
+# CARDINAL - Numerals that do not fall under another type
+# ORDINAL - "first", "second", etc.
+# QUANTITY - Measurements, as of weight or distance
+# EVENT - Named hurricanes, battles, wars, sports events, etc.
+# FAC - Buildings, airports, highways, bridges, etc.
+# LANGUAGE - Any named language
+# LAW - Named documents made into laws.
+# NORP - Nationalities or religious or political groups
+# PERCENT - Percentage, including "%"
+# WORK_OF_ART - Titles of books, songs, etc.
+
+# 
+labels = ["CARDINAL", "DATE", "EVENT", "FAC", "GPE", "LANGUAGE", "LAW", "LOC", "MONEY", "NORP", "ORDINAL", "ORG", "PERCENT", "PERSON", "PRODUCT", "QUANTITY", "TIME", "WORK_OF_ART"]
+
+def gpt_ner(text):
+    MODEL="gpt-4o-mini"
+    client = OpenAI()
+
+    prompt = generate_prompt(labels, text)
+
+    completion = client.chat.completions.create(
+        model=MODEL,
+        messages=[
+            {"role": "system", "content": "Supreme Entity Recognition Expert"},
+            {"role": "user", "content": prompt}
+        ],
+          response_format={
+            "type": "json_object"
+        }
+    )
+    return json.loads(completion.choices[0].message.content)
+    
+# gpt_entities = gpt_ner(generate_prompt(labels, sentence))
+# print("--- GPT-4o MINI ---")
+# print(gpt_entities)
 
 # def gpt_ner(prompt):
 #     MODEL="gpt-4o"
