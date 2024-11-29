@@ -1,10 +1,18 @@
 from ner import spacy_ner, gpt_ner
 import json
-
-text = "The Supreme Court of the United States is the highest court in the federal judiciary of the United States of America. The court consists of the Chief Justice of the United States and eight associate justices who are nominated by the President and confirmed by the Senate. Once appointed, justices have life tenure unless they resign, retire, or are removed after impeachment. In modern discourse, the justices are often categorized as having conservative"
-
+import os
+import random
 import nltk
 from nltk.corpus import stopwords
+import time
+
+json_dir = "../../scraper/output"
+
+filenames = os.listdir(json_dir)
+
+# Shuffle the filenames
+random.seed(42)
+random.shuffle(filenames)
 
 # Download stopwords (only needs to be done once)
 nltk.download('stopwords')
@@ -43,12 +51,6 @@ def compare_arrays(array_1, array_2):
     
     return same_count, diff_array_1, diff_array_2
 
-spacy_entities = spacy_ner(text)
-print(spacy_entities)
-
-gpt_entities = gpt_ner(text)
-print(gpt_entities)
-
 result = {
             "CARDINAL": {"common": 0, "diff_spacy": 0, "diff_gpt": 0},
             "DATE": {"common": 0, "diff_spacy": 0, "diff_gpt": 0},
@@ -70,28 +72,62 @@ result = {
             "WORK_OF_ART": {"common": 0, "diff_spacy": 0, "diff_gpt": 0}
         }
 
-# Compare the results for the two NER models
-for label, entities in spacy_entities.items():
-    if label in gpt_entities:
-        same_count, diff_spacy, diff_gpt = compare_arrays(entities, gpt_entities[label])
-        result[label]["common"] = same_count
-        result[label]["diff_spacy"] = diff_spacy
-        result[label]["diff_gpt"] = diff_gpt
+start_time = time.time()
 
-    else:
-        print(f"Label: {label}")
-        print("No entities found in GPT")
-        print("\n")
+# Loop through each JSON file in the directory
+for filename in os.listdir(json_dir)[0:10]:
+    if filename.endswith(".json"):
+        try:
+            # Read the JSON file
+            with open(os.path.join(json_dir, filename), "r") as file:
+                data = json.load(file)
+            
+            # Extract the image link and textual context from the JSON data
+            text = data["text"]
 
-# Write the results to a file
-with open("ner_results.json", "w") as f:
-    json.dump(result, f, indent=4)
+            # Clean up the text, removing \n and \t
+            text = text.replace("\n", " ").replace("\t", " ")
 
-# Calculate the total common, diff_spacy, and diff_gpt
-total_common = sum(result[label]["common"] for label in result)
-total_diff_spacy = sum(result[label]["diff_spacy"] for label in result)
-total_diff_gpt = sum(result[label]["diff_gpt"] for label in result)
+            spacy_entities = spacy_ner(text)
+            print(spacy_entities)
 
-print("Total common entities:", total_common)
-print("Total different entities (Spacy):", total_diff_spacy)
-print("Total different entities (GPT):", total_diff_gpt)
+            gpt_entities = gpt_ner(text)
+            print(gpt_entities)
+
+
+            # Compare the results for the two NER models
+            for label, entities in spacy_entities.items():
+                if label in gpt_entities:
+                    same_count, diff_spacy, diff_gpt = compare_arrays(entities, gpt_entities[label])
+                    result[label]["common"] += same_count
+                    result[label]["diff_spacy"] += diff_spacy
+                    result[label]["diff_gpt"] += diff_gpt
+
+                else:
+                    print(f"Label: {label}")
+                    print("No entities found in GPT")
+                    print("\n")
+
+            # Write the results to a file
+            with open("ner_results.json", "w") as f:
+                json.dump(result, f, indent=4)
+
+            with open(f"output-ner/{filename}", "w") as file:
+                json.dump({
+                    "spacy": spacy_entities,
+                    "gpt": gpt_entities
+                }, file, indent=4)
+
+            # Calculate the total common, diff_spacy, and diff_gpt
+            total_common = sum(result[label]["common"] for label in result)
+            total_diff_spacy = sum(result[label]["diff_spacy"] for label in result)
+            total_diff_gpt = sum(result[label]["diff_gpt"] for label in result)
+
+            print("Total common entities:", total_common)
+            print("Total different entities (Spacy):", total_diff_spacy)
+            print("Total different entities (GPT):", total_diff_gpt)
+      
+        except Exception as e:
+            print(str(e))
+
+print("--- %s seconds ---" % (time.time() - start_time))

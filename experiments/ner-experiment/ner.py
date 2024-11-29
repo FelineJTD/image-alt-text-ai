@@ -86,6 +86,8 @@ def nltk_ner(text):
 # NORP - Nationalities or religious or political groups
 # PERCENT - Percentage, including "%"
 # WORK_OF_ART - Titles of books, songs, etc.
+# ORG - Companies, agencies, institutions, etc.
+
 # import spacy
 # from collections import Counter
 
@@ -171,7 +173,7 @@ def generate_prompt(labels, text):
     labels:"""
 
     for label in labels:
-        prompt += f"\n- {label}"
+        prompt += f"\n- {label['label']}: {label['description']}"
 
 
     prompt += """
@@ -180,7 +182,7 @@ def generate_prompt(labels, text):
     """
 
     for label in labels:
-        prompt += f'"{label}": [],\n'
+        prompt += f'"{label["label"]}": [],\n'
 
     prompt += "}\n\n"
     prompt +="\n\nTEXT: "
@@ -205,9 +207,64 @@ def generate_prompt(labels, text):
 # NORP - Nationalities or religious or political groups
 # PERCENT - Percentage, including "%"
 # WORK_OF_ART - Titles of books, songs, etc.
+# ORG - Companies, agencies, institutions, etc.
 
 # 
-labels = ["CARDINAL", "DATE", "EVENT", "FAC", "GPE", "LANGUAGE", "LAW", "LOC", "MONEY", "NORP", "ORDINAL", "ORG", "PERCENT", "PERSON", "PRODUCT", "QUANTITY", "TIME", "WORK_OF_ART"]
+labels = [{
+    "label": "DATE",
+    "description": "absolute or relative dates or periods (e.g. 2022, 2022-2023, today, 95 years)"
+}, {
+    "label": "PERSON",
+    "description": "People, including fictional"
+}, {
+    "label": "GPE",
+    "description": "Countries, cities, states"
+}, {
+    "label": "LOC",
+    "description": "Non-GPE locations, mountain ranges, bodies of water"
+}, {
+    "label": "MONEY",
+    "description": "Monetary values, including unit"
+}, {
+    "label": "TIME",
+    "description": "Times smaller than a day"
+}, {
+    "label": "PRODUCT",
+    "description": "Objects, vehicles, foods, etc. (not services)"
+}, {
+    "label": "CARDINAL",
+    "description": "Numerals that do not fall under another type"
+}, {
+    "label": "ORDINAL",
+    "description": "\"first\", \"second\", etc."
+}, {
+    "label": "QUANTITY",
+    "description": "Measurements, as of weight or distance"
+}, {
+    "label": "EVENT",
+    "description": "Named hurricanes, battles, wars, sports events, etc."
+}, {
+    "label": "FAC",
+    "description": "Buildings, airports, highways, bridges, etc."
+}, {
+    "label": "LANGUAGE",
+    "description": "Any named language"
+}, {
+    "label": "LAW",
+    "description": "Named documents made into laws."
+}, {
+    "label": "NORP",
+    "description": "Nationalities or religious or political groups"
+}, {
+    "label": "PERCENT",
+    "description": "Percentage, including \"%\""
+}, {
+    "label": "WORK_OF_ART",
+    "description": "Titles of books, songs, etc."
+}, {
+    "label": "ORG",
+    "description": "Companies, agencies, institutions, etc."
+}]
 
 def gpt_ner(text):
     MODEL="gpt-4o-mini"
