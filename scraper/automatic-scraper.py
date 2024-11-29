@@ -1,3 +1,5 @@
+import random
+
 input_file = './website_url_data/builtwith-top1m-20240621-random.csv'
 output_file = './output-aut-en/output-en.json'
 image_output_folder = './output-aut-en/images'
@@ -7,6 +9,7 @@ text_elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 is_chrome_headless = True
 number_of_websites = 500
 website_per_batch = 50
+random_seed = 42
 
 # Initialize the index of the website
 i_website = 1
@@ -29,6 +32,10 @@ websites = df['url'].tolist()[0:number_of_websites]
 # Append http:// to each URL
 websites = ['http://' + url for url in websites]
 
+# Shuffle the URLs
+random.seed(random_seed)
+random.shuffle(websites)
+
 # Print the first 5 URLs
 print("Website URLs loaded:")
 for i in range(i_website, min(i_website + 5, len(websites))):
@@ -49,10 +56,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import requests
 from urllib.parse import urljoin
-from io import BytesIO
 import requests
-import matplotlib.pyplot as plt
-from PIL import Image
 from langdetect import detect
 
 for i in range(i_website, min(i_website + website_per_batch, len(websites))):

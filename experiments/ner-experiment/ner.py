@@ -270,7 +270,7 @@ labels = [{
 labels = sorted(labels, key=lambda x: x['label'])
 
 def gpt_ner(text):
-    MODEL="gpt-4o-mini"
+    MODEL="gpt-4o"
     client = OpenAI()
 
     prompt = generate_prompt(labels, text)

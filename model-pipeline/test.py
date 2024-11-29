@@ -76,7 +76,7 @@ if __name__ == "__main__":
                     results.append(final_state)
 
                 # Save the final state to a JSON file
-                with open(f"./output-role-identifier/{filename}", "w") as file:
+                with open(f"./output-role-identifier-old-prompt/{filename}", "w") as file:
                     json.dump(results, file, indent=4)
 
             except Exception as e:

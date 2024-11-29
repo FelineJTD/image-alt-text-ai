@@ -1,0 +1,173 @@
+{
+    "spacy": {
+        "CARDINAL": [
+            "About 16,000",
+            "21",
+            "28 million",
+            "600,000"
+        ],
+        "DATE": [
+            "1789",
+            "November 1799",
+            "May 1789",
+            "1614",
+            "June",
+            "14 July",
+            "The next three years",
+            "April 1792",
+            "10 August",
+            "September",
+            "January 1793",
+            "June 1793",
+            "July 1794",
+            "1795",
+            "four years later",
+            "1799",
+            "9 November",
+            "the late 1780s.[3][4][5",
+            "Between 1715 and 1789",
+            "1785",
+            "1787",
+            "1788",
+            "1789",
+            "Enlightenment",
+            "1780s"
+        ],
+        "EVENT": [
+            "The French Revolution",
+            "the French Revolutionary Wars",
+            "Revolution",
+            "the American Revolution",
+            "the Affair of the Diamond Necklace"
+        ],
+        "FAC": [],
+        "GPE": [
+            "France",
+            "Paris",
+            "Paris"
+        ],
+        "LANGUAGE": [],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "French",
+            "French",
+            "Jacobins",
+            "Revolutionary",
+            "French",
+            "French",
+            "European"
+        ],
+        "ORDINAL": [
+            "first"
+        ],
+        "ORG": [
+            "the French Consulate",
+            "the Estates General",
+            "the Third Estate",
+            "a National Assembly",
+            "Assembly",
+            "the Catholic Church",
+            "the French First Republic",
+            "the National Convention",
+            "the Committee of Public Safety",
+            "Directory",
+            "Consulate",
+            "Parlements",
+            "the Estates General of"
+        ],
+        "PERCENT": [
+            "20%",
+            "almost 10%"
+        ],
+        "PERSON": [
+            "18 Brumaire",
+            "Louis XVI",
+            "Napoleon Bonaparte",
+            "Louis XVI",
+            "Louis XVI"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    },
+    "gpt": {
+        "CARDINAL": [
+            "16,000",
+            "21",
+            "28",
+            "20%",
+            "10%"
+        ],
+        "DATE": [
+            "1789",
+            "18 Brumaire",
+            "November 1799",
+            "May 1789",
+            "1614",
+            "June",
+            "14 July",
+            "April 1792",
+            "10 August",
+            "September",
+            "January 1793",
+            "June 1793",
+            "July 1794",
+            "1795",
+            "1799",
+            "9 November",
+            "1780s",
+            "Between 1715 and 1789",
+            "1789",
+            "1785",
+            "1787",
+            "1788"
+        ],
+        "EVENT": [
+            "French Revolution",
+            "Storming of the Bastille",
+            "Reign of Terror",
+            "French Revolutionary Wars",
+            "American Revolution",
+            "Affair of the Diamond Necklace"
+        ],
+        "FAC": [],
+        "GPE": [
+            "France",
+            "Paris",
+            "Britain"
+        ],
+        "LANGUAGE": [
+            "French"
+        ],
+        "LAW": [],
+        "LOC": [],
+        "MONEY": [],
+        "NORP": [
+            "French",
+            "Catholic",
+            "Jacobins"
+        ],
+        "ORDINAL": [],
+        "ORG": [
+            "Estates General",
+            "National Assembly",
+            "French First Republic",
+            "National Convention",
+            "Committee of Public Safety",
+            "Directory",
+            "Consulate"
+        ],
+        "PERCENT": [],
+        "PERSON": [
+            "Louis XVI",
+            "Napoleon Bonaparte"
+        ],
+        "PRODUCT": [],
+        "QUANTITY": [],
+        "TIME": [],
+        "WORK_OF_ART": []
+    }
+}

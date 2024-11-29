@@ -35,11 +35,13 @@ if __name__ == "__main__":
         "informative": 0,
         "decorative": 0,
         "functional": 0,
-        "complex": 0
+        "complex": 0,
+        "text": 0,
+        "unknown": 0
     }
 
     # Loop through each JSON file in the directory
-    for filename in os.listdir(json_dir)[0:100]:
+    for filename in os.listdir(json_dir):
         if filename.endswith(".json"):
             try:
                 # Read the JSON file
@@ -53,35 +55,17 @@ if __name__ == "__main__":
                 results = []
 
                 for image in sub_images:
-                    if ((image["role"]).lower() != "text") and ((image["role"]).lower() != "unknown"):
-                        data_profile[image["role"]] += 1
-                        finetune_data = {
-                            
-                            "messages": [{
-                                "role": "system", 
-                                "content": system_prompt
-                            }, {
-                                "role": "user", 
-                                "content": [{
-                                    "type": "image_url",
-                                    "image_url": {
-                                        "url": image["src"],
-                                        "detail": "low"
-                                    }
-                                }, {
-                                    "type": "text", 
-                                    "text": f"""
-    The image's attributes: {json.dumps(image["attrs"])}\n\n
-    The image's <a> or <button> parent: {image["a_button_parent"]}\n\n
-    The next text after the image appears: {image["next_text"]}\n\n"""
-                                }]
-                            }, {
-                                "role": "assistant", 
-                                "content": image["role"]
-                            }]}
+                    data_profile[image["role"]] += 1
+                    finetune_data = {
+                        "src": image["src"],
+                        "attrs": json.dumps(image["attrs"]),
+                        "a_button_parent": image["a_button_parent"],
+                        "next_text": image["next_text"],
+                        "role": image["role"]
+                    }
 
                     # Save the final state to a JSON file
-                    with open(f"./eval.jsonl", "a") as file:
+                    with open(f"./eval-{image['role']}.jsonl", "a") as file:
                         json.dump(finetune_data, file)
                         file.write("\n")
 
