@@ -45,44 +45,53 @@ except Exception as e:
 
 # Calculate the average
 for i in range(12):
-    evals_percentage[i] = (evals[i]["relevance_avg"] / evals[i]["num_data"]) * 100
+    evals_percentage[i] = (evals[i]["relevance_avg"] / evals[i]["num_data"])
     evals_threshold[i] = (evals[i]["is_relevant"] / evals[i]["num_data"]) * 100
 
 print("Loaded evals_percentage: ", evals_percentage)
 print("Loaded evals_threshold: ", evals_threshold)
 
+plt.style.use('seaborn-v0_8-muted')
+
 
 # PLOT THE RESULTS
 # Plot all_similarities
 plt.hist(all_similarities, bins=50)
-plt.title("Similarity distribution")
+plt.title("Distribusi Peroehan CLIPScore")
 # Save the plot
 plt.savefig(f"{result_dir}/similarities.png")
-# Show the plot
-plt.show()
 
 # Plot the evaluation results
 plt.figure(figsize=(12, 6))
-plt.bar([f"prev-text-{i+1}" for i in range(5)], evals_percentage[0:5], label="Average similarity")
-plt.bar([f"next-text-{i+1}" for i in range(5)], evals_percentage[5:10], label="Average similarity")
-plt.bar(["doc-title"], evals_percentage[10:11], label="Average similarity")
-plt.bar(["doc-description"], evals_percentage[11:12], label="Average similarity")
-plt.legend(loc="upper right")
+plt.bar([f"prev-text-{i+1}" for i in range(5)], evals_percentage[0:5])
+plt.bar([f"next-text-{i+1}" for i in range(5)], evals_percentage[5:10])
+plt.bar(["doc-title"], evals_percentage[10:11])
+plt.bar(["doc-description"], evals_percentage[11:12])
+plt.title("Rata-rata Perolehan CLIPScore Tiap Kelompok Elemen")
 
-# Plot the evaluation results
-plt.figure(figsize=(12, 6))
-plt.bar([f"prev-text-{i+1}" for i in range(5)], evals_threshold[0:5], label="Percentage of relevant texts")
-plt.bar([f"next-text-{i+1}" for i in range(5)], evals_threshold[5:10], label="Percentage of relevant texts")
-plt.bar(["doc-title"], evals_threshold[10:11], label="Percentage of relevant texts")
-plt.bar(["doc-description"], evals_threshold[11:12], label="Percentage of relevant texts")
-plt.legend(loc="upper right")
+for i, value in enumerate(evals_percentage):
+    plt.text(i, value, f"{value:.3f}", ha='center', va='bottom')
 
 # Tilt the x-axis labels
-plt.xticks(rotation=45)
+plt.xticks(rotation=24)
 # Save the plot
-plt.savefig(f"{result_dir}/evaluation.png")
-# Show the plot
-plt.show()
+plt.savefig(f"{result_dir}/evaluation-avg.png")
+
+# Plot the evaluation results
+plt.figure(figsize=(12, 6))
+plt.bar([f"prev-text-{i+1}" for i in range(5)], evals_threshold[0:5])
+plt.bar([f"next-text-{i+1}" for i in range(5)], evals_threshold[5:10])
+plt.bar(["doc-title"], evals_threshold[10:11])
+plt.bar(["doc-description"], evals_threshold[11:12])
+plt.title("Persentase Teks yang Relevan Tiap Kelompok Elemen")
+
+for i, value in enumerate(evals_threshold):
+    plt.text(i, value, f"{value:.3f}%", ha='center', va='bottom')
+
+# Tilt the x-axis labels
+plt.xticks(rotation=24)
+# Save the plot
+plt.savefig(f"{result_dir}/evaluation-percent.png")
 
 # Print the max and min similarity
 print("Max similarity: ", max_similarity)

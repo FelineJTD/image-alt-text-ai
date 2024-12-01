@@ -1,0 +1,18 @@
+{
+    "informative": {
+        "correct": 0,
+        "incorrect": 0
+    },
+    "decorative": {
+        "correct": 2,
+        "incorrect": 3
+    },
+    "functional": {
+        "correct": 28,
+        "incorrect": 22
+    },
+    "complex": {
+        "correct": 0,
+        "incorrect": 0
+    }
+}
