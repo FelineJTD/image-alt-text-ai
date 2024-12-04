@@ -9,14 +9,75 @@ from urllib.parse import urljoin
 app = Flask(__name__)
 CORS(app)
 
-# Global variables
-website_info = {}
+# # Global variables
+# website_info = {}
+
+# @app.route('/', methods=['GET', 'POST'])
+# def generate_alt_text():
+#     # TODO: Investigate best practices for global variables in Flask
+#     global website_info
+
+#     if request.method == 'GET':
+#         return jsonify({"message": "Server is running and the endpoint is reachable."}), 200
+
+#     # for POST requests
+#     if not request.is_json:
+#         return jsonify({"error": "Request must be JSON"}), 400
+
+#     # Get the JSON data
+#     data = request.get_json()
+
+#     # If the website information is not provided, return an error
+#     if (website_info == {} and not data.get('data')) or not data.get('url'):
+#         return jsonify({"error": "Field data and url required"}), 400
+    
+#     # Parse the document and get the website information
+#     website_info = data.get('data')
+#     print(website_info)
+
+#     # Initialize the results list
+#     results = []
+
+#     # Loop through each image
+#     for img in website_info['images']:
+
+#         # The 'src' attribute of the image
+#         image_url = img["src"]
+#         # Relative path handling
+#         if not image_url.startswith(('http://', 'https://')):
+#             image_url = urljoin(data.get('url'), image_url)
+
+#         state = {
+#             "input_image_src": image_url,
+#             "input_context": website_info['description'],
+#             "input_image_attrs": img["attrs"],
+#             "input_a_button_parent": img["a_button_parent"],
+#             "input_next_text": img["next_text"],
+
+#             "correct_role": "",
+#             "correct_alt_text": img["alt"],
+
+#             "ai_predicted_role": "",
+#             "ai_summarized_context": "",
+#             "ai_extracted_text": "",
+#             "ai_extracted_entities": {},
+#             "ai_predicted_alt_text": "",
+#         }
+        
+#         # Generate alt texts for each images
+#         try:
+#             # Generate random thread ID
+#             data['thread_id'] = str(uuid.uuid4())
+#             result = run_graph(state, data.get('thread_id'))
+#             print(result['ai_predicted_alt_text'])
+#             results.append(result['ai_predicted_alt_text'])
+#         except Exception as e:
+#             return jsonify({"error": str(e)}), 500
+        
+#     return jsonify(results), 200
 
 @app.route('/', methods=['GET', 'POST'])
 def generate_alt_text():
-    # TODO: Investigate best practices for global variables in Flask
-    global website_info
-
     if request.method == 'GET':
         return jsonify({"message": "Server is running and the endpoint is reachable."}), 200
 
@@ -27,51 +88,63 @@ def generate_alt_text():
     # Get the JSON data
     data = request.get_json()
 
-    # If the website information is not provided, return an error
-    if (website_info == {} and not data.get('data')) or not data.get('url'):
-        return jsonify({"error": "Field data and url required"}), 400
+    # const body = {
+    #     docUrl mandatory,
+    #     docTitle optional,
+    #     docDescription optional,
+    #     imgSrc mandatory,
+    #     imgAlt optional,
+    #     imgAttrs optional,
+    #     imgAOrButtonParent optional,
+    #     imgPrevText optional,
+    #     imgNextText optional,
+    # }
+
+    print(data)
+    return jsonify({"contextualAltText": "Hello, World!"}), 200
+
+    # If any mandatory info is missing, return an error
+    if (not data.get('docUrl') or not data.get('imgSrc')):
+        return jsonify({"error": "Fields docUrl and imgSrc required"}), 400
+
+    # The 'src' attribute of the image
+    doc_url = data.get('docUrl')
+    doc_title = data.get('docTitle') if data.get('docTitle') else ""
+    doc_description = data.get('docDescription') if data.get('docDescription') else ""
+    img_src = data.get('imgSrc')
+    img_alt = data.get('imgAlt') if data.get('imgAlt') else ""
+    img_attrs = str(data.get('imgAttrs')) if data.get('imgAttrs') else ""
+    img_a_button_parent = data.get('imgAOrButtonParent') if data.get('imgAOrButtonParent') else "None"
+    img_prev_text = data.get('imgPrevText') if data.get('imgPrevText') else ""
+    img_next_text = data.get('imgNextText') if data.get('imgNextText') else ""
+    # Relative path handling
+    if not img_src.startswith(('http://', 'https://')):
+        img_src = urljoin(data.get('url'), img_src)
+
+    state = {
+        "input_image_src": img_src,
+        "input_context": doc_description,
+        "input_image_attrs": img_attrs,
+        "input_a_button_parent": img_a_button_parent,
+        "input_next_text": img_next_text,
+
+        "correct_role": "",
+        "correct_alt_text": img_alt,
+
+        "ai_predicted_role": "",
+        "ai_summarized_context": "",
+        "ai_extracted_text": "",
+        "ai_extracted_entities": {},
+        "ai_predicted_alt_text": "",
+    }
     
-    # Parse the document and get the website information
-    website_info = data.get('data')
-    print(website_info)
-
-    # Initialize the results list
-    results = []
-
-    # Loop through each image
-    for img in website_info['images']:
-
-        # The 'src' attribute of the image
-        image_url = img["src"]
-        # Relative path handling
-        if not image_url.startswith(('http://', 'https://')):
-            image_url = urljoin(data.get('url'), image_url)
-
-        state = {
-            "input_image_src": image_url,
-            "input_context": website_info['description'],
-            "input_image_attrs": img["attrs"],
-            "input_a_button_parent": img["a_button_parent"],
-            "input_next_text": img["next_text"],
-
-            "correct_role": "",
-            "correct_alt_text": img["alt"],
-
-            "ai_predicted_role": "",
-            "ai_summarized_context": "",
-            "ai_extracted_text": "",
-            "ai_extracted_entities": {},
-            "ai_predicted_alt_text": "",
-        }
+    # Generate alt texts for each images
+    try:
+        # Generate random thread ID
+        data['thread_id'] = str(uuid.uuid4())
+        result = run_graph(state, data.get('thread_id'))
+        print(result['ai_predicted_alt_text'])
+        return jsonify({"contextualAltText": result['ai_predicted_alt_text']}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
         
-        # Generate alt texts for each images
-        try:
-            # Generate random thread ID
-            data['thread_id'] = str(uuid.uuid4())
-            result = run_graph(state, data.get('thread_id'))
-            print(result['ai_predicted_alt_text'])
-            results.append(result['ai_predicted_alt_text'])
-        except Exception as e:
-            return jsonify({"error": str(e)}), 500
-        
-    return jsonify(results), 200
