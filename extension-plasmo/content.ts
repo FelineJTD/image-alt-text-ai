@@ -53,62 +53,67 @@ images.forEach((img) => {
     if (e.key === "a" && e.ctrlKey && e.getModifierState("Alt")) {
       console.log("AI ALT TEXT: Generating alt text")
 
-      const url = window.location.href
-      console.log("AI ALT TEXT: Current URL: ", url)
+      // Get the current URL
+      const docUrl = window.location.href
+      console.log("AI ALT TEXT: Current URL: ", docUrl)
 
-      // src: imageUrl,
-      // alt: imageAlt,
-      // attrs: imageAttrs,
-      // a_button_parent: aButtonParent
-      //   ? aButtonParent.outerHTML
-      //   : "None",
-      // prev_text: prevText,
-      // next_text: nextText,
+      // Get the website's title
+      const docTitle = document.title
+      console.log("AI ALT TEXT: Website title: ", docTitle)
+
+      // Get the website description
+      const docDescription = document
+        .querySelector('meta[name="description"]')
+        ?.getAttribute("content")
+      console.log("AI ALT TEXT: Website description: ", docDescription)
 
       // Get the image src
-      const src = img.src
-      console.log("AI ALT TEXT: Image src: ", src)
+      const imgSrc = img.src
+      console.log("AI ALT TEXT: Image src: ", imgSrc)
 
       // Get the image alt text
-      const alt = img.alt
-      console.log("AI ALT TEXT: Image alt: ", alt)
+      const imgAlt = img.alt
+      console.log("AI ALT TEXT: Image alt: ", imgAlt)
 
       // Get the image attributes
-      const attrs = img.attributes
-      console.log("AI ALT TEXT: Image attributes: ", attrs)
+      const imgAttrs = img.attributes
+      console.log("AI ALT TEXT: Image attributes: ", imgAttrs)
 
       // Search 3 levels of parent elements for an <a> or <button> tag
-      let aButtonParent = null
+      let imgAnchorOrButtonParent = null
       let parent = img.parentElement
       for (let i = 0; i < 3; i++) {
         if (parent.tagName === "A" || parent.tagName === "BUTTON") {
-          aButtonParent = parent
+          imgAnchorOrButtonParent = parent
           break
         }
         parent = parent.parentElement
       }
       console.log(
         "AI ALT TEXT: Parent with <a> or <button> tag: ",
-        aButtonParent
+        imgAnchorOrButtonParent
       )
 
-      // Search 5 levels of previous sibling elements for text
+      // Search 10 levels of previous sibling elements for text
       let i = 0
-      let prevText = ""
+      let imgPrevText = ""
       let currElement = img as HTMLElement
-      while (i < 5) {
+      while (i < 10) {
         // If there is a previous sibling, check if it contains text
         if (currElement.previousSibling) {
           console.log(
             "AI ALT TEXT: Previous sibling: ",
             currElement.previousSibling
           )
-          prevText = currElement.previousSibling.textContent
+          imgPrevText = currElement.previousSibling.textContent
 
           // Clean the previous text (trim, remove new lines, make multiple spaces into one)
-          prevText = prevText.trim().replace(/\n/g, " ").replace(/\s+/g, " ")
+          imgPrevText = imgPrevText
+            .trim()
+            .replace(/\n/g, " ")
+            .replace(/\s+/g, " ")
           // Break if text is found
-          if (prevText.length > 0) {
+          if (imgPrevText.length > 0) {
             break
           }
           currElement = currElement.previousSibling as HTMLElement
@@ -118,22 +123,25 @@ images.forEach((img) => {
           currElement = currElement.parentElement as HTMLElement
         }
       }
-      console.log("AI ALT TEXT: Previous text: ", prevText)
+      console.log("AI ALT TEXT: Previous text: ", imgPrevText)
 
-      // Search 5 levels of next sibling elements for text
+      // Search 10 levels of next sibling elements for text
       i = 0
-      let nextText = ""
+      let imgNextText = ""
       currElement = img as HTMLElement
-      while (i < 5) {
+      while (i < 10) {
         // If there is a next sibling, check if it contains text
         if (currElement.nextSibling) {
           console.log("AI ALT TEXT: Next sibling: ", currElement.nextSibling)
-          nextText = currElement.nextSibling.textContent
+          imgNextText = currElement.nextSibling.textContent
 
           // Clean the next text (trim, remove new lines, make multiple spaces into one)
-          nextText = nextText.trim().replace(/\n/g, " ").replace(/\s+/g, " ")
+          imgNextText = imgNextText
+            .trim()
+            .replace(/\n/g, " ")
+            .replace(/\s+/g, " ")
           // Break if text is found
-          if (nextText.length > 0) {
+          if (imgNextText.length > 0) {
             break
           }
           currElement = currElement.nextSibling as HTMLElement
@@ -143,35 +151,42 @@ images.forEach((img) => {
           currElement = currElement.parentElement as HTMLElement
         }
       }
-      console.log("AI ALT TEXT: Next text: ", nextText)
+      console.log("AI ALT TEXT: Next text: ", imgNextText)
 
-      // Send image URL to backend
-      // fetch(`${BACKEND_URL}/image`, {
-      //   method: "POST",
-      //   headers: {
-      //     "Content-Type": "application/json"
-      //   },
-      //   body: JSON.stringify({
-      //     url: img.src
-      //   })
-      // })
-      //   .then((response) => response.json())
-      //   .then((data) => {
-      //     console.log(data)
-      //     // Set alt text to image
-      //     img.alt = data.alt
-      //   })
-      // Add pop up window directly above or below the image
+      // Combine all context
+      const body = {
+        docUrl,
+        docTitle,
+        docDescription,
+        imgSrc,
+        imgAlt,
+        imgAttrs,
+        imgPrevText,
+        imgNextText
+      }
 
-      const altText = "Dummy alt text"
+      // Send image data to backend
+      fetch(BACKEND_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(body)
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log("AI ALT TEXT: Received message from server: ", data)
+          // Set alt text to image
+          img.alt = data.contextualAltText
 
-      // Change the position of the popup based on the position of the image
-      const viewportOffset = img.getBoundingClientRect()
-      const popup = document.getElementById("popup-ai-alt-text")
-      popup.textContent = altText
-      popup.style.top = `${viewportOffset.top + img.height + 4}px`
-      popup.style.left = `${viewportOffset.left - 4}px`
-      popup.style.opacity = "1"
+          // Set alt text to popup
+          const viewportOffset = img.getBoundingClientRect()
+          const popup = document.getElementById("popup-ai-alt-text")
+          popup.textContent = `${data.contextualAltText}`
+          popup.style.top = `${viewportOffset.top + img.height + 4}px`
+          popup.style.left = `${viewportOffset.left - 4}px`
+          popup.style.opacity = "1"
+        })
     }
   })
 
@@ -182,36 +197,5 @@ images.forEach((img) => {
     popup.style.opacity = "0"
   })
 })
-
-// Detect if user focuses on an image
-// document.addEventListener(
-//   "focus",
-//   (e) => {
-//     if (e.target instanceof HTMLImageElement) {
-//       console.log("AI ALT TEXT: Image focused")
-//       // Get the image src
-//       const src = e.target.src
-//       console.log("AI ALT TEXT: Image src: ", src)
-//       // Send image URL to backend
-//       //   fetch(`${BACKEND_URL}/image`, {
-//       //     method: "POST",
-//       //     headers: {
-//       //       "Content-Type": "application/json"
-//       //     },
-//       //     body: JSON.stringify({
-//       //       url: e.target.src
-//       //     })
-//       //   })
-//       //     .then((response) => response.json())
-//       //     .then((data) => {
-//       //       console.log(data)
-//       //       // Set alt text to image
-//       //       e.target.alt = data.alt
-//       //     })
-//       // }
-//     }
-//   },
-//   true
-// )
 
 export {}
