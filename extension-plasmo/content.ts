@@ -28,10 +28,11 @@ popup.id = "popup-ai-alt-text"
 popup.style.position = "fixed"
 popup.ariaLive = "assertive"
 popup.style.backgroundColor = "white"
+popup.style.color = "black"
 popup.style.border = "1px solid black"
 popup.style.padding = "8px"
 popup.style.zIndex = "1000"
-popup.style.display = "none"
+popup.style.opacity = "0"
 document.body.appendChild(popup)
 
 const images = document.querySelectorAll("img")
@@ -77,14 +78,15 @@ images.forEach((img) => {
       popup.textContent = altText
       popup.style.top = `${viewportOffset.top + img.height + 4}px`
       popup.style.left = `${viewportOffset.left - 4}px`
-      popup.style.display = "block"
+      popup.style.opacity = "1"
     }
   })
 
   // Add event listener to remove popup when image is blurred
   img.addEventListener("blur", () => {
     const popup = document.getElementById("popup-ai-alt-text")
-    popup.style.display = "none"
+    popup.textContent = ""
+    popup.style.opacity = "0"
   })
 })
 
