@@ -106,6 +106,8 @@ def determine_image_role(state: State):
                         },
                         {
                             "type": "text", "text": f"""
+The website's title: {state["input_doc_title"]}\n\n
+The website's description: {state["input_doc_description"]}\n\n                            
 The image's attributes: {state["input_img_attrs"]}\n\n
 The image's <a> or <button> parent: {state["input_img_a_button_parent"]}\n\n
 The previous text before the image appears: {state["input_img_prev_text"]}\n\n
