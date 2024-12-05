@@ -42,21 +42,17 @@ You are part of a team tasked with generating role-aware and context-aware image
 As each role needs to be handled differently when generating alt texts, your output will be used to help another team member write the most suitable alt text that is role-aware and contex-aware for the image to help create more accessible websites.
 
 Return only the role of the image from the list above. Return the role as a single word without any enclosing bracket, e.g., informative, decorative, functional, text, or complex. THIS IS IMPORTANT! RETURN ONLY THE ROLE OF THE IMAGE.
-
-{message}
 """
 
 
 image_description_prompt = """
-Describe the image in a few words to help identify its role. This description should be concise and capture the essence of the image. You can mention any text present in the image, the context in which the image appears, or any other relevant details that can help determine the role of the image.
-
-{message}
+Describe the image in a descriptive and concise manner to be used as the image's alt text in a website. The description should be clear, accurate, and informative. Keep it to 1-2 sentences.
 """
 
 
 alt_text_prompts = {
     "informative": """
-        The role of the image has been identified as 'informative'. Informative images convey a simple concept or information that can be expressed in a short phrase or sentence. The text alternative should convey the meaning or content that is displayed visually, which typically isn't a literal description of the image. In some situations a detailed literal description may be needed, but only when the content of the image is all or part of the conveyed information.
+        The role of the image has been identified as 'informative'. Informative images convey a simple concept or information that can be expressed in a short phrase or sentence. The text alternative should convey the meaning or content that is displayed visually while also being descriptive. Include identified names of people, places, or things in the image which you may be able to discern from the next or previous text relative to the image, as well as any text that is part of the image. When applicable, include information such as the color, shape, material, or other visual characteristics that are relevant to the information conveyed by the image. Do not repeat the text that is already present in the surrounding context.
 
         Example 1: Images used to label other information
         This example includes two image icons - one of a telephone, one of a fax machine. A phone number follows each image. Consistent with the visual presentation, the text alternatives "Telephone:" and "Fax:" are used to identify the device associated with each number.
@@ -76,13 +72,10 @@ alt_text_prompts = {
         Write a concise and descriptive alt text for the image based on the role of the image as 'informative' as well as the context provided from the website. The alt text should convey the meaning or content of the image in a way that is meaningful and useful to those who rely on screen readers or other assistive technologies.
 
         Write only the alt text for the image. Do not include any additional information or context. Do not enclose the alt text in quotes. For example, if the alt text is "A dog with a bell attached to its collar.", you should only write: A dog with a bell attached to its collar.
-
-        {message}
-
         """,
     
     "functional": """
-        Functional images are used to initiate actions rather than to convey information. They are used in buttons, links, and other interactive elements. The text alternative for the image should convey the action that will be initiated (the purpose of the image), rather than a description of the image.
+        Functional images are used to initiate actions rather than to convey information. They are used in buttons, links, and other interactive elements. The text alternative for the image should convey the action that will be initiated (the purpose of the image), while also being descriptive. Include important information that is visually represented by the image that may help blind users make an informed decision about activating the image. Do not repeat the text that is already present in the surrounding context.
 
         For instance, as shown in examples below, the text alternative should be “print this page” rather than “(image of a) printer”, “search” rather than “magnifying lens” or “Example.com homepage” rather than “Example.com logo”.
 
@@ -101,23 +94,12 @@ alt_text_prompts = {
         Example 5: Image used in a button
         The following image is used to give the button a distinct style. In this case, it is the button to initiate a search request and is an icon representing a magnifying lens. The text alternative for the image is “search” to convey the purpose of the button.
 
-        Write a concise and descriptive alt text for the image based on the role of the image as 'functional' as well as the context provided from the website. The alt text should convey the action that will be initiated by the image (the purpose of the image) in a way that is meaningful and useful to those who rely on screen readers or other assistive technologies.
-
-        Write only the alt text for the image. Do not include any additional information or context. Do not enclose the alt text in quotes. For example, if the alt text is "Print this page", you should only write: Print this page.
-
-        {message}
-    """,
-
-    "text": """
-        The role of the image has been identified as 'text'. Text images are those that contain readable text within the image itself. 
-
-        When an image contains text that is important to understanding the content, the alt text should contain the same words as in the image. This ensures that the information is accessible to users who cannot see the image.
+        Example 6: Informative image used in a button
+        Images of products may be used to represent products on sale. In this case, the user may need a more specific description of the product, such as color, size, or other distinguishing features that are visually represented and otherwise not found in the surrounding context. The text alternative for the image is “View this item: a brown leather handbag with a monogrammed pattern, gold hardware, two handles, a detachable shoulder strap, and a patterned silk scarf tied to one handle” to adequately describe the product and the specific action that will be initiated by selecting the button.
 
         Write a concise and descriptive alt text for the image based on the role of the image as 'functional' as well as the context provided from the website. The alt text should convey the action that will be initiated by the image (the purpose of the image) in a way that is meaningful and useful to those who rely on screen readers or other assistive technologies.
 
         Write only the alt text for the image. Do not include any additional information or context. Do not enclose the alt text in quotes. For example, if the alt text is "Print this page", you should only write: Print this page.
-
-        {message}
     """,
 
     "complex": """
@@ -128,7 +110,5 @@ alt_text_prompts = {
         Write a concise and descriptive alt text for the image based on the role of the image as 'functional' as well as the context provided from the website. The alt text should convey the action that will be initiated by the image (the purpose of the image) in a way that is meaningful and useful to those who rely on screen readers or other assistive technologies.
 
         Write only the alt text for the image. Do not include any additional information or context. Do not enclose the alt text in quotes. For example, if the alt text is "Print this page", you should only write: Print this page.
-
-        {message}
     """,
 }
