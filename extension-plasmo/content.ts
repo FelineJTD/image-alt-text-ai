@@ -33,6 +33,7 @@ popup.style.border = "1px solid black"
 popup.style.padding = "8px"
 popup.style.zIndex = "1000"
 popup.style.opacity = "0"
+popup.style.overflowY = "auto"
 document.body.appendChild(popup)
 
 const images = document.querySelectorAll("img")
@@ -199,7 +200,11 @@ images.forEach((img) => {
           popup.style.top = `${viewportOffset.top + img.height + 4}px`
           popup.style.left = `${viewportOffset.left - 4}px`
           popup.style.opacity = "1"
-          popup.textContent = `Descriptive: ${data.descriptiveAltText}\nContextual: ${data.contextualAltText}`
+          popup.style.maxWidth = `${img.width + 8}px`
+          popup.style.maxHeight = `${
+            window.innerHeight - viewportOffset.top - img.height - 4
+          }px`
+          popup.innerHTML = `<strong>Human:</strong> ${data.humanAltText}<br><strong>Descriptive AI:</strong> ${data.descriptiveAltText}<br><strong>Contextual AI:</strong> ${data.contextualAltText} (${(data.contextualAltTextConfidence * 100).toFixed(2)}% confidence)`
         })
     }
   })
