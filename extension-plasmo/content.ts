@@ -67,6 +67,10 @@ images.forEach((img) => {
         ?.getAttribute("content")
       console.log("AI ALT TEXT: Website description: ", docDescription)
 
+      // Get all text in the document
+      const docText = document.body.innerText
+      console.log("AI ALT TEXT: Document text: ", docText)
+
       // Get the image src
       const imgSrc = img.src
       console.log("AI ALT TEXT: Image src: ", imgSrc)
@@ -121,6 +125,10 @@ images.forEach((img) => {
         } else {
           // Search parent element for text
           currElement = currElement.parentElement as HTMLElement
+          // If parent is <body>, break
+          if (currElement.tagName === "BODY") {
+            break
+          }
         }
       }
       console.log("AI ALT TEXT: Previous text: ", imgPrevText)
@@ -149,6 +157,10 @@ images.forEach((img) => {
         } else {
           // Search parent element for text
           currElement = currElement.parentElement as HTMLElement
+          // If parent is <body>, break
+          if (currElement.tagName === "BODY") {
+            break
+          }
         }
       }
       console.log("AI ALT TEXT: Next text: ", imgNextText)
@@ -158,8 +170,10 @@ images.forEach((img) => {
         docUrl,
         docTitle,
         docDescription,
+        docText,
         imgSrc,
         imgAlt,
+        imgAnchorOrButtonParent: imgAnchorOrButtonParent?.outerHTML,
         imgAttrs,
         imgPrevText,
         imgNextText
@@ -182,10 +196,10 @@ images.forEach((img) => {
           // Set alt text to popup
           const viewportOffset = img.getBoundingClientRect()
           const popup = document.getElementById("popup-ai-alt-text")
-          popup.textContent = `${data.contextualAltText}`
           popup.style.top = `${viewportOffset.top + img.height + 4}px`
           popup.style.left = `${viewportOffset.left - 4}px`
           popup.style.opacity = "1"
+          popup.textContent = `Descriptive: ${data.descriptiveAltText}\nContextual: ${data.contextualAltText}`
         })
     }
   })
