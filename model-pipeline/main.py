@@ -142,6 +142,7 @@ def generate_alt_text():
         "ai_extracted_text": "",
         "ai_extracted_entities": "",
         "ai_predicted_contextual_alt_text": "",
+        "ai_predicted_contextual_alt_text_confidence": 0.0,
         "ai_predicted_descriptive_alt_text": "",
     }
     
@@ -151,7 +152,7 @@ def generate_alt_text():
         data['thread_id'] = str(uuid.uuid4())
         result = run_graph(state, data.get('thread_id'))
         print(result['ai_predicted_contextual_alt_text'])
-        return jsonify({"contextualAltText": result['ai_predicted_contextual_alt_text'], "descriptiveAltText": result["ai_predicted_descriptive_alt_text"]}), 200
+        return jsonify({"contextualAltText": result['ai_predicted_contextual_alt_text'], "contextualAltTextConfidence" : result['ai_predicted_contextual_alt_text_confidence'], "descriptiveAltText": result['ai_predicted_descriptive_alt_text'], "humanAltText": result['correct_alt_text']}), 200
     except Exception as e:
         print(str(e))
         return jsonify({"error": str(e)}), 500

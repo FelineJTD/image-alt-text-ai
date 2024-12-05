@@ -1,10 +1,4 @@
-# from llava import llava_chatbot
-# import json
 from pprint import pprint
-# from llava_chatbot import llava_chatbot
-
-from langchain.prompts import PromptTemplate
-from langchain_core.output_parsers import StrOutputParser
 
 from langgraph.checkpoint.sqlite import SqliteSaver
 from langgraph.graph import StateGraph, START, END
@@ -196,7 +190,7 @@ def generate_alt_text(state: State):
             ai_predicted_role = "informative"
         
         # For other roles, generate alt text based on the role
-        role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
+        role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5).bind(logprobs=True)
         predicted_alt_text = role_identifier_llm.invoke(
             [
                 (
@@ -224,9 +218,15 @@ The next text after the image appears: {state["input_img_next_text"]}\n\n
             ]
         )
 
+        logprobs = predicted_alt_text.response_metadata['logprobs']['content']
+        # Calculate response confidence based on logprobs
+        response_confidence = sum([10 ** logprob['logprob'] for logprob in logprobs]) / len(logprobs)
+        pprint(f"RESPONSE CONFIDENCE: {response_confidence}")
+
+        # pprint(f"LOGPROBS: {predicted_alt_text.response_metadata['logprobs']['content']}")
         pprint(f"predicted_alt_text: {predicted_alt_text.content}")
 
-        return {"ai_predicted_contextual_alt_text": predicted_alt_text.content}
+        return {"ai_predicted_contextual_alt_text": predicted_alt_text.content, "ai_predicted_contextual_alt_text_confidence": response_confidence}
     except Exception as e:
         print(e)
 
@@ -253,18 +253,14 @@ def end_graph():
 # Define a new graph
 workflow = StateGraph(State)
 
-# Add the nodes to the graph
-# workflow.add_node("get_image_context", get_image_context)
-# workflow.add_node("start_graph", start_graph)
+# Add nodes to the graph
 workflow.add_node("generate_descriptive_alt_text", generate_descriptive_alt_text)
 workflow.add_node("determine_image_role", determine_image_role)
 workflow.add_node("ocr_image", ocr_image)
 workflow.add_node("ner_image", ner_image)
 workflow.add_node("generate_alt_text", generate_alt_text)
-# workflow.add_node("end_graph", end_graph)
 
-# Add the edges to the graph
-# workflow.add_edge("get_image_context", "ocr_image")
+# Add edges to the graph
 workflow.add_edge(START, "generate_descriptive_alt_text")
 workflow.add_edge("generate_descriptive_alt_text", END)
 
@@ -274,13 +270,7 @@ workflow.add_edge("ner_image", "determine_image_role")
 workflow.add_edge("determine_image_role", "generate_alt_text")
 workflow.add_edge("generate_alt_text", END)
 
-# Set the entry point
-# workflow.set_entry_point("start_graph")
-# workflow.set_entry_point("determine_image_role")
-
-# Finally, we compile it!
-# This compiles it into a LangChain Runnable,
-# meaning you can use it as you would any other runnable
+# Compile the graph
 app = workflow.compile(checkpointer=memory)
 
 def run_graph(inputs, thread_id):

@@ -25,6 +25,7 @@ class State(TypedDict):
     ai_extracted_text: Annotated[str, operator.add]
     ai_extracted_entities: Annotated[str, operator.add]
     ai_predicted_contextual_alt_text: Annotated[str, operator.add]
+    ai_predicted_contextual_alt_text_confidence: Annotated[float, operator.add]
     ai_predicted_descriptive_alt_text: Annotated[str, operator.add]
 
 
