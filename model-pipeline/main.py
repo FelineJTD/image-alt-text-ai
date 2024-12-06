@@ -3,7 +3,6 @@ import json
 from flask import Flask, request, jsonify
 from graph import run_graph
 from flask_cors import CORS
-from utils import parse_document
 from urllib.parse import urljoin
 
 app = Flask(__name__)
