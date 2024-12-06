@@ -7,7 +7,7 @@ export const config: PlasmoCSConfig = {
 }
 
 // Backend URL
-const BACKEND_URL = "http://localhost:5000"
+const BACKEND_URL = "https://image-alt-text-ai.onrender.com"
 
 // Add-on working
 console.log("AI ALT TEXT: Alt text add-on working")
@@ -37,21 +37,68 @@ popup.style.overflowY = "auto"
 document.body.appendChild(popup)
 
 const images = document.querySelectorAll("img")
-console.log("AI ALT TEXT: Found ", images.length, " images")
+let totalImages = 0
+let altTexts = {}
+
+const showPopup = (img: HTMLImageElement, content: string) => {
+  const viewportOffset = img.getBoundingClientRect()
+  const popup = document.getElementById("popup-ai-alt-text")
+  popup.style.top = `${viewportOffset.top + img.height + 4}px`
+  popup.style.left = `${viewportOffset.left - 4}px`
+  popup.style.opacity = "1"
+  popup.style.maxWidth = `${img.width + 8 > 300 ? img.width + 8 : 300}px`
+  popup.style.maxHeight = `${
+    window.innerHeight - viewportOffset.top - img.height - 4
+  }px`
+  popup.innerHTML = content
+}
 
 images.forEach((img) => {
+  // Check image format
+  // We currently support PNG (.png), JPEG (.jpeg and .jpg), WEBP (.webp), and non-animated GIF (.gif).
+  const imgSrc = img.src
+  if (
+    !imgSrc.endsWith(".png") &&
+    !imgSrc.endsWith(".jpeg") &&
+    !imgSrc.endsWith(".jpg") &&
+    !imgSrc.endsWith(".webp") &&
+    !imgSrc.endsWith(".gif")
+  ) {
+    return
+  }
+  totalImages++
+
   // Ensure images are focusable
   if (!img.hasAttribute("tabindex")) {
     img.setAttribute("tabindex", "0") // Make image focusable
+  }
+
+  // Add unique ID to image if it doesn't have one
+  if (!img.id) {
+    img.id = `img-${Math.random().toString(36).slice(2, 9)}`
   }
 
   // Add focus and blur event listeners to images
   img.addEventListener("focus", () => img.classList.add("img-focused"))
   img.addEventListener("blur", () => img.classList.remove("img-focused"))
 
-  // Add shortcut to generate alt text (Ctrl + Alt + A)
+  // Add shortcut to generate alt text (Alt + A)
   img.addEventListener("keydown", (e) => {
-    if (e.key === "a" && e.ctrlKey && e.getModifierState("Alt")) {
+    if (e.key === "a" && e.getModifierState("Alt")) {
+      e.preventDefault()
+
+      if (altTexts[img.id]) {
+        // Set alt text to popup
+        showPopup(
+          img,
+          `<strong>Human:</strong> ${altTexts[img.id].humanAltText}<br><strong>Descriptive AI:</strong> ${altTexts[img.id].descriptiveAltText}<br><strong>Contextual AI:</strong> ${altTexts[img.id].contextualAltText} (${(altTexts[img.id].contextualAltTextConfidence * 100).toFixed(2)}% confidence)`
+        )
+        return
+      }
+
+      // Loading
+      showPopup(img, "Generating alt text...")
+
       console.log("AI ALT TEXT: Generating alt text")
 
       // Get the current URL
@@ -191,20 +238,16 @@ images.forEach((img) => {
         .then((response) => response.json())
         .then((data) => {
           console.log("AI ALT TEXT: Received message from server: ", data)
-          // Set alt text to image
-          img.alt = data.contextualAltText
+          // Save alt text to altTexts
+          if (!altTexts[img.id]) {
+            altTexts[img.id] = data
+          }
 
           // Set alt text to popup
-          const viewportOffset = img.getBoundingClientRect()
-          const popup = document.getElementById("popup-ai-alt-text")
-          popup.style.top = `${viewportOffset.top + img.height + 4}px`
-          popup.style.left = `${viewportOffset.left - 4}px`
-          popup.style.opacity = "1"
-          popup.style.maxWidth = `${img.width + 8}px`
-          popup.style.maxHeight = `${
-            window.innerHeight - viewportOffset.top - img.height - 4
-          }px`
-          popup.innerHTML = `<strong>Human:</strong> ${data.humanAltText}<br><strong>Descriptive AI:</strong> ${data.descriptiveAltText}<br><strong>Contextual AI:</strong> ${data.contextualAltText} (${(data.contextualAltTextConfidence * 100).toFixed(2)}% confidence)`
+          showPopup(
+            img,
+            `<strong>Human:</strong> ${data.humanAltText}<br><strong>Descriptive AI:</strong> ${data.descriptiveAltText}<br><strong>Contextual AI:</strong> ${data.contextualAltText} (${(data.contextualAltTextConfidence * 100).toFixed(2)}% confidence)`
+          )
         })
     }
   })
@@ -216,5 +259,9 @@ images.forEach((img) => {
     popup.style.opacity = "0"
   })
 })
+
+// alert(
+//   "AI ALT TEXT: Alt text add-on working. Focus on an image and use the shortcut Alt + A to generate the alt text."
+// )
 
 export {}
