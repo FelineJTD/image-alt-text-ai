@@ -6,9 +6,9 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
-from PIL import Image
-import pytesseract
-import requests
+# from PIL import Image
+# import pytesseract
+# import requests
 from ner import nltk_ner
 
 from states import State
