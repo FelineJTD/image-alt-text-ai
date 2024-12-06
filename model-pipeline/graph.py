@@ -9,7 +9,7 @@ load_dotenv()
 # from PIL import Image
 # import pytesseract
 # import requests
-from ner import nltk_ner
+# from ner import nltk_ner
 
 from states import State
 
@@ -167,12 +167,13 @@ def ner_image(state: State):
         state (State): The state object containing the extracted text and other relevant information.
     """
     # Perform NER on the extracted text
-    print("Performing Named Entity Recognition on the extracted text...")
-    extracted_entities = nltk_ner(state["input_doc_text"])
-    pprint(f"Extracted entities: {extracted_entities}")
+    # print("Performing Named Entity Recognition on the extracted text...")
+    # extracted_entities = nltk_ner(state["input_doc_text"])
+    # pprint(f"Extracted entities: {extracted_entities}")
 
-    # Update the state with the extracted entities
-    return {"ai_extracted_entities": json.dumps(extracted_entities)}
+    # # Update the state with the extracted entities
+    # return {"ai_extracted_entities": json.dumps(extracted_entities)}
+    pass
 
 # GENERATE ALT TEXT
 def generate_alt_text(state: State):
