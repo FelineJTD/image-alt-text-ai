@@ -30,4 +30,4 @@ wrapt==1.16.0
 Flask==3.0.3
 Flask-Cors==4.0.1
 gunicorn==22.0.0
-nltk==3.6.2
+nltk==3.8.1
