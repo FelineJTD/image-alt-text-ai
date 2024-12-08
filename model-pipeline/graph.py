@@ -13,7 +13,7 @@ load_dotenv()
 
 from states import State
 
-import json
+# import json
 
 from prompts import role_identifier_prompt, alt_text_prompts, image_description_prompt
 
@@ -47,9 +47,6 @@ memory = SqliteSaver.from_conn_string(":memory:")
 #     )
 
 #     return {"ai_summarized_context": ans}
-
-def start_graph():
-    pass
 
 def generate_descriptive_alt_text(state: State):
     # Alt text generation based on guidelines from WCAG: https://www.w3.org/WAI/tutorials/images/

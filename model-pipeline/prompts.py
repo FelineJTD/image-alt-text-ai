@@ -107,7 +107,22 @@ alt_text_prompts = {
 
         When an image contains complex information, the alt text should provide a complete text equivalent of the data or information presented in the image. This ensures that users who cannot see the image can still access the information it contains.
 
-        Write a concise and descriptive alt text for the image based on the role of the image as 'functional' as well as the context provided from the website. The alt text should convey the action that will be initiated by the image (the purpose of the image) in a way that is meaningful and useful to those who rely on screen readers or other assistive technologies.
+        Example 1: Graphs and Charts
+        A graph showing the sales performance of a company over the past year. The alt text should describe the data presented in the graph, including the axes, labels, and key data points.
+
+        Example 2: Maps
+        A map showing the location of a store. The alt text should describe the location of the store, including any landmarks or other relevant information.
+
+        Example 3: Diagrams
+        A diagram illustrating the process of photosynthesis. The alt text should describe each step of the process and the relationship between the different elements.
+
+        Example 4: Infographics
+        An infographic showing the benefits of a particular product. The alt text should describe each benefit and how it relates to the product.
+
+        Example 5: Technical Drawings
+        A technical drawing of a machine part. The alt text should describe the part, its dimensions, and any other relevant details.
+
+        Write a concise and descriptive alt text for the image based on the role of the image as 'complex' as well as the context provided from the website. The alt text should provide a complete text equivalent of the data or information presented in the image in a way that is meaningful and useful to those who rely on screen readers or other assistive technologies.
 
         Write only the alt text for the image. Do not include any additional information or context. Do not enclose the alt text in quotes. For example, if the alt text is "Print this page", you should only write: Print this page.
     """,
