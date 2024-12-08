@@ -32,26 +32,21 @@ def nltk_ner(text):
     #     "WORK_OF_ART": []
     # }
     entities = {
-        "CARDINAL": [],
-        "DATE": [],
         "EVENT": [],
         "FAC": [],
         "GPE": [],
-        "LANGUAGE": [],
         "LAW": [],
         "LOC": [],
-        "MONEY": [],
         "NORP": [],
-        "ORDINAL": [],
         "ORG": [],
-        "PERCENT": [],
         "PERSON": [],
         "PRODUCT": [],
-        "QUANTITY": [],
-        "TIME": [],
         "WORK_OF_ART": []
     }
     for entity in tokenized:
         if hasattr(entity, 'label') and entity.label() in entities:
             entities[entity.label()].append(entity[0][0])
+
+    # Remove empty lists
+    entities = {k: v for k, v in entities.items() if v != []}
     return entities

@@ -6,14 +6,14 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
-# from PIL import Image
-# import pytesseract
-# import requests
-# from ner import nltk_ner
+from PIL import Image
+import pytesseract
+import requests
+from ner import nltk_ner
 
 from states import State
 
-# import json
+import json
 
 from prompts import role_identifier_prompt, alt_text_prompts, image_description_prompt
 
@@ -164,13 +164,13 @@ def ner_image(state: State):
         state (State): The state object containing the extracted text and other relevant information.
     """
     # Perform NER on the extracted text
-    # print("Performing Named Entity Recognition on the extracted text...")
-    # extracted_entities = nltk_ner(state["input_doc_text"])
-    # pprint(f"Extracted entities: {extracted_entities}")
+    print("Performing Named Entity Recognition on the extracted text...")
+    extracted_entities = nltk_ner(state["input_doc_text"])
 
-    # # Update the state with the extracted entities
-    # return {"ai_extracted_entities": json.dumps(extracted_entities)}
-    pass
+    pprint(f"Extracted entities: {extracted_entities}")
+
+    # Update the state with the extracted entities
+    return {"ai_extracted_entities": json.dumps(extracted_entities)}
 
 # GENERATE ALT TEXT
 def generate_alt_text(state: State):
@@ -209,6 +209,7 @@ The image's attributes: {state["input_img_attrs"]}\n\n
 The image's <a> or <button> parent: {state["input_img_a_button_parent"]}\n\n
 The previous text before the image appears: {state["input_img_prev_text"]}\n\n
 The next text after the image appears: {state["input_img_next_text"]}\n\n
+Entities found in the whole website text: {state["ai_extracted_entities"]}\n\n
                             """
                         }
                     ]
@@ -229,9 +230,6 @@ The next text after the image appears: {state["input_img_next_text"]}\n\n
         print(e)
 
     return {"ai_predicted_role": ""}
-
-def end_graph():
-    pass
 
 # def generate_alt_text_llava(state: State):
 #     ans = llava_chatbot.continue_chat(
