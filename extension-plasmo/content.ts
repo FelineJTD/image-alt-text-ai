@@ -8,6 +8,7 @@ export const config: PlasmoCSConfig = {
 
 // Backend URL
 const BACKEND_URL = "https://image-alt-text-ai.onrender.com"
+// const BACKEND_URL = "http://localhost:5000"
 
 // Add-on working
 console.log("AI ALT TEXT: Alt text add-on working")
@@ -40,6 +41,11 @@ const images = document.querySelectorAll("img")
 let totalImages = 0
 let altTexts = {}
 
+// const revealImage = (imgId: string, imgSrc: string) => {
+//   const img = document.getElementById(imgId) as HTMLImageElement
+//   img.src = imgSrc
+// }
+
 const showPopup = (img: HTMLImageElement, content: string) => {
   const viewportOffset = img.getBoundingClientRect()
   const popup = document.getElementById("popup-ai-alt-text")
@@ -67,10 +73,13 @@ images.forEach((img) => {
     return
   }
   totalImages++
+  // Cover images to simulate blindness
+  // img.src =
+  //   "https://media.istockphoto.com/id/1265741003/video/pixel-censored-black-censor-bar-concept-censorship-rectangle-abstract-black-and-white-pixels.jpg?s=640x640&k=20&c=xN0KRE3vkdGeddUfkIf_Q_zsTQqMS4Kos7WCaiUYk8M="
 
   // Ensure images are focusable
   if (!img.hasAttribute("tabindex")) {
-    img.setAttribute("tabindex", "0") // Make image focusable
+    img.setAttribute("tabindex", "1") // Make image focusable
   }
 
   // Add unique ID to image if it doesn't have one
@@ -120,7 +129,6 @@ images.forEach((img) => {
       console.log("AI ALT TEXT: Document text: ", docText)
 
       // Get the image src
-      const imgSrc = img.src
       console.log("AI ALT TEXT: Image src: ", imgSrc)
 
       // Get the image alt text
@@ -128,7 +136,7 @@ images.forEach((img) => {
       console.log("AI ALT TEXT: Image alt: ", imgAlt)
 
       // Get the image attributes
-      const imgAttrs = img.attributes
+      const imgAttrs = img
       console.log("AI ALT TEXT: Image attributes: ", imgAttrs)
 
       // Search 3 levels of parent elements for an <a> or <button> tag
@@ -146,18 +154,36 @@ images.forEach((img) => {
         imgAnchorOrButtonParent
       )
 
-      // Search 10 levels of previous sibling elements for text
+      // Search 10 levels of previous sibling elements for text and header
       let i = 0
       let imgPrevText = ""
+      let imgPrevElements = null
+      let imgHeader = ""
       let currElement = img as HTMLElement
-      while (i < 10) {
+      while (i < 20) {
         // If there is a previous sibling, check if it contains text
-        if (currElement.previousSibling) {
-          console.log(
-            "AI ALT TEXT: Previous sibling: ",
-            currElement.previousSibling
-          )
-          imgPrevText = currElement.previousSibling.textContent
+        imgPrevElements = currElement.previousSibling
+        if (
+          imgPrevElements &&
+          (imgPrevElements.nodeType === 1 || imgPrevElements.nodeType === 3)
+        ) {
+          console.log("AI ALT TEXT: Previous sibling: ", imgPrevElements)
+          if (imgPrevText === "") {
+            imgPrevText = imgPrevElements.textContent
+          }
+          // Search for header element in imgPrevElements
+          if (
+            imgPrevElements.nodeType === 1 &&
+            imgPrevElements.querySelector("h1, h2, h3, h4, h5, h6") !== null
+          ) {
+            console.log(
+              "AI ALT TEXT: Header element found: ",
+              imgPrevElements.querySelector("h1, h2, h3, h4, h5, h6")
+            )
+            imgHeader = imgPrevElements.querySelector(
+              "h1, h2, h3, h4, h5, h6"
+            ).textContent
+          }
 
           // Clean the previous text (trim, remove new lines, make multiple spaces into one)
           imgPrevText = imgPrevText
@@ -165,7 +191,7 @@ images.forEach((img) => {
             .replace(/\n/g, " ")
             .replace(/\s+/g, " ")
           // Break if text is found
-          if (imgPrevText.length > 0) {
+          if (imgPrevText.length > 0 && imgHeader.length > 0) {
             break
           }
           currElement = currElement.previousSibling as HTMLElement
@@ -180,8 +206,9 @@ images.forEach((img) => {
         }
       }
       console.log("AI ALT TEXT: Previous text: ", imgPrevText)
+      console.log("AI ALT TEXT: Previous header: ", imgHeader)
 
-      // Search 10 levels of next sibling elements for text
+      // Search 10 levels of next sibling elements for text and header
       i = 0
       let imgNextText = ""
       currElement = img as HTMLElement
@@ -222,10 +249,13 @@ images.forEach((img) => {
         imgSrc,
         imgAlt,
         imgAnchorOrButtonParent: imgAnchorOrButtonParent?.outerHTML,
-        imgAttrs,
+        imgAttrs: imgAttrs.outerHTML,
         imgPrevText,
+        imgHeader,
         imgNextText
       }
+
+      console.log("AI ALT TEXT: Sending message to server: ", body)
 
       // Send image data to backend
       fetch(BACKEND_URL, {
@@ -254,11 +284,16 @@ images.forEach((img) => {
 
   // Add event listener to remove popup when image is blurred
   img.addEventListener("blur", () => {
+    // If selection is not in popup, remove popup
     const popup = document.getElementById("popup-ai-alt-text")
-    popup.textContent = ""
-    popup.style.opacity = "0"
+    if (!popup.contains(document.activeElement)) {
+      popup.style.opacity = "0"
+      popup.textContent = ""
+    }
   })
 })
+
+console.log(`AI ALT TEXT: ${totalImages} images found`)
 
 // alert(
 //   "AI ALT TEXT: Alt text add-on working. Focus on an image and use the shortcut Alt + A to generate the alt text."
