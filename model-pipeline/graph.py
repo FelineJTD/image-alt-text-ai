@@ -6,9 +6,9 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
-from PIL import Image
-import pytesseract
-import requests
+# from PIL import Image
+# import pytesseract
+# import requests
 from ner import nltk_ner
 
 from states import State
@@ -80,9 +80,9 @@ def generate_descriptive_alt_text(state: State):
 
 # DETERMINE IMAGE WCAG ROLE
 def determine_image_role(state: State):
-    print("Determining image role with GPT-4o Mini...")
+    print("Determining image role with GPT-4o Finetuned...")
     try:
-        role_identifier_llm = ChatOpenAI(model='gpt-4o-mini', temperature=0.5)
+        role_identifier_llm = ChatOpenAI(model='ft:gpt-4o-2024-08-06:personal:role-iden-50:AahYYJoD', temperature=0.5)
         predicted_role = role_identifier_llm.invoke(
             [
                 (
