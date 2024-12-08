@@ -16,6 +16,7 @@ class State(TypedDict):
     input_img_a_button_parent: Annotated[str, operator.add]
     input_img_prev_text: Annotated[str, operator.add]
     input_img_next_text: Annotated[str, operator.add]
+    input_img_header: Annotated[str, operator.add]
 
     correct_role: Annotated[str, operator.add]
     correct_alt_text: Annotated[str, operator.add]

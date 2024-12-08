@@ -116,6 +116,7 @@ def generate_alt_text():
     img_a_button_parent = data.get('imgAnchorOrButtonParent') if data.get('imgAnchorOrButtonParent') else "None"
     img_prev_text = data.get('imgPrevText') if data.get('imgPrevText') else ""
     img_next_text = data.get('imgNextText') if data.get('imgNextText') else ""
+    img_header = data.get('imgHeader') if data.get('imgHeader') else ""
 
     # Relative path handling
     if not img_src.startswith(('http://', 'https://')):
