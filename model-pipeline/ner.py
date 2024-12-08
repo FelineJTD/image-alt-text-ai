@@ -8,6 +8,7 @@ nltk.download('maxent_ne_chunker_tab')
 nltk.download('averaged_perceptron_tagger_eng')
 nltk.download('words')
 nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 def nltk_ner(text):
     tokenized = ne_chunk(pos_tag(word_tokenize(text)))
