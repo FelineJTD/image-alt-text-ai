@@ -10,10 +10,10 @@ import os
 # CONFIG
 json_path = "../scraper/output-aut-en-full/output.json"
 image_dir = "../scraper/output-aut-en-full/images/"
-result_dir = "./clip_results_full"
+result_dir = "./clip_results_full_2"
 number_of_images = 2000
 threshold = 0.65
-# random_seed = 42
+random_seed = 42
 
 
 # START THE TIMER
@@ -39,8 +39,8 @@ except Exception as e:
     print(str(e))
 
 # Shuffle the data
-# random.seed(random_seed)
-# random.shuffle(data)
+random.seed(random_seed)
+random.shuffle(data)
 
 
 # EVALUATION

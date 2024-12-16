@@ -1,9 +1,10 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 # CONFIG
 json_path = "../scraper/output-aut-en/output-en.json"
 image_dir = "../scraper/output-aut-en/images/"
-result_dir = "./clip_results_full"
+result_dir = "./clip_results_full_2"
 number_of_images = 500
 threshold = 0.5905375164518996
 random_seed = 42
@@ -44,6 +45,14 @@ try:
 except Exception as e:
     print(str(e))
 
+all_similarities_flat = []
+for key in all_similarities:
+    all_similarities_flat.extend(all_similarities[key])
+
+average_similarity = sum(all_similarities_flat) / len(all_similarities_flat)
+q3 = np.percentile(np.array(all_similarities_flat), 50)
+threshold = average_similarity
+
 # Calculate relevant images count
 for key in all_similarities:
     relevant = 0
@@ -62,13 +71,6 @@ print("Loaded evals_percentage: ", evals_percentage)
 print("Loaded evals_threshold: ", evals_threshold)
 
 plt.style.use('seaborn-v0_8-muted')
-
-
-all_similarities_flat = []
-for key in all_similarities:
-    all_similarities_flat.extend(all_similarities[key])
-
-average_similarity = sum(all_similarities_flat) / len(all_similarities_flat)
 
 print("Average similarity: ", average_similarity)
 
@@ -108,21 +110,23 @@ for key in evals_percentage:
     elif "next-sib" in key:
         next_sib_flat.append(evals_percentage[key])
 
+all_percentages = doc_title_flat + doc_description_flat + prev_text_flat + next_text_flat + prev_sib_title_flat + next_sib_title_flat
+
 
 # Plot the evaluation results
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(12, 10))
 plt.bar(["doc-title"], doc_title_flat)
 plt.bar(["doc-description"], doc_description_flat)
 plt.bar([f"prev-text-{i+1}" for i in range(5)], prev_text_flat)
 plt.bar([f"next-text-{i+1}" for i in range(5)], next_text_flat)
-plt.bar([f"prev-sibling-{i+1}" for i in range(5)], prev_sib_flat)
-plt.bar([f"next-sibling-{i+1}" for i in range(5)], next_sib_flat)
+# plt.bar([f"prev-sibling-{i+1}" for i in range(5)], prev_sib_flat)
+# plt.bar([f"next-sibling-{i+1}" for i in range(5)], next_sib_flat)
 plt.bar(["prev-sib-title"], prev_sib_title_flat)
 plt.bar(["next-sib-title"], next_sib_title_flat)
 plt.title("Rata-rata Perolehan CLIPScore Tiap Kelompok Elemen")
 
-# for i, value in enumerate(evals_percentage):
-#     plt.text(i, value, f"{value:.3f}", ha='center', va='bottom')
+for i, value in enumerate(all_percentages):
+    plt.text(i, value, f"{value:.3f}", ha='center', va='bottom')
 
 # Tilt the x-axis labels
 plt.xticks(rotation=24)
@@ -157,18 +161,18 @@ for key in evals_threshold:
     elif "next-sib" in key:
         threshold_next_sib_flat.append(evals_threshold[key])
 
-all_thresholds = threshold_doc_title_flat + threshold_doc_description_flat + threshold_prev_text_flat + threshold_next_text_flat + threshold_prev_sib_flat + threshold_next_sib_flat + threshold_prev_sib_title_flat + threshold_next_sib_title_flat
+all_thresholds = threshold_doc_title_flat + threshold_doc_description_flat + threshold_prev_text_flat + threshold_next_text_flat + threshold_prev_sib_title_flat + threshold_next_sib_title_flat
 
 # Plot the evaluation results
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(12, 10))
 plt.bar(["doc-title"], threshold_doc_title_flat)
 plt.bar(["doc-description"], threshold_doc_description_flat)
 plt.bar([f"prev-text-{i+1}" for i in range(5)], threshold_prev_text_flat)
 plt.bar([f"next-text-{i+1}" for i in range(5)], threshold_next_text_flat)
-plt.bar([f"prev-sibling-{i+1}" for i in range(5)], threshold_prev_sib_flat)
-plt.bar([f"next-sibling-{i+1}" for i in range(5)], threshold_next_sib_flat)
-plt.bar(["prev-sib-title"], threshold_prev_sib_title_flat)
-plt.bar(["next-sib-title"], threshold_next_sib_title_flat)
+# plt.bar([f"prev-sibling-{i+1}" for i in range(5)], threshold_prev_sib_flat)
+# plt.bar([f"next-sibling-{i+1}" for i in range(5)], threshold_next_sib_flat)
+plt.bar(["prev-header"], threshold_prev_sib_title_flat)
+plt.bar(["next-header"], threshold_next_sib_title_flat)
 
 plt.title("Persentase Teks yang Relevan Tiap Kelompok Elemen")
 
