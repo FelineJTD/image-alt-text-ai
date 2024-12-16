@@ -4,7 +4,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/BsU1s32vTqKp81k4Ukty_60e8b9b4d43ac14a986a6738_Slide2-p-800.jpg",
       "file_name": "./images/bnbbosses.com/image_1.jpg",
-      "role": "text",
+      "role": "functional",
       "alt": "#ProtectTheChildren. \"As a doctor, lawyer, and mom, I could not sit by and watch our children being used as guinea pigs.\" Simone Gold, MD, JD, FABEM. Sponsors: Frontline Films, America's Frontline Doctors. Watch and Share the film; help UNcencor the truth! @AFLDS.org/Films",
       "attrs": {
         "class": ["image__image"],
@@ -19,7 +19,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/Na0cnf6kQ3aTU0AQLjJh_IRA.jpg",
       "file_name": "./images/bnbbosses.com/image_2.jpg",
-      "role": "informative",
+      "role": "functional",
       "alt": "Money rolled tightly with an egg with \"IRA\" written on it",
       "attrs": {
         "class": ["card__image"],
@@ -33,7 +33,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/IvTv1cqLQUiqJGkesZ1S_file.jpg",
       "file_name": "./images/bnbbosses.com/image_3.jpg",
-      "role": "informative",
+      "role": "functional",
       "alt": "A husband and wife in a living room, the wife showing her property listing on a tablet to her husband",
       "attrs": {
         "class": ["card__image"],
@@ -47,7 +47,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/BOPKy5RyTyaHkRfcVwCe_file.jpg",
       "file_name": "./images/bnbbosses.com/image_4.jpg",
-      "role": "informative",
+      "role": "functional",
       "alt": "A black woman with curly hair holding money over her face",
       "attrs": {
         "class": ["image__image"],
@@ -62,7 +62,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/LRjlr8HCRlWKxD2P1Gkz_60e8be12c85b35023d8e396a_teryn_clarke-p-800.jpg",
       "file_name": "./images/bnbbosses.com/image_5.jpg",
-      "role": "text",
+      "role": "functional",
       "alt": "#ProtectTheChildren. \"(Thousands} have died after getting the vaccine; some of them were children as young as 1-2 yrs old. THAT is the emergency, and it has to stop\" Teryn Clarke, MD. Sponsors: Frontline Films, America's Frontline Doctors. Watch and Share the film; help UNcencor the truth! @AFLDS.org/Films",
       "attrs": {
         "class": ["image__image"],
@@ -77,7 +77,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/UshD5CecSuSxSrWXBXFh_file.jpg",
       "file_name": "./images/bnbbosses.com/image_6.jpg",
-      "role": "informative",
+      "role": "functional",
       "alt": "A parent holding the hands of their two children over Bibles and a cross",
       "attrs": {
         "class": ["card__image"],
@@ -91,7 +91,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/UWpeYvz0SNSMHADPX9WG_INNHKWoPTDiCbm06JsjP_Untitled_design_3.jpg",
       "file_name": "./images/bnbbosses.com/image_7.jpg",
-      "role": "informative",
+      "role": "functional",
       "alt": "A businessman with paper cutouts of a family and a house. The man is holding a paper umbrella over them, signifying insurance.",
       "attrs": {
         "class": ["feature__image"],
@@ -106,7 +106,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/2MGskLrDTiq4S7ExnZCo_YHHOBU5nTLavf80JFtDV_covid_3.jpg",
       "file_name": "./images/bnbbosses.com/image_8.jpg",
-      "role": "informative",
+      "role": "functional",
       "alt": "A thermometer, hand sanitizer, pills, and a mask with \"Covid-19\" written on it",
       "attrs": {
         "class": ["feature__image"],
@@ -151,7 +151,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/Iu2axQbnREOmpcnhgy7w_WLsPYE3sSPmGUxMzo5zr_covid_1.jpg",
       "file_name": "./images/bnbbosses.com/image_11.jpg",
-      "role": "informative",
+      "role": "functional",
       "alt": "A worker cleaning a keyboard in an office with desinfectant",
       "attrs": {
         "class": ["feature__image"],
@@ -166,7 +166,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/Hs3MbixUQayMfB7qcCDm_file.jpg",
       "file_name": "./images/bnbbosses.com/image_12.jpg",
-      "role": "informative",
+      "role": "functional",
       "alt": "Food bank",
       "attrs": {
         "class": ["card__image"],
@@ -210,7 +210,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/sd0tOprkRy6QDtuR4XYu_file.jpg",
       "file_name": "./images/bnbbosses.com/image_15.jpg",
-      "role": "text",
+      "role": "functional",
       "alt": "Retirement Plans if you're self-employed",
       "attrs": {
         "class": ["card__image"],
@@ -239,7 +239,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/QMslHRqReeFeWJmlAjGw_file.jpg",
       "file_name": "./images/bnbbosses.com/image_17.jpg",
-      "role": "informative",
+      "role": "functional",
       "alt": "A beautiful houe with greeneries and a large garden. The garden consists of several colorful flowering shrubs, medium-sized trees, and grass.",
       "attrs": {
         "class": ["card__image"],
@@ -253,7 +253,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/BiIySgCRfyU6DEFfWG2X_Thoughts_Become_Things_25.jpg",
       "file_name": "./images/bnbbosses.com/image_18.jpg",
-      "role": "informative",
+      "role": "functional",
       "alt": "A woman looking up, thinking",
       "attrs": {
         "class": ["card__image"],
@@ -267,7 +267,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/btgyMd3jSzcY6E2qTLxd_Screen_Shot_2016-03-03_at_3.20.41_AM.png",
       "file_name": "./images/bnbbosses.com/image_19.jpg",
-      "role": "text",
+      "role": "informative",
       "alt": "The Prosperity Process. 3 Step System: prepare, position, profit. Michelle Russell",
       "attrs": {
         "class": ["image__image"],
@@ -297,7 +297,7 @@
     {
       "src": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/WWEoFZQtReeN9zcSdrc8_60e8bde78cb2a7e07983fc62_angie_farella-p-800.jpg",
       "file_name": "./images/bnbbosses.com/image_21.jpg",
-      "role": "text",
+      "role": "functional",
       "alt": "#ProtectTheChildren. \"With COVID and Kids, there is no emergency\" Angie Farella, MD. Sponsors: Frontline Films, America's Frontline Doctors. Watch and Share the film; help UNcencor the truth! @AFLDS.org/Films",
       "attrs": {
         "class": ["image__image"],

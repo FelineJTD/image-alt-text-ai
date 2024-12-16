@@ -1,10 +1,10 @@
 import random
 
 input_file = './website_url_data/builtwith-top1m-20240621-random.csv'
-output_file = './output-aut-en/output-en.json'
-image_output_folder = './output-aut-en/images'
-progress_file = './output-aut-en/progress.txt'
-error_log_file = './output-aut-en/error.log'
+output_file = './output-aut-en-full/output.json'
+image_output_folder = './output-aut-en-full/images'
+progress_file = './output-aut-en-full/progress.txt'
+error_log_file = './output-aut-en-full/error.log'
 text_elements = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 is_chrome_headless = True
 number_of_websites = 500
@@ -120,8 +120,6 @@ for i in range(i_website, min(i_website + website_per_batch, len(websites))):
         for image in images:
             try:
                 # GET RELEVANT DATA OF THE IMAGE
-                # Clear the output before displaying the next image to avoid an overly big notebook size
-                clear_output(wait=True)
                 
                 print(f"Image {i_image} of {len(images)}, website {i_website} of {len(websites)}")
 
@@ -205,8 +203,72 @@ for i in range(i_website, min(i_website + website_per_batch, len(websites))):
                         break
                     next_i += 1
 
+                # Gather 5 prev sibling texts
+                prev_siblings = []
+                i_prev_sib = 0
+                img_prev_header = ""
+                curr_element = image
+
+                while i_prev_sib < 10:
+                    # If there is a previous sibling, check if it contains text
+                    prev_sibling = curr_element.find_previous_sibling()
+                    if prev_sibling and prev_sibling.get_text().strip().replace("\n", "").replace("\r", "") != "":
+                        print("AI ALT TEXT: Previous sibling: ", prev_sibling)
+                        prev_siblings.append(prev_sibling.get_text())
+
+                        # Search for header element in prev_sibling
+                        header = prev_sibling.find(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
+                        if header:
+                            print("AI ALT TEXT: Header element found: ", header)
+                            img_prev_header = header.get_text()
+                        
+                        # Break if text is found
+                        if len(prev_siblings) >= 5 and img_prev_header != "":
+                            break
+                        curr_element = prev_sibling
+                        i_prev_sib += 1
+                    else:
+                        # Search parent element for text
+                        curr_element = curr_element.parent
+                        # If parent is <body>, break
+                        if curr_element.name == "body":
+                            break
+
+                # Gather 5 next sibling texts
+                next_siblings = []
+                i_next_sib = 0
+                img_next_header = ""
+                curr_element = image
+
+                while i_next_sib < 10:
+                    # If there is a next sibling, check if it contains text
+                    next_sibling = curr_element.find_next_sibling()
+                    if next_sibling and next_sibling.get_text().strip().replace("\n", "").replace("\r", "") != "":
+                        print("AI ALT TEXT: Next sibling: ", next_sibling)
+                        next_siblings.append(next_sibling.get_text())
+
+                        # Search for header element in next_sibling
+                        header = next_sibling.find(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
+                        if header:
+                            print("AI ALT TEXT: Header element found: ", header)
+                            img_next_header = header.get_text()
+                        
+                        # Break if text is found
+                        if len(next_siblings) >= 5 and img_next_header != "":
+                            break
+                        curr_element = next_sibling
+                        i_next_sib += 1
+                    else:
+                        # Search parent element for text
+                        curr_element = curr_element.parent
+                        # If parent is <body>, break
+                        if curr_element.name == "body":
+                            break
+                
+
                 # Write the data (image and labels) to a file
                 images_info.append({
+                    "website": websites[i],
                     "src": image_url,
                     "file_name": file_name,
                     "doc_title": title,
@@ -217,7 +279,11 @@ for i in range(i_website, min(i_website + website_per_batch, len(websites))):
                     "previous_texts": previous_texts,
                     "previous_texts_cutoff_by_image_index": previous_texts_cutoff_by_image_index,
                     "next_texts": next_texts,
-                    "next_texts_cutoff_by_image_index": next_texts_cutoff_by_image_index
+                    "next_texts_cutoff_by_image_index": next_texts_cutoff_by_image_index,
+                    "prev_siblings": prev_siblings,
+                    "img_prev_header": img_prev_header,
+                    "next_siblings": next_siblings,
+                    "img_next_header": img_next_header
                 })
                 
             except KeyError:
