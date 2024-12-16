@@ -1,0 +1,851 @@
+Processing hannarubbercompany.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing deckorum.co.uk.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Processing femiclear.com.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing six100okc.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing acute-firstaid.co.uk.json...
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/436658091_2148106745536888_1114436654605773733_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=9g9HXwnUBr4Q7kNvgGKRm6c&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYBeDOUH0FbY2ACX0G8WRMQpowAyi3dSw4r17PIOzLjuhw&oe=66C3B19D.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/449209065_1029753418487280_8265964229199352961_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=3zupQU1SoN0Q7kNvgHtlcZT&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYCB4hE9gglZsmojvQNr0fXp5KvesJkGhYgZ95X2O-N_bA&oe=66C39536.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/445587705_324818603970389_5621992654525520705_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=Lrpcf7vguN4Q7kNvgG3wOSy&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYBDv1prsSDB5EnKNIbpZylZOSTClQnGeMtnfLELqAySAA&oe=66C3AD59.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/436222519_962520585412381_7537594217573234630_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=18de74&_nc_ohc=6VZR2JsSTEwQ7kNvgHN18mU&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYA55QYCh_-s-knvfd4Ew7jiZkvk5prcOx9IEQKQTPxlQg&oe=66C3A525.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: complex
+Predicted role (GPT-4o Mini): complex
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://scontent-ord5-2.cdninstagram.com/v/t51.2885-15/428184688_763359735302499_7653264278065697193_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=gL7mUHlJNyEQ7kNvgF3Ehlu&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYBc3JC7KwGEHdTyBVKkVZwntZhd_rmGkSOXkTUf2AJKaw&oe=66C3B793.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://scontent-ord5-2.cdninstagram.com/v/t51.2885-15/437590490_451135900908658_2232398160532121753_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=VWw6TKP6qQAQ7kNvgEbXug_&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYDksHDkolzZ3UjWQfq4ESrK8gmynurCbWQCGDxc1ZF60Q&oe=66C3C17E.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/440757352_468249802306889_3840643560646656741_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=E5f7vTYETYQQ7kNvgFMk2ro&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYAg0qtwMdivJR4oE_5JuW_Xt_oLF72yC_jjDpdf8DgAGQ&oe=66C3B8B6.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://scontent-ord5-2.cdninstagram.com/v/t51.29350-15/447717638_1038045511076800_1686555759075030876_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=18de74&_nc_ohc=UivDmBS6SLcQ7kNvgEGats8&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYC_oF6uDHZJ2OL9A0Fjr0i3FxHFpW-Mwu-n6bo1WvZUwA&oe=66C3A2FE.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Processing changehealthcare.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/_jcr_content/root/main-par/circular_slider/circularSliderItems/item1/mobileImage.coreimg.jpeg/1642108548176/who-we-help-short-mobile-2.jpeg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/_jcr_content/root/main-par/stats_tile/statsTilesItems/item1/image.coreimg.png/1695225045676/image-29.png.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/_jcr_content/root/main-par/circular_slider/circularSliderItems/item1/desktopImage.coreimg.jpeg/1642108548110/who-we-help-short-2.jpeg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/content/dam/change-healthcare/corporate-site-2021/icons/asset-type-icons/Infographic_Dark.png.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/_jcr_content/root/main-par/circular_slider/circularSliderItems/item2/desktopImage.coreimg.jpeg/1642108545310/who-we-help-short-3.jpeg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/content/dam/change-healthcare/corporate-site-2021/icons/asset-type-icons/Article_Dark.png.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/_jcr_content/root/main-par/circular_slider/circularSliderItems/item3/mobileImage.coreimg.jpeg/1642108548176/who-we-help-short-mobile-2.jpeg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/_jcr_content/root/main-par/circular_slider/circularSliderItems/item0/mobileImage.coreimg.jpeg/1642108545117/who-we-help-short-mobile-1.jpeg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/_jcr_content/root/main-par/circular_slider/circularSliderItems/item0/desktopImage.coreimg.jpeg/1642108548240/who-we-help-short-1.jpeg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/_jcr_content/root/main-par/circular_slider/circularSliderItems/item2/mobileImage.coreimg.jpeg/1642108545230/who-we-help-short-mobile-3.jpeg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/content/dam/change-healthcare/corporate-site-2021/icons/asset-type-icons/eBook_Dark.png.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: decorative
+Error code: 400 - {'error': {'message': 'Error while downloading http://changehealthcare.com/_jcr_content/root/main-par/circular_slider/circularSliderItems/item3/desktopImage.coreimg.jpeg/1642108548110/who-we-help-short-2.jpeg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Processing enguruapp.com.json...
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: functional
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: decorative
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Processing cancer.net.json...
+Processing gorbel.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing ecsgroup.co.uk.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing aeroinvestments.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing bnbbosses.com.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing weclapp.com.json...
+Correct role: complex
+Predicted role (GPT-4o Mini): complex
+Correct role: decorative
+Predicted role (GPT-4o Mini): functional
+Correct role: complex
+Predicted role (GPT-4o Mini): complex
+Correct role: functional
+Predicted role (GPT-4o Mini): complex
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://www.weclapp.com/en/wp-content/uploads/sites/5/2023/04/certificates-international-q423.png.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): complex
+Processing toptronic.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing leonbrauer.com.json...
+Processing allcaresoftware.com.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Processing nuaire.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing buyfoundation.com.json...
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Timeout while downloading http://buyfoundation.com/static/v9/media/images/third-party/v1/ad-choices-logo-11x12.png?r=1723645112000.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Timeout while downloading http://buyfoundation.com/static/v8/global/images/franchise-logos/auto/c/cadillac/white/117x80.png?r=1723577694000.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Timeout while downloading http://buyfoundation.com/static/v8/global/images/franchise-logos/auto/h/hyundai/white/183x125.png?r=1723577694000.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Timeout while downloading http://buyfoundation.com/static/v8/global/images/franchise-logos/auto/c/chevrolet/white/117x80.png?r=1723577694000.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Timeout while downloading http://buyfoundation.com/static/v8/global/images/franchise-logos/auto/k/kia/white/183x125.png?r=1723577694000.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Processing ragerflooring.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/free-measure-cta.jpg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/commercial-flooring-installation-cta.jpg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/realtor-property-managers-cta.jpg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/hardwood-restoration-cta.jpg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/free-measure-cta.jpg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/commercial-flooring-installation-cta.jpg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/hardwood-restoration-cta.jpg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Error while downloading https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/realtor-property-managers-cta.jpg.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing livethetyler.com.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing verrex.com.json...
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Processing popaball.co.uk.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing cvtc.edu.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Processing unifiedsupply.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Processing ladymashaka.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Timeout while downloading https://www.ladymashaka.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2FbYqcThH0e1Ueh7aO55uedn0kshY%2F800%2F800.jpg&w=3840&q=75.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing maeimd.com.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Processing donutworrybehappy.eu.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Processing advancedhomehealth.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Processing theinkspot.com.au.json...
+Processing predictmeso.com.json...
+Processing crucialpointllc.com.json...
+Processing caudit.edu.au.json...
+Processing jessekellyshow.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Processing tacita.io.json...
+Processing summitir.com.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Correct role: decorative
+Predicted role (GPT-4o Mini): informative
+Processing themotherhoodcenter.com.json...
+Processing ludacreative.com.au.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: functional
+Predicted role (GPT-4o Mini): complex
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): complex
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): complex
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): complex
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): complex
+Processing forteracu.com.json...
+Processing womeninlawleaders.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing averoadvisors.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing masonrycap.com.json...
+Processing dimanche.gr.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Processing shootfordetails.com.json...
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Processing zubi.co.nz.json...
+Correct role: complex
+Predicted role (GPT-4o Mini): complex
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: complex
+Predicted role (GPT-4o Mini): complex
+Correct role: complex
+Predicted role (GPT-4o Mini): complex
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Processing ram-digital.co.uk.json...
+Processing orderatdiscount.com.json...
+Processing eventnook.com.json...
+Correct role: complex
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: complex
+Predicted role (GPT-4o Mini): complex
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: complex
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: complex
+Predicted role (GPT-4o Mini): complex
+Correct role: complex
+Predicted role (GPT-4o Mini): informative
+Correct role: complex
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: complex
+Predicted role (GPT-4o Mini): complex
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): informative
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): functional
+Processing royaleastvw.com.json...
+Correct role: functional
+Error code: 400 - {'error': {'message': 'Timeout while downloading http://royaleastvw.com/static/v8/global/images/franchise-logos/auto/v/volkswagen/white/183x125.png?r=1723577694000.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_url'}}
+Processing chrispricerealty.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): informative
+Processing tapinfluence.com.json...
+Processing cwuk.com.json...
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: informative
+Predicted role (GPT-4o Mini): decorative
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: decorative
+Predicted role (GPT-4o Mini): decorative
+Correct role: functional
+Predicted role (GPT-4o Mini): informative
+Correct role: functional
+Predicted role (GPT-4o Mini): functional
+Correct role: functional
+Predicted role (GPT-4o Mini): informative
+Processing chryssies.com.json...
+Total images processed: 398
+Results: {'total_images': 398, 'details': {'llama': {'informative': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}, 'decorative': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}, 'functional': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}, 'complex': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}}, 'gpt-4o': {'informative': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}, 'decorative': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}, 'functional': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}, 'complex': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}}, 'gpt-4o-mini': {'informative': {'true_positive': 33, 'false_positive': 31, 'false_negative': 61}, 'decorative': {'true_positive': 19, 'false_positive': 16, 'false_negative': 22}, 'functional': {'true_positive': 200, 'false_positive': 47, 'false_negative': 14}, 'complex': {'true_positive': 9, 'false_positive': 7, 'false_negative': 4}}, 'qwen': {'informative': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}, 'decorative': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}, 'functional': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}, 'complex': {'true_positive': 0, 'false_positive': 0, 'false_negative': 0}}}}
+Scores: {'llama': {'whole_accuracy': 0.0, 'precision': {'informative': 0, 'decorative': 0, 'functional': 0, 'complex': 0}, 'recall': {'informative': 0, 'decorative': 0, 'functional': 0, 'complex': 0}, 'f1': {'informative': 0, 'decorative': 0, 'functional': 0, 'complex': 0}}, 'gpt-4o': {'whole_accuracy': 0.0, 'precision': {'informative': 0, 'decorative': 0, 'functional': 0, 'complex': 0}, 'recall': {'informative': 0, 'decorative': 0, 'functional': 0, 'complex': 0}, 'f1': {'informative': 0, 'decorative': 0, 'functional': 0, 'complex': 0}}, 'gpt-4o-mini': {'whole_accuracy': 0.6557788944723618, 'precision': {'informative': 0.515625, 'decorative': 0.5428571428571428, 'functional': 0.8097165991902834, 'complex': 0.5625}, 'recall': {'informative': 0.35106382978723405, 'decorative': 0.4634146341463415, 'functional': 0.9345794392523364, 'complex': 0.6923076923076923}, 'f1': {'informative': 0.4177215189873418, 'decorative': 0.5, 'functional': 0.8676789587852495, 'complex': 0.6206896551724138}}, 'qwen': {'whole_accuracy': 0.0, 'precision': {'informative': 0, 'decorative': 0, 'functional': 0, 'complex': 0}, 'recall': {'informative': 0, 'decorative': 0, 'functional': 0, 'complex': 0}, 'f1': {'informative': 0, 'decorative': 0, 'functional': 0, 'complex': 0}}}

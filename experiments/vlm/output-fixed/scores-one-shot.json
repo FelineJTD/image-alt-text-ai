@@ -1,0 +1,76 @@
+{
+  "llama": {
+    "whole_accuracy": 0,
+    "precision": {
+      "informative": 0,
+      "decorative": 0,
+      "functional": 0,
+      "complex": 0
+    },
+    "recall": {
+      "informative": 0,
+      "decorative": 0,
+      "functional": 0,
+      "complex": 0
+    },
+    "f1": { "informative": 0, "decorative": 0, "functional": 0, "complex": 0 }
+  },
+  "gpt-4o": {
+    "whole_accuracy": 0.7834224598930482,
+    "precision": {
+      "informative": 0.5673076923076923,
+      "decorative": 0.55,
+      "functional": 0.9210526315789473,
+      "complex": 1.0
+    },
+    "recall": {
+      "informative": 0.6483516483516484,
+      "decorative": 0.34375,
+      "functional": 0.9859154929577465,
+      "complex": 0.3333333333333333
+    },
+    "f1": {
+      "informative": 0.6051282051282051,
+      "decorative": 0.42307692307692313,
+      "functional": 0.9523809523809524,
+      "complex": 0.5
+    }
+  },
+  "gpt-4o-mini": {
+    "whole_accuracy": 0.7108753315649867,
+    "precision": {
+      "informative": 0.4888888888888889,
+      "decorative": 0.3541666666666667,
+      "functional": 0.8760683760683761,
+      "complex": 0.4
+    },
+    "recall": {
+      "informative": 0.4782608695652174,
+      "decorative": 0.265625,
+      "functional": 0.9534883720930233,
+      "complex": 0.3333333333333333
+    },
+    "f1": {
+      "informative": 0.4835164835164835,
+      "decorative": 0.30357142857142855,
+      "functional": 0.913140311804009,
+      "complex": 0.3636363636363636
+    }
+  },
+  "qwen": {
+    "whole_accuracy": 0,
+    "precision": {
+      "informative": 0,
+      "decorative": 0,
+      "functional": 0,
+      "complex": 0
+    },
+    "recall": {
+      "informative": 0,
+      "decorative": 0,
+      "functional": 0,
+      "complex": 0
+    },
+    "f1": { "informative": 0, "decorative": 0, "functional": 0, "complex": 0 }
+  }
+}

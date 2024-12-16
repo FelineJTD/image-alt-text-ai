@@ -1,22 +1,22 @@
 {
     "results": {
-        "total_images": 1,
+        "total_images": 5,
         "details": {
             "llama": {
                 "informative": {
-                    "true_positive": 0,
+                    "true_positive": 1,
                     "false_positive": 1,
-                    "false_negative": 0
+                    "false_negative": 1
                 },
                 "decorative": {
                     "true_positive": 0,
-                    "false_positive": 0,
+                    "false_positive": 1,
                     "false_negative": 0
                 },
                 "functional": {
                     "true_positive": 0,
                     "false_positive": 0,
-                    "false_negative": 1
+                    "false_negative": 2
                 },
                 "complex": {
                     "true_positive": 0,
@@ -26,7 +26,7 @@
             },
             "gpt-4o": {
                 "informative": {
-                    "true_positive": 0,
+                    "true_positive": 2,
                     "false_positive": 0,
                     "false_negative": 0
                 },
@@ -36,8 +36,30 @@
                     "false_negative": 0
                 },
                 "functional": {
-                    "true_positive": 1,
+                    "true_positive": 2,
                     "false_positive": 0,
+                    "false_negative": 0
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            },
+            "gpt-4o-mini": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 2
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 1,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 2,
+                    "false_positive": 1,
                     "false_negative": 0
                 },
                 "complex": {
@@ -50,36 +72,57 @@
     },
     "scores": {
         "llama": {
-            "whole_accuracy": 0.0,
+            "whole_accuracy": 0.2,
             "precision": {
-                "informative": 0.0,
-                "decorative": 0,
+                "informative": 0.5,
+                "decorative": 0.0,
                 "functional": 0,
                 "complex": 0
             },
             "recall": {
-                "informative": 0,
+                "informative": 0.5,
                 "decorative": 0,
                 "functional": 0.0,
                 "complex": 0
             },
             "f1": {
-                "informative": 0,
+                "informative": 0.5,
                 "decorative": 0,
                 "functional": 0,
                 "complex": 0
             }
         },
         "gpt-4o": {
-            "whole_accuracy": 1.0,
+            "whole_accuracy": 0.8,
             "precision": {
-                "informative": 0,
+                "informative": 1.0,
                 "decorative": 0,
                 "functional": 1.0,
                 "complex": 0
             },
             "recall": {
+                "informative": 1.0,
+                "decorative": 0,
+                "functional": 1.0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 1.0,
+                "decorative": 0,
+                "functional": 1.0,
+                "complex": 0
+            }
+        },
+        "gpt-4o-mini": {
+            "whole_accuracy": 0.4,
+            "precision": {
                 "informative": 0,
+                "decorative": 0.0,
+                "functional": 0.6666666666666666,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0.0,
                 "decorative": 0,
                 "functional": 1.0,
                 "complex": 0
@@ -87,7 +130,7 @@
             "f1": {
                 "informative": 0,
                 "decorative": 0,
-                "functional": 1.0,
+                "functional": 0.8,
                 "complex": 0
             }
         }

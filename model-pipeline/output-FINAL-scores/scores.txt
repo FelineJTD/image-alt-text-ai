@@ -1,0 +1,58 @@
+[
+    {
+        "correct": "Industrial hose",
+        "ai": "View product: a collection of various industrial hoses in different colors and sizes.",
+        "descriptive": "A variety of flexible hoses and pipes in different colors, including black, yellow, red, and orange, are arranged in a tangled manner. The hoses vary in diameter and texture, showcasing their diverse applications.",
+        "img_url": "https://hannarubbercompany.com/wp-content/uploads/sites/14/2022/09/industrial-hose.jpeg",
+        "role": "functional",
+        "site": "hannarubbercompany.com",
+        "bleu1": 0.16470588235294117,
+        "bleu2": 0.15965649400644927,
+        "bleu3": 0.15737552389438345,
+        "bleu4": 0.1491124104119313,
+        "cider": 0.5684737779120865,
+        "meteor": 0.6048387096774195
+    },
+    {
+        "correct": "Go to Hydraulics page",
+        "ai": "View hydraulic products and services.",
+        "descriptive": "A collection of hydraulic hoses with various metal fittings, arranged in a fan shape. The hoses are black with colored markings, and the fittings include hexagonal, straight, and angled connectors.",
+        "img_url": "https://hannarubbercompany.com/wp-content/uploads/sites/14/2023/10/Hydraulics-300x300.png",
+        "role": "functional",
+        "site": "hannarubbercompany.com",
+        "bleu1": 0.4594594594594595,
+        "bleu2": 0.3389171947022825,
+        "bleu3": 0.27359568015929453,
+        "bleu4": 0.23197456811052183,
+        "cider": 0.0,
+        "meteor": 0.12195121951219512
+    },
+    {
+        "correct": "Go to o-rings page",
+        "ai": "View O-Rings product details",
+        "descriptive": "A collection of rubber O-rings in various sizes and colors, including black, red, and silver. The rings are arranged in overlapping circles, showcasing their different dimensions and shapes.",
+        "img_url": "https://hannarubbercompany.com/wp-content/uploads/sites/14/2015/10/ORINGS.jpg",
+        "role": "functional",
+        "site": "hannarubbercompany.com",
+        "bleu1": 0.5,
+        "bleu2": 0.3042903097250923,
+        "bleu3": 0.24587181830771018,
+        "bleu4": 0.20333448190047881,
+        "cider": 1.2627257418439743,
+        "meteor": 0.125
+    },
+    {
+        "correct": "Go to power transmission belts",
+        "ai": "View product: Power Transmission Belts, a collection of various rubber and plastic belts.",
+        "descriptive": "A collection of various rubber belts, including black and orange rings, arranged in a tangled manner on a white background. The belts vary in width and texture, with some featuring serrated edges.",
+        "img_url": "https://hannarubbercompany.com/wp-content/uploads/sites/14/2015/11/POWER_TRANSMISSION.jpg",
+        "role": "functional",
+        "site": "hannarubbercompany.com",
+        "bleu1": 0.3258426966292135,
+        "bleu2": 0.2788510646224294,
+        "bleu3": 0.25116117911699387,
+        "bleu4": 0.22301083652185652,
+        "cider": 3.281085826479218,
+        "meteor": 0.3232758620689655
+    }
+]

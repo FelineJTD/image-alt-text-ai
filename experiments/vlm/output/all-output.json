@@ -1,0 +1,181 @@
+{
+    "results": {
+        "total_images": 412,
+        "details": {
+            "llama": {
+                "informative": {
+                    "true_positive": 10,
+                    "false_positive": 47,
+                    "false_negative": 81
+                },
+                "decorative": {
+                    "true_positive": 42,
+                    "false_positive": 204,
+                    "false_negative": 20
+                },
+                "functional": {
+                    "true_positive": 31,
+                    "false_positive": 7,
+                    "false_negative": 189
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 1,
+                    "false_negative": 6
+                }
+            },
+            "gpt-4o": {
+                "informative": {
+                    "true_positive": 72,
+                    "false_positive": 60,
+                    "false_negative": 19
+                },
+                "decorative": {
+                    "true_positive": 13,
+                    "false_positive": 6,
+                    "false_negative": 51
+                },
+                "functional": {
+                    "true_positive": 207,
+                    "false_positive": 16,
+                    "false_negative": 8
+                },
+                "complex": {
+                    "true_positive": 2,
+                    "false_positive": 0,
+                    "false_negative": 4
+                }
+            },
+            "gpt-4o-mini": {
+                "informative": {
+                    "true_positive": 44,
+                    "false_positive": 45,
+                    "false_negative": 48
+                },
+                "decorative": {
+                    "true_positive": 20,
+                    "false_positive": 37,
+                    "false_negative": 43
+                },
+                "functional": {
+                    "true_positive": 200,
+                    "false_positive": 26,
+                    "false_negative": 15
+                },
+                "complex": {
+                    "true_positive": 2,
+                    "false_positive": 2,
+                    "false_negative": 4
+                }
+            },
+            "qwen": {
+                "informative": {
+                    "true_positive": 20,
+                    "false_positive": 79,
+                    "false_negative": 37
+                },
+                "decorative": {
+                    "true_positive": 12,
+                    "false_positive": 48,
+                    "false_negative": 44
+                },
+                "functional": {
+                    "true_positive": 47,
+                    "false_positive": 8,
+                    "false_negative": 120
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 7,
+                    "false_negative": 1
+                }
+            }
+        }
+    },
+    "scores": {
+        "llama": {
+            "whole_accuracy": 0.20145631067961164,
+            "precision": {
+                "informative": 0.17543859649122806,
+                "decorative": 0.17073170731707318,
+                "functional": 0.8157894736842105,
+                "complex": 0.0
+            },
+            "recall": {
+                "informative": 0.10989010989010989,
+                "decorative": 0.6774193548387096,
+                "functional": 0.1409090909090909,
+                "complex": 0.0
+            },
+            "f1": {
+                "informative": 0.13513513513513511,
+                "decorative": 0.27272727272727276,
+                "functional": 0.24031007751937983,
+                "complex": 0
+            }
+        },
+        "gpt-4o": {
+            "whole_accuracy": 0.7135922330097088,
+            "precision": {
+                "informative": 0.5454545454545454,
+                "decorative": 0.6842105263157895,
+                "functional": 0.9282511210762332,
+                "complex": 1.0
+            },
+            "recall": {
+                "informative": 0.7912087912087912,
+                "decorative": 0.203125,
+                "functional": 0.9627906976744186,
+                "complex": 0.3333333333333333
+            },
+            "f1": {
+                "informative": 0.6457399103139013,
+                "decorative": 0.3132530120481928,
+                "functional": 0.9452054794520549,
+                "complex": 0.5
+            }
+        },
+        "gpt-4o-mini": {
+            "whole_accuracy": 0.6456310679611651,
+            "precision": {
+                "informative": 0.4943820224719101,
+                "decorative": 0.3508771929824561,
+                "functional": 0.8849557522123894,
+                "complex": 0.5
+            },
+            "recall": {
+                "informative": 0.4782608695652174,
+                "decorative": 0.31746031746031744,
+                "functional": 0.9302325581395349,
+                "complex": 0.3333333333333333
+            },
+            "f1": {
+                "informative": 0.4861878453038674,
+                "decorative": 0.3333333333333333,
+                "functional": 0.9070294784580499,
+                "complex": 0.4
+            }
+        },
+        "qwen": {
+            "whole_accuracy": 0.19174757281553398,
+            "precision": {
+                "informative": 0.20202020202020202,
+                "decorative": 0.2,
+                "functional": 0.8545454545454545,
+                "complex": 0.0
+            },
+            "recall": {
+                "informative": 0.3508771929824561,
+                "decorative": 0.21428571428571427,
+                "functional": 0.281437125748503,
+                "complex": 0.0
+            },
+            "f1": {
+                "informative": 0.2564102564102564,
+                "decorative": 0.20689655172413796,
+                "functional": 0.4234234234234234,
+                "complex": 0
+            }
+        }
+    }
+}

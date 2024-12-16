@@ -1,0 +1,1856 @@
+{
+    "informative": [
+        {
+            "human": "TrustPilot 4.5 Stars",
+            "contextual": "TrustPilot 4.5 Stars rating link",
+            "descriptive": "A row of five green stars, with three fully filled in and two partially filled, indicating a rating system. The background is a solid teal color.",
+            "img_url": "https://deckorum.co.uk/wp-content/uploads/2020/05/stars-4.5.png",
+            "role": "informative",
+            "site": "deckorum.co.uk"
+        },
+        {
+            "human": "A black and white close up photo of Dr. Seema Shah, MD, MPH, FACOG smiling at the camera",
+            "contextual": "Portrait of Dr. Jessica Shepherd, a medical doctor and advocate for women's health, smiling against a soft-focus background.",
+            "descriptive": "A black and white portrait of a woman with dark, short hair, smiling warmly at the camera. She is wearing a light-colored top and is set against a softly blurred background that enhances her features.",
+            "img_url": "http://femiclear.com/cdn/shop/files/card_1.png?v=1715630746 ",
+            "role": "informative",
+            "site": "femiclear.com"
+        },
+        {
+            "human": "Tania Sen Gupta smiling at the camera wearing orange knitted clothes with black bomber outer",
+            "contextual": "A woman with curly hair smiles while wearing an orange top and a black jacket, standing by a body of water in a park setting.",
+            "descriptive": "A woman with long, wavy black hair smiles warmly while standing by a serene body of water. She is wearing an orange sweater under a black jacket, with greenery and a fountain visible in the background.",
+            "img_url": "https://enguruapp.com/wp-content/uploads/2023/06/Mask-group-1.png",
+            "role": "informative",
+            "site": "enguruapp.com"
+        },
+        {
+            "human": "The Prosperity Process. 3 Step System: prepare, position, profit. Michelle Russell",
+            "contextual": "Woman smiling confidently in a business suit, with a background of floating dollar bills and the text \"THE PROSPERITY PROCESS\" and \"3 STEP SYSTEM: PREPARE, POSITION, PROFIT\" along with the name \"MICHELLE RUSSELL.\"",
+            "descriptive": "The image features a smiling woman with shoulder-length hair, dressed in a black blazer and white blouse, standing in front of a background filled with floating dollar bills. The text overlay reads \"THE PROSPERITY PROCESS,\" \"3 STEP SYSTEM,\" \"PREPARE POSITION PROFIT,\" and \"MICHELLE RUSSELL.\"",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/btgyMd3jSzcY6E2qTLxd_Screen_Shot_2016-03-03_at_3.20.41_AM.png",
+            "role": "informative",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "International Federation of Biosafety Associations (IFBA)",
+            "contextual": "Logo of the International Federation of Biosafety Associations (IFBA) featuring a biohazard symbol and a world map background.",
+            "descriptive": "Logo of the International Federation of Biosafety Associations, featuring a blue world map background and a biohazard symbol in the foreground, accompanied by the organization's name in bold text.",
+            "img_url": "http://nuaire.com/-/media/Project/Nuaire/Public-Site/IFBA-full-logo/ifba-logo-400x175.jpg?h=175&iar=0&w=400&hash=C5B8754BB6230FD8DFC29A4812944C77",
+            "role": "informative",
+            "site": "nuaire.com"
+        },
+        {
+            "human": "A professional photo of NuAire Laboratory Equipments",
+            "contextual": "NuAire laboratory equipment including biosafety cabinets, laminar flow hoods, CO2 incubators, and ultralow freezers.",
+            "descriptive": "The image features a collection of laboratory equipment, including a biological safety cabinet, a refrigerator, and a fume hood, all designed for sterile and controlled environments. The equipment is predominantly white with some digital displays, showcasing their modern design and functionality.",
+            "img_url": "http://nuaire.com/-/media/Project/Nuaire/Public-Site/NuAire-ImageHero/nuaire-laboratory-equipment-v2-800x533.png?h=533&iar=0&w=800&hash=1DB11F781F0941FCF611B2CB0197CE91",
+            "role": "informative",
+            "site": "nuaire.com"
+        },
+        {
+            "human": "Tissue Culture Lab Equipment",
+            "contextual": "A lab technician holding a pipette above a clear tissue culture bottle with an orange cap, alongside additional bottles on a sterile surface in a laboratory setting.",
+            "descriptive": "A gloved hand is holding a small bottle with an orange cap while a pipette is positioned above it, with two other transparent bottles also visible on a lab bench in a sterile environment.",
+            "img_url": "http://nuaire.com/-/media/Project/Nuaire/Public-Site/tissue-culture-hero/tissue-culture-hero-300x200.jpg?h=200&iar=0&w=300&hash=A4E6E4FE699A1E3CD6D101578CD1294B",
+            "role": "informative",
+            "site": "nuaire.com"
+        },
+        {
+            "human": "Close up 3d image of COVID-19",
+            "contextual": "Microscopic representation of viruses, specifically related to COVID-19, illustrating the importance of lab equipment in handling infectious agents.",
+            "descriptive": "A close-up, digitally rendered image of virus particles, featuring a spherical shape with spike-like projections on its surface, set against a dark blue background. The image highlights the intricate details of the virus structure, emphasizing its microscopic nature.",
+            "img_url": "http://nuaire.com/-/media/Project/Nuaire/Public-Site/COVID-19/covid-lab-equipment-hero-300x200.jpg?h=200&iar=0&w=300&hash=6D8C1085E6390BB49EF78E93233A88DE",
+            "role": "informative",
+            "site": "nuaire.com"
+        },
+        {
+            "human": "Sterile Hazardous Drug Compounding Containment Primary Engineering Controls from NuAire",
+            "contextual": "A laboratory technician in protective gear compounding sterile hazardous drugs inside a biosafety cabinet.",
+            "descriptive": "A person in protective clothing and gloves is preparing a solution in a laboratory setting, standing in front of a sterile workbench with various medical supplies and equipment visible.",
+            "img_url": "http://nuaire.com/-/media/Project/Nuaire/Public-Site/sterile-hazardous-drug-compoudning/sterile-hazardous-drug-compounding-hero-300x200.jpg?h=200&iar=0&w=300&hash=E0D7DC7BAD82AAB50312DE043F3BE999",
+            "role": "informative",
+            "site": "nuaire.com"
+        },
+        {
+            "human": "A picture of someone changing animal cages in the vivarium with NuAire animal lab products",
+            "contextual": "A person in a lab coat and purple gloves is transferring a container of small animal bedding into a biosafety cabinet.",
+            "descriptive": "A person in a lab coat and purple gloves is placing a clear plastic cover over a tray of small grains or seeds inside a laboratory setting. The background features organized containers and equipment commonly found in a research environment.",
+            "img_url": "http://nuaire.com/-/media/Project/Nuaire/Public-Site/small-animal-cage-changing/small-animal-cage-changing-hero-300x200.jpg?h=200&iar=0&w=300&hash=730094EEFE052084BAAF89F9430B3F52",
+            "role": "informative",
+            "site": "nuaire.com"
+        },
+        {
+            "human": "Visa",
+            "contextual": "Visa credit card logo.",
+            "descriptive": "The image features the Visa logo, prominently displaying the word \"VISA\" in blue letters on a white background, accompanied by orange and blue stripes.",
+            "img_url": "https://ragerflooring.com:443/-/media/images/creditcards/visa.gif",
+            "role": "informative",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Discover",
+            "contextual": "Discover credit card logo.",
+            "descriptive": "The image features the logo of Discover, a financial services company, prominently displaying the word \"DISCOVER\" in black text with an orange circle and a curved orange line underneath.",
+            "img_url": "https://ragerflooring.com:443/-/media/images/creditcards/discover.png",
+            "role": "informative",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "MasterCard",
+            "contextual": "MasterCard logo.",
+            "descriptive": "The image features the MasterCard logo, which consists of two overlapping circles, one red and one orange, with the word \"MasterCard\" displayed prominently in blue text above them.",
+            "img_url": "https://ragerflooring.com:443/-/media/images/creditcards/mastercard.png",
+            "role": "informative",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "American Express",
+            "contextual": "American Express logo.",
+            "descriptive": "The image features the logo of American Express, displayed in bold white letters against a blue background. The design emphasizes the brand name with a modern and clean aesthetic.",
+            "img_url": "https://ragerflooring.com:443/-/media/images/creditcards/amex.png",
+            "role": "informative",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Onetrust",
+            "contextual": "OneTrust company logo.",
+            "descriptive": "The image features the logo of OneTrust, displayed in a bold, green font. The design is simple and modern, emphasizing the brand's focus on trust and compliance.",
+            "img_url": "https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+            "role": "informative",
+            "site": "livethetyler.com"
+        },
+        {
+            "human": "woman in healthcare simulation lab",
+            "contextual": "Healthcare simulation lab featuring a nursing student next to a patient mannequin.",
+            "descriptive": "A woman stands next to a hospital bed with a medical mannequin lying on it, covered with a white blanket. The room is equipped with medical supplies on a table and shelves in the background.",
+            "img_url": "http://cvtc.edu/sites/default/files/images/news-events/news/2024/07/cvtc-nursing-student-couples-passion-for-care-with-ahec-scholars-program.jpg",
+            "role": "informative",
+            "site": "cvtc.edu"
+        },
+        {
+            "human": "Celebrating 28 Years",
+            "contextual": "Group photo of Unified Supply employees celebrating their teamwork and commitment to exceptional customer support in the baggage conveyor industry.",
+            "descriptive": "A group photo of approximately 20 individuals, mostly men, standing together in a large industrial space with metal walls and a rolling door. The group includes a woman in a red jacket and various individuals wearing work attire, with some in welding aprons, posing for the picture.",
+            "img_url": "https://unifiedsupply.com/wp-content/uploads/2024/06/TEAM-PIC.jpg",
+            "role": "informative",
+            "site": "unifiedsupply.com"
+        },
+        {
+            "human": "3D model of our conveyor belt",
+            "contextual": "Conveyor system design featuring an oval-shaped track with a staircase.",
+            "descriptive": "The image depicts a 3D model of a curved conveyor system, featuring a series of steps arranged in an oval shape. The structure includes a framework with a motorized component at one end, indicating its functionality for transporting items up and down the incline.",
+            "img_url": "https://unifiedsupply.com/wp-content/uploads/2024/05/7000-No-Shadow.png",
+            "role": "informative",
+            "site": "unifiedsupply.com"
+        },
+        {
+            "human": "Professional photo of Maei MD Serum 6 with flower bulb on the right side",
+            "contextual": "Bottle of MAEI MD Serum-6, a face serum in a white container with a dropper, placed next to a green and white flower on a marble surface.",
+            "descriptive": "A white bottle of MAEI MD face serum with a dropper top is positioned on a light marble surface, accompanied by a fresh green and white flower. The bottle is labeled with product details, including \"30 ML\" and \"FACE SERUM.\"",
+            "img_url": "http://www.maeimd.com/cdn/shop/files/WellGood_2_1600x.jpg?v=1646834748",
+            "role": "informative",
+            "site": "maeimd.com"
+        },
+        {
+            "human": "A professional candid-look picture of Becca resting her chin on their hand and looking to the left, with a handwritten text under it, saying \"XOXO Becca\"",
+            "contextual": "A woman with long, dark hair smiles while resting her chin on her hand, wearing a white blouse with puffed sleeves. The image is framed with a white border and includes the handwritten text \"XOXO Becca\" at the bottom.",
+            "descriptive": "A woman with long, wavy hair is sitting at a table, resting her chin on her hand and smiling. She is wearing a white blouse with puffy sleeves, and the image features a handwritten signature that says \"XOXO Becca\" at the bottom.",
+            "img_url": "http://www.maeimd.com/cdn/shop/files/xoxoBecca-2_copy_1200x_copy_1600x.jpg?v=1629810937",
+            "role": "informative",
+            "site": "maeimd.com"
+        },
+        {
+            "human": "A professional picture of Maei MD Serum 6 with the pipet from the lid placed on the side",
+            "contextual": "Face serum bottle with a dropper, labeled \"MAEI MD SERUM-6,\" placed on a marble surface.",
+            "descriptive": "A white bottle of face serum labeled \"MAEI MD\" is displayed on a light marble surface, accompanied by a dropper cap. The bottle is sleek and modern, featuring minimalistic design elements.",
+            "img_url": "http://www.maeimd.com/cdn/shop/products/mmd_serum6_001_2000x.jpg?v=1642887886",
+            "role": "informative",
+            "site": "maeimd.com"
+        },
+        {
+            "human": "Our donut measured 9cm with a ruler",
+            "contextual": "A donut with white chocolate icing and red sprinkles is displayed alongside a measuring tape, indicating its size. The measuring tape shows a length of approximately 8 inches. The background is transparent, emphasizing the donut and the measuring tape.",
+            "descriptive": "A decorated donut with white chocolate icing and red sprinkles is shown alongside a pink measuring tape, indicating its size. The donut has a hole in the center and features chocolate drizzle across the top.",
+            "img_url": "http://donutworrybehappy.eu/getattachment/c3d96250-ebad-46b7-bcd4-544f34ae9f98/made-for-pure-joy.aspx",
+            "role": "informative",
+            "site": "donutworrybehappy.eu"
+        },
+        {
+            "human": "Our donut with a background of trees in four seasons",
+            "contextual": "A decorated donut with a white glaze, chocolate stripes, and red sprinkles, suspended above a landscape featuring trees in various seasonal colors.",
+            "descriptive": "A large, frosted donut with white icing, chocolate drizzles, and red sprinkles hovers above a landscape depicting four trees, each representing a different season: pink blossoms for spring, green leaves for summer, orange foliage for autumn, and bare branches for winter.",
+            "img_url": "http://donutworrybehappy.eu/getattachment/45b829e6-8f8e-4d84-8864-488cc2aad391/seasonal-specials.aspx",
+            "role": "informative",
+            "site": "donutworrybehappy.eu"
+        },
+        {
+            "human": "Different flavors of our donuts: various donuts scattered, including chocolate almond donut, chocolate strawberry donut, and white chocolate and strawberry donut",
+            "contextual": "A variety of colorful donuts featuring different toppings, including chocolate, sprinkles, and fruit pieces, arranged in a playful manner.",
+            "descriptive": "A variety of colorful donuts are displayed, featuring different toppings such as chocolate glaze, sprinkles, and fruit pieces. The donuts are arranged in a scattered manner against a transparent background, showcasing their unique designs and textures.",
+            "img_url": "http://donutworrybehappy.eu/getattachment/70f61d52-6e7d-4140-a199-0a4d545c4086/sooo-many-flavours.aspx",
+            "role": "informative",
+            "site": "donutworrybehappy.eu"
+        },
+        {
+            "human": "CookiePro by OneTrust",
+            "contextual": "CookiePro logo by OneTrust.",
+            "descriptive": "The image features the logo of \"CookiePro\" by OneTrust, displayed in a light blue font. The text emphasizes the brand name \"CookiePro\" with the tagline \"by OneTrust\" in a smaller size.",
+            "img_url": "https://cdn.cookielaw.org/logos/static/cookiepro_logo.png",
+            "role": "informative",
+            "site": "donutworrybehappy.eu"
+        },
+        {
+            "human": "Our donut on a seesaw with a pink balloon, depicting that our donut is lighter than a balloon",
+            "contextual": "A pink balloon on one side of a seesaw, balancing against a large yellow donut on the other side.",
+            "descriptive": "A yellow donut is balanced on one side of a seesaw, while a pink balloon rests on the opposite side, creating a playful visual representation of balance. The seesaw is made of wood, with a triangular support in the center.",
+            "img_url": "http://donutworrybehappy.eu/getattachment/a20f1c37-b08f-4ea9-9a33-96340f68cd72/go-crazy-over-our-heavenly-light-dough.aspx",
+            "role": "informative",
+            "site": "donutworrybehappy.eu"
+        },
+        {
+            "human": "Various ingredients that make out donut: strawberry, chocolate, and almond",
+            "contextual": "A visually appealing assortment of ingredients including a fresh strawberry, a donut, chocolate pieces, a hazelnut, and colorful sprinkles, conveying a sense of deliciousness and variety.",
+            "descriptive": "An assortment of vibrant food elements is depicted, including a large, ripe strawberry, a golden donut with a hole in the center, pieces of dark chocolate, a whole hazelnut, and colorful sprinkles scattered in the background. The arrangement creates a playful and appetizing visual.",
+            "img_url": "http://donutworrybehappy.eu/getattachment/a2b980c0-bb76-4d63-9730-3d54b1ba6036/packed-with-wholesome-ingredients.aspx",
+            "role": "informative",
+            "site": "donutworrybehappy.eu"
+        },
+        {
+            "human": "Strawjelly Jam: fresh strawberry-style glaze with Belgian chocolate cover",
+            "contextual": "A decorated donut with white chocolate glaze, topped with red strawberry pieces and dark chocolate drizzles, accompanied by a chocolate-covered strawberry and a whole strawberry. The text \"STRAWBERRY JAM\" is prominently displayed above the donut.",
+            "descriptive": "An appetizing donut topped with white icing, chocolate drizzles, and bits of dried strawberries, accompanied by a chocolate-dipped strawberry on a stick and fresh strawberries, all set against a black background. The text \"STRAWBERRY JAM\" is prominently displayed above the donut.",
+            "img_url": "http://donutworrybehappy.eu/getattachment/71afc349-9d82-4861-9324-1d304061f188/hero-section.aspx",
+            "role": "informative",
+            "site": "donutworrybehappy.eu"
+        },
+        {
+            "human": "Checking Blood Pressure",
+            "contextual": "A nurse checking a patient's blood pressure in a home health setting.",
+            "descriptive": "A healthcare professional in blue scrubs is attentively monitoring the blood pressure of an elderly patient, who is partially visible in a cozy setting. The professional has a stethoscope around their neck and displays a caring expression.",
+            "img_url": "https://static.wixstatic.com/media/d71073bc6753427b8528a4a0c5dc4896.jpg/v1/fill/w_1230,h_535,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d71073bc6753427b8528a4a0c5dc4896.jpg",
+            "role": "informative",
+            "site": "advancedhomehealth.com"
+        },
+        {
+            "human": "Smiling nurse assisting senior",
+            "contextual": "A nurse assisting a senior patient with a caring expression.",
+            "descriptive": "A caregiver is gently assisting an elderly person, showing a caring interaction. The background is softly blurred, focusing on their connection.",
+            "img_url": "https://static.wixstatic.com/media/2de421_51a0e43cffb243509a8bfabbe28662a9~mv2.jpg/v1/fill/w_79,h_51,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_auto/2de421_51a0e43cffb243509a8bfabbe28662a9~mv2.jpg",
+            "role": "informative",
+            "site": "advancedhomehealth.com"
+        },
+        {
+            "human": "Nurse applying bandaid to arm",
+            "contextual": "A healthcare professional wrapping a bandage around a patient's arm.",
+            "descriptive": "A close-up image of a healthcare professional wrapping a bandage around a patient's arm, with medical supplies in the background slightly blurred. The focus is on the careful application of the bandage.",
+            "img_url": "https://static.wixstatic.com/media/2de421_1a050af93c8741f1a1376c4b8bc9b1b5~mv2.jpg/v1/fill/w_348,h_229,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/shutterstock_224078665.jpg",
+            "role": "informative",
+            "site": "advancedhomehealth.com"
+        },
+        {
+            "human": "Nurse assisting a patient holding weights in both arms to gain back control of arm movements",
+            "contextual": "A senior man and a female caregiver performing an exercise routine with blue dumbbells in a bright, airy room.",
+            "descriptive": "A senior man and a young woman are exercising together in a bright, airy room. The man is holding small blue dumbbells, and they both appear to be engaged in a workout routine.",
+            "img_url": "https://static.wixstatic.com/media/977ec1_f14d8f2eff80471986e53393e646a8ab~mv2_d_5568_3712_s_4_2.jpg/v1/fill/w_348,h_229,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/shutterstock_768268903.jpg",
+            "role": "informative",
+            "site": "advancedhomehealth.com"
+        },
+        {
+            "human": "Nurse holding a senior's hand in a comforting gesture",
+            "contextual": "A healthcare professional in blue scrubs gently holds the hand of an elderly patient, symbolizing compassionate care in a home health setting.",
+            "descriptive": "A healthcare professional in blue scrubs gently holds the hand of an elderly patient, who is wearing a white robe. The scene conveys a sense of care and compassion in a medical setting.",
+            "img_url": "https://static.wixstatic.com/media/2de421_e1b9e92af4b8400c800e893d174da8b7~mv2.jpg/v1/fill/w_348,h_229,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/shutterstock_126288149_edited.jpg",
+            "role": "informative",
+            "site": "advancedhomehealth.com"
+        },
+        {
+            "human": "A close up of Jesse Kelly in a suit smiling nicely to the camera",
+            "contextual": "Headshot of a man with a beard, smiling, wearing a blue blazer over a light blue shirt, against a gradient blue background.",
+            "descriptive": "A smiling man with a beard is wearing a blue blazer over a light blue shirt, set against a gradient blue background. His expression is friendly and approachable.",
+            "img_url": "https://i.iheart.com/v3/re/assets.brands/6272de61d7831f079e65b10b",
+            "role": "informative",
+            "site": "jessekellyshow.com"
+        },
+        {
+            "human": "Dell Technologies Gold Partner Logo",
+            "contextual": "Dell Technologies Gold Partner logo.",
+            "descriptive": "The image features the logo of Dell Technologies, prominently displaying the brand name in blue, with the words \"GOLD PARTNER\" underneath it. The logo is enclosed within a rectangular border.",
+            "img_url": "https://www.summit360.com/wp-content/uploads/2023/06/Dell-Gold-Partner.png",
+            "role": "informative",
+            "site": "summitir.com"
+        },
+        {
+            "human": "Microsoft Logo",
+            "contextual": "Microsoft logo.",
+            "descriptive": "The image features the Microsoft logo, which consists of a stylized four-pane window in red, green, blue, and yellow, accompanied by the word \"Microsoft\" in a sleek gray font.",
+            "img_url": "https://www.summit360.com/wp-content/uploads/2020/11/partner-microsoft.png",
+            "role": "informative",
+            "site": "summitir.com"
+        },
+        {
+            "human": "Hewlett Packard Enterprise Logo",
+            "contextual": "Hewlett Packard Enterprise logo.",
+            "descriptive": "The image features the logo of Hewlett Packard Enterprise, which includes a green rectangle above the text \"Hewlett Packard\" in bold black letters, followed by the word \"Enterprise\" in a lighter font.",
+            "img_url": "https://www.summit360.com/wp-content/uploads/2020/11/partner-hpe.png",
+            "role": "informative",
+            "site": "summitir.com"
+        },
+        {
+            "human": "freedom-broadband-luda-logo",
+            "contextual": "Logo for Freedom Broadband, a web design and development service.",
+            "descriptive": "The image features a logo for \"freedom BROADBAND,\" with the word \"freedom\" stylized in lowercase letters, and \"BROADBAND\" in uppercase, all presented in a muted gray color.",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/2023/12/freedom-broadband-luda-logo.png",
+            "role": "informative",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "noosa-biosphere-logo-grey",
+            "contextual": "Noosa Biosphere logo in grey.",
+            "descriptive": "The image features the logo for Noosa Biosphere, which includes a circular design with a floral motif and the text \"noosa biosphere\" in a modern font. The logo is rendered in a monochromatic style.",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/2024/05/noosa-biosphere-logo-grey.png",
+            "role": "informative",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "your-property-investor-luda-logo",
+            "contextual": "Logo of \"Your Property Investor\" featuring the initials YP within a circular design, accompanied by the full name.",
+            "descriptive": "The image features a logo for \"Your Property Investor,\" which includes the initials \"YP\" within a circular design, accompanied by the full name of the company in a modern font. The overall color scheme appears to be monochromatic.",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/2023/12/your-property-investor-luda-logo.png",
+            "role": "informative",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "unison-projects-luda-logo",
+            "contextual": "Unison Projects logo for Luda Creative.",
+            "descriptive": "The image features a solid dark gray background with no discernible shapes or patterns.",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/2023/12/unison-projects-luda-logo.png",
+            "role": "informative",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "aboda-luda-logo",
+            "contextual": "Logo of Luda Creative, a website design and development agency.",
+            "descriptive": "The image features a logo with the letters \"ADG\" in a modern, stylized font against a dark background.",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/2023/12/aboda-luda-logo.png",
+            "role": "informative",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "the-velow-project-luda-logo",
+            "contextual": "Logo of The Velo Project, featuring artistic lettering and a bicycle wheel design.",
+            "descriptive": "The image features a logo for \"the Velo project,\" which includes stylized text with decorative elements and a bicycle wheel design integrated into the letter \"o.\" The overall color scheme appears to be monochromatic.",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/2023/12/the-velow-project-luda-logo.png",
+            "role": "informative",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "A cool professional picture taken at night of 2 classic cars diagonally side by side on a greenery with trees in the background",
+            "contextual": "Two classic racing cars parked on grass under a starry night sky. On the left, a white car with colorful decals, featuring the Coors logo and a prominent front splitter. On the right, a white Porsche with blue and red stripes, showcasing a rear wing and racing number 61.",
+            "descriptive": "The image features two vintage race cars parked on a grassy area under a starry night sky. On the left, a BMW with a colorful Coors livery, and on the right, a white Porsche adorned with Brumos Porsche branding and racing stripes.",
+            "img_url": "https://images.squarespace-cdn.com/content/v1/5ea7550523df1f18184878d7/1588293934830-310FL4YUHRL8GQVPY93D/SFD_1757-Edit.jpg",
+            "role": "informative",
+            "site": "shootfordetails.com"
+        },
+        {
+            "human": "A cool professional picture taken at noon of 3 cars stacking diagonally side by side on a greenery with miniature of each car in the foreground and an big old European suburban cottage in the background",
+            "contextual": "A lineup of scale model cars, including a white car, a blue car, an orange car, and a red car, displayed in front of a large stone mansion under a partly cloudy sky.",
+            "descriptive": "A collection of four cars, including a white BMW, a blue BMW M2, an orange sports car, and a red sports car, is displayed in front of a large stone mansion under a partly cloudy sky. In the foreground, there are miniature versions of the same cars, creating a playful scale comparison.",
+            "img_url": "https://images.squarespace-cdn.com/content/v1/5ea7550523df1f18184878d7/1589923776316-OO52MEPKFOYPDY7YYS52/image-asset.jpeg",
+            "role": "informative",
+            "site": "shootfordetails.com"
+        },
+        {
+            "human": "A cool professional picture of a black classic car in the morning on the road with out of focus green bushes and yellow trees in the background",
+            "contextual": "Classic black sports car parked on a road with autumn foliage in the background.",
+            "descriptive": "A classic black sports car with a sleek design is parked on a paved road, surrounded by lush greenery and vibrant autumn foliage in the background. The car features round headlights and a distinctive front grille, showcasing its vintage appeal.",
+            "img_url": "https://images.squarespace-cdn.com/content/v1/5ea7550523df1f18184878d7/1604434439257-61NWK813LK520HMOHLZV/SFD_8860-2.jpg",
+            "role": "informative",
+            "site": "shootfordetails.com"
+        },
+        {
+            "human": "A cool professional picture of a classic red car at night on the road with trees and european suburban cottage in the background",
+            "contextual": "A red vintage car parked on a winding driveway at night, illuminated by moonlight, with a large house in the background featuring lit windows and greenery.",
+            "descriptive": "A classic red Mazda Cosmo Sport is parked on a winding driveway at night, illuminated by soft lighting from a nearby historic house, with the moon visible in the background. The scene captures the elegance of the car against the backdrop of lush greenery and architectural details of the home.",
+            "img_url": "https://images.squarespace-cdn.com/content/v1/5ea7550523df1f18184878d7/1604434489882-T1LVXYFVPU1AGP44N2CG/SFD_9309-Edit-Edit-2-2.jpg",
+            "role": "informative",
+            "site": "shootfordetails.com"
+        },
+        {
+            "human": "Foodstuffs",
+            "contextual": "Foodstuffs logo",
+            "descriptive": "The image features the logo of Foodstuffs NZ, displaying the word \"Foodstuffs\" in green with \"NZ\" in a black circle next to it. The design is simple and modern, emphasizing the brand's identity.",
+            "img_url": "http://zubi.co.nz/img/logos/foodstuffs.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Cigana",
+            "contextual": "Cigana logo with the text \"Cigana\" and \"EST. 1999\" above it, set against a black background.",
+            "descriptive": "The image features a minimalist logo on a black background, prominently displaying the word \"Cigana\" in bold, white typography, with \"EST. 1999\" arching above it. Decorative dots flank the text on either side.",
+            "img_url": "http://zubi.co.nz/img/logos/cigana.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "The Pure Food Co",
+            "contextual": "The Pure Food Co logo",
+            "descriptive": "Logo of \"The Pure Food Co,\" featuring the company name in bold, modern typography with a clean, minimalist design. The text is centered with decorative lines above and below.",
+            "img_url": "http://zubi.co.nz/img/logos/pureFood.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Little bird, raw organic goodness",
+            "contextual": "Little Bird organics logo featuring a stylized bird illustration with the text \"little bird\" and the tagline \"raw. organic. goodness.\"",
+            "descriptive": "A simple, stylized illustration of a bird's head is accompanied by the text \"little bird\" in a playful font. Below, the tagline \"raw. organic. goodness.\" is presented in a smaller, red font.",
+            "img_url": "http://zubi.co.nz/img/logos/littlebird.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "living foods",
+            "contextual": "Living Foods logo",
+            "descriptive": "The image features a logo for \"Living Foods,\" which includes a stylized graphic of a leaf and a droplet of water, alongside the text \"LIVING FOODS\" in a modern font. The color scheme incorporates green and yellow tones.",
+            "img_url": "http://zubi.co.nz/img/logos/livingfoods.jpg",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "handcrafted by loaf",
+            "contextual": "Loaf logo",
+            "descriptive": "A logo featuring the phrase \"Handcrafted by Loaf\" in a stylish, white script font on a black background, presented at an angle.",
+            "img_url": "http://zubi.co.nz/img/logos/loaf.jpg",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Kids HQ SuperMeals, all natural, home-style meals for growing kids",
+            "contextual": "Kids HQ SuperMeals logo",
+            "descriptive": "An abstract logo featuring an orange shape resembling a stylized letter, set against a green background with white accents. The design is modern and simplistic, emphasizing bold colors.",
+            "img_url": "http://zubi.co.nz/img/logos/kidshqsupermeals.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Te mata figs",
+            "contextual": "Te Mata Figs logo",
+            "descriptive": "The image features the text \"TE Mata Figs\" in a stylized font, likely representing a brand or business related to figs. The color scheme appears to be a deep burgundy.",
+            "img_url": "http://zubi.co.nz/img/logos/temata.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Just blend",
+            "contextual": "Just Blend logo",
+            "descriptive": "The image features a logo that includes the text \"just blend\" in a playful, stylized font. Above the text, there is an illustration of a glass with a swirl design inside, suggesting a beverage or smoothie theme.",
+            "img_url": "http://zubi.co.nz/img/logos/justblend.jpg",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Griffins",
+            "contextual": "Griffins logo",
+            "descriptive": "The image features the logo of Griffin's, which is displayed in white text on a red oval background, with a stylized swoosh above the name. The logo includes the trademark symbol \"\u2122\" next to the brand name.",
+            "img_url": "http://zubi.co.nz/img/logos/griffins.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "dad's pies",
+            "contextual": "Dad's Pies logo featuring stylized text in blue, with \"Dad's\" in larger letters above \"Pies\" in a flowing script.",
+            "descriptive": "The image features the logo for \"Dad's Pies,\" with the text displayed in a stylized font. The words \"Dad's\" and \"Pies\" are prominent, with \"Dad's\" in a larger, bold typeface and \"Pies\" in a flowing, cursive style.",
+            "img_url": "http://zubi.co.nz/img/logos/dadspies.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "thoroughbread",
+            "contextual": "Thoroughbread logo featuring a sun rising over green hills, surrounded by wheat and a decorative ribbon.",
+            "descriptive": "The image features a logo with the word \"THOROUGHBREAD\" in bold, stylized letters at the top. Below, there is a depiction of rolling green hills and a rising sun, framed by wheat stalks and decorative ribbons. The overall color scheme includes black, gold, green, and yellow.",
+            "img_url": "http://zubi.co.nz/img/logos/thoroughbread.jpeg",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "prolife foods",
+            "contextual": "Prolife Foods logo",
+            "descriptive": "Logo of Prolife Foods Ltd., featuring stylized blue wings with three red stars above them, accompanied by the company name in black text below.",
+            "img_url": "http://zubi.co.nz/img/logos/prolife.jpg",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Ottogi",
+            "contextual": "Ottogi logo featuring a smiling character inside a red oval, alongside the word \"OTTOGI\" in blue.",
+            "descriptive": "The image features the logo of Ottogi, a South Korean food company, which includes a red and white emblem with a smiling character and the brand name \"OTTOGI\" displayed in blue.",
+            "img_url": "http://zubi.co.nz/img/logos/ottogi.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "The Gourmet Cottage",
+            "contextual": "Logo of The Gourmet Cottage, featuring a stylized house with smoke rising from the chimney and the text \"The Gourmet Cottage\" in a combination of white and orange colors on a black background.",
+            "descriptive": "A logo featuring the text \"The Gourmet Cottage\" in a stylish font, accompanied by a simple illustration of a cottage with a chimney, all set against a black oval background.",
+            "img_url": "http://zubi.co.nz/img/logos/thegourmetcottage.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Hell",
+            "contextual": "Text that says \"HELL\" in bold, light beige letters with a red crossed bones graphic underneath.",
+            "descriptive": "The image features the word \"HELL\" in a bold, beige font, with a red graphic of crossed bones below it. The design has a playful yet edgy aesthetic.",
+            "img_url": "http://zubi.co.nz/img/logos/hell.jpg",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Cake concepts",
+            "contextual": "Cake Concepts logo",
+            "descriptive": "The image features a logo for \"Cake Concepts,\" with the word \"Cake\" in a playful, purple script and \"concepts\" in a bold, purple font on a bright green background. A stylized cake knife is depicted, adding a thematic element related to baking.",
+            "img_url": "http://zubi.co.nz/img/logos/cake-concepts.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Vetro",
+            "contextual": "Vetro logo featuring a delivery person on a scooter with the text \"VETRO\" and \"MEDITERRANEAN FOODS\".",
+            "descriptive": "The image features a circular logo for \"VETRO Mediterranean Foods,\" prominently displaying the brand name in bold black letters against an orange background. An illustration of a scooter rider carrying food packages adds a dynamic element to the design, with a trail of dust behind the scooter. The website URL \"www.vetro.co.nz\" is also included at the bottom.",
+            "img_url": "http://zubi.co.nz/img/logos/vetro.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Sudano made by hand",
+            "contextual": "Sudano logo featuring the word \"Sudano\" in a stylized font, with the phrase \"Made by Hand\" below it. The logo has a warm, earthy color palette.",
+            "descriptive": "A logo featuring the word \"sudano\" in a stylized font, with a beige and brown color scheme. Below the main text, it reads \"MADE BY HAND\" in a smaller, brown font. The design has a smooth, rounded shape.",
+            "img_url": "http://zubi.co.nz/img/logos/sudano.jpg",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "colonial bacon and ham",
+            "contextual": "Colonial Bacon logo",
+            "descriptive": "A logo for Colonial Bacon & Ham featuring a wooden background with the word \"Colonial\" prominently displayed in white cursive font, accompanied by a red ribbon. The text \"Bacon & Ham\" is written in yellow below, with \"PROUDLY ESTD IN 1994\" at the top.",
+            "img_url": "http://zubi.co.nz/img/logos/colonial.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "GreenMount Foods great food starts with us",
+            "contextual": "GreenMount Foods logo",
+            "descriptive": "The image features a logo for \"GreenMount Foods,\" which includes a stylized leaf design in shades of green and blue. Below the logo, the tagline reads \"GREAT FOOD STARTS WITH US\" in a modern font.",
+            "img_url": "http://zubi.co.nz/img/logos/greenmountfoods.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "huffman's crafty sauces",
+            "contextual": "Huffman's Crafty Sauces logo",
+            "descriptive": "The image features the logo for \"Huffman\u2019s Crafty Sauces,\" which includes the brand name in bold red letters, accompanied by a chef's hat and kitchen utensils (a spoon and knife) above the text.",
+            "img_url": "http://zubi.co.nz/img/logos/huffmans.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "springbrook foods",
+            "contextual": "Springbrook Foods logo",
+            "descriptive": "The image features a logo with the text \"Springbrook\" in a bold, elegant font, accompanied by an orange speech bubble that reads \"FLAVOUR COMES FIRST.\" The overall design emphasizes a focus on flavor.",
+            "img_url": "http://zubi.co.nz/img/logos/springbrook.jpg",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "wild game salamis",
+            "contextual": "Wild Game logo featuring a deer and a wild boar, with the text \"WILD GAME\" and the phrases \"WOOD SMOKED\" and \"HAND CRAFTED\" below.",
+            "descriptive": "A black and white logo featuring the text \"WILD GAME\" prominently at the top, with a silhouette of a deer in the center and a wild boar to the left. Below the animals, there are stylized grass and birds, and the phrases \"WOOD SMOKED\" and \"HAND CRAFTED\" are displayed at the bottom.",
+            "img_url": "http://zubi.co.nz/img/logos/wildagame.png",
+            "role": "informative",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "GrabPay",
+            "contextual": "GrabPay logo, representing an online payment solution for events.",
+            "descriptive": "The image features the logo of GrabPay, which is designed with a combination of green colors and modern typography, showcasing the name \"GrabPay\" with stylized lettering.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/image_2107047540429_grabpay.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "AliPay",
+            "contextual": "AliPay logo representing an online payment option for events.",
+            "descriptive": "The image features the logo of Alipay, which includes a blue square with a stylized white \"zhifubao\" symbol on the left and the word \"ALIPAY\" in bold black letters to the right.",
+            "img_url": "https://eventnook.s3-ap-southeast-1.amazonaws.com/content/themes/default/images/icons/alipay.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "WeChat Pay",
+            "contextual": "WeChat Pay logo with the text \"WeChat Pay\" beside it.",
+            "descriptive": "The image features the WeChat Pay logo, which includes a green speech bubble with a checkmark and the text \"WeChat Pay\" in black.",
+            "img_url": "https://eventnook.s3-ap-southeast-1.amazonaws.com/content/themes/default/images/icons/wechat.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Singapore Tourism Board",
+            "contextual": "Logo of the Singapore Tourism Board, featuring the name in a stylized font on a teal background.",
+            "descriptive": "The image features the logo of the Singapore Tourism Board, which consists of the word \"Singapore\" in a stylized script above the words \"TOURISM BOARD\" in a bold, capitalized font. The logo is set against a teal background with a rounded, irregular shape.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/stb.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "ExxonMobil",
+            "contextual": "Logo of ExxonMobil, a client of EventNook, displayed in red text.",
+            "descriptive": "The image features the logo of ExxonMobil, displaying the company name in bold red letters with a distinctive design where the \"x\" in \"Exxon\" is stylized to resemble a cross. The background is white.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/image_1903118592221_exxonmobil-600x400.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Singapore Management University",
+            "contextual": "Logo of Singapore Management University (SMU).",
+            "descriptive": "The image features the logo of Singapore Management University (SMU), which includes the abbreviation \"SMU\" prominently displayed alongside the full name \"Singapore Management University.\" The design incorporates a stylized lion's head in blue and gold colors.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/smu.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Mediacorp",
+            "contextual": "Logo of Mediacorp featuring a stylized letter \"M\" in vibrant colors above the word \"mediacorp\" in dark blue.",
+            "descriptive": "The image features the logo of Mediacorp, composed of a stylized \"M\" made up of colorful geometric shapes in shades of pink, orange, green, and blue, with the word \"mediacorp\" written in bold, dark blue letters below it.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/mediacorp.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "CHANEL",
+            "contextual": "Logo of CHANEL, a luxury fashion brand, displayed prominently.",
+            "descriptive": "The image features the iconic interlocking \"C\" logo of the luxury fashion brand Chanel, accompanied by the brand name \"CHANEL\" in a bold, modern font. The design is simple and elegant, reflecting the brand's sophisticated aesthetic.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/image_1903119001050_chanel-600x400.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Changi Airport Singapore",
+            "contextual": "Logo of Changi Airport, featuring the word \"CHANGI\" in bold letters with \"airport singapore\" below it, accompanied by a stylized globe graphic in vibrant colors.",
+            "descriptive": "The image features the logo of Changi Airport, Singapore, which includes the word \"CHANGI\" in bold brown letters, accompanied by the phrase \"airport singapore\" in a smaller font. Above the text is a stylized globe design with colorful swirls in red, orange, and gray.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/changqiairport.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Chartered Accountants ANZ",
+            "contextual": "Logo of Chartered Accountants Australia and New Zealand, featuring a stylized red \"C\" and green \"A\" with the text \"CHARTERED ACCOUNTANTS AUSTRALIA + NEW ZEALAND\" beside it.",
+            "descriptive": "The image features the logo of Chartered Accountants Australia and New Zealand, which includes a stylized \"CA\" in red and green, accompanied by the text \"CHARTERED ACCOUNTANTS AUSTRALIA + NEW ZEALAND\" in a modern font.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/chartered-accountants-anz.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Sentosa the state of fun",
+            "contextual": "Logo of Sentosa, featuring the text \"Sentosa\" in orange and \"The State of FUN\" in colorful, playful letters.",
+            "descriptive": "The image features the logo for Sentosa, a resort destination, with the word \"sentosa\" in bold orange letters. Below it, the phrase \"THE STATE OF FUN\" is displayed in black, with the word \"FUN\" designed in a colorful, playful font made up of various shapes and colors.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/image_1903119011082_sentosa-600x400.jpg",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Deloitte",
+            "contextual": "Logo of Deloitte, a client of EventNook, displayed in a simple design with the name \"Deloitte\" in bold black letters and a green dot.",
+            "descriptive": "The image features the logo of Deloitte, which consists of the word \"Deloitte\" in bold black letters, with a green dot positioned to the right of the text.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/image_1911223022394_deloitte.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "ASTAR",
+            "contextual": "Logo of the Agency for Science, Technology and Research (ASTAR) in Singapore, featuring a blue square with a stylized letter \"a\" and a red star, accompanied by the text \"Agency for Science, Technology and Research\" and \"SINGAPORE\".",
+            "descriptive": "The image features the logo of the Agency for Science, Technology and Research (A*STAR) in Singapore. It includes a blue rectangular background with a stylized letter \"a\" and a red star, accompanied by the agency's full name and the word \"SINGAPORE\" in blue text.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/image_1903119233930_singapore-astar.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "EY Building a better working world",
+            "contextual": "EY logo with the tagline \"Building a better working world.\"",
+            "descriptive": "The image features the EY (Ernst & Young) logo, which includes the letters \"EY\" in a bold gray font, accompanied by the tagline \"Building a better working world\" in a lighter gray. Above the letters, there is a yellow triangular graphic element.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/image_1911223020170_ey.png",
+            "role": "informative",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Google",
+            "contextual": "Logo of Google, featuring the word \"Google\" in colorful letters: blue \"G,\" red \"o,\" yellow \"o,\" blue \"g,\" and green \"l.\"",
+            "descriptive": "The image features the Google logo, which consists of the word \"Google\" in a playful font. The letters are colored blue, red, yellow, and green, arranged in a vibrant and recognizable design.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/image_1911223023634_google.jpg",
+            "role": "informative",
+            "site": "eventnook.com"
+        }
+    ],
+    "functional": [
+        {
+            "human": "Industrial hose",
+            "contextual": "View product: a collection of various industrial hoses in different colors and sizes.",
+            "descriptive": "A variety of flexible hoses and pipes in different colors, including black, yellow, red, and orange, are arranged in a tangled manner. The hoses vary in diameter and texture, showcasing their diverse applications.",
+            "img_url": "https://hannarubbercompany.com/wp-content/uploads/sites/14/2022/09/industrial-hose.jpeg",
+            "role": "functional",
+            "site": "hannarubbercompany.com"
+        },
+        {
+            "human": "Go to Hydraulics page",
+            "contextual": "View hydraulic products and services.",
+            "descriptive": "A collection of hydraulic hoses with various metal fittings, arranged in a fan shape. The hoses are black with colored markings, and the fittings include hexagonal, straight, and angled connectors.",
+            "img_url": "https://hannarubbercompany.com/wp-content/uploads/sites/14/2023/10/Hydraulics-300x300.png",
+            "role": "functional",
+            "site": "hannarubbercompany.com"
+        },
+        {
+            "human": "FemiClear Soothing Daily Wash",
+            "contextual": "View product: FemiClear Soothing Daily Wash, designed for itching and discomfort, moisturizing, and maintaining pH balance.",
+            "descriptive": "A tube of FemiClear Soothing Daily Wash, featuring a white and orange design. The label highlights its benefits for itching and discomfort, moisturizing properties, and prebiotic for pH balance, with a note indicating it is ultra-gentle, hypoallergenic, and gynecologist tested.",
+            "img_url": "http://femiclear.com/cdn/shop/files/11_533x.png?v=1702505015",
+            "role": "functional",
+            "site": "femiclear.com"
+        },
+        {
+            "human": "Go to our instagram page",
+            "contextual": "Follow us on Instagram",
+            "descriptive": "A white Instagram logo featuring a simplified camera icon within a circular outline. The design is minimalist and modern, commonly used as a social media app icon.",
+            "img_url": "http://femiclear.com/cdn/shop/t/180/assets/instagram-icon-w-mobile.png?v=77337934032363769741706028062",
+            "role": "functional",
+            "site": "femiclear.com"
+        },
+        {
+            "human": "Check out FemiClear Vulva Cream Infection Protection UTI",
+            "contextual": "Infection Protection UTI cream for preventing UTIs with natural ingredients.",
+            "descriptive": "The image displays a box of FemiClear Vulva Cream, labeled \"Infection Protection UTI.\" It highlights that the cream kills bacteria that can cause a UTI and emphasizes its natural ingredients. The packaging includes a message to \"Stop infection before it starts\" and notes that it is a homeopathic medicine.",
+            "img_url": "http://femiclear.com/cdn/shop/files/Product_1_443eae90-a729-452e-898c-e1ada135d646.png?v=1719334510&width=768",
+            "role": "functional",
+            "site": "femiclear.com"
+        },
+        {
+            "human": "Go to RealPage website",
+            "contextual": "Visit RealPage for apartment marketing services.",
+            "descriptive": "The image features the logo of LeaseLabs, presented in a simple, modern font. The text is predominantly white, set against a dark background, emphasizing the brand name.",
+            "img_url": "http://six100okc.com/TemplateResources/Global/images/rplogo-white.png",
+            "role": "functional",
+            "site": "six100okc.com"
+        },
+        {
+            "human": "Happy World Health Day! \ud83c\udf0d\u2060 \u2060 Having up-to-date first aid skills can make all the difference in an emergency situation. \u2060 \u2060 Take a look at our selection of first aid training courses and book yours today! https://acute-firstaid.co.uk/ \u2060 \u2060 #WorldHealth\u2026",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/436658091_2148106745536888_1114436654605773733_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=9g9HXwnUBr4Q7kNvgGKRm6c&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYBeDOUH0FbY2ACX0G8WRMQpowAyi3dSw4r17PIOzLjuhw&oe=66C3B19D",
+            "role": "functional",
+            "site": "acute-firstaid.co.uk"
+        },
+        {
+            "human": "\u26a0\ufe0f June is National Safety Month! \u26a0\ufe0f\u2060 \u2060 Equip your team with essential skills through our practical workplace first aid courses, and rest easy knowing your workplace is prepared.\u2060 \u2060 Contact us today for a FREE, no-obligation consultation, and we'll g\u2026",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/449209065_1029753418487280_8265964229199352961_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=3zupQU1SoN0Q7kNvgHtlcZT&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYCB4hE9gglZsmojvQNr0fXp5KvesJkGhYgZ95X2O-N_bA&oe=66C39536",
+            "role": "functional",
+            "site": "acute-firstaid.co.uk"
+        },
+        {
+            "human": "Pain together with swelling and bruising, alongside a history of overstretching the affected area, can often be a sprain or a strain. \u2060 \u2060 If in doubt, treat this kind of injury as a fracture and get it checked out by a medical professional.\u2060 \u2060 With o\u2026",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/445587705_324818603970389_5621992654525520705_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=Lrpcf7vguN4Q7kNvgG3wOSy&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYBDv1prsSDB5EnKNIbpZylZOSTClQnGeMtnfLELqAySAA&oe=66C3AD59",
+            "role": "functional",
+            "site": "acute-firstaid.co.uk"
+        },
+        {
+            "human": "Every workplace should have trained first aiders.\u2060 \u2060 Get in touch today for a free, no-obligation consultation and take the next step towards a safer workplace \ud83c\udf1f\u2060 \u2060 Click the link in our bio to explore our practical workplace courses!\u2060 \u2060 #firstaid #f\u2026",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.2885-15/436222519_962520585412381_7537594217573234630_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=18de74&_nc_ohc=6VZR2JsSTEwQ7kNvgHN18mU&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYA55QYCh_-s-knvfd4Ew7jiZkvk5prcOx9IEQKQTPxlQg&oe=66C3A525",
+            "role": "functional",
+            "site": "acute-firstaid.co.uk"
+        },
+        {
+            "human": "Go to work with us page",
+            "contextual": "Inspire the future of healthcare IT",
+            "descriptive": "A young woman with curly hair is standing in an office environment, looking intently at a tablet in her hands. Behind her, there are colorful sticky notes and charts on a glass wall, indicating a collaborative workspace.",
+            "img_url": "https://chc.scene7.com/is/image/changehealthcare/GettyImages-1296072827-screenshot?qlt=90&ts=1710786218027&dpr=off",
+            "role": "functional",
+            "site": "changehealthcare.com"
+        },
+        {
+            "human": "Go to partnerships page",
+            "contextual": "Grow your business with innovative solutions",
+            "descriptive": "A woman wearing a headset is engaged in conversation while sitting at a desk with a computer. In the background, a person is also visible, working at a nearby desk.",
+            "img_url": "https://chc.scene7.com/is/image/changehealthcare/GettyImages-1224940094-screenshot?qlt=90&ts=1701978476459&dpr=off",
+            "role": "functional",
+            "site": "changehealthcare.com"
+        },
+        {
+            "human": "Watch enguru introduction video",
+            "contextual": "Watch the introduction video for the enguru Live English Learning App.",
+            "descriptive": "A woman with long, dark hair and glasses smiles and gestures with her right hand, as if inviting viewers to watch a video. She is wearing a pink floral-patterned blouse against a dark background, with a play button overlay in the center.",
+            "img_url": "https://enguruapp.com/wp-content/uploads/2023/06/Group-1171277682.png",
+            "role": "functional",
+            "site": "enguruapp.com"
+        },
+        {
+            "human": "Go to Gorbel home page",
+            "contextual": "Gorbel home page",
+            "descriptive": "The image features the logo of Gorbel, prominently displaying the brand name \"GORBEL\" in bold, uppercase letters, accompanied by the tagline \"A CLASS ABOVE\" underneath. The design is sleek and modern, rendered in white against a black background.",
+            "img_url": "http://gorbel.com/images/PublicSite/gorbelLogo.png",
+            "role": "functional",
+            "site": "gorbel.com"
+        },
+        {
+            "human": "An up and down line graph with the last peak about to go down again, described by the arrow pointing downwards",
+            "contextual": "View details about the Bounce Back Loan Scheme (BBLS)",
+            "descriptive": "An infographic depicting a line graph with a rising trend interrupted by a green virus symbol, indicating a downturn. The text \"Come Back Scheme\" is prominently displayed on the left.",
+            "img_url": "https://i0.wp.com/ecsgroup.co.uk/wp-content/uploads/2020/05/BBLS-Web.png?resize=400%2C250&ssl=1",
+            "role": "functional",
+            "site": "ecsgroup.co.uk"
+        },
+        {
+            "human": "ESC Group, elite corporate solutions",
+            "contextual": "ECS Group homepage",
+            "descriptive": "The image features the logo of \"ecsGROUP,\" which consists of the text \"ecs\" in white and \"GROUP\" in a light blue font, set against a dark blue background. A blue rectangular shape is positioned to the left of the logo.",
+            "img_url": "https://ecsgroup.co.uk/wp-content/uploads/2019/08/ECS_Group-Logo.png",
+            "role": "functional",
+            "site": "ecsgroup.co.uk"
+        },
+        {
+            "human": "Print this page",
+            "contextual": "Print this page",
+            "descriptive": "An icon of a printer, depicted in a simple and minimalist design, featuring a paper feed and a small indicator light. The printer is shown in a light gray color against a transparent background.",
+            "img_url": "https://i0.wp.com/ecsgroup.co.uk/wp-content/plugins/pdf-print/images/print.png?w=1080&ssl=1",
+            "role": "functional",
+            "site": "ecsgroup.co.uk"
+        },
+        {
+            "human": "Download this as PDF",
+            "contextual": "Download PDF",
+            "descriptive": "This image features a PDF file icon, commonly recognized by its red color and the stylized \"PDF\" text. The icon suggests that the file is in Portable Document Format, often used for documents that maintain formatting across different devices and platforms.",
+            "img_url": "https://i0.wp.com/ecsgroup.co.uk/wp-content/plugins/pdf-print/images/pdf.png?w=1080&ssl=1",
+            "role": "functional",
+            "site": "ecsgroup.co.uk"
+        },
+        {
+            "human": "Donaldson Aerospace Inlet Barrier Filter Parts Buy Online in Shopify",
+            "contextual": "Create an account to buy Donaldson Aerospace Inlet Barrier Filter parts online.",
+            "descriptive": "A close-up image of a red aircraft component, likely an engine or air intake, featuring an inlet barrier filter. The text overlay promotes the distribution of Donaldson Aerospace parts, highlighting the ease of purchasing these filters and encouraging account creation.",
+            "img_url": "https://cdn.shopify.com/s/files/1/0803/1551/5185/files/Donadlson_Aerospace_IBF.png?v=1691109284",
+            "role": "functional",
+            "site": "aeroinvestments.com"
+        },
+        {
+            "human": "Andrea Systems Parts Buy Online in Shopify",
+            "contextual": "Buy Andrea Systems parts online",
+            "descriptive": "The image features two individuals inside a helicopter cockpit, wearing headsets and focused on the controls in front of them. The background shows a view of the ground through the cockpit window, indicating that the helicopter is in flight.",
+            "img_url": "https://cdn.shopify.com/s/files/1/0803/1551/5185/files/Andrea_Systems.png?v=1691109284",
+            "role": "functional",
+            "site": "aeroinvestments.com"
+        },
+        {
+            "human": "#ProtectTheChildren. \"As a doctor, lawyer, and mom, I could not sit by and watch our children being used as guinea pigs.\" Simone Gold, MD, JD, FABEM. Sponsors: Frontline Films, America's Frontline Doctors. Watch and Share the film; help UNcencor the truth! @AFLDS.org/Films",
+            "contextual": "Take action to support the cause.",
+            "descriptive": "An image featuring a woman with long dark hair, wearing a red top and earrings, is superimposed with a quote expressing her concerns about children being used as \"guinea pigs.\" The text includes her name and credentials, along with logos for \"Frontline Films\" and \"America's Frontline Doctors.\" The hashtag #ProtectTheChildren is prominently displayed.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/BsU1s32vTqKp81k4Ukty_60e8b9b4d43ac14a986a6738_Slide2-p-800.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "Money rolled tightly with an egg with \"IRA\" written on it",
+            "contextual": "Learn about Self-Directed IRAs and their benefits.",
+            "descriptive": "A rolled bundle of hundred-dollar bills is secured with a rubber band, placed next to a white egg labeled \"IRA,\" all nestled in a nest made of straw and twigs.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/Na0cnf6kQ3aTU0AQLjJh_IRA.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A husband and wife in a living room, the wife showing her property listing on a tablet to her husband",
+            "contextual": "View article: a couple sitting on a couch, smiling while looking at a tablet together in a cozy, well-lit room.",
+            "descriptive": "A couple sits closely together on a sofa, smiling as they look at a tablet. The warm, cozy atmosphere is enhanced by soft lighting and a plant in the background.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/IvTv1cqLQUiqJGkesZ1S_file.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A black woman with curly hair holding money over her face",
+            "contextual": "Join our affiliate program to earn commissions.",
+            "descriptive": "A woman with curly hair holds several dollar bills close to her face, looking off to the side. She is dressed in a pinstripe suit, and the background is plain white.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/BOPKy5RyTyaHkRfcVwCe_file.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "#ProtectTheChildren. \"(Thousands} have died after getting the vaccine; some of them were children as young as 1-2 yrs old. THAT is the emergency, and it has to stop\" Teryn Clarke, MD. Sponsors: Frontline Films, America's Frontline Doctors. Watch and Share the film; help UNcencor the truth! @AFLDS.org/Films",
+            "contextual": "Watch the film and share the message about vaccine concerns.",
+            "descriptive": "A woman in a white lab coat, identified as Teryn Clarke, MD, speaks directly to the camera with a serious expression. The image features a quote about vaccine-related deaths, particularly among young children, emphasizing a call to action with the hashtag #ProtectTheChildren. The background shows a window with natural light filtering in.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/LRjlr8HCRlWKxD2P1Gkz_60e8be12c85b35023d8e396a_teryn_clarke-p-800.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A parent holding the hands of their two children over Bibles and a cross",
+            "contextual": "Pray together: hands holding in prayer over a globe and open books.",
+            "descriptive": "A group of hands is clasped together over an open book, with a small globe and a wooden cross placed on the table. The scene suggests a moment of prayer or discussion, emphasizing themes of unity and spirituality.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/UshD5CecSuSxSrWXBXFh_file.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A businessman with paper cutouts of a family and a house. The man is holding a paper umbrella over them, signifying insurance.",
+            "contextual": "Protect your family and home with insurance coverage.",
+            "descriptive": "A person in a suit is holding a large paper umbrella over cut-out figures representing a family and a house, symbolizing protection and insurance. The background is softly blurred, emphasizing the figures in the foreground.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/UWpeYvz0SNSMHADPX9WG_INNHKWoPTDiCbm06JsjP_Untitled_design_3.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A thermometer, hand sanitizer, pills, and a mask with \"Covid-19\" written on it",
+            "contextual": "Download the COVID-19 Cleaning Checklist.",
+            "descriptive": "An arrangement of health-related items on a red background, including a blue surgical mask labeled \"COVID-19,\" a digital thermometer, a small bottle of hand sanitizer, and several pills in various colors.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/2MGskLrDTiq4S7ExnZCo_YHHOBU5nTLavf80JFtDV_covid_3.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "Budget Room Makeovers: The Bath and Bonus Room for Under $1000",
+            "contextual": "View article: two bathroom designs showcasing different styles and color schemes.",
+            "descriptive": "The image showcases two distinct bathroom designs side by side. On the left, a light blue bathroom features green tiled walls, a white sink with a green cabinet, and a toilet, complemented by soft towels and a framed picture. On the right, a modern black and white bathroom displays a round mirror, a sleek black sink, and decorative plants against a white tiled wall, creating a clean and contemporary aesthetic.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/emqP19QcugyBIzKR1EJw_f5A2lMdDTGONJ5Aucr5p_Thoughts_Become_Things_18.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "Budget Room Makeovers: Landscaping for Under $1000",
+            "contextual": "View landscaping ideas for budget-friendly room makeovers.",
+            "descriptive": "The image shows two distinct garden pathways: on the left, a brick walkway lined with colorful flowers and greenery leading to a brick house, and on the right, a neatly landscaped front porch with a white door, decorative plants, and a small statue amidst vibrant flower beds.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/r4wvFyQqCP6Hko3cySfA_aDrJNtgLScmH0vngcjjy_file.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A worker cleaning a keyboard in an office with desinfectant",
+            "contextual": "Download the Best Cleaning Checklist to Fight CoVID",
+            "descriptive": "A person wearing blue gloves is cleaning a computer keyboard with a purple cloth while a spray bottle and a clipboard are positioned nearby on a wooden desk. In the background, there are shelves with various office supplies.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/Iu2axQbnREOmpcnhgy7w_WLsPYE3sSPmGUxMzo5zr_covid_1.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "Food bank",
+            "contextual": "View episode: a promotional image for \"Episode 089 - STRR - 7 Reasons You Should Give to Charity\" featuring a green background with houses and palm trees, and a hand receiving a bowl of food.",
+            "descriptive": "The image features a promotional graphic for a podcast episode titled \"Short Term Rental Revenue\" with Michelle Russell. The left side displays colorful text and graphics of houses and palm trees, while the right side shows a close-up of hands exchanging a bowl of food, suggesting a theme of hospitality or sharing.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/Hs3MbixUQayMfB7qcCDm_file.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "Budget Room Makeovers: The Kitchen for Under $1000",
+            "contextual": "View kitchen makeover ideas: a modern kitchen with hexagonal tiles and a cozy dining area.",
+            "descriptive": "The image features a split view of two kitchen designs. On the left, a modern kitchen showcases a hexagonal tiled wall with a black and white color scheme, adorned with kitchenware and a flower vase. On the right, a more traditional kitchen features light-colored cabinetry, a wooden countertop, and a warm, inviting atmosphere with fruits and vegetables displayed.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/auvAuBZaSOaHlyvz6rTd_oJP0OI1wQOu1owssXXZo_file.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "go to our home page: BNB-Boss.com",
+            "contextual": "BNB-Boss homepage link.",
+            "descriptive": "A logo featuring a stylized house with a triangular roof and windows, accompanied by the text \"BNB-BOSS.COM\" in a playful font. The design is predominantly white on a black background.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/6LiypvkRQMSK8u1abiAN_BNB-Boss_2.png",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "Retirement Plans if you're self-employed",
+            "contextual": "Understanding self-employment retirement plans",
+            "descriptive": "The image features a torn paper effect revealing the text \"if you're self-employed\" on a white background, with the phrase \"Retirement Plans\" in bold black font above it. The background has a textured, beige color, enhancing the visual appeal.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/sd0tOprkRy6QDtuR4XYu_file.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "Budget Room Makeovers: Weekend Projects for Under $1000",
+            "contextual": "Explore budget room makeovers: weekend projects for under $1,000.",
+            "descriptive": "A woman in a plaid shirt is painting a radiator while kneeling on the floor, accompanied by a dog sitting beside her. The background shows a staircase and partially covered walls, indicating a home renovation.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/46ROzPh2TVqvKKmZvNYy_bx6by4GBTcWIw5jrXMlF_Thoughts_Become_Things_15.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A beautiful houe with greeneries and a large garden. The garden consists of several colorful flowering shrubs, medium-sized trees, and grass.",
+            "contextual": "View article: a well-maintained house with landscaped gardens and trees.",
+            "descriptive": "A beautifully landscaped home featuring a mix of stone and wood exterior, surrounded by lush greenery and colorful flowering plants. The pathway curves around the house, leading to a cozy outdoor seating area under a shaded umbrella.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/QMslHRqReeFeWJmlAjGw_file.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A woman looking up, thinking",
+            "contextual": "Apply Prayerful Intuition to Your Investments and See Greater Profits",
+            "descriptive": "A woman in a pink shirt sits at a desk, looking upward with a thoughtful expression while resting her finger on her temple. The background features a textured gray wall, and she has a laptop in front of her.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2033/images/BiIySgCRfyU6DEFfWG2X_Thoughts_Become_Things_25.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "Budget Room Makeovers: The Living or Family Room for Under $1000",
+            "contextual": "View blog post: Budget room makeovers for the living or family room under $1000.",
+            "descriptive": "The image is split into two sections. On the left, a cozy interior features a wall adorned with woven baskets of various sizes, a patterned throw blanket, and decorative pillows on a couch. On the right, a wall displays a round clock, dried flowers, a small wooden frame with a picture, and a cheerful arrangement of letters spelling \"HAPPY.\"",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/mMdxHnIOQomduXkDI0xP_KcFYT6COQra7OXJ8Wd9T_Thoughts_Become_Things_16.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "#ProtectTheChildren. \"With COVID and Kids, there is no emergency\" Angie Farella, MD. Sponsors: Frontline Films, America's Frontline Doctors. Watch and Share the film; help UNcencor the truth! @AFLDS.org/Films",
+            "contextual": "Watch the film for information on COVID-19 survival rates in children and related statistics.",
+            "descriptive": "The image features a woman in a white lab coat, identified as Angie Farella, MD, with a serious expression. Text includes the hashtag #ProtectTheChildren and a quote stating, \"With COVID and Kids, there is no emergency,\" along with statistics about COVID-19 survival rates for children. The bottom section promotes America\u2019s Frontline Doctors and encourages viewers to watch and share a film.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/WWEoFZQtReeN9zcSdrc8_60e8bde78cb2a7e07983fc62_angie_farella-p-800.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A dark-skinned woman wearing bright yellow dress looking at her phone, satisfied.",
+            "contextual": "View automated messages related to short-term rental management.",
+            "descriptive": "A woman with curly hair is standing sideways, holding a smartphone and looking at the screen. She is wearing a bright yellow dress, and the background is a solid teal color.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/O4646cSRfa8NdW5i0Fw7_fTF4Ir03SreRlMfNgYAH_Untitled_design_1.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "Budget Room Makeovers: Bedrooms for Under $1000",
+            "contextual": "View budget room makeovers: two styled bedrooms showcasing different designs and decor.",
+            "descriptive": "The image showcases two distinct bedroom designs side by side. On the left, a luxurious bedroom features a plush bed with decorative pillows, a chandelier, and soft, neutral tones. On the right, a modern bedroom is highlighted by a deep blue wall, a minimalist wooden bed frame, and stylish decor, including a woven pendant light and greenery.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/B1AGIOhzTgqe63zkR0yq_IgOdRe6xQ86w447YRvrQ_Thoughts_Become_Things_19.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A box with cleaning supplies",
+            "contextual": "View COVID cleaning supplies and sit times.",
+            "descriptive": "A collection of cleaning supplies is arranged in a blue basket, featuring spray bottles, sponges, and cloths in vibrant colors. Bright yellow flowers add a touch of nature to the scene, set against a blurred green background.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/qPkCjr1QQpOn7CoM7SxO_2zrWNkfAQUWcc0FfSIgP_covid_2.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "A person's hand mopping the floor",
+            "contextual": "Clean your space: tips for hiring a cleaning company.",
+            "descriptive": "A person is using a green mop to clean a floor, with a blue bucket and cleaning supplies visible in the background. The scene includes a toilet and yellow cleaning rags scattered on the floor.",
+            "img_url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3479602/settings_images/6UVqROJTAqAZGqgXD4bT_xZYphsSTQHzEOcbNmVjk_clean.jpg",
+            "role": "functional",
+            "site": "bnbbosses.com"
+        },
+        {
+            "human": "Go back to NuAire home page",
+            "contextual": "NuAire home page",
+            "descriptive": "The image features the logo of NUAIRE, which includes the word \"NUAIRE\" in bold blue letters with a stylized blue wing or swoosh above it.",
+            "img_url": "http://nuaire.com/-/media/Project/Nuaire/Public-Site/nuairelogo.png?h=60&iar=0&w=121&hash=1FC9F2C91F90D2E3E879789AB3AB19CD",
+            "role": "functional",
+            "site": "nuaire.com"
+        },
+        {
+            "human": "Click here to get to the Opt-out page",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "http://buyfoundation.com/static/v9/media/images/third-party/v1/ad-choices-logo-11x12.png?r=1723645112000",
+            "role": "functional",
+            "site": "buyfoundation.com"
+        },
+        {
+            "human": "Go to Cadillac website",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "http://buyfoundation.com/static/v8/global/images/franchise-logos/auto/c/cadillac/white/117x80.png?r=1723577694000",
+            "role": "functional",
+            "site": "buyfoundation.com"
+        },
+        {
+            "human": "Go to Hyundai website",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "http://buyfoundation.com/static/v8/global/images/franchise-logos/auto/h/hyundai/white/183x125.png?r=1723577694000",
+            "role": "functional",
+            "site": "buyfoundation.com"
+        },
+        {
+            "human": "Go to Chevrolet website",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "http://buyfoundation.com/static/v8/global/images/franchise-logos/auto/c/chevrolet/white/117x80.png?r=1723577694000",
+            "role": "functional",
+            "site": "buyfoundation.com"
+        },
+        {
+            "human": "Go to I. J. Rager Floor Covering about us page",
+            "contextual": "Learn about our services",
+            "descriptive": "The image is completely blank with a white background.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/icons/white/checkmark-white.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Reinvent your room with new flooring using our Room Visualizer virtual design tool.",
+            "contextual": "Start the Room Visualizer to design your new flooring.",
+            "descriptive": "A circular logo featuring a stylized house icon in the center, surrounded by colorful segments in red, pink, blue, and green. Below the logo, the text \"ROOM VISUALIZER\" is displayed in a bold, modern font.",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/corporate-hero-images/2021/abbey-roomvo-cta-200.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to free measure page",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/free-measure-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to commercial flooring installation",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/commercial-flooring-installation-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Save on American Showcase carpet this month at Abbey Carpet & Floor!",
+            "contextual": "View American Showcase carpet options.",
+            "descriptive": "A stylish bedroom scene featuring a neatly made bed with layered bedding, a nightstand with a lamp, and a cozy armchair beside a small table. The floor is covered with a soft carpet, and the image includes the logo for \"American Showcase\" at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/carpet/american-showcase-carpet-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "COREtec\u00ae Waterproof Luxury Vinyl flooring offers some of the most stunning styles and colors in the industry! Visit our showroom where you're sure to find flooring you love at a price you can afford!",
+            "contextual": "Visit our online showroom for COREtec\u00ae Waterproof Luxury Vinyl flooring options.",
+            "descriptive": "A modern interior scene featuring a white chair next to a black and wood shelving unit filled with various items, set against a textured gray wall and wooden flooring. The image includes the COREtec logo prominently displayed at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/vinyl/coretec-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Realtor Property Managers",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/realtor-property-managers-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Save on Alexander Smith vinyl this month at Abbey Carpet & Floor!",
+            "contextual": "View Alexander Smith vinyl flooring options.",
+            "descriptive": "A modern bathroom featuring a light wooden floor, a freestanding bathtub, and a white brick wall. A chair with a striped towel is placed nearby, creating a serene and stylish atmosphere.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/luxury-vinyl/alexander-smith-vinyl-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Shop laminate flooring",
+            "contextual": "Shop laminate flooring",
+            "descriptive": "A modern, minimalist bedroom featuring light wooden flooring and a low, wooden platform bed covered with a textured blanket. A small tree in a pot and a decorative stool with natural elements add warmth to the serene space, which has large windows allowing natural light to fill the room.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global-shop-boxes/large-vertical/shop-laminate.jpg?h=600&la=en&w=400",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Karndean Designflooring Waterproof Luxury Vinyl flooring offers some of the most stunning styles and colors in the industry! Visit our showroom where you're sure to find flooring you love at a price you can afford!",
+            "contextual": "View Karndean Designflooring options in our online showroom.",
+            "descriptive": "A stylish bathroom featuring a freestanding white bathtub, a modern sink, and light gray walls, complemented by dark wood-look flooring. The image also includes the logo for Karndean Design Flooring in the lower section.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/vinyl/karndean-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Shop Hardwood",
+            "contextual": "Shop for hardwood flooring options.",
+            "descriptive": "A cozy living room features light wooden flooring with visible grain patterns, a round coffee table with books and a small plant, and a comfortable couch with blue cushions. Large windows allow natural light to fill the space, enhancing the inviting atmosphere.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global-shop-boxes/large-vertical/shop-hardwood-2.jpg?h=600&la=en&w=400",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Shop Carpet",
+            "contextual": "Shop carpet selections.",
+            "descriptive": "A modern bedroom featuring a beige upholstered bed with gray and white bedding, a wooden nightstand with a lamp and decorative items, and a cozy cream-colored armchair. The room has a dark accent wall and large windows allowing natural light to enter.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global-shop-boxes/large-vertical/shop-carpet-2.jpg?h=600&la=en&w=400",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Call or stop by today to schedule your FREE Estimate!",
+            "contextual": "Schedule your free estimate now.",
+            "descriptive": "An advertisement featuring the text \"FREE ESTIMATE\" prominently displayed, with a blue button below that says \"SCHEDULE NOW.\" The background includes various textures of flooring materials, suggesting a flooring or home improvement service.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/free-measure-estimate/free-estimate-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Save on American Showcase luxury vinyl this month at Abbey Carpet & Floor!",
+            "contextual": "View American Showcase luxury vinyl options.",
+            "descriptive": "The image features a modern bathroom with a stylish, dark wood-look floor and a light-colored bathtub. The design includes a sleek vanity with dark cabinetry and a decorative towel draped over the tub, accompanied by the logo for \"American Showcase\" at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/luxury-vinyl/american-showcase-vinyl-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to Financing page",
+            "contextual": "Flexible financing options available",
+            "descriptive": "The image is a plain white background with no discernible features or content.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/icons/white/credit-cards-white.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to I J Rager Floor Covering superpages",
+            "contextual": "Visit our Superpages listing for I.J. Rager Floor Covering.",
+            "descriptive": "A blue circular icon featuring a shield with the word \"super\" in white text across the center. The design conveys a sense of security and protection.",
+            "img_url": "https://ragerflooring.com:443/-/media/images/socialmedia/logo/superpages_32.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to hardwood flooring restoration service page",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/hardwood-restoration-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Save on American Showcase laminate this month at Abbey Carpet & Floor!",
+            "contextual": "View American Showcase laminate options in the online showroom.",
+            "descriptive": "A modern kitchen featuring a central wooden island with wine storage, surrounded by white cabinetry and a dark wooden floor. The image includes the logo \"AMERICAN SHOWCASE\" at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/laminate/american-showcase-laminate-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "American Olean",
+            "contextual": "View American Olean tile options in the online showroom.",
+            "descriptive": "A modern kitchen featuring light-colored tile flooring, a white island with a countertop, and two silver bar stools. In the background, there are striped chairs and a vase of flowers on the counter, with the American Olean logo and slogan \"Proven in Tile\" displayed prominently.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/tile-stone/american-olean-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Flexible Financing",
+            "contextual": "Learn about flexible financing options.",
+            "descriptive": "A graphic featuring the text \"FLEXIBLE FINANCING\" in bold white letters, set against a dark background, with an abstract icon of payment cards in the lower part of the image.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/footer/financing.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Save on Alexander Smith hardwood flooring this month at Abbey Carpet & Floor!",
+            "contextual": "View Alexander Smith hardwood flooring options.",
+            "descriptive": "A modern living room scene featuring a blue sofa with a throw blanket draped over it, accompanied by a small blue chair, all set against a light blue wall and wooden flooring. The name \"Alexander Smith\" is elegantly displayed at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/hardwood/alexander-smith-hardwood-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Abbey Guarantee",
+            "contextual": "60 Day Guarantee for flooring satisfaction",
+            "descriptive": "A gold circular emblem featuring the word \"Abbey\" at the top, with stylized wave designs in the center and the text \"Satisfaction Guarantee\" around the bottom edge.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/60-day-guarantee-abbey.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Free Measure",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/free-measure-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Save on American Showcase tile this month at Abbey Carpet & Floor!",
+            "contextual": "View American Showcase tile options in the online showroom.",
+            "descriptive": "A stylish living room featuring light-colored furniture, a round coffee table, and a wooden floor. The image includes the logo of \"American Showcase\" prominently displayed at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/tile-stone/american-showcase-tile-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Carpet lifetime warranty page",
+            "contextual": "Lifetime warranty for stain, soil, and wear on flooring products.",
+            "descriptive": "A circular gold seal featuring the text \"EXCLUSIVE LIFETIME WARRANTY\" in bold blue letters, surrounded by a scalloped edge. Below, a blue ribbon displays the words \"STAIN \u2022 SOIL \u2022 WEAR.\"",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/lifetime-warranty-abbey.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Shop vinyl flooring",
+            "contextual": "Shop luxury vinyl flooring",
+            "descriptive": "A modern, minimalist bathroom featuring a freestanding white bathtub and herringbone-patterned wooden flooring. In the background, a doorway leads to a softly lit bedroom with a neatly made bed and light-colored bedding.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global-shop-boxes/large-vertical/shop-luxury-vinyl.jpg?h=600&la=en&w=400",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Commercial Flooring Installation",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/commercial-flooring-installation-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Featuring ceramic, porcelain and glass tiles from Daltile. Visit our showroom where you're sure to find flooring you love at a price you can afford!",
+            "contextual": "Visit our online showroom to explore ceramic, porcelain, and glass tiles from Daltile.",
+            "descriptive": "A stylish bathroom wall featuring a mosaic tile design in various shades of beige, green, and brown, with a window providing natural light. The image includes the Daltile logo in the bottom left corner.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/tile-stone/daltile-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to google maps to find I J Rager Floor Covering, Inc location",
+            "contextual": "Get directions to IJ Rager Floor Covering on Google Maps.",
+            "descriptive": "This image features the Google Maps icon, which includes a colorful representation of a map with a red location pin. The design is recognizable and commonly associated with navigation and location services.",
+            "img_url": "https://ragerflooring.com:443/-/media/images/socialmedia/logo/google_maps_32.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Shop tile",
+            "contextual": "Shop tile and stone flooring options.",
+            "descriptive": "A modern kitchen featuring gray cabinetry, a large farmhouse sink, and a black countertop. The space has exposed wooden beams, large windows allowing natural light, and a view of a garden through glass doors.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global-shop-boxes/large-vertical/shop-tile.jpg?h=600&la=en&w=400",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to insurance restoration division page",
+            "contextual": "Insurance Restoration Division - Learn more about our services.",
+            "descriptive": "A flooded living space is depicted, featuring overturned furniture and water covering the floor. The text overlay reads \"Insurance Restoration Division.\"",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/insurance-restoration-division2-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Pet Defense carpet exclusively at Abbey Carpet & Floor",
+            "contextual": "View Pet Defense carpet options.",
+            "descriptive": "A young child in a cozy sweater and hat plays with a dog, holding a toy in front of a suitcase, while another child in the background observes. The setting is a warmly decorated room with light colors and minimal furnishings.",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/images/brands/petdefense/pet-defensetm-carpet-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Featuring ceramic tile, porcelain tile, and stone from Marazzi. Visit our showroom where you're sure to find flooring you love at a price you can afford!",
+            "contextual": "Visit our online showroom to explore Marazzi ceramic, porcelain, and stone tile options.",
+            "descriptive": "A modern bathroom featuring a sleek white sink and a freestanding bathtub, with light-colored wood and tile flooring. The space is brightened by natural light coming through a large window, and the Marazzi logo is displayed prominently at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/tile-stone/marazzi-tile-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Shop Local! The dollars you spend stay in our community!",
+            "contextual": "Shop local and support your community!",
+            "descriptive": "A circular blue emblem that reads \"SHOP SMART\" at the top, \"LOCALLY OWNED\" in the center, and \"SHOP LOCAL\" at the bottom, all in white text.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/shop-local/shop-local-navy.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Schedule your free measure here",
+            "contextual": "Schedule your free measure",
+            "descriptive": "A black button with white text that reads \"SCHEDULE YOUR FREE MEASURE,\" accompanied by a simple graphic of a measuring tape or ruler.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/footer/schedule.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Save on Alexander Smith laminate this month at Abbey Carpet & Floor!",
+            "contextual": "View Alexander Smith laminate flooring options.",
+            "descriptive": "A modern kitchen featuring light-colored cabinets, stainless steel appliances, and a wooden floor, with two black chairs positioned at a white island. The name \"Alexander Smith\" is elegantly displayed at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/laminate/alexander-smith-laminate-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to I. J. Rager Floor Covering home page",
+            "contextual": "I. J. Rager Floor Covering logo - link to homepage",
+            "descriptive": "The image features a logo for \"I. J. Rager Floor Covering,\" which includes a green geometric design made up of squares. Below the logo, the text states \"Residential / Commercial / Insurance\" in a clear, modern font.",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/homepage/ij-rager-floor-covering-logo-web.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Ask about our 60 Day Satisfaction Guarantee",
+            "contextual": "Satisfaction Guarantee information link",
+            "descriptive": "A gold circular badge featuring the word \"Abbey\" at the top, with stylized wave-like designs in the center and \"Satisfaction Guarantee\" written around the bottom edge.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/60-day-guarantee-abbey.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Featuring laminate flooring from Shaw. Visit our showroom where you're sure to find flooring you love at a price you can afford!",
+            "contextual": "Visit our online showroom to explore Shaw laminate flooring options.",
+            "descriptive": "A modern kitchen featuring wooden flooring, a central island with a wine rack, and a mix of white and dark cabinetry. The image includes the logo for Shaw Floors prominently displayed.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/laminate/shaw-laminate-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Featuring hardwood flooring from Shaw. Visit our showroom where you're sure to find flooring you love at a price you can afford!",
+            "contextual": "Visit our online showroom to explore Shaw hardwood flooring options.",
+            "descriptive": "A cozy living room featuring a brown couch with decorative pillows, a round coffee table, and hardwood flooring. Large windows allow natural light to fill the space, while the Shaw Floors logo is displayed prominently at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/hardwood/shaw-hardwood-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Featuring laminate flooring from Mohawk. Visit our showroom where you're sure to find flooring you love at a price you can afford!",
+            "contextual": "Visit our showroom to explore Mohawk laminate flooring options.",
+            "descriptive": "A well-lit interior room featuring dark wooden flooring, a wooden chair, and a large potted plant. The room has large windows allowing natural light and is decorated with a red wall. The Mohawk logo is prominently displayed at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/laminate/mohawk-laminate-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to I J Rager Floor Covering yellowpages site",
+            "contextual": "Visit Yellow Pages for more information about IJ Rager Floor Covering.",
+            "descriptive": "This image features a stylized black silhouette of a hand holding a pencil, set against a bright yellow circular background. The design is reminiscent of a logo, possibly representing a directory or search service.",
+            "img_url": "https://ragerflooring.com:443/-/media/images/socialmedia/logo/yellowpages_32.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to insurance restoration division page",
+            "contextual": "Insurance Restoration Division",
+            "descriptive": "A flooded living space with partially submerged furniture, including a couch and chairs, indicating water damage. The text overlay reads \"Insurance Restoration Division.\"",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/insurance-restoration-division2-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to hardwood restoration",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/hardwood-restoration-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Featuring our exclusive Infinity carpet brand",
+            "contextual": "View our exclusive Infinity carpet collection.",
+            "descriptive": "A cozy bedroom scene featuring a bed with gray bedding, a patterned ottoman, and a light-colored armchair beside a window. The floor is covered in soft carpet, and the word \"Infinity\" is prominently displayed in the foreground.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/carpet/infinity-carpet-collection-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Save on American Showcase hardwood flooring this month at Abbey Carpet & Floor!",
+            "contextual": "Save on American Showcase hardwood flooring this month.",
+            "descriptive": "A Bernese Mountain Dog sits on a wooden floor in a warmly lit entryway, with a pair of green rubber boots positioned nearby. The image features the logo for \"American Showcase\" at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/hardwood/american-showcase-hardwood-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Get inspired by the latest trends in flooring - stop by our showroom to see the latest styles and colors!",
+            "contextual": "Get inspired by the latest flooring trends and styles.",
+            "descriptive": "A modern kitchen featuring white cabinetry and dark wood flooring, with a large island and stainless steel appliances. The text overlay reads \"GET INSPIRED\" along with \"NEW STYLES, LATEST TRENDS.\"",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/inspiration/get-inspired-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to contact us page",
+            "contextual": "Connect with us!",
+            "descriptive": "The image is completely blank and white, with no discernible features or content.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/icons/white/call-icon-white.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Save on Alexander Smith carpet this month at Abbey Carpet & Floor!",
+            "contextual": "Browse Alexander Smith carpet options.",
+            "descriptive": "Two young children are sitting on a carpeted floor, enjoying pizza together. One child is wearing a striped sweater and holding a red cup, while the other is dressed in a light dress and holding a piece of pizza. A sofa is visible in the background.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/carpet/alexander-smith-carpet-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to realtor and property managers",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/custom/2023-10-new-pages/realtor-property-managers-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "With the Lifetime Warranty on our exclusive broadloom carpet collections, there\u2019s no reason to go anywhere else!",
+            "contextual": "Lifetime Warranty on exclusive broadloom carpet collections",
+            "descriptive": "A gold seal graphic featuring the text \"EXCLUSIVE LIFETIME WARRANTY\" in bold blue letters, surrounded by a decorative border. A blue ribbon at the bottom lists the words \"STAIN,\" \"SOIL,\" and \"WEAR.\"",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/abbey-exclusive/lifetime-warranty-abbey.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Featuring hardwood flooring from Mohawk. Visit our showroom where you're sure to find flooring you love at a price you can afford!",
+            "contextual": "Visit our online showroom to explore Mohawk hardwood flooring options.",
+            "descriptive": "A stylish bedroom featuring a bed with light bedding and decorative pillows, accompanied by a bench at the foot of the bed. The image includes the Mohawk logo prominently displayed at the bottom.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/hardwood/mohawk-hardwood-cta.jpg",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to contact us page",
+            "contextual": "Contact us for inquiries and support.",
+            "descriptive": "A dark background features a speech bubble icon with the text \"CONTACT US\" prominently displayed in white.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/footer/contact.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to I. J. Rager Floor Covering home page",
+            "contextual": "I. J. Rager Floor Covering homepage link.",
+            "descriptive": "The image features a logo for \"I. J. Rager Floor Covering,\" which includes a geometric design in shades of green on the left side. The text states the company name in bold, followed by the words \"Residential / Commercial / Insurance\" in a smaller font below.",
+            "img_url": "https://ragerflooring.com:443/-/media/abbey/membersiteimages/0168/homepage/ij-rager-floor-covering-logo-web.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to about us page",
+            "contextual": "Shop local and support locally owned businesses.",
+            "descriptive": "A circular badge in blue featuring the text \"SHOP SMART,\" \"LOCALLY OWNED,\" and \"SHOP LOCAL\" in white letters, promoting local businesses.",
+            "img_url": "https://ragerflooring.com:443/-/media/cta/global/shop-local/shop-local-navy.png",
+            "role": "functional",
+            "site": "ragerflooring.com"
+        },
+        {
+            "human": "Go to our home page: The Tyler (A 55+ Community)",
+            "contextual": "Home page for The Tyler Apartments in East Haven, CT.",
+            "descriptive": "The image features a logo for \"The Tyler,\" incorporating a stylized illustration of a building or structure above the text. The design uses a combination of teal and dark colors, emphasizing a modern yet classic aesthetic.",
+            "img_url": "https://capi.myleasestar.com/v2/dimg/66303922/400x400/66303922.png",
+            "role": "functional",
+            "site": "livethetyler.com"
+        },
+        {
+            "human": "Go to Pop A Ball home page",
+            "contextual": "Pimp Your Prosecco and Gin with Popaball products.",
+            "descriptive": "The image features a circular logo with a white background and a gold border. The text \"Pop a Ball\" is prominently displayed in a stylish, cursive font, also in gold.",
+            "img_url": "https://popaball.co.uk/cdn/shop/files/1_eb64460b-738d-454e-8757-b530381f151e_x200.png?v=1613668406",
+            "role": "functional",
+            "site": "popaball.co.uk"
+        },
+        {
+            "human": "Go to bubbles with vodka and mixer gift set page",
+            "contextual": "View item: a gift set including a bottle of pink rose lemonade, a skull-shaped glass, and a box of bursting bubbles in blueberry and raspberry flavors, packaged in a decorative bag.",
+            "descriptive": "The image features a gift set arranged on a white background, including a bottle of Fentimans Rose Lemonade, a small clear skull-shaped bottle, and a box of Bursting Bubbles in Blueberry & Raspberry flavor. The items are presented alongside a decorative gift bag with the text \"Pop a Ball\" and a white ribbon.",
+            "img_url": "http://popaball.co.uk/cdn/shop/products/Skull-RoLem-B_R_web_900x.jpg?v=1590165261",
+            "role": "functional",
+            "site": "popaball.co.uk"
+        },
+        {
+            "human": "Go to drink shimmer with bubbles and g&t gift set page",
+            "contextual": "View Gin and Tonic Gift Set.",
+            "descriptive": "The image features a gift bag from \"Pop a Ball,\" containing a bottle of Double Dutch cucumber and watermelon mixer, a small bottle of Hendrick's gin, a box of blueberry and raspberry bursting bubbles, and a box of emerald shimmer for gin. The bag is adorned with a black ribbon.",
+            "img_url": "http://popaball.co.uk/cdn/shop/products/DDCu-hen-B_R-ECS-web_900x.jpg?v=1634727866",
+            "role": "functional",
+            "site": "popaball.co.uk"
+        },
+        {
+            "human": "Go to UnifiedSupply home page",
+            "contextual": "Unified Supply homepage link.",
+            "descriptive": "The image features the text \"COMPLETE SUPPLY\" in a bold, modern font, with a slight blur effect suggesting motion or emphasis. The background appears dark, enhancing the visibility of the text.",
+            "img_url": "https://unifiedsupply.com/wp-content/uploads/2024/05/unified_LOGO-120x11.png",
+            "role": "functional",
+            "site": "unifiedsupply.com"
+        },
+        {
+            "human": "Red zipper jacket with OnlyNuts logo on the right side",
+            "contextual": "View product: a red zip-up hoodie featuring a blue logo with the text \"Only Nutz\".",
+            "descriptive": "A red zip-up hoodie featuring a blue logo and text that reads \"OnlyNutz\" on the left chest area. The hoodie has a drawstring hood and two front pockets.",
+            "img_url": "https://www.ladymashaka.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2FGC-bL-d8spNcrQ9UnETQp2a5fsw%2F800%2F800.jpg&w=3840&q=75",
+            "role": "functional",
+            "site": "ladymashaka.com"
+        },
+        {
+            "human": "Blue backpack with a big \"this is my nutsack\" writing and OnlyNutz logo",
+            "contextual": "View item: a light blue backpack with the text \"This is my nutsack\" in black font and the logo \"OnlyNutz\" on the front pocket.",
+            "descriptive": "A light blue backpack featuring the text \"This is my nutsack\" prominently displayed on the front, along with a logo that reads \"OnlyNutz.\" The backpack has a zippered pocket and a mesh side pocket.",
+            "img_url": "https://www.ladymashaka.com/_next/image?url=https%3A%2F%2Fimages.teespring.com%2Fv3%2Fimage%2FcBSDBRKhDR0QS_CK_56dg5ozFrQ%2F800%2F800.jpg&w=3840&q=75",
+            "role": "functional",
+            "site": "ladymashaka.com"
+        },
+        {
+            "human": "Go to Maei MD home page",
+            "contextual": "Maei MD logo linking to the homepage.",
+            "descriptive": "The image features the text \"MAEI\" in a bold, elegant font, followed by \"MD\" in a smaller size, all set against a plain white background.",
+            "img_url": "http://www.maeimd.com/cdn/shop/files/MAEImd_1200x628-01_1600x.jpg?v=1638323862",
+            "role": "functional",
+            "site": "maeimd.com"
+        },
+        {
+            "human": "Go to our home page: Advanced Home Health",
+            "contextual": "Visit Advanced Home Health website.",
+            "descriptive": "A stylized logo featuring a shield shape in varying shades of blue, with a central image of a house and three figures representing community or family inside the shield. The design is modern and conveys a sense of protection and care.",
+            "img_url": "https://static.wixstatic.com/media/2de421_ebd50961e49143108c5513f63f0d8b3c~mv2_d_1500_1500_s_2.png/v1/fill/w_157,h_157,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/AdvancedProgressive_Icon_Concept_01.png",
+            "role": "functional",
+            "site": "advancedhomehealth.com"
+        },
+        {
+            "human": "Check out Hour 1: The USSS Failure episode",
+            "contextual": "Listen to Hour 1: The USSS Failure.",
+            "descriptive": "A smiling man with a beard is featured prominently in the image, which includes the title \"The JESSE KELLY Show\" displayed on a metallic sign at the bottom. The background is a gradient of dark colors, enhancing the focus on the man and the show title.",
+            "img_url": "https://i.iheart.com/v3/url/aHR0cHM6Ly93d3cub21ueWNvbnRlbnQuY29tL2QvY2xpcHMvZTczYzk5OGUtNmU2MC00MzJmLTg2MTAtYWUyMTAxNDBjNWIxLzcyM2E1NTI2LThjNjItNDI1NS04YzhiLWFlMmMwMDdjZmNjMS82ZjhiYmM4NS1jYzc2LTRmNGItYTM3NS1iMWNjMDE2NzJhZWEvaW1hZ2UuanBnP3Q9MTcyMzY3MjE4OSZzaXplPUxhcmdl?stay=1&ops=dup(),gravity(%22center%22),resizei(1200,675),blur(50),swap(),boxmerge(%22over%22,%22top:0px,bottom:0px%22),contain(0,675)",
+            "role": "functional",
+            "site": "jessekellyshow.com"
+        },
+        {
+            "human": "Image from our Instagram page: We are thrilled to announce the launch of the new @noosabiosphere website! The Noosa Biosphere Reserve is a unique place where people live in harmony with nature, celebrating and carefully managing the delicate balance between humanity and the environment. \ud83c\udf31The new website beautifully reflects the mission and values of the foundation, with a strong call to action to donate and learn more about their vital role.This has been a massive collaborative effort, and we are incredibly proud to have been a part of it. Visit the new website today and join us in supporting this important cause. \ud83d\udc99",
+            "contextual": "View the new Noosa Biosphere website showcasing its mission and values, with options to donate and learn more.",
+            "descriptive": "A smartphone displaying the Noosa Biosphere Reserve website is positioned on a textured concrete pedestal. The screen features a vibrant blue background with text welcoming visitors and highlighting the importance of life and sustainability in the biosphere reserve.",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/sb-instagram-feed-images/446112806_457051506816255_8035405762185884673_nlow.jpg",
+            "role": "functional",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "Image from our Instagram page: Hello! \ud83d\udc4b Let us re-introduce ourselves \ud83d\udc47\ud83c\udffcWith a human-centred approach to design, Luda Creative is the out-of-the-box web development agency you\u2019ve been dreaming of. \u26a1\ufe0fWe crave the personal touch. Automation. Partnership. Customisation. Our approach is grounded and collaborative, forged in an unwavering dedication to innately understanding your business and what makes your customers tick. \ud83d\udc40Our web solutions are designed to make sure you not only stand out, but thrive.\nIf you\u2019re ready to be seen, heard and remembered, Luda Creative is where you need to be. \ud83d\udc4f\ud83c\udffcAre you ready? \ud83d\udc83\ud83c\udffd",
+            "contextual": "Start here with Luda Creative, a human-centered web development agency.",
+            "descriptive": "A woman named Kali stands confidently, wearing a black blazer over a black top, against a textured dark background. Text on the image reads, \"Hello, I'm Kali\" and \"Welcome to Luda,\" along with a graphic indicating \"Start Here.\"",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/sb-instagram-feed-images/435100191_850702800387958_6096326000623124000_nlow.jpg",
+            "role": "functional",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "Image from our Instagram page: Not only do we have the privilege of calling this our local cafe (with the best coffee ever \ud83e\udd0c\ud83c\udffc) we also had the opportunity to showcase everything @mummys_cafe_aura represents online, through developing their new website! From beer gardens, hosting local events and always giving back to the community... We're so proud to have been a part of representing who they are!",
+            "contextual": "View Instagram post showcasing the local cafe and its new website developed by Luda Creative.",
+            "descriptive": "A laptop is placed on a light-colored table, displaying a website with a circular image of an interior space and a colorful design. The background features soft, blurred plant motifs, creating a warm and inviting atmosphere.",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/sb-instagram-feed-images/448342330_898819458909625_1829575954133588623_nlow.jpg",
+            "role": "functional",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "Welcome to @coastalcranehire, located on the Sunshine Coast, Coastal Crane Hire is a family-owned and operated business that takes pride in its commitment to excellence \ud83c\udfd7\ufe0f",
+            "contextual": "View Instagram post from @coastalcranehire showcasing their services on the Sunshine Coast.",
+            "descriptive": "A smartphone displays a webpage featuring information about crane services, with a green and black logo at the top. In the background, there are palm trees and construction equipment, suggesting a sunny outdoor setting.",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/sb-instagram-feed-images/436467125_785474057016495_480209443962237723_nlow.jpg",
+            "role": "functional",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "go to Luda Creative home page",
+            "contextual": "Luda Creative logo linking to the homepage.",
+            "descriptive": "The image features the logo for \"Luda Creative,\" with the word \"Luda\" in a stylish serif font and \"creative\" in a handwritten script. The color scheme is a muted dark blue, giving it a modern and elegant appearance.",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/2023/12/luda-creative-logo-blue.png",
+            "role": "functional",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "Image from our Instagram page: Creating website solutions that not only stand out, but thrive. \ud83d\ude80At Luda, you can say goodbye to cookie-cutter designs and hello to customisation. Designed with your customer in mind, we lovingly craft an elevated user experience that supports your business goals. \ud83d\udd25",
+            "contextual": "View Instagram reel: Creating website solutions that stand out and thrive.",
+            "descriptive": "A smartphone displaying a website titled \"PHOENIX\" is positioned on a textured rock, with a soft, white fabric draping in the background. The screen features a nature-themed design, highlighting the tagline \"Bringing ideas to life.\"",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/sb-instagram-feed-images/436591288_1179972263129116_5820573088727472693_nlow.jpg",
+            "role": "functional",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "Image from our Instagram page: A website that\u2019s kicking major digital goals is sleek, user-friendly, and engaging. Here\u2019s what it might look like:\u26a1\ufe0fVisually Appealing\n\u26a1\ufe0fResponsive\n\u26a1\ufe0fFast Loading\n\u26a1\ufe0fIntuitive Navigation\n\u26a1\ufe0fCompelling Content\n\u26a1\ufe0fInteractive Elements\n\u26a1\ufe0fClear Call-to-Actions (CTAs)\n\u26a1\ufe0fSocial Proof\n\u26a1\ufe0fOptimised for SEO\n\u26a1\ufe0fAnalytics and TrackingOverall, a website that\u2019s kicking major digital goals combines aesthetics, functionality, and performance to deliver an exceptional user experience and achieve its business objectives.How does your website compare? Our DMs are open \ud83d\udc40",
+            "contextual": "View image in full resolution.",
+            "descriptive": "A woman is seated at a kitchen counter, working on a laptop. She is wearing a casual white top and light blue jeans, with her feet resting on the chair's rung. A text overlay asks, \"ARE YOU KICKING DIGITAL GOALS?\"",
+            "img_url": "https://ludacreative.com.au/wp-content/uploads/sb-instagram-feed-images/438686460_464998015866179_8827176971802283570_nlow.jpg",
+            "role": "functional",
+            "site": "ludacreative.com.au"
+        },
+        {
+            "human": "Go to women in law leadership breakfast home page",
+            "contextual": "Visit Canadian Lawyer website.",
+            "descriptive": "The image features the text \"CANADIAN Lawyer\" in a stylized font, with \"CANADIAN\" in uppercase and \"Lawyer\" in a mix of uppercase and lowercase letters. The overall design is simple and emphasizes the legal profession in Canada.",
+            "img_url": "https://womeninlawleaders.com/wp-content/uploads/2020/04/women-in-law-footer-logo.png",
+            "role": "functional",
+            "site": "womeninlawleaders.com"
+        },
+        {
+            "human": "Go to Linda Fuerst about me page",
+            "contextual": "View speaker profile: Linda Fuerst, Senior Partner at Norton Rose Fulbright Canada.",
+            "descriptive": "A professional headshot of a woman with short brown hair, wearing glasses and a dark blazer over a white shirt. She has a slight smile and is posed against a plain green background.",
+            "img_url": "https://womeninlawleaders.com/wp-content/uploads/2022/07/WIILF-Linda-Fuerst.png",
+            "role": "functional",
+            "site": "womeninlawleaders.com"
+        },
+        {
+            "human": "Go to Functional Areas page",
+            "contextual": "Navigate to Functional Areas section.",
+            "descriptive": "An abstract image featuring concentric circular patterns in shades of orange and black, resembling ripples, with the text \"Functional Areas\" in white on a solid orange background at the bottom left corner.",
+            "img_url": "https://averoadvisors.com/wp-content/uploads/2024/01/functional_areas.webp",
+            "role": "functional",
+            "site": "averoadvisors.com"
+        },
+        {
+            "human": "Go to Zubi's facebook page",
+            "contextual": "Visit our Facebook page.",
+            "descriptive": "The image features the iconic Facebook logo, which consists of a lowercase \"f\" in a bold font, set against a square background. The logo is typically recognized for its blue and white color scheme, but here it is displayed in a monochrome design.",
+            "img_url": "http://zubi.co.nz/img/social/facebook-w.png",
+            "role": "functional",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Go to Zubi's sectigo page",
+            "contextual": "Secure your connection with Positive SSL.",
+            "descriptive": "A badge indicating that a website is secured by PositiveSSL, featuring a padlock icon and the PositiveSSL logo. The design includes a yellow and black color scheme.",
+            "img_url": "https://www.zubionline.com/img/positivessl_trust_seal.png",
+            "role": "functional",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Go to Zubi's LinkedIn page",
+            "contextual": "Visit our LinkedIn page.",
+            "descriptive": "The image features the LinkedIn logo, which consists of a stylized lowercase \"in\" enclosed in a square. The logo is typically presented in a monochromatic design.",
+            "img_url": "http://zubi.co.nz/img/social/linked-in-w.png",
+            "role": "functional",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Zubi Sensational Food Labelling",
+            "contextual": "Zubi home page link",
+            "descriptive": "The image features a logo for \"Zubi,\" which includes stylized blue fish-like shapes and the tagline \"Sensational Food Labelling\" in a modern font. The overall design conveys a fresh and appealing aesthetic related to food labeling.",
+            "img_url": "http://zubi.co.nz/img/main-logo.png",
+            "role": "functional",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Go to Zubi's skype",
+            "contextual": "Contact via Skype",
+            "descriptive": "The image features the Skype logo, which consists of a stylized letter \"S\" enclosed in a cloud-like shape, rendered in white against a contrasting background.",
+            "img_url": "http://zubi.co.nz/img/social/skype-w.png",
+            "role": "functional",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "Go to eventnook home page",
+            "contextual": "EventNook homepage link.",
+            "descriptive": "The image features the logo for \"B&N Nook,\" which includes the words \"B&N\" in black and \"nook\" in blue, representing the e-reader and digital book platform associated with Barnes & Noble.",
+            "img_url": "https://s3-ap-southeast-1.amazonaws.com/eventnook/images/eventnook-logo-440.png",
+            "role": "functional",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Go to Royal Volkswagen of Bloomington home page",
+            "contextual": "",
+            "descriptive": "",
+            "img_url": "http://royaleastvw.com/static/v8/global/images/franchise-logos/auto/v/volkswagen/white/183x125.png?r=1723577694000",
+            "role": "functional",
+            "site": "royaleastvw.com"
+        },
+        {
+            "human": "Download StockCharts On The App Store",
+            "contextual": "Download the StockCharts app on the App Store",
+            "descriptive": "A black rectangular button featuring the Apple logo and the text \"Download on the App Store\" in white.",
+            "img_url": "https://d.stockcharts.com/img/app-store-btn.png",
+            "role": "functional",
+            "site": "stockcharts.com-freecharts-historical-marketindexes.html"
+        },
+        {
+            "human": "Go to Hardfacing Workshop Supplies page",
+            "contextual": "Hardfacing Workshop Supplies",
+            "descriptive": "A close-up view of a person's hand holding a tool while working on a metallic cylindrical object, which has a black grid-like template placed on it. The background features industrial equipment and a blurred workspace.",
+            "img_url": "https://www.cwuk.com/wp-content/uploads/2019/10/hardfacing-system-1.jpg",
+            "role": "functional",
+            "site": "cwuk.com"
+        },
+        {
+            "human": "Click here to e-mail us",
+            "contextual": "Email us for inquiries.",
+            "descriptive": "",
+            "img_url": "https://www.cwuk.com/wp-content/uploads/2019/10/email-icon.png",
+            "role": "functional",
+            "site": "cwuk.com"
+        },
+        {
+            "human": "Click to check out our youtube page",
+            "contextual": "Watch our YouTube channel for videos on downhole tool technology.",
+            "descriptive": "A simple red square with a small white dot in the center.",
+            "img_url": "https://www.cwuk.com/wp-content/themes/cuttingandwear/assets/images/youtube-icon.png",
+            "role": "functional",
+            "site": "cwuk.com"
+        }
+    ],
+    "complex": [
+        {
+            "human": "Life-Saving first aid training courses | acute first aid e-learning, flexibly accessible with laptops, PCs and phones",
+            "contextual": "A digital interface displaying an online first aid training course. The left side shows a menu with topics such as \"Dealing with the Unconscious Casualty,\" \"CPR,\" \"AED/Defibrillator,\" and others, indicating progress through the course. The right side features a video section titled \"AED/Defibrillator,\" with a play button and a brief description of an Automated External Defibrillator (AED) and its importance in emergency situations. The overall layout suggests a blended learning approach, combining online and practical elements.",
+            "descriptive": "The image displays a digital learning platform for First Aid training, featuring a laptop and a smartphone side by side. The laptop screen shows a lesson on using an AED (Automated External Defibrillator) with a video demonstration, while the smartphone displays the course progress and topics covered, including quizzes and various first aid procedures.",
+            "img_url": "https://acute-firstaid.co.uk/wp-content/uploads/2021/05/Acute-homescreen-banner-laptop-1024x614.png",
+            "role": "complex",
+            "site": "acute-firstaid.co.uk"
+        },
+        {
+            "human": "Ingredients panel",
+            "contextual": "Copy ingredient declarations to products",
+            "descriptive": "The image displays a digital interface for ingredient labeling, specifically for \"Dark Chocolate.\" It includes sections for ingredient type, declarations, and country of origin, along with options for nutrient and allergen details.",
+            "img_url": "http://zubi.co.nz/img/ingredients.png",
+            "role": "complex",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "reports screenshot",
+            "contextual": "View Zubi Labelling Report: Strawberry Chocolate Honey Filling details, including ingredients and nutrition information.",
+            "descriptive": "The image displays a labeling report for Zubi's Strawberry Chocolate Honey Filling, detailing the product's ingredients, nutritional information, storage instructions, and allergen warnings. It includes specifics such as serving size, energy content, and potential allergens like soy, tree nuts, and gluten-containing cereals.",
+            "img_url": "http://zubi.co.nz/img/reports.png",
+            "role": "complex",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "product screenshot",
+            "contextual": "View product details for Zubi Example - Strawberry Chocolate Honey Filling.",
+            "descriptive": "This image displays a product information interface for \"Strawberry Chocolate Honey Filling\" from Zubi. It includes details such as the number of ingredients, their weights, moisture content, and declarations regarding the ingredients, along with the country of origin, which is New Zealand.",
+            "img_url": "http://zubi.co.nz/img/products.png",
+            "role": "complex",
+            "site": "zubi.co.nz"
+        },
+        {
+            "human": "eventnoook dashboard reporting",
+            "contextual": "A dashboard overview for the Global Sustainable Energy Summit on EventNook, displaying registration and ticket statistics. The confirmed section shows 300 registrations and tickets, totaling S$4,500. The pending section lists 15 registrations and tickets, amounting to S$1,250. A summary table outlines order statuses: complete (300 tickets, S$4,500), pending (15 tickets, S$1,250), and cancelled (3 tickets, S$45).",
+            "descriptive": "A laptop screen displays a dashboard for the \"Global Sustainable Energy Summit,\" showing an overview of registrations. It highlights 300 confirmed registrations and tickets totaling S$4,500.00, along with 15 pending registrations and tickets amounting to S$1,250.00. The left sidebar features navigation options like \"Report,\" \"Manage,\" \"Send,\" and \"Check-in.\"",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/8d3418744f9e4472bfc28506336659dc_eventnook-admin-dashboard.png",
+            "role": "complex",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Event Registration Website",
+            "contextual": "The image displays a screenshot of the EventNook event management platform interface. It shows the \"Event Setting\" section, specifically the \"Site Content\" tab, with options for managing the site banner, site pages, thank you page, and landing page settings. The background features a landscape with wind turbines, emphasizing the theme of sustainability. The left sidebar includes various settings related to event management, such as registration, invoice, and general settings.",
+            "descriptive": "A laptop screen displays a webpage for the \"Global Sustainable Energy Summit,\" featuring event settings such as \"Site Banner,\" \"Site Pages,\" and \"Thank You Page.\" The background image shows rolling green hills with wind turbines, emphasizing a sustainable theme.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/91b5c0e8d38d41dfa5cd44b2c521d49f_eventnook-admin-site-banner.png",
+            "role": "complex",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "eventnoook attendees check-in reporting",
+            "contextual": "A dashboard interface displaying the check-in status for the Global Sustainable Energy Summit. It includes two sections: \"Confirmed Registration\" with 300 registered attendees, 15 checked-in, and 285 absent; and \"Pending Registration\" with 15 registered attendees, 0 checked-in, and 15 absent. The layout features clear labels and color coding for easy interpretation of attendance data.",
+            "descriptive": "The image shows a laptop screen displaying a dashboard for the \"Global Sustainable Energy Summit.\" It presents the check-in status with two sections: Confirmed Registration and Pending Registration, detailing the number of registered, checked-in, and absent participants.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/b7912ea3cf974f04bd5b5463283e51b5_guest-checkin-dashboard.png",
+            "role": "complex",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "Illustration of payment page",
+            "contextual": "Pay with Apple Pay or choose another payment method.",
+            "descriptive": "The image shows a payment interface featuring options for Apple Pay and GrabPay. It includes fields for entering an email address, selecting a payment method (Card or GrabPay), and providing card information, including card number, expiration date, CVC, and name on the card.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/image_2112027412165_stripepayment.png",
+            "role": "complex",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "eventnoook attendees and registration reporting",
+            "contextual": "A screenshot of the EventNook platform displaying the \"View Attendees\" section. The interface shows a search bar for filtering attendees by first name, alongside a table listing attendees with columns for currency, ticket price, first name, last name, email, company name, mobile phone, tagging, and ticket code. The total number of attendees found is indicated as 13, with options to export data and adjust page size.",
+            "descriptive": "A laptop screen displays a webpage for the \"Global Sustainable Energy Summit,\" featuring a section titled \"View & Search Attendees.\" The interface includes fields for searching by first name and lists attendee details such as currency, ticket price, names, email addresses, company names, mobile phone numbers, tagging, and ticket codes.",
+            "img_url": "https://eventnook.s3.amazonaws.com/u/1/c43d7cbd2c9649078a4f9a5e9818e711_eventnook-attendee-report.png",
+            "role": "complex",
+            "site": "eventnook.com"
+        },
+        {
+            "human": "A historical line chart showing the Dow Jones Industrial Average (DJIA) from 1900 to 2024, highlighting its long-term upward trend with periods of volatility, including a sharp dip during the late 2000s. The chart includes monthly data, trading volumes, and key metrics: opening, high, low, and closing values, with the latest close at 44,910.65 on November 29, 2024.",
+            "contextual": "The image displays two identical error messages indicating the inability to find data for the symbol \"$COMPQ.\" Each message states: \"Unable to find data for: $COMPQ\" followed by \"Please make sure the symbol above is valid.\" The messages are presented in separate boxes outlined in red.",
+            "descriptive": "The image displays two identical text boxes with a red border, each containing the message: \"Unable to find data for: $COMPQ. Please make sure the symbol above is valid.\"",
+            "img_url": "https://d.stockcharts.com/freecharts/historical/img/100-150.png",
+            "role": "complex",
+            "site": "stockcharts.com-freecharts-historical-marketindexes.html"
+        }
+    ]
+}

@@ -47,7 +47,7 @@ class CLIPCapDataset(torch.utils.data.Dataset):
 
     def __getitem__(self, idx):
         c_data = self.data[idx]
-        c_data = clip.tokenize(f"On a website, this text: {c_data} is related to the image", truncate=True).squeeze()
+        c_data = clip.tokenize(f"This text: {c_data} is related to the image", truncate=True).squeeze()
         return {'caption': c_data}
 
     def __len__(self):

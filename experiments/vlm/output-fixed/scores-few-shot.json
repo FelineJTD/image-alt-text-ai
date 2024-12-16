@@ -1,0 +1,71 @@
+{
+  "llama": {
+    "whole_accuracy": 0,
+    "precision": {
+      "informative": 0,
+      "decorative": 0,
+      "functional": 0,
+      "complex": 0
+    },
+    "recall": {
+      "informative": 0,
+      "decorative": 0,
+      "functional": 0,
+      "complex": 0
+    },
+    "f1": { "informative": 0, "decorative": 0, "functional": 0, "complex": 0 }
+  },
+  "gpt-4o": {
+    "whole_accuracy": 0.8,
+    "precision": {
+      "informative": 0.7288135593220338,
+      "decorative": 0.4,
+      "functional": 0.9254385964912281,
+      "complex": 1.0
+    },
+    "recall": {
+      "informative": 0.46236559139784944,
+      "decorative": 0.65,
+      "functional": 0.985981308411215,
+      "complex": 0.6153846153846154
+    },
+    "f1": {
+      "informative": 0.5657894736842105,
+      "decorative": 0.49523809523809526,
+      "functional": 0.9547511312217194,
+      "complex": 0.761904761904762
+    }
+  },
+  "gpt-4o-mini": {
+    "whole_accuracy": 0,
+    "precision": {
+      "informative": 0,
+      "decorative": 0,
+      "functional": 0,
+      "complex": 0
+    },
+    "recall": {
+      "informative": 0,
+      "decorative": 0,
+      "functional": 0,
+      "complex": 0
+    },
+    "f1": { "informative": 0, "decorative": 0, "functional": 0, "complex": 0 }
+  },
+  "qwen": {
+    "whole_accuracy": 0,
+    "precision": {
+      "informative": 0,
+      "decorative": 0,
+      "functional": 0,
+      "complex": 0
+    },
+    "recall": {
+      "informative": 0,
+      "decorative": 0,
+      "functional": 0,
+      "complex": 0
+    },
+    "f1": { "informative": 0, "decorative": 0, "functional": 0, "complex": 0 }
+  }
+}

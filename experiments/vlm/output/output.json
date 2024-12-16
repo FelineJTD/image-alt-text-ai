@@ -1,0 +1,138 @@
+{
+    "results": {
+        "total_images": 1,
+        "details": {
+            "llama": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 1,
+                    "false_negative": 0
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 1
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            },
+            "gpt-4o": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 1,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            },
+            "gpt-4o-mini": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 1,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            }
+        }
+    },
+    "scores": {
+        "llama": {
+            "whole_accuracy": 0.0,
+            "precision": {
+                "informative": 0.0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0.0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            }
+        },
+        "gpt-4o": {
+            "whole_accuracy": 1.0,
+            "precision": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 1.0,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 1.0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 1.0,
+                "complex": 0
+            }
+        },
+        "gpt-4o-mini": {
+            "whole_accuracy": 1.0,
+            "precision": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 1.0,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 1.0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 1.0,
+                "complex": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,224 @@
+{
+    "results": {
+        "total_images": 482,
+        "details": {
+            "llama": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            },
+            "gpt-4o": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            },
+            "gpt-4o-mini": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            },
+            "qwen": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            },
+            "smolvlm": {
+                "informative": {
+                    "true_positive": 4,
+                    "false_positive": 49,
+                    "false_negative": 112
+                },
+                "decorative": {
+                    "true_positive": 9,
+                    "false_positive": 88,
+                    "false_negative": 52
+                },
+                "functional": {
+                    "true_positive": 31,
+                    "false_positive": 15,
+                    "false_negative": 196
+                },
+                "complex": {
+                    "true_positive": 22,
+                    "false_positive": 100,
+                    "false_negative": 11
+                }
+            }
+        }
+    },
+    "scores": {
+        "llama": {
+            "whole_accuracy": 0.0,
+            "precision": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            }
+        },
+        "gpt-4o": {
+            "whole_accuracy": 0.0,
+            "precision": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            }
+        },
+        "gpt-4o-mini": {
+            "whole_accuracy": 0.0,
+            "precision": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            }
+        },
+        "qwen": {
+            "whole_accuracy": 0.0,
+            "precision": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            }
+        },
+        "smolvlm": {
+            "whole_accuracy": 0.13692946058091288,
+            "precision": {
+                "informative": 0.07547169811320754,
+                "decorative": 0.09278350515463918,
+                "functional": 0.6739130434782609,
+                "complex": 0.18032786885245902
+            },
+            "recall": {
+                "informative": 0.034482758620689655,
+                "decorative": 0.14754098360655737,
+                "functional": 0.13656387665198239,
+                "complex": 0.6666666666666666
+            },
+            "f1": {
+                "informative": 0.047337278106508875,
+                "decorative": 0.11392405063291139,
+                "functional": 0.22710622710622708,
+                "complex": 0.2838709677419355
+            }
+        }
+    }
+}

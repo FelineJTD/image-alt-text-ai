@@ -1,0 +1,181 @@
+{
+    "results": {
+        "total_images": 398,
+        "details": {
+            "llama": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            },
+            "gpt-4o": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            },
+            "gpt-4o-mini": {
+                "informative": {
+                    "true_positive": 33,
+                    "false_positive": 31,
+                    "false_negative": 61
+                },
+                "decorative": {
+                    "true_positive": 19,
+                    "false_positive": 16,
+                    "false_negative": 22
+                },
+                "functional": {
+                    "true_positive": 200,
+                    "false_positive": 47,
+                    "false_negative": 14
+                },
+                "complex": {
+                    "true_positive": 9,
+                    "false_positive": 7,
+                    "false_negative": 4
+                }
+            },
+            "qwen": {
+                "informative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "decorative": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "functional": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                },
+                "complex": {
+                    "true_positive": 0,
+                    "false_positive": 0,
+                    "false_negative": 0
+                }
+            }
+        }
+    },
+    "scores": {
+        "llama": {
+            "whole_accuracy": 0.0,
+            "precision": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            }
+        },
+        "gpt-4o": {
+            "whole_accuracy": 0.0,
+            "precision": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            }
+        },
+        "gpt-4o-mini": {
+            "whole_accuracy": 0.6557788944723618,
+            "precision": {
+                "informative": 0.515625,
+                "decorative": 0.5428571428571428,
+                "functional": 0.8097165991902834,
+                "complex": 0.5625
+            },
+            "recall": {
+                "informative": 0.35106382978723405,
+                "decorative": 0.4634146341463415,
+                "functional": 0.9345794392523364,
+                "complex": 0.6923076923076923
+            },
+            "f1": {
+                "informative": 0.4177215189873418,
+                "decorative": 0.5,
+                "functional": 0.8676789587852495,
+                "complex": 0.6206896551724138
+            }
+        },
+        "qwen": {
+            "whole_accuracy": 0.0,
+            "precision": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "recall": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            },
+            "f1": {
+                "informative": 0,
+                "decorative": 0,
+                "functional": 0,
+                "complex": 0
+            }
+        }
+    }
+}
