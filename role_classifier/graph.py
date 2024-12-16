@@ -110,17 +110,17 @@ for key in evals_percentage:
     elif "next-sib" in key:
         next_sib_flat.append(evals_percentage[key])
 
-all_percentages = doc_title_flat + doc_description_flat + prev_text_flat + next_text_flat + prev_sib_title_flat + next_sib_title_flat
+all_percentages = doc_title_flat + doc_description_flat + prev_text_flat + next_text_flat + prev_sib_flat + next_sib_flat + prev_sib_title_flat + next_sib_title_flat
 
 
 # Plot the evaluation results
-plt.figure(figsize=(12, 10))
+plt.figure(figsize=(18, 12))
 plt.bar(["doc-title"], doc_title_flat)
 plt.bar(["doc-description"], doc_description_flat)
 plt.bar([f"prev-text-{i+1}" for i in range(5)], prev_text_flat)
 plt.bar([f"next-text-{i+1}" for i in range(5)], next_text_flat)
-# plt.bar([f"prev-sibling-{i+1}" for i in range(5)], prev_sib_flat)
-# plt.bar([f"next-sibling-{i+1}" for i in range(5)], next_sib_flat)
+plt.bar([f"prev-sibling-{i+1}" for i in range(5)], prev_sib_flat)
+plt.bar([f"next-sibling-{i+1}" for i in range(5)], next_sib_flat)
 plt.bar(["prev-sib-title"], prev_sib_title_flat)
 plt.bar(["next-sib-title"], next_sib_title_flat)
 plt.title("Rata-rata Perolehan CLIPScore Tiap Kelompok Elemen")
@@ -161,18 +161,18 @@ for key in evals_threshold:
     elif "next-sib" in key:
         threshold_next_sib_flat.append(evals_threshold[key])
 
-all_thresholds = threshold_doc_title_flat + threshold_doc_description_flat + threshold_prev_text_flat + threshold_next_text_flat + threshold_prev_sib_title_flat + threshold_next_sib_title_flat
+all_thresholds = threshold_doc_title_flat + threshold_doc_description_flat + threshold_prev_text_flat + threshold_next_text_flat + threshold_prev_sib_flat + threshold_next_sib_flat + threshold_prev_sib_title_flat + threshold_next_sib_title_flat
 
 # Plot the evaluation results
-plt.figure(figsize=(12, 10))
+plt.figure(figsize=(18, 12))
 plt.bar(["doc-title"], threshold_doc_title_flat)
 plt.bar(["doc-description"], threshold_doc_description_flat)
 plt.bar([f"prev-text-{i+1}" for i in range(5)], threshold_prev_text_flat)
 plt.bar([f"next-text-{i+1}" for i in range(5)], threshold_next_text_flat)
-# plt.bar([f"prev-sibling-{i+1}" for i in range(5)], threshold_prev_sib_flat)
-# plt.bar([f"next-sibling-{i+1}" for i in range(5)], threshold_next_sib_flat)
-plt.bar(["prev-header"], threshold_prev_sib_title_flat)
-plt.bar(["next-header"], threshold_next_sib_title_flat)
+plt.bar([f"prev-sibling-{i+1}" for i in range(5)], threshold_prev_sib_flat)
+plt.bar([f"next-sibling-{i+1}" for i in range(5)], threshold_next_sib_flat)
+plt.bar(["prev-sib-title"], threshold_prev_sib_title_flat)
+plt.bar(["next-sib-title"], threshold_next_sib_title_flat)
 
 plt.title("Persentase Teks yang Relevan Tiap Kelompok Elemen")
 
