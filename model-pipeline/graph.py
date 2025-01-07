@@ -201,7 +201,7 @@ def generate_alt_text(state: State):
 
         # If the predicted role is decorative, return an empty alt text
         if ai_predicted_role == "decorative":
-            return {"ai_predicted_contextual_alt_text": ""}
+            return {"ai_predicted_contextual_alt_text": "Decorative image", "ai_predicted_contextual_alt_text_confidence": 1.0}
         
         # If the predicted role is not in the alt text prompts, default to informative
         if ai_predicted_role not in alt_text_prompts:
