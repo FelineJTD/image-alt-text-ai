@@ -3,7 +3,7 @@ from pprint import pprint
 from langgraph.checkpoint.sqlite import SqliteSaver
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
-from clipscore import get_clip_score
+# from clipscore import get_clip_score
 from dotenv import load_dotenv
 import numpy as np
 load_dotenv()
@@ -159,21 +159,21 @@ def ocr_image(state: State):
     # return state
     pass
 
-def extract_similar_context(state: State):
-    # Extract similar context from the previous and next text
-    whole_text = state["input_doc_text"]
-    # Split the whole text into sentences
-    sentences = sent_tokenize(whole_text.replace("\n", ". "))
+# def extract_similar_context(state: State):
+#     # Extract similar context from the previous and next text
+#     whole_text = state["input_doc_text"]
+#     # Split the whole text into sentences
+#     sentences = sent_tokenize(whole_text.replace("\n", ". "))
 
-    try:
-        score, per, candidates = get_clip_score([state["input_img_src"]], sentences)
-        # Print the top 5 similar sentences
-        top_5_indices = np.argsort(np.array(per))[-5:][::-1]
+#     try:
+#         score, per, candidates = get_clip_score([state["input_img_src"]], sentences)
+#         # Print the top 5 similar sentences
+#         top_5_indices = np.argsort(np.array(per))[-5:][::-1]
 
-        top_5_sentences = [sentences[i] for i in top_5_indices]
-        pprint(f"Top 5 similar sentences: {top_5_sentences}")
-    except Exception as e:
-        print(e)
+#         top_5_sentences = [sentences[i] for i in top_5_indices]
+#         pprint(f"Top 5 similar sentences: {top_5_sentences}")
+#     except Exception as e:
+#         print(e)
     
 
 # NER
@@ -271,7 +271,7 @@ workflow = StateGraph(State)
 
 # Add nodes to the graph
 workflow.add_node("generate_descriptive_alt_text", generate_descriptive_alt_text)
-workflow.add_node("extract_similar_context", extract_similar_context)
+# workflow.add_node("extract_similar_context", extract_similar_context)
 workflow.add_node("determine_image_role", determine_image_role)
 # workflow.add_node("ocr_image", ocr_image)
 workflow.add_node("ner_image", ner_image)
@@ -282,7 +282,7 @@ workflow.add_edge(START, "generate_descriptive_alt_text")
 workflow.add_edge("generate_descriptive_alt_text", END)
 
 # workflow.add_edge(START, "ocr_image")
-workflow.add_edge(START, "extract_similar_context")
+# workflow.add_edge(START, "extract_similar_context")
 workflow.add_edge(START, "ner_image")
 workflow.add_edge("ner_image", "determine_image_role")
 workflow.add_edge("determine_image_role", "generate_alt_text")
