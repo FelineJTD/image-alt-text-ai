@@ -37,7 +37,7 @@ if __name__ == "__main__":
                     ai_predicted_contextual_alt_text = data[i]["ai_predicted_contextual_alt_text"]
                     ai_predicted_descriptive_alt_text = data[i]["ai_predicted_descriptive_alt_text"]
 
-                    if ((data[i]["ai_predicted_role"] == data[i]["correct_role"]) and (data[i]["ai_predicted_role"] != "decorative") and (data[i]["correct_alt_text"] != "0") and (data[i]["correct_alt_text"] != "-") and (data[i]["correct_alt_text"] != "q")):
+                    if ( (data[i]["ai_predicted_role"] != "decorative") and (data[i]["correct_alt_text"] != "0") and (data[i]["correct_alt_text"] != "-") and (data[i]["correct_alt_text"] != "q")):
                         # print(f"Correct: {correct_alt_text}")
                         # print(f"AI: {ai_predicted_contextual_alt_text}")
                     # if True:
@@ -112,7 +112,7 @@ if __name__ == "__main__":
                 print(str(e))
 
     # Append the scores to a JSON file
-    with open(f"./output-FINAL-scores/scores.json", "w") as file:
+    with open(f"./output-FINAL-FIXED-scores/scores.json", "w") as file:
         json.dump(results, file, indent=4)
 
     print("File written: ./output-FINAL-scores/scores.json")
